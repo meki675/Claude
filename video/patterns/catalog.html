@@ -1,0 +1,149 @@
+<title>動画構成パターン帳</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+  /* Layout: 上に見本動画、下に20パターンのカード（静止画＋使いどころ）。スマホでは1列 */
+  :root {
+    --bg: #f4f5f8;
+    --surface: #ffffff;
+    --fg: #14161c;
+    --muted: #5c6270;
+    --line: #dfe2e8;
+    --accent: #e0561b;
+    --accent-soft: #fde8de;
+    --code: #2a5d9f;
+    --display: "Dela Gothic One", "Noto Sans JP", sans-serif;
+    --body: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+    --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0d12; --surface: #151922; --fg: #f2f0eb; --muted: #9aa0ad; --line: #262b36;
+      --accent: #ff6b2c; --accent-soft: #2c1a12; --code: #7cc4ff; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b0d12; --surface: #151922; --fg: #f2f0eb; --muted: #9aa0ad; --line: #262b36;
+    --accent: #ff6b2c; --accent-soft: #2c1a12; --code: #7cc4ff; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.7; margin: 0; padding: 0 16px; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding-block: 40px 72px; display: flex; flex-direction: column; gap: 40px; }
+  header { display: flex; flex-direction: column; gap: 12px; max-width: 760px; }
+  .eyebrow { font-size: 12px; letter-spacing: .14em; color: var(--accent); font-weight: 700; }
+  h1 { font-family: var(--display); font-weight: 400; font-size: clamp(30px, 5vw, 48px); line-height: 1.25; margin: 0; text-wrap: balance; }
+  .lead { color: var(--muted); margin: 0; max-width: 62ch; }
+  .showcase { display: flex; flex-direction: column; gap: 10px; }
+  video { width: 100%; max-width: 100%; aspect-ratio: 16 / 9; border-radius: 14px; background: #000; display: block; }
+  .cap { font-size: 13px; color: var(--muted); }
+  .how { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; display: flex; flex-direction: column; gap: 8px; }
+  .how h2, .sources h2 { font-size: 17px; margin: 0; font-weight: 900; }
+  .how p { margin: 0; color: var(--muted); }
+  pre { margin: 0; overflow-x: auto; font-family: var(--mono); font-size: 13px; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; color: var(--code); }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; }
+  .filters button { font: inherit; font-size: 13px; font-weight: 700; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+  .filters button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .filters button:focus-visible, video:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+  .p { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+  .p img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: #0b0d12; }
+  .p .in { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 10px; }
+  .p .top { display: flex; align-items: baseline; gap: 10px; }
+  .p .no { font-family: var(--display); color: var(--accent); font-size: 18px; font-variant-numeric: tabular-nums; }
+  .p h3 { margin: 0; font-size: 18px; font-weight: 900; }
+  .p .type { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--code); }
+  .p dl { margin: 0; display: grid; grid-template-columns: 4.2em 1fr; gap: 4px 10px; font-size: 13.5px; }
+  .p dt { color: var(--muted); font-weight: 700; }
+  .p dd { margin: 0; min-width: 0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 11.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+  .sources { display: flex; flex-direction: column; gap: 8px; }
+  .sources ul { margin: 0; padding-left: 1.2em; color: var(--muted); font-size: 13.5px; }
+  .sources a { color: var(--code); }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">VIDEO PATTERNS · 20種</div>
+    <h1>動画構成パターン帳</h1>
+    <p class="lead">引用ポスト用のテキスト動画を単調にしないための構図集です。投稿ごとに3〜5種類を組み合わせると、同じ見た目の連続を避けられます。各カードの「型名」を script.json の type に書けば、その構図で動画が書き出されます。</p>
+  </header>
+
+  <section class="showcase" aria-label="見本動画">
+    <video src="showcase.mp4" controls muted playsinline preload="metadata" poster="thumbs-web/01-impact.jpg"></video>
+    <div class="cap">20パターンを順に再生する見本（横1920×1080・約97秒）。数字は見本用の架空のものです。</div>
+  </section>
+
+  <section class="how">
+    <h2>組み合わせの目安</h2>
+    <p>冒頭は「つかみ」から1つ、本編は「比較・データ」「説明」から内容に合うものを2〜4つ、最後に「締め」を1つ。同じ型を続けて使わないのがコツです。</p>
+    <pre>{ "type": "versus", "dur": 5, "tag": "比較", "a": { "label": "…", "value": "18円" }, "b": { … }, "win": "b" }</pre>
+  </section>
+
+  <div class="filters" role="group" aria-label="用途で絞り込む">
+    <button type="button" data-f="all" aria-pressed="true">すべて</button>
+    <button type="button" data-f="つかみ" aria-pressed="false">つかみ</button>
+    <button type="button" data-f="比較・データ" aria-pressed="false">比較・データ</button>
+    <button type="button" data-f="説明" aria-pressed="false">説明</button>
+    <button type="button" data-f="締め" aria-pressed="false">締め</button>
+  </div>
+
+  <section class="grid" id="grid" aria-label="パターン一覧"></section>
+
+  <section class="sources">
+    <h2>参考にした資料</h2>
+    <ul>
+      <li><a href="https://help.videogen.io/en/articles/12451362-how-to-use-layouts">VideoGen: How to use layouts</a>（左右分割・ローワーサードの使いどころ）</li>
+      <li><a href="https://videobolt.net/templates/motion-title">VideoBolt: Motion title templates</a>（大見出し・単語ハイライト・ワイプ表示）</li>
+      <li><a href="https://hera.video/blog/kinetic-typography-video-generator-guide">Hera: Kinetic typography guide</a>（キーワードの強調、縦動画で小さい文字を避ける）</li>
+      <li><a href="https://elements.envato.com/split-slideshow-VW29BLT">Envato Elements: Split slideshow</a> / <a href="https://elements.envato.com/stylish-lower-thirds-X6PQTVM">Stylish lower thirds</a></li>
+      <li><a href="https://studiobinder.com/blog/text-graphics-in-video">StudioBinder: Text graphics in video</a></li>
+      <li><a href="https://skills.sh/1nfsh/s/explainer-video-guide">Explainer video guide</a>（1シーン1メッセージ、文字・数字は3〜4秒、Before-After-Bridge）</li>
+      <li><a href="https://www.nemovideo.com/ja-JP/blog/explanation-video-guide-jp">ネモビデオ: 解説動画ガイド</a>（冒頭0〜3秒は結論か逆説で入る）</li>
+      <li><a href="https://tatap.jp/knowledge/short-video-production/">tatap: ショート動画制作ガイド</a>（フック→本編→CTAの3部構成）</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+  const P = [
+    ["impact", "大見出しドーン", "つかみ", "結論・意外な数字を最初に言い切る", "左寄せの特大見出し＋短い下線＋補足1行", "見出しが拡大から着地、下線が伸びる", "3〜4.5秒"],
+    ["kinetic", "キネティックタイポ", "つかみ", "短いキャッチコピー、主張の言い切り", "単語ブロックを横に並べて折り返す", "単語が1つずつポップ", "4〜5秒"],
+    ["split", "左右分割", "説明", "主張と根拠、機能紹介", "左に見出し、右に番号つき要点カード", "左からスライド、右の要点が順に入る", "5〜6秒"],
+    ["versus", "比較 VS", "比較・データ", "2択比較、料金・時間の比較", "左右2枚のカード＋中央のVS丸＋WINバッジ", "左右から入り、VSがポップ", "5〜6秒"],
+    ["counter", "数字カウントアップ", "比較・データ", "削減時間、成果、平均と中央値", "ラベル＋特大の数字を2つ並べる", "数字が0から目標値まで増える", "4〜5.5秒"],
+    ["table", "表を1行ずつ", "比較・データ", "クロス集計、条件別の比較", "見出し行＋角丸の行、強調セルだけ色", "行が順に左から入る", "5〜7秒"],
+    ["ranking", "ランキング", "比較・データ", "TOP3・TOP5、効果の大きい順", "縦に並ぶ帯、1位だけグラデーション", "下位から順に出して1位を最後に", "5秒"],
+    ["beforeAfter", "Before → After", "説明", "改善前後、NG/OK、手順の比較", "赤系と緑系の2カラム＋中央の矢印", "Beforeの後に矢印、Afterの順", "5〜6秒"],
+    ["checklist", "チェックリスト", "説明", "確認項目、やることリスト", "四角の枠＋項目、あとからチェックが入る", "項目が出た後にチェックが順に付く", "4.5〜5秒"],
+    ["chat", "チャット風", "説明", "AIへの頼み方、Q&A、会話の再現", "右に自分、左にAIの吹き出し", "吹き出しが交互に入る", "5〜6秒"],
+    ["code", "コード・画面", "説明", "プロンプト、SQL、コマンドの紹介", "ウィンドウ枠つきのエディタ画面", "1行ずつタイプされる", "5〜6秒"],
+    ["quote", "引用カード", "つかみ", "記事の一文、名言、核心の一言", "大きな引用符＋太字の一文＋出典", "文がワイプで左から現れる", "4〜5秒"],
+    ["timeline", "タイムライン", "説明", "手順、ロードマップ、期間の流れ", "横一本の線に番号付きの点と説明", "線が伸びて点が順に出る", "5秒"],
+    ["marker", "マーカー強調", "つかみ", "一番伝えたい言葉の強調", "中央寄せの大きな文に蛍光ペン", "文が出た後にペンが引かれる", "4〜5秒"],
+    ["zoom", "ズームイン", "説明", "多数の選択肢から1つを取り上げる", "3×3のタイルから1つに寄る", "全体を見せてから拡大、他は暗くなる", "5秒"],
+    ["carousel", "カード横送り", "説明", "使い方○選、事例の流し見", "横長のカード列", "カード列が左へ流れる", "5〜6秒"],
+    ["lowerThird", "ローワーサード", "説明", "話し手・出典・肩書きの提示", "上に見出し、左下に名札の帯", "名札がワイプで入る", "4〜5秒"],
+    ["grid", "まとめグリッド", "締め", "要点のまとめ、チェック項目の一覧", "3列×2段のタイル", "タイルが順にポップ", "5〜6秒"],
+    ["bars", "棒グラフ", "比較・データ", "所要時間・費用・件数の比較", "ラベル｜伸びる棒｜値の3列", "棒が左から伸び、値が出る", "5秒"],
+    ["cta", "CTA締め", "締め", "元記事への誘導、フォロー・特典案内", "見出し＋矢印付きの行動文＋アカウント", "見出しが着地し、矢印が揺れる", "4.5〜5秒"],
+  ];
+  const grid = document.getElementById('grid');
+  grid.innerHTML = P.map(([type, name, group, use, layout, motion, dur], i) => {
+    const no = String(i + 1).padStart(2, '0');
+    return `<article class="p" data-g="${group}">
+      <img src="thumbs-web/${no}-${type}.jpg" alt="${name}の見本画面" loading="lazy" width="960" height="540">
+      <div class="in">
+        <div class="top"><span class="no">${no}</span><h3>${name}</h3><span class="type">${type}</span></div>
+        <div class="chips"><span class="chip">${group}</span><span class="chip">${dur}</span></div>
+        <dl><dt>向く内容</dt><dd>${use}</dd><dt>構図</dt><dd>${layout}</dd><dt>動き</dt><dd>${motion}</dd></dl>
+      </div></article>`;
+  }).join('');
+  document.querySelectorAll('.filters button').forEach((b) => b.addEventListener('click', () => {
+    document.querySelectorAll('.filters button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    const f = b.dataset.f;
+    grid.querySelectorAll('.p').forEach((c) => { c.hidden = f !== 'all' && c.dataset.g !== f; });
+  }));
+</script>

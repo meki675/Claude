@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Video Engine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bg"></div>
+<div id="stage"></div>
+<div id="chrome"><div id="brand"></div><div id="footer"></div><div id="progress"></div></div>
+<script src="scenes.js"></script>
+<script>
+  // window.build(script) でシーンを組み立て、window.seek(秒) でその時点の画面にする。
+  // ブラウザで直接開いて確認する場合: engine.html?script=../posts/xxx/script.json&t=3
+  const { S, ROOT, esc } = window.Scenes;
+  let scenes = [], total = 0;
+
+  window.build = (script) => {
+    const w = script.width ?? 1920, h = script.height ?? 1080;
+    document.documentElement.style.setProperty('--w', w + 'px');
+    document.documentElement.style.setProperty('--h', h + 'px');
+    for (const [k, v] of Object.entries(script.theme ?? {})) document.documentElement.style.setProperty('--' + k, v);
+    document.getElementById('brand').textContent = script.brand ?? '';
+    document.getElementById('footer').textContent = script.footer ?? '';
+    const stage = document.getElementById('stage');
+    let t = 0, html = '';
+    scenes = script.scenes.map((s) => {
+      const fn = S[s.type];
+      if (!fn) throw new Error('unknown scene type: ' + s.type);
+      const dur = s.dur ?? 4;
+      const item = { start: t, dur, html: `<section class="scene ${ROOT[s.type]}" style="--t0:${t}s;--dur:${dur}s">${fn({ ...s, dur })}</section>` };
+      t += dur;
+      return item;
+    });
+    stage.innerHTML = scenes.map((s) => s.html).join('');
+    scenes.forEach((s, i) => { s.el = stage.children[i]; });
+    total = t;
+    return { total, width: w, height: h, fps: script.fps ?? 30, starts: scenes.map((s) => s.start) };
+  };
+
+  window.seek = (t) => {
+    for (const s of scenes) s.el.style.visibility = t >= s.start - 0.01 && t < s.start + s.dur ? 'visible' : 'hidden';
+    for (const a of document.getAnimations()) { a.pause(); a.currentTime = t * 1000; }
+    document.getElementById('progress').style.width = (Math.min(1, t / total) * 100) + '%';
+  };
+
+  // 直接開いたとき
+  const q = new URLSearchParams(location.search);
+  if (q.get('script')) {
+    fetch(q.get('script')).then((r) => r.json()).then((sc) => { build(sc); seek(Number(q.get('t') ?? 2)); });
+  }
+</script>
+</body>
+</html>
