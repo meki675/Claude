@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Claude Dashboards 要点</title>
+<style>
+  :root {
+    --bg: #14161c;
+    --panel: #1e2129;
+    --text: #f2f0eb;
+    --muted: #a3a6ae;
+    --accent: #e8875a;
+    --a: #7aa2f7;
+    --b: #e8875a;
+    --line: #2f3340;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; background: var(--bg); overflow: hidden; }
+  body {
+    font-family: "IPAPGothic", "IPAGothic", "WenQuanYi Zen Hei", sans-serif;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+  .slide {
+    display: none;
+    position: absolute; inset: 0;
+    padding: 180px 96px 200px;
+    flex-direction: column; justify-content: center; gap: 56px;
+  }
+  .slide.on { display: flex; }
+  .tag {
+    font-size: 40px; color: var(--accent); letter-spacing: .08em; font-weight: 700;
+  }
+  h1 { font-size: 96px; line-height: 1.3; font-weight: 700; }
+  h2 { font-size: 80px; line-height: 1.35; font-weight: 700; }
+  p { font-size: 52px; line-height: 1.6; color: var(--text); }
+  .muted { color: var(--muted); }
+  .small { font-size: 36px; line-height: 1.5; color: var(--muted); }
+  .em { color: var(--accent); }
+  .ca { color: var(--a); }
+  .cb { color: var(--b); }
+  .card {
+    background: var(--panel); border: 2px solid var(--line); border-radius: 28px;
+    padding: 48px 56px; display: flex; flex-direction: column; gap: 24px;
+  }
+  .row { display: flex; gap: 32px; }
+  .row > .card { flex: 1; }
+  .big { font-size: 150px; font-weight: 700; line-height: 1; }
+  .label { font-size: 44px; color: var(--muted); }
+  table { border-collapse: collapse; width: 100%; font-size: 48px; }
+  th, td { padding: 26px 16px; text-align: center; border-bottom: 2px solid var(--line); }
+  th { color: var(--muted); font-weight: 400; font-size: 40px; }
+  td.win { color: var(--b); font-weight: 700; }
+  td.n { font-size: 34px; color: var(--muted); }
+  .num { font-size: 120px; font-weight: 700; color: var(--accent); line-height: 1; }
+  ul { list-style: none; display: flex; flex-direction: column; gap: 36px; }
+  li { font-size: 52px; line-height: 1.5; padding-left: 64px; position: relative; }
+  li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
+  code { font-family: "DejaVu Sans Mono", monospace; font-size: 44px; color: var(--a); }
+  .footer {
+    position: absolute; left: 96px; right: 96px; bottom: 96px;
+    display: flex; justify-content: space-between; font-size: 32px; color: var(--muted);
+  }
+  .bar { position: absolute; left: 0; top: 0; height: 12px; background: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- 1 フック -->
+<section class="slide">
+  <div class="tag">Claude Dashboards</div>
+  <h1>全体の正解率は<br><span class="ca">A 70%</span> ＞ <span class="cb">B 50%</span></h1>
+  <p>なのに、簡単な課題でも<br>難しい課題でも、<br><span class="em">Bの方が正解率が高い。</span></p>
+  <p class="small">※仕組みを理解するための架空例</p>
+</section>
+
+<!-- 2 種明かし -->
+<section class="slide">
+  <div class="tag">件数に戻すと</div>
+  <table>
+    <tr><th></th><th>簡単な課題</th><th>難しい課題</th><th>全体</th></tr>
+    <tr><td class="ca">A</td><td>80%<br><span class="n">64/80</span></td><td>30%<br><span class="n">6/20</span></td><td class="ca">70%<br><span class="n">70/100</span></td></tr>
+    <tr><td class="cb">B</td><td class="win">90%<br><span class="n">18/20</span></td><td class="win">40%<br><span class="n">32/80</span></td><td>50%<br><span class="n">50/100</span></td></tr>
+  </table>
+  <p>Aは<span class="em">簡単な課題を多く</span>解いていただけ。</p>
+  <p class="muted">＝ シンプソンのパラドックス</p>
+</section>
+
+<!-- 3 Dashboardsとは -->
+<section class="slide">
+  <div class="tag">そもそも何？</div>
+  <h2>接続したデータから<br>分析画面を作る機能</h2>
+  <ul>
+    <li>グラフごとにSQLを作り、データソース上で実行</li>
+    <li>クエリと最終更新時刻を画面で確認できる</li>
+    <li>会話で期間・フィルターを変えて掘り下げ</li>
+  </ul>
+  <p class="small">Pro・Max・Team・Enterpriseのベータ機能（2026/10/11時点）</p>
+</section>
+
+<!-- 4 使い方1-2 -->
+<section class="slide">
+  <div class="tag">使い方 1・2</div>
+  <div class="card">
+    <h2 style="font-size:60px">一度きりのグラフ<br>→ 見直せる分析画面</h2>
+    <p class="muted" style="font-size:42px">最終更新時刻と元データの最新記録を<br>分けて確認する</p>
+  </div>
+  <div class="card">
+    <h2 style="font-size:60px">「何を描くか」より<br>「何を知りたいか」</h2>
+    <p class="muted" style="font-size:42px">結果を見て、次の比較を頼む。<br>絞り込むほど件数も見る</p>
+  </div>
+</section>
+
+<!-- 5 使い方3 -->
+<section class="slide">
+  <div class="tag">使い方 3</div>
+  <h2>答えだけでなく<br>計算の中身までたどる</h2>
+  <div class="card">
+    <p style="font-size:44px">画像10枚 × 採点4項目</p>
+    <p><code>COUNT(*)</code> → <span class="em">40</span> 行</p>
+    <p><code>COUNT(DISTINCT image_id)</code> → <span class="em">10</span> 枚</p>
+  </div>
+  <p>一行が何を表すか（<span class="em">粒度</span>）を確かめる</p>
+</section>
+
+<!-- 6 使い方4-5 -->
+<section class="slide">
+  <div class="tag">使い方 4・5</div>
+  <h2>割合と平均は<br>中身まで分ける</h2>
+  <div class="card">
+    <p style="font-size:44px" class="muted">試行時間：10, 10, 10, 10, 60秒</p>
+    <div class="row" style="gap:24px">
+      <div><div class="label">平均</div><div class="num">20秒</div></div>
+      <div><div class="label">中央値</div><div class="num" style="color:var(--a)">10秒</div></div>
+    </div>
+  </div>
+  <p>失敗・タイムアウトを落とさない。<br>未完了を<span class="em">0秒にしない</span>。</p>
+</section>
+
+<!-- 7 使い方6-7 -->
+<section class="slide">
+  <div class="tag">使い方 6・7</div>
+  <div class="card">
+    <p style="font-size:44px" class="muted">完成までの費用で比べる（仮の料金）</p>
+    <p>3円 × 6回 ＝ <span class="em">18円</span></p>
+    <p>8円 × 2回 ＝ <span class="ca">16円</span></p>
+  </div>
+  <div class="card">
+    <p style="font-size:44px" class="muted">前後比較は経過日数をそろえる</p>
+    <p>開始1日目と30日目を混ぜない<br><span class="small">同じ時期に始めた集団＝コホート</span></p>
+  </div>
+</section>
+
+<!-- 8 使い方8 -->
+<section class="slide">
+  <div class="tag">使い方 8</div>
+  <h2>気になる結果は<br>専門の分析へつなぐ</h2>
+  <p>Dashboardsは<span class="em">探索の入口</span>。<br>検定や継続監視は対応する環境で。</p>
+  <p class="muted" style="font-size:44px">渡すのは差だけでなく、<br>期間・集計条件・分母・次の問い</p>
+</section>
+
+<!-- 9 まとめ -->
+<section class="slide">
+  <div class="tag">まとめ</div>
+  <h1 style="font-size:84px">「グラフを作れる」<br>から<br><span class="em">「答えを確かめられる」</span><br>へ</h1>
+  <p class="muted">どんな課題を？ 失敗は入ってる？<br>何を完成とした？ 誰をどの期間で？</p>
+</section>
+
+<!-- 10 締め -->
+<section class="slide">
+  <div class="tag">詳しくは記事で</div>
+  <h2>Claude Dashboardsを<br>覚醒させる<br>精度爆上げ設計術</h2>
+  <p>8つの使い方と<br>そのまま使える依頼文つき</p>
+  <p class="muted">ナギ｜AIで残業消した人<br>@seiri_gakari</p>
+</section>
+
+<div class="footer"><span>出典：@seiri_gakari のX記事</span><span id="page"></span></div>
+<div class="bar" id="bar"></div>
+
+<script>
+  const slides = [...document.querySelectorAll('.slide')];
+  const s = Math.max(1, Math.min(slides.length, Number(new URLSearchParams(location.search).get('s')) || 1));
+  slides[s - 1].classList.add('on');
+  document.getElementById('page').textContent = s + ' / ' + slides.length;
+  document.getElementById('bar').style.width = (s / slides.length * 100) + '%';
+</script>
+</body>
+</html>
