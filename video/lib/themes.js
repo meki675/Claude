@@ -18,6 +18,9 @@
     mint:   { ...light, bg: '#eefaf5', bg2: '#d6f1e6', accent: '#0f9d76', 'accent-hi': '#52d1a6', accent2: '#ff6b4a', 'on-accent': '#fff', muted: '#5b7068' },
     navy:   { ...dark, bg: '#0c1440', bg2: '#16226b', accent: '#3fa2ff', 'accent-hi': '#9fd6ff', accent2: '#7ee8ff', 'on-accent': '#06103a', muted: '#9aa6d6' },
     sky:    { ...light, bg: '#f7f9ff', bg2: '#e3ebff', text: '#16205a', muted: '#5d6890', accent: '#1f8fff', 'accent-hi': '#6cc4ff', accent2: '#00a9c9', 'on-accent': '#fff', stroke: 'rgba(22,32,90,.14)', panel: 'rgba(22,32,90,.04)' },
+    orchard:{ ...light, bg: '#fbf9f3', bg2: '#efe7d4', text: '#2c4a26', muted: '#7a6a52', accent: '#c8352b', 'accent-hi': '#e8a33c', accent2: '#b5701f', 'on-accent': '#fff',
+              leaf: '#6f9a5a', shadow: 'rgba(80,55,20,.14)', stroke: 'rgba(60,45,20,.14)', panel: 'rgba(255,255,255,.55)',
+              head: '"Shippori Mincho B1", "Noto Sans JP", serif', head2: '"Shippori Mincho B1", "Noto Sans JP", serif' },
   };
   const hash = (str) => { let h = 2166136261; for (const c of str) { h ^= c.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
   const pick = (script) => {

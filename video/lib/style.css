@@ -1,4 +1,5 @@
 @font-face { font-family: "Dela Gothic One"; src: url("../fonts/DelaGothicOne-Regular.ttf"); }
+@font-face { font-family: "Shippori Mincho B1"; src: url("../fonts/ShipporiMinchoB1-ExtraBold.ttf"); font-weight: 100 900; }
 @font-face { font-family: "Noto Sans JP"; src: url("../fonts/NotoSansJP-VF.ttf"); font-weight: 100 900; }
 
 @property --n { syntax: "<integer>"; inherits: false; initial-value: 0; }
@@ -263,7 +264,7 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 /* 21 burst（冒頭の大きな動き） */
 .burst { overflow: hidden; }
 .burst .shk { display: flex; flex-direction: column; align-items: center; gap: 36px; position: relative; z-index: 2; }
-.burst .h-xl { font-size: 180px; line-height: 1.15; text-shadow: 0 10px 0 rgba(0,0,0,.35); }
+.burst .h-xl { font-size: 180px; line-height: 1.15; text-shadow: 0 10px 0 var(--shadow, rgba(0,0,0,.35)); }
 .burst .rays { position: absolute; left: 50%; top: 50%; width: 3200px; height: 3200px; margin: -1600px 0 0 -1600px; z-index: 0;
   background: repeating-conic-gradient(color-mix(in srgb, var(--accent) 20%, transparent) 0 6deg, transparent 6deg 18deg);
   mask-image: radial-gradient(circle, #000 10%, transparent 55%); }
@@ -292,3 +293,10 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .sparkle .cta .av { position: relative; background: var(--text); color: var(--bg); overflow: visible; }
 .sparkle .cta .av::after { content: ""; position: absolute; right: -6px; top: -6px; width: 40px; height: 40px; background: var(--accent);
   clip-path: polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%); }
+
+/* 葉っぱ（burst の sparkles に "shape": "leaf"） */
+.burst .spark.leaf { clip-path: none; border-radius: 0 100% 0 100%; background: var(--leaf, var(--accent2)); width: calc(110px * var(--z)); height: calc(60px * var(--z)); }
+
+/* CTA に記事のサムネ画像を添える（"image"） */
+.cta .cimg { position: absolute; right: 110px; top: 50%; width: 820px; margin-top: -170px; z-index: 1; }
+.cta .cimg img { width: 100%; display: block; border-radius: 24px; border: 2px solid var(--stroke); box-shadow: 0 30px 60px var(--shadow, rgba(0,0,0,.35)); transform: rotate(2deg); }

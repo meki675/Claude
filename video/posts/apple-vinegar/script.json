@@ -1,0 +1,17 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "orchard",
+  "transition": "whip",
+  "brand": "APPLE CIDER VINEGAR",
+  "footer": "出典：@kokin661 のX記事",
+  "scenes": [
+    { "type": "burst", "dur": 2.8, "tag": "いや、まじで", "ghost": "APPLE VINEGAR", "title": "りんご酢は\n[[やばい液体]]", "sub": "…ただし、飲み方しだい", "shape": "leaf", "sparkles": [[12, 24, 1], [86, 20, 0.8], [83, 76, 1.2], [16, 80, 0.7]] },
+    { "type": "kinetic", "dur": 2.2, "step": 0.24, "words": ["濃いほど", "効きそう", "…は", "[[間違い]]。"] },
+    { "type": "marker", "dur": 3.0, "tag": "研究で分かっているのは", "text": "==減量を補助する可能性==\nまで。", "sub": "2026年のレビュー：12試験で体重差は平均 約1kg" },
+    { "type": "checklist", "dur": 3.0, "tag": "売り場では、表より裏", "title": "ボトルの裏で見る3つ", "items": ["砂糖などが加わっていない？", "自分が飲む一杯分のエネルギーは？", "何倍に薄める商品？"] },
+    { "type": "beforeAfter", "dur": 3.2, "tag": "飲み方", "title": "濃さで効果を追わない", "before": { "label": "NG", "lines": ["原液・目分量で濃いめ", "大きなボトルでちびちび"] }, "after": { "label": "OK", "lines": ["[[小さじ1を水100〜150mL]]で", "食事と一緒、後で口をすすぐ"] } },
+    { "type": "cta", "dur": 3.2, "tag": "詳しくは記事で", "title": "りんご酢の\n[[選び方]]", "go": "効果の範囲と飲み方まとめ", "name": "ゆみ｜忙しいママのゆる食習慣", "id": "@kokin661", "image": "cover.jpg" }
+  ]
+}

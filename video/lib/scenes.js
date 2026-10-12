@@ -172,13 +172,14 @@
       ${A('h-xl crash', 0.05, fmt(s.title))}
       ${sub(s.sub, 0.85)}
     </div>
-    ${(s.sparkles ?? []).map(([x, y, z], i) => A('spark twinkle', 0.4 + i * 0.12, '', { style: `left:${x}%;top:${y}%;--z:${z ?? 1}` })).join('')}
+    ${(s.sparkles ?? []).map(([x, y, z], i) => A(`spark twinkle${s.shape === 'leaf' ? ' leaf' : ''}`, 0.4 + i * 0.12, '', { style: `left:${x}%;top:${y}%;--z:${z ?? 1};rotate:${(i * 67) % 360}deg` })).join('')}
     <div class="a flash flashout" style="--d:0s"></div>`;
 
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
     ${A('title slam', 0.1, fmt(s.title))}
+    ${s.image ? A('cimg pop', 0.35, `<img src="${esc(s.image)}">`, { style: '--len:.7s' }) : ''}
     ${s.go ? A('go up', 0.6, `<span class="a arr pulse" style="--d:1s">→</span><span>${fmt(s.go)}</span>`) : ''}
     ${s.name ? A('who up', 0.9, `<div class="av">${esc(s.avatar ?? s.name[0])}</div><div><div class="nm">${fmt(s.name)}</div><div class="id">${esc(s.id ?? '')}</div></div>`) : ''}`;
 
