@@ -1,0 +1,1574 @@
+{
+ "url": "https://x.com/leverage_noah/status/2109077770525704209",
+ "id": "2109077770525704209",
+ "text": "https://x.com/i/article/2109039506599153664",
+ "raw_text": {
+  "text": "https://t.co/9u6ZF5hP33",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/9u6ZF5hP33",
+    "replacement": "https://x.com/i/article/2109039506599153664",
+    "display": "x.com/i/article/2109…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "leverage_noah",
+  "url": "https://x.com/leverage_noah",
+  "id": "2085758015479889920",
+  "followers": 1967,
+  "following": 55,
+  "likes": 991,
+  "media_count": 70,
+  "name": "ノア｜個別株・レバレッジETF × AI分析",
+  "description": "5年で資産2,000万→8,000万を達成した会社員｜AIで銘柄発掘から投資判断まで効率化｜銘柄分析AIアプリを独自開発｜個別株の分析プロセスとレバレッジETF運用ノウハウを毎日発信",
+  "raw_description": {
+   "text": "5年で資産2,000万→8,000万を達成した会社員｜AIで銘柄発掘から投資判断まで効率化｜銘柄分析AIアプリを独自開発｜個別株の分析プロセスとレバレッジETF運用ノウハウを毎日発信",
+   "facets": []
+  },
+  "location": "",
+  "banner_url": "https://pbs.twimg.com/profile_banners/2085758015479889920/1786121158",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2086599729673285632/6EZZMzwC_200x200.jpg",
+  "joined": "Fri Aug 07 16:06:37 +0000 2026",
+  "protected": false,
+  "website": null,
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 0,
+ "retweets": 3,
+ "likes": 49,
+ "bookmarks": 112,
+ "quotes": 6,
+ "created_at": "Sun Oct 11 00:24:59 +0000 2026",
+ "created_timestamp": 1791678299,
+ "possibly_sensitive": false,
+ "views": 39131,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-11T00:24:59.000Z",
+  "modified_at": "2026-10-11T00:24:59.000Z",
+  "id": "2109039506599153664",
+  "title": "有報5年分がグラフ6枚に｜Claudeで銘柄ダッシュボードを作る",
+  "preview_text": "有報5年分、Claudeがグラフ6枚に\n個別株を調べ始めると、「5年分の推移を見よう」とよく言われます。売上は伸びているか、利益はついてきているか。1年分の数字だけでは、会社の流れは分かりません。",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAABCgABHUTQOFFaMAAKAAIAAAAAAAAAAAAA",
+   "media_id": "2109039465817845760",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 70.48,
+       "rgb": {
+        "blue": 64,
+        "green": 92,
+        "red": 201
+       }
+      },
+      {
+       "percentage": 13.05,
+       "rgb": {
+        "blue": 54,
+        "green": 56,
+        "red": 60
+       }
+      },
+      {
+       "percentage": 7.29,
+       "rgb": {
+        "blue": 168,
+        "green": 179,
+        "red": 218
+       }
+      },
+      {
+       "percentage": 4.21,
+       "rgb": {
+        "blue": 118,
+        "green": 141,
+        "red": 219
+       }
+      },
+      {
+       "percentage": 0.54,
+       "rgb": {
+        "blue": 214,
+        "green": 216,
+        "red": 215
+       }
+      }
+     ]
+    },
+    "original_img_height": 793,
+    "original_img_url": "https://pbs.twimg.com/media/HUTQOFFaMAA8JPt.jpg",
+    "original_img_width": 1983
+   },
+   "media_key": "3_2109039465817845760"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "text": "有報5年分、Claudeがグラフ6枚に",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "個別株を調べ始めると、「5年分の推移を見よう」とよく言われます。売上は伸びているか、利益はついてきているか。1年分の数字だけでは、会社の流れは分かりません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "5年分の数字そのものは、有価証券報告書（以下「有報」。会社が年に1回出す、事業や決算をくわしくまとめた資料）の2ページ目あたりに、表でまとまっています。ところが、表のままでは流れが見えません。数字が7桁で並んでいると、どの年に何が起きたのか、目で追うだけで疲れてしまいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "かといって、Excelに数字を手で打ち込んでグラフを作るのは面倒です。打ち間違いも心配です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 12,
+       "offset": 9,
+       "style": "Bold"
+      },
+      {
+       "length": 25,
+       "offset": 57,
+       "style": "Bold"
+      }
+     ],
+     "text": "そこで、この作業をClaude（クロード）に任せることにしました。有報のPDFを渡して5年分の表を作らせ、そこからグラフ6枚を並べたダッシュボード（数字の一覧画面）を作らせます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "この記事でお伝えするのは、次の3つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "話題の「Claude Dashboards」と、この記事のやり方の違い",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "有報から5年分の表を作る指示書と、グラフ6枚を作る指示書",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "ダイキン工業（6367）の有報で試して分かった、数字を取り違えやすい3つの点",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "読み終えるころには、気になる会社の5年分を、手で打ち込まずにグラフにして眺められるようになるはずです。先に断っておくと、この記事はダイキン工業を買うべきかを決めるものではありません。グラフは、自分で考えるための材料です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "※本記事は2026年10月11日時点のClaude公式ヘルプ・公式発表の説明と、ダイキン工業の2026年3月期の有報に基づいています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "話題のClaude Dashboardsは、会社のデータ向け",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 17,
+       "offset": 17,
+       "style": "Bold"
+      }
+     ],
+     "text": "2026年10月8日、新しい機能「Claude Dashboards」が出ました。Claudeを作るAnthropic（アンソロピック）が、ベータ版（試験提供）として出したものです。Xでも「BIツール（会社のデータを集計してグラフにする専用ソフト）がいらなくなる」と大きな話題になっています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "公式の発表とヘルプによると、Dashboardsでできることは次のとおりです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "会社のデータの置き場所（データ基盤）や、Claudeにつないだアプリにつなぐ",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "「今四半期の地域別の売上をダッシュボードに」のように、ふつうの言葉で頼む",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "Claudeが集計の式を書き、グラフを並べた画面を作る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "各グラフで、何を数えたかの式と、最後にデータを更新した日時を確かめられる",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "text": "使えるのは、Pro（月払いなら月20米ドル、税別）・Max・Team・Enterpriseの有料プランです。無料プランでは使えません。Enterprise（大企業向け）では、管理者が有効にするまで使えません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "個人の有報には、そのまま当てはまらない",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "気になったのは、データのつなぎ先です。公式ヘルプが挙げているのは、Amazon Redshift・BigQuery・Snowflakeといった会社向けのデータ基盤です。ほかに、SalesforceのようにClaudeにつないだアプリも使えます。どれも、会社の売上データを毎日ためておくための仕組みです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "一方で、手元のPDFやCSV（数字をカンマで区切って並べたファイル）から作れるかどうかは、書かれていません（2026年10月11日時点）。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "有報の5年分は、年に1回しか変わりません。データ基盤につないで自動で更新させる必要は、そもそもありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 23,
+       "offset": 10,
+       "style": "Bold"
+      }
+     ],
+     "text": "そこでこの記事では、チャットでファイルを渡して作るアーティファクトで、同じようなダッシュボードを作ります。こちらは公式ヘルプで、使い方がはっきり説明されています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "チャットのアーティファクトで作る",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "Claudeのアプリでは、チャットの中で、人に見せられる成果物を作れます。公式ヘルプでは、これを「アーティファクト」と呼んでいます。文書、スライド、小さな道具のほかに、ダッシュボードも例として挙がっています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "アーティファクトは、会話の横に開きます。あとで開き直したり、チャットで直させたり、人に共有したりできます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "text": "公式ヘルプで確かめた、この記事のやり方に関係する点は4つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 35,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "チャットでアーティファクトを作るのは、無料プランを含む全プランでできる",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 18,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "PDFもCSVもチャットに添付できる。PDFは1,000ページまで。100ページ以下なら図や表の見た目まで読み、101ページ以上のPDFは全体を文字だけで読む",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "チャットの中にグラフを出す機能（ベータ版）もありますが、こちらは自動では保存されません。残したいときは、アーティファクトとして作るか保存します",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 21,
+       "offset": 13,
+       "style": "Bold"
+      }
+     ],
+     "text": "作る前に、設定の「機能」で「クラウドコード実行とファイル作成」がオンになっているかを確かめる",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "最後の設定がオフのままだと、アーティファクトが作れません。最初に一度だけ確かめておきましょう。使えるのはウェブ版とデスクトップ版です。最初の1回は、パソコンで作るのがおすすめです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "なお、どのプランにも使える量の上限があります。長い有報を渡したり、何度も直させたりすると、途中で上限に届くことがあります。有報が100ページを超えるときは、5年分の表があるページだけを抜き出して渡すと、表を読み取りやすくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "有報から5年分の表を取り出す",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "まず、有報を手に入れます。EDINET（金融庁の、有報を無料で読めるサイト）で会社名を検索し、有報のPDFを保存します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "ダイキン工業なら、2026年6月24日に出た第123期（2025年4月〜2026年3月）の有報です。5年分の表は、PDFの2ページ目にあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 2,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "text": "この表の名前は「主要な経営指標等の推移」です。ほとんどの会社の有報で、最初のほうにあります。売上高、利益、自己資本比率、従業員数などが、5年分並んでいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 10,
+       "offset": 9,
+       "style": "Bold"
+      }
+     ],
+     "text": "ここで大事なのは、同じ形の表が2つあることです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "(1) 連結経営指標等：子会社を含む、グループ全体の数字",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 14,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "(2) 提出会社の経営指標等：有報を出した会社1社だけの数字",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "ふつう、会社の流れを見るときはグループ全体の「連結」を使います。ただ、項目の名前がほとんど同じなので、AIにまかせると2つの表の数字が混ざることがあります。だから、指示書で使う表をはっきり指定します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "表を作る指示書",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "有報のPDFをチャットに添付して、次の指示書を送ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 3,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "text": "返ってきた表は、グラフにする前に、有報の2ページと1行ずつ見比べます。最初のひと手間ですが、元の数字が合っていなければ、どんなにきれいなグラフも意味がありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "ダイキン工業で試したところ、7つの項目×5年分、35個の数字がすべて原文と一致しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "グラフ6枚を作る指示書",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "表ができたら、同じチャットで次の指示書を送ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 4,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 16,
+       "style": "Bold"
+      }
+     ],
+     "text": "指示書のポイントは、グラフの下に元の数字と出典のページを必ず出させることです。グラフは形が分かりやすい反面、数字が合っているかは見ただけでは分かりません。下に表があれば、有報と1つずつ見比べられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "もう1つは、評価を書かせないことです。「好調です」「注意が必要です」といった言葉が付くと、自分で考える前に、その言葉に引っぱられてしまいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "ダイキン工業で試した結果",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "ダイキン工業の5年分の数字を、この6枚の形にすると、次のようになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 5,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "text": "表のままでは気づきにくかったことが、グラフにすると目に入ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 3,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "売上高は、表の5期のあいだ毎期増えています。2022年3月期の3兆1,091億円から、2026年3月期は5兆150億円になりました（約61%増。計算）",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 4,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "経常利益は、2024年3月期に一度だけ減っています（3,662億円から3,545億円へ）",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 3,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "純利益（親会社株主に帰属する当期純利益）は、2,177億円から2,752億円へ。増えてはいますが、伸びは約26%（計算）で、売上ほどではありません",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 40,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "自己資本利益率（ROE。株主のものにあたる資本で、どれだけ利益を出したかの割合）は、12.0%、12.3%、10.7%、9.7%、9.1%と、ここ3年下がっています",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 29,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "自己資本比率（総資産のうち、株主のものにあたる資本の割合）は、51.5%から55.9%へ上がっています",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 37,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "営業キャッシュ・フロー（主に本業での入金から出金を差し引いた、お金の増減）は、2023年3月期に1,589億円まで落ちました。その後は約4,000億〜5,100億円です。利益が増えていても、代金の回収や支払いの時期によって減ることがあります",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "いちばん目を引いたのは、売上が伸びているのに、ROEが下がっていることでした。ROEは、純利益を、期首と期末の自己資本（株主のものにあたる資本）の平均で割って求めます。利益の伸びより自己資本の増え方のほうが大きいと、ROEは下がります。5年分の表では、純資産額（自己資本より少し広い数字）が2兆71億円から3兆3,165億円に増えていました。下がった理由を確かめるには、利益と自己資本の両方の動きを見る必要があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "ただし、グラフで分かるのは「どう動いたか」までです。「なぜ動いたか」は、グラフからは分かりません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "数字を取り違えやすい3つの点",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "試していて、そのまま進めると数字を取り違えそうになったところが3つありました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "1つ目は、連結と親会社1社の表",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "先ほど触れた2つの表の話です。有報の3ページにある「提出会社」の表にも、売上高・自己資本比率・自己資本利益率が並んでいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 6,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "text": "2026年3月期で比べると、違いは大きく出ます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "売上高：連結は5,015,036百万円、提出会社は840,459百万円",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "自己資本比率：連結は55.9%、提出会社は62.8%",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "自己資本利益率：連結は9.1%、提出会社は14.2%",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "提出会社の表のROEは、5年とも12%台〜15%台です。こちらでグラフを作ると、「ROEはずっと高い」という、まったく違う絵になります。どちらの数字も誤りではありません。見ている範囲が違うだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "指示書で「(1) 連結経営指標等の表だけ」と書いたのは、このためです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "2つ目は、単位の「百万円」",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "有報の表の単位は、ほとんどが百万円です。ダイキン工業の売上高5,015,036百万円は、約5兆150億円です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "グラフの目盛りに単位が書かれていないと、「501万円？」「5,015億円？」と読み違えることがあります。指示書で単位を項目名に付けさせたのは、このためです。億円に直させなかったのも、直す途中でけたを間違えるのを防ぐためです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "3つ目は、〔 〕の中の数字",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "従業員数の下には、〔12,345〕のように〔 〕で別の数字が書かれています。これは臨時雇用の人の平均人数で、従業員数とは別の数字です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "有報のPDFでは、〔 〕の数字が従業員数のすぐ下に並んでいます。こちらを従業員数として拾ってしまうと、グラフの棒がおかしな高さになります。指示書で「〔 〕の中を入れない」と書いておくと、取り違えを防げます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "グラフを信じる前の確かめ方",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "グラフができたら、まず6枚すべてを確かめます。そのうえで、気になった1本だけ、理由を有報で掘り下げます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 7,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 7,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "6枚を確かめる：年の順、項目、単位、棒や点が示す値が、下の表と合っているかを見る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 5,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "1本を選ぶ：ほかと違う動きのグラフを1本選び、下の表の出典ページを確かめる",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 7,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "原文と見比べる：EDINETのPDFで同じページを開き、数字を1つずつ照らす",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 5,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "理由を読む：数字が動いた理由は、有報の「経営者による財政状態、経営成績及びキャッシュ・フローの状況の分析」の章で探す",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "ダイキン工業の有報なら、この章は27ページからです。ROEが下がった理由を知りたいときは、ここを読みます。同じチャットで「この章から、利益と純資産の動きについて書かれた部分を、ページ番号つきで抜き出して」と頼むこともできます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "このとき、理由をAIに推測させないことが大事です。「有報に書かれていること」と「AIの推測」が混ざると、どこまでが会社の説明なのかが分からなくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "次の会社でも同じ指示書で",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "2社目からも、この指示書をひな型にできます。「主要な経営指標等の推移」の表は、多くの会社で形が似ているからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "ただし、会社によって項目名や単位が違います。たとえば、国際会計基準（IFRS）を使う会社の表には、経常利益が無いことがあります。表を作る指示書の最後の1行「表に無い項目は『記載なし』と書く」は、こういうときのために入れています。返ってきた表に「記載なし」があれば、その項目だけ自分で選び直してください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "有報のPDFを添付して、表を作る指示書を送る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "表を有報と見比べる",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "グラフ6枚の指示書を送る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "作ったダッシュボードは、アーティファクトとして残ります。翌年、新しい有報が出たら、同じ手順で作り直し、前の年のものと並べて見比べると、1年分の変化がひと目で分かります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "できないこと",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 12,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "今の株価や、割安かどうか：有報には過去の株価（各期の最高値・最安値など）はありますが、今の株価はありません。割安かどうかは、最新の株価や業績の見通しも見ないと判断できません",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "数字が動いた理由の判断：会社が書いていない理由は分かりません",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "inlineStyleRanges": [
+      {
+       "length": 9,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "text": "答えの正しさの保証：AIは表を読み違えることがあります。数字は、出典のページで必ず原文と見比べてください",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "今日からできること",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "Claudeの設定の「機能」で、「クラウドコード実行とファイル作成」がオンになっているかを確かめる",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "気になっている会社の有報をEDINETで保存し、表を作る指示書を送る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "表が有報の数字と合っているかを確かめてから、グラフ6枚の指示書を送る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "最初の1社は、6枚のうち気になった1本について、有報のページまで戻って確かめるところまでで十分です。表のままでは見えなかった会社の流れが、グラフにすると見えてきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "この記事は特定の銘柄をすすめるものではありません。投資の判断はご自身でお願いします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": " ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "【無料オプチャ始めました！】",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "🌈こんな方におすすめ🌈",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "✅ AIで銘柄分析を効率化したい",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "✅ 決算や企業情報を深く読み解きたい",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "✅ テクニカル分析にもAIを活用したい",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "大企業のAI推進担当で、投資歴6年のノアが、実践的なAI投資分析のノウハウを発信しています！",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "text": "🎁AI証券会社スターターキットプレゼント！",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "text": "あなた専属のAI社員27人｜設定プロンプト集",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "コピペで使える｜AI投資分析プロンプト30選",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "検討・保有株で使える｜投資判断・管理シート",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "text": "🔽無料で参加する🔽",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 8,
+       "length": 10,
+       "offset": 1
+      }
+     ],
+     "text": "👉ノアの投資×AI分析",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 9,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "text": " ",
+     "type": "atomic"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "8",
+     "value": {
+      "data": {
+       "url": "https://line.me/ti/g2/Ba9f16HDHiLy2x5QTNNiBB536xSL6pDFcI8CtQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "4",
+     "value": {
+      "data": {
+       "markdown": "```\nこの表から、グラフ6枚を並べたダッシュボードを、アーティファクトとして作ってください。\n\n1. 売上高（棒グラフ）\n2. 経常利益と親会社株主に帰属する当期純利益（2本の棒グラフ）\n3. 自己資本利益率（折れ線グラフ）\n4. 自己資本比率（折れ線グラフ）\n5. 営業活動によるキャッシュ・フロー（棒グラフ）\n6. 従業員数（棒グラフ）\n\n・横軸は決算年月で、古い年を左にしてください\n・各グラフの下に、使った5年分の数字の表と「出典：有価証券報告書 ◯ページ 連結経営指標等」を小さく表示してください\n・表の数字だけを使ってください。増減率などを足すときは「計算」と書いてください\n・色は落ち着いた1〜2色にして、良し悪しを色で示さないでください\n・グラフの評価や感想は書かないでください\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "9",
+     "value": {
+      "data": {
+       "mediaItems": [
+        {
+         "mediaCategory": "TweetImage",
+         "mediaId": "2109039502228676608"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "5",
+     "value": {
+      "data": {
+       "mediaItems": [
+        {
+         "mediaCategory": "TweetImage",
+         "mediaId": "2109039485958955008"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "6",
+     "value": {
+      "data": {
+       "mediaItems": [
+        {
+         "mediaCategory": "TweetImage",
+         "mediaId": "2109039491226959872"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "mediaItems": [
+        {
+         "mediaCategory": "TweetImage",
+         "mediaId": "2109039475414515712"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "mediaItems": [
+        {
+         "mediaCategory": "TweetImage",
+         "mediaId": "2109039470255423489"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "mediaItems": [
+        {
+         "mediaCategory": "TweetImage",
+         "mediaId": "2109039480179175424"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "7",
+     "value": {
+      "data": {
+       "mediaItems": [
+        {
+         "mediaCategory": "TweetImage",
+         "mediaId": "2109039497040326656"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "3",
+     "value": {
+      "data": {
+       "markdown": "```\n添付した有価証券報告書の「主要な経営指標等の推移」から、5年分の表を作ってください。\n\n・使うのは「(1) 連結経営指標等」の表だけです。「(2) 提出会社の経営指標等」の数字は使わないでください\n・項目は次の7つです：売上高、経常利益、親会社株主に帰属する当期純利益、自己資本比率、自己資本利益率、営業活動によるキャッシュ・フロー、従業員数\n・数字は表のとおりに写し、単位（百万円・％・人）を項目名に付けてください。億円などに直さないでください\n・従業員数は、〔 〕の中の臨時雇用の人数を入れないでください\n・△はマイナスとして扱ってください\n・列は「決算年月」「7つの項目」「出典ページ」の順にして、CSV形式で出してください\n・表に無い数字を、計算や推測で足さないでください\n・指定した項目が表に無いときは、別の項目で代わりにせず「記載なし」と書いてください\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    }
+   ]
+  },
+  "media_entities": [
+   {
+    "id": "QXBpTWVkaWE6DAABCgABHUTQP5ZbcAAKAAIAAAAAAAAAAAAA",
+    "media_id": "2109039497040326656",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 97.21,
+        "rgb": {
+         "blue": 236,
+         "green": 243,
+         "red": 246
+        }
+       },
+       {
+        "percentage": 1.26,
+        "rgb": {
+         "blue": 122,
+         "green": 127,
+         "red": 121
+        }
+       },
+       {
+        "percentage": 1.01,
+        "rgb": {
+         "blue": 147,
+         "green": 178,
+         "red": 112
+        }
+       },
+       {
+        "percentage": 0.51,
+        "rgb": {
+         "blue": 103,
+         "green": 162,
+         "red": 175
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUTQP5ZbcAAiGd5.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2109039497040326656"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAABCgABHUTQPjvagAAKAAIAAAAAAAAAAAAA",
+    "media_id": "2109039491226959872",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 94.8,
+        "rgb": {
+         "blue": 234,
+         "green": 240,
+         "red": 243
+        }
+       },
+       {
+        "percentage": 2.06,
+        "rgb": {
+         "blue": 190,
+         "green": 188,
+         "red": 234
+        }
+       },
+       {
+        "percentage": 1.88,
+        "rgb": {
+         "blue": 181,
+         "green": 197,
+         "red": 158
+        }
+       },
+       {
+        "percentage": 0.65,
+        "rgb": {
+         "blue": 122,
+         "green": 127,
+         "red": 121
+        }
+       },
+       {
+        "percentage": 0.53,
+        "rgb": {
+         "blue": 104,
+         "green": 163,
+         "red": 172
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUTQPjvagAAxiRp.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2109039491226959872"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAABCgABHUTQO6lasAAKAAIAAAAAAAAAAAAA",
+    "media_id": "2109039480179175424",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 92.7,
+        "rgb": {
+         "blue": 235,
+         "green": 241,
+         "red": 244
+        }
+       },
+       {
+        "percentage": 4.88,
+        "rgb": {
+         "blue": 171,
+         "green": 170,
+         "red": 224
+        }
+       },
+       {
+        "percentage": 1.64,
+        "rgb": {
+         "blue": 168,
+         "green": 194,
+         "red": 149
+        }
+       },
+       {
+        "percentage": 0.43,
+        "rgb": {
+         "blue": 129,
+         "green": 131,
+         "red": 125
+        }
+       },
+       {
+        "percentage": 0.29,
+        "rgb": {
+         "blue": 101,
+         "green": 163,
+         "red": 180
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUTQO6lasAAHT0U.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2109039480179175424"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAABCgABHUTQOVnaQAEKAAIAAAAAAAAAAAAA",
+    "media_id": "2109039470255423489",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 94.78,
+        "rgb": {
+         "blue": 235,
+         "green": 241,
+         "red": 244
+        }
+       },
+       {
+        "percentage": 2,
+        "rgb": {
+         "blue": 176,
+         "green": 195,
+         "red": 146
+        }
+       },
+       {
+        "percentage": 1.83,
+        "rgb": {
+         "blue": 179,
+         "green": 177,
+         "red": 233
+        }
+       },
+       {
+        "percentage": 0.69,
+        "rgb": {
+         "blue": 128,
+         "green": 134,
+         "red": 129
+        }
+       },
+       {
+        "percentage": 0.43,
+        "rgb": {
+         "blue": 144,
+         "green": 190,
+         "red": 204
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUTQOVnaQAEJMnr.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2109039470255423489"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAABCgABHUTQPQHbIAAKAAIAAAAAAAAAAAAA",
+    "media_id": "2109039485958955008",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 90.76,
+        "rgb": {
+         "blue": 236,
+         "green": 243,
+         "red": 246
+        }
+       },
+       {
+        "percentage": 7.07,
+        "rgb": {
+         "blue": 106,
+         "green": 133,
+         "red": 36
+        }
+       },
+       {
+        "percentage": 0.99,
+        "rgb": {
+         "blue": 100,
+         "green": 163,
+         "red": 189
+        }
+       },
+       {
+        "percentage": 0.84,
+        "rgb": {
+         "blue": 133,
+         "green": 135,
+         "red": 128
+        }
+       },
+       {
+        "percentage": 0.26,
+        "rgb": {
+         "blue": 59,
+         "green": 144,
+         "red": 188
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUTQPQHbIAA9DfW.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2109039485958955008"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAABCgABHUTQOo1bwAAKAAIAAAAAAAAAAAAA",
+    "media_id": "2109039475414515712",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 97.78,
+        "rgb": {
+         "blue": 236,
+         "green": 243,
+         "red": 246
+        }
+       },
+       {
+        "percentage": 0.98,
+        "rgb": {
+         "blue": 128,
+         "green": 133,
+         "red": 128
+        }
+       },
+       {
+        "percentage": 0.78,
+        "rgb": {
+         "blue": 159,
+         "green": 179,
+         "red": 119
+        }
+       },
+       {
+        "percentage": 0.47,
+        "rgb": {
+         "blue": 104,
+         "green": 163,
+         "red": 172
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUTQOo1bwAA30tD.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2109039475414515712"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAABCgABHUTQQMubYAAKAAIAAAAAAAAAAAAA",
+    "media_id": "2109039502228676608",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 31.25,
+        "rgb": {
+         "blue": 24,
+         "green": 54,
+         "red": 3
+        }
+       },
+       {
+        "percentage": 18.66,
+        "rgb": {
+         "blue": 222,
+         "green": 233,
+         "red": 225
+        }
+       },
+       {
+        "percentage": 13.63,
+        "rgb": {
+         "blue": 44,
+         "green": 109,
+         "red": 4
+        }
+       },
+       {
+        "percentage": 5.32,
+        "rgb": {
+         "blue": 88,
+         "green": 154,
+         "red": 150
+        }
+       },
+       {
+        "percentage": 4.66,
+        "rgb": {
+         "blue": 34,
+         "green": 190,
+         "red": 235
+        }
+       }
+      ]
+     },
+     "original_img_height": 272,
+     "original_img_url": "https://pbs.twimg.com/media/HUTQQMubYAAX2vJ.png",
+     "original_img_width": 680
+    },
+    "media_key": "3_2109039502228676608"
+   }
+  ]
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

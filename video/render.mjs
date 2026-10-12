@@ -27,7 +27,7 @@ const { chromium } = require(path.join(globalRoot, 'playwright'));
 const dir = path.dirname(fileURLToPath(import.meta.url));
 const script = JSON.parse(readFileSync(scriptPath, 'utf8'));
 // 画像のパスは script.json からの相対パスで書ける
-for (const s of script.scenes) if (s.image && !/^(https?|file|data):/.test(s.image)) s.image = pathToFileURL(path.resolve(path.dirname(scriptPath), s.image)).href;
+for (const s of script.scenes) for (const k of ['image', 'bg']) if (s[k] && !/^(https?|file|data):/.test(s[k])) s[k] = pathToFileURL(path.resolve(path.dirname(scriptPath), s[k])).href;
 const width = script.width ?? 1920, height = script.height ?? 1080;
 
 const browser = await chromium.launch(existsSync('/opt/pw-browsers/chromium') ? { executablePath: '/opt/pw-browsers/chromium' } : {});

@@ -361,3 +361,23 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 @keyframes orbitspin { from { opacity: 0; transform: rotate(var(--a0)) translateX(248px); } 10% { opacity: 1; } to { opacity: 1; transform: rotate(calc(var(--a0) + 160deg)) translateX(248px); } }
 .orbit .otag { font-size: 30px; letter-spacing: .5em; font-weight: 700; opacity: .8; }
 .orbit .sub { color: var(--on-accent); opacity: .85; }
+
+/* 27 poster（映画のキービジュアル風） */
+.poster { overflow: hidden; background: #000; color: #f4efe9; gap: 30px; }
+.poster .pbg { position: absolute; inset: -4%; background-size: cover; background-position: center; filter: brightness(.32) saturate(.9) blur(2px); }
+.kenburns { animation-name: kenburns; animation-timing-function: linear; } @keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.12); } }
+.poster .pvig { position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,.75) 100%); }
+.poster .ptitle { position: relative; font-family: var(--head); font-size: 170px; line-height: 1.1; letter-spacing: -.01em; }
+.poster .psub { position: relative; font-family: var(--head2); font-weight: 900; font-size: 64px; color: var(--accent); }
+.poster .pcred { position: absolute; left: 0; right: 0; bottom: 150px; font-size: 22px; letter-spacing: .35em; color: rgba(244,239,233,.7); }
+.poster .pbadge { position: absolute; left: 190px; top: 180px; width: 220px; height: 220px; border-radius: 50%; border: 4px solid #f4efe9; display: grid; place-items: center;
+  font-family: var(--head); font-size: 40px; line-height: 1.15; transform: rotate(-12deg); text-align: center; }
+.poster .lbox { position: absolute; left: 0; right: 0; height: 110px; background: #000; z-index: 6; }
+.poster .lbox.top { top: 0; } .poster .lbox.bot { bottom: 0; }
+.barin { animation-name: barin; --len: .6s; } @keyframes barin { from { height: 50%; } }
+
+/* 切り替え cine（上下から帯が閉じる・開く） */
+.tr-cine { animation-name: cineIn, cineOut; animation-duration: .4s, .3s; animation-delay: var(--t0), calc(var(--t0) + var(--dur) - .3s); }
+@keyframes cineIn { from { clip-path: inset(50% 0 50% 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes cineOut { from { clip-path: inset(0 0 0 0); } to { clip-path: inset(50% 0 50% 0); } }
+.first.tr-cine { --outname: cineOut; }

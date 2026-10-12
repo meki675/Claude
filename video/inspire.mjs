@@ -29,10 +29,13 @@ const pick = args.includes('--site') ? args[args.indexOf('--site') + 1] : null;
 const used = [];
 const postsDir = path.join(dir, 'posts');
 for (const p of readdirSync(postsDir)) {
-  const f = path.join(postsDir, p, 'script.json');
-  if (!existsSync(f)) continue;
-  const site = JSON.parse(readFileSync(f, 'utf8')).inspiration?.site;
-  if (site) used.push({ site, t: statSync(f).mtimeMs });
+  const d = path.join(postsDir, p);
+  if (!statSync(d).isDirectory()) continue;
+  for (const n of readdirSync(d).filter((n) => /^script.*\.json$/.test(n))) {
+    const f = path.join(d, n);
+    const site = JSON.parse(readFileSync(f, 'utf8')).inspiration?.site;
+    if (site) used.push({ site, t: statSync(f).mtimeMs });
+  }
 }
 used.sort((a, b) => b.t - a.t);
 const rank = (s) => { const i = used.findIndex((u) => u.site === s.name); return i < 0 ? -1 : used.length - i; };

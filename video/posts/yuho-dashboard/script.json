@@ -1,0 +1,19 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "terra",
+  "structure": "手順",
+  "inspiration": { "site": "vimeo-staff-picks", "work": "一番上の短編「DEAR [NAME]」のキービジュアル", "idea": "上下の黒帯・ゆっくり寄るカメラ・角かっこの題名・丸いバッジ・下のクレジット。切り替えも帯が閉じて開く映画風に" },
+  "transition": "cine",
+  "brand": "CLAUDE × 有価証券報告書",
+  "footer": "出典：@leverage_noah のX記事｜銘柄の推奨ではありません",
+  "scenes": [
+    { "type": "poster", "dur": 3.2, "bg": "cover.jpg", "badge": "PDFを\n渡すだけ", "title": "[ 有報5年分 ]", "sub": "→ Claudeでグラフ6枚に", "credits": "CLAUDE PRESENTS  ·  A DASHBOARD FROM EDINET  ·  NO EXCEL TYPING" },
+    { "type": "timeline", "dur": 3.4, "tag": "手順は3つ", "title": "手で打ち込まずにグラフまで", "points": [ { "t": "1. 表を作らせる", "s": "有報PDFを添付して\n5年分をCSVに" }, { "t": "2. 見比べる", "s": "有報2ページと\n1行ずつ照合" }, { "t": "3. グラフ6枚", "s": "アーティファクトで\nダッシュボードに" } ] },
+    { "type": "bars", "dur": 3.6, "tag": "ダイキン工業（6367）で試すと", "title": "売上は毎期増えたのに、ROEは下がっていた", "bars": [ { "label": "2022.3", "value": 12.0, "display": "12.0%" }, { "label": "2023.3", "value": 12.3, "display": "12.3%" }, { "label": "2024.3", "value": 10.7, "display": "10.7%" }, { "label": "2025.3", "value": 9.7, "display": "9.7%" }, { "label": "2026.3", "value": 9.1, "display": "9.1%", "hot": true } ], "note": "自己資本利益率（連結）。出典：有報「主要な経営指標等の推移」" },
+    { "type": "versus", "dur": 3.2, "tag": "取り違えやすい点 1", "title": "同じ2026年3月期のROEでも", "a": { "label": "(1) 連結", "value": "9.1%", "note": "グループ全体" }, "b": { "label": "(2) 提出会社", "value": "14.2%", "note": "親会社1社だけ" }, "note": "指示書で「連結の表だけ」と指定する" },
+    { "type": "checklist", "dur": 3.0, "tag": "指示書に入れておく3行", "title": "数字の取り違えを防ぐ", "items": ["(1) 連結経営指標等の表だけ使う", "単位（百万円）を項目名に付ける", "〔 〕の中の臨時雇用は入れない"] },
+    { "type": "cta", "dur": 3.0, "tag": "詳しくは記事で", "title": "コピペで使える\n[[指示書2本]]", "go": "表を作る指示書とグラフ6枚の指示書", "name": "ノア｜個別株・レバレッジETF × AI分析", "id": "@leverage_noah", "image": "cover.jpg" }
+  ]
+}

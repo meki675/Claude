@@ -26,6 +26,7 @@
 |---|---|
 | `orbit` | Motionographer トップ「20 years」：単色の全面背景・輪で囲む巨大数字・点線の軌道と粒・字間の広い英字 |
 | `shutter` | （サムネの2色ロゴから）左右の扉が開く |
+| `poster` ＋ 切り替え `cine` | Vimeo Staff Picks「DEAR [NAME]」：上下の黒帯・ゆっくり寄るカメラ・角かっこの題名・丸バッジ・下のクレジット |
 
 
 動画ごとに **構成の型を1つ** と **参考にするリポジトリを1つ** 選ぶ。直近3本で使った型・参考は避ける
@@ -60,5 +61,5 @@
 | 誤解→真実 | stomp → versus → marker → checklist → cta | 誤情報を正す記事 |
 | 手順 | shutter → timeline → code → grid → cta | 設定・導入の記事 |
 
-冒頭は `burst` / `stomp` / `shutter` / `ripple` / `orbit` から、切り替えは
-`whip` / `zoom` / `flash` / `slide` / `spin`（配列で場面ごとに変えられる）から、直近と違うものを選ぶ。
+冒頭は `burst` / `stomp` / `shutter` / `ripple` / `orbit` / `poster` から、切り替えは
+`whip` / `zoom` / `flash` / `slide` / `spin` / `cine`（配列で場面ごとに変えられる）から、直近と違うものを選ぶ。

@@ -231,6 +231,17 @@
     ${s.tagline ? A('otag fade', 1.0, fmt(s.tagline)) : ''}
     ${sub(s.sub, 1.2)}`;
 
+  // 27. 冒頭：映画のキービジュアル風（参考: Vimeo Staff Picks「DEAR [NAME]」）
+  //   上下の黒帯・ゆっくり寄るカメラ・角かっこの題名・丸いバッジ・下のクレジット
+  S.poster = (s) => `
+    ${s.bg ? `<div class="a pbg kenburns" style="--d:0s;--len:${s.dur}s;background-image:url('${esc(s.bg)}')"></div>` : ''}
+    <div class="a pvig fade" style="--d:0s"></div>
+    ${s.badge ? A('pbadge pop', 0.9, fmt(s.badge)) : ''}
+    ${A('ptitle wipe', 0.35, fmt(s.title), { style: '--len:.7s' })}
+    ${s.sub ? A('psub up', 0.9, fmt(s.sub)) : ''}
+    ${s.credits ? A('pcred fade', 1.3, fmt(s.credits)) : ''}
+    <div class="a lbox top barin" style="--d:0s"></div><div class="a lbox bot barin" style="--d:0s"></div>`;
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -242,7 +253,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();
