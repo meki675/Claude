@@ -18,7 +18,8 @@ Chromeの操作に入る前に、Claude in Chrome のスキルを読み込むこ
 
 ## 2. 動画を作る
 - `article.md` を全部読み、`cover.jpg` を目で見る。
-- **配色**：サムネの背景色・文字色・差し色に近い配色を `video/lib/themes.js` から選ぶ。合うものがなければ新しく足す（明朝のサムネなら `orchard` のように見出しフォントも変える）。
+- **デザインの様式**：`script.json` の `"style"` に `brutal / swiss / glass / crt / editorial` のどれかを書く（省略すると従来の見た目）。直近2本（`video/posts/*/script*.json` の `style`）と同じ様式は使わない。見比べ画像は `video/patterns/styles-compare.jpg`。様式は書体・線・角・影・背景の質感と専用の色を持つので、サムネがオレンジでも毎回オレンジにならない。
+- **配色**：様式を使わないときだけ、サムネの背景色・文字色・差し色に近い配色を `video/lib/themes.js` から選ぶ。合うものがなければ新しく足す（明朝のサムネなら `orchard` のように見出しフォントも変える）。
 - **演出アイデアを毎回ちがうサイトから借りる**：`node video/inspire.mjs /tmp/inspire` を実行し、保存された画像を見て、借りる見せ方を1つ決める（開けなかったサイトは Chrome で開く）。`script.json` に `"inspiration": {"site", "work", "idea"}` を書く。足りない動きは新しいシーンとして作る。
 - **構成を毎回変える**：`video/references.md` を読み、直近3本（`video/posts/*/script.json` の `structure` と `reference`）と違う**構成の型**と**参考リポジトリ**を1つずつ選ぶ。
   - 参考リポジトリは Chrome で開き、デモやテンプレートから「見せ方」を1つ借りる（場面の順番、文字の出方、切り替えなど）。今の部品で足りなければ `lib/scenes.js` と `lib/style.css` に新しいシーンや動きを足す。

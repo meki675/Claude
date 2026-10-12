@@ -479,3 +479,55 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .sortsc .card2.ok { border-color: var(--good); } .sortsc .card2.bad { border-color: var(--bad); } .sortsc .card2.warn { border-color: var(--accent); }
 .fly { animation-name: fly; animation-timing-function: cubic-bezier(.5,0,.3,1); }
 @keyframes fly { 0% { opacity: 0; transform: translate(0, -60px) scale(.8); } 25% { opacity: 1; transform: translate(0, 20px) scale(1); } 100% { transform: translate(var(--tx), var(--ty)) scale(.9); } }
+
+/* ===== デザインの様式（script.json の "style"）。色（theme）とは別に、書体・線・角・影・背景の質感を変える ===== */
+
+/* brutal：ネオブルータリズム。太い黒線・べた塗り・ずらした硬い影・角丸なし */
+.style-brutal { --accent: #ffd83b; --accent-hi: #ffe98a; --accent2: #3b5bff; --bg: #f4f1e8; --bg2: #f4f1e8; --text: #111; --muted: #333; --stroke: #111; --panel: #fff; --on-accent: #111; }
+.style-brutal #bg { background: var(--bg); } .style-brutal #bg::after { background-image: none; }
+.style-brutal .card, .style-brutal .side, .style-brutal .blk, .style-brutal .tile, .style-brutal .bin, .style-brutal .opt, .style-brutal .ri, .style-brutal .col, .style-brutal .sc-t, .style-brutal .dest, .style-brutal .tw, .style-brutal .cell, .style-brutal .gt, .style-brutal .win2
+  { border: 5px solid #111 !important; border-radius: 0 !important; box-shadow: 12px 12px 0 #111 !important; backdrop-filter: none !important; }
+.style-brutal .h-xl, .style-brutal .h-lg, .style-brutal .h-md { font-family: var(--head); letter-spacing: -.02em; }
+.style-brutal .em { background: var(--accent); color: #111; padding: 0 .12em; }
+.style-brutal .tag { background: #111; color: #fff; padding: 6px 16px; }
+.style-brutal .tag::before { display: none; }
+
+/* swiss：スイス・タイポグラフィ。白地・黒・赤の1色・左揃え・細い罫線のグリッド */
+.style-swiss { --bg: #ffffff; --bg2: #ffffff; --text: #0a0a0a; --muted: #6b6b6b; --accent: #e3120b; --accent2: #0a0a0a; --stroke: #0a0a0a; --panel: transparent; --on-accent: #fff; --head: "Noto Sans JP", sans-serif; }
+.style-swiss #bg { background: #fff; }
+.style-swiss #bg::after { background-image: linear-gradient(90deg, rgba(0,0,0,.08) 1px, transparent 1px); background-size: 160px 100%; mask-image: none; }
+.style-swiss .h-xl, .style-swiss .h-lg, .style-swiss .h-md, .style-swiss .title { font-family: "Noto Sans JP", sans-serif; font-weight: 900; letter-spacing: -.04em; }
+.style-swiss .card, .style-swiss .side, .style-swiss .blk, .style-swiss .tile, .style-swiss .bin, .style-swiss .opt, .style-swiss .ri, .style-swiss .col, .style-swiss .sc-t, .style-swiss .dest, .style-swiss .cell
+  { border: none !important; border-top: 6px solid #0a0a0a !important; border-radius: 0 !important; box-shadow: none !important; background: transparent !important; backdrop-filter: none !important; }
+.style-swiss .center { text-align: left; align-items: flex-start; }
+.style-swiss #brand::before { border-radius: 0; transform: none; background: #e3120b; }
+
+/* glass：グラスモーフィズム。にじむ色の玉・すりガラスのパネル・大きな角丸 */
+.style-glass { --accent: #ff5fa8; --accent-hi: #ffa3cf; --accent2: #39d5ff; --bg: #0e0b1f; --bg2: #1a1236; --text: #fff; --muted: #c9c3e6; --stroke: rgba(255,255,255,.28); --panel: rgba(255,255,255,.10); }
+.style-glass #bg { background:
+    radial-gradient(600px 600px at 18% 25%, color-mix(in srgb, var(--accent) 70%, transparent), transparent 70%),
+    radial-gradient(700px 700px at 85% 75%, color-mix(in srgb, var(--accent2) 65%, transparent), transparent 70%),
+    radial-gradient(500px 500px at 70% 10%, rgba(140,90,255,.55), transparent 70%), var(--bg); filter: saturate(1.2); }
+.style-glass #bg::after { background-image: none; }
+.style-glass .card, .style-glass .side, .style-glass .blk, .style-glass .tile, .style-glass .bin, .style-glass .opt, .style-glass .ri, .style-glass .col, .style-glass .sc-t, .style-glass .dest, .style-glass .cell
+  { background: rgba(255,255,255,.12) !important; border: 1.5px solid rgba(255,255,255,.35) !important; border-radius: 36px !important; backdrop-filter: blur(24px) saturate(1.4) !important; box-shadow: 0 20px 60px rgba(0,0,0,.35) !important; }
+
+/* crt：古いブラウン管の端末。緑の蛍光・走査線・等幅の文字 */
+.style-crt { --bg: #020a04; --bg2: #031208; --text: #8dff9e; --muted: #3fae55; --accent: #c6ff6b; --accent2: #5cf0ff; --stroke: #2a8a3c; --panel: rgba(30,120,50,.10); --on-accent: #021; --good: #8dff9e; --bad: #ff5f6d;
+  --head: "DejaVu Sans Mono", "Noto Sans JP", monospace; --head2: "DejaVu Sans Mono", "Noto Sans JP", monospace; --body: "DejaVu Sans Mono", "Noto Sans JP", monospace; }
+.style-crt #bg { background: radial-gradient(ellipse at center, #062a10 0%, #020a04 75%); }
+.style-crt #bg::after { background-image: repeating-linear-gradient(0deg, rgba(0,0,0,.35) 0 2px, transparent 2px 5px); background-size: auto; mask-image: none; }
+.style-crt .stage, .style-crt #stage { text-shadow: 0 0 10px rgba(141,255,158,.55); }
+.style-crt .card, .style-crt .side, .style-crt .blk, .style-crt .tile, .style-crt .bin, .style-crt .opt, .style-crt .ri, .style-crt .col, .style-crt .sc-t, .style-crt .dest, .style-crt .cell
+  { border: 2px dashed var(--stroke) !important; border-radius: 0 !important; box-shadow: none !important; background: transparent !important; }
+.style-crt .h-xl, .style-crt .h-lg { font-weight: 700; letter-spacing: -.02em; }
+
+/* editorial：雑誌の誌面。明朝の見出し・細い罫線・余白・小さな英字の見出しラベル */
+.style-editorial { --accent: #9b2c2c; --accent-hi: #c76a4a; --accent2: #2f4f6f; --bg: #f7f3ec; --bg2: #f7f3ec; --text: #1c1a17; --muted: #6e665c; --stroke: #1c1a17; --panel: transparent; --head: "Shippori Mincho B1", serif; --head2: "Shippori Mincho B1", serif; }
+.style-editorial #bg { background: var(--bg); } .style-editorial #bg::after { background-image: none; }
+.style-editorial .card, .style-editorial .side, .style-editorial .blk, .style-editorial .tile, .style-editorial .bin, .style-editorial .opt, .style-editorial .ri, .style-editorial .col, .style-editorial .sc-t, .style-editorial .dest, .style-editorial .cell
+  { border: none !important; border-top: 1.5px solid var(--stroke) !important; border-bottom: 1.5px solid var(--stroke) !important; border-radius: 0 !important; box-shadow: none !important; background: transparent !important; backdrop-filter: none !important; }
+.style-editorial .tag { font-family: var(--body); letter-spacing: .35em; text-transform: uppercase; }
+.style-editorial .em { color: var(--accent); font-style: italic; }
+.style-brutal .blk.hot { background: var(--accent) !important; } .style-brutal .blk.hot b, .style-brutal .blk.hot span { color: #111 !important; }
+.style-brutal .bin.warn b, .style-brutal .card2.warn { color: #111; } .style-brutal .bin.warn b { background: var(--accent); padding: 0 10px; }

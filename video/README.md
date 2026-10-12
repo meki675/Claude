@@ -14,6 +14,7 @@ node video/render.mjs video/posts/<名前>/script.json --out video/posts/<名前
 - 図形を動かすモーショングラフィック用に、`stickers`（白い箱のテロップを貼る）、`pipeline`（ファイルが関門を順に通って光る）、`gate`（弾かれて別の道へ回る）、`particles`（粒が集まる冒頭）、`stack`（ブロックが落ちて積み上がる）、`term`（ターミナル実行の再現。行ごとに `cmd / ok / bad / dim`）、`sort`（カードが箱へ仕分けられる）があります。アイコン（鍵・書類・リスト・ファイル）は `lib/scenes.js` の `ICON`。
 - 切り替えは `"transition"` に `whip / zoom / flash / slide / spin / cine / fade` を1つ、または配列で場面ごとに書きます（シーンに `"tr"` を書くとそのシーンだけ変更）。
 - 構成を毎回変えるための参考サイト・参考リポジトリ・構成の型は `references.md`。`node video/inspire.mjs <フォルダ>` で、8つの参考サイトから最近使っていないものを開いて画像に保存します。
+- デザインの様式: `"style"` に `brutal`（太い黒線・硬い影・黄×青）/ `swiss`（白・黒・赤1色・罫線のグリッド）/ `glass`（にじむ色の玉・すりガラス）/ `crt`（緑の端末・走査線・等幅）/ `editorial`（明朝・細い罫線・深い赤）。書体・線・角・影・背景と専用の色をまとめて切り替えます。見比べは `patterns/styles-compare.jpg`。
 - 配色: `"theme"` に `ember / neon / forest / ocean / crimson / violet / navy / orchard / paper / pop / mint / sky` のどれかを書きます。省略すると台本の中身から自動で選ぶので、動画ごとに色が変わります（`"random"` は毎回ランダム、`"themeOverrides": {"accent": "#..."}` で個別に上書き）。`lib/themes.js` に追加できます。
 - `"mark": "sparkle"` でロゴ印とCTAのアイコンがキラッとした星になります。burst の `"sparkles": [[x%, y%, 大きさ], ...]` で冒頭に星を散らせます（`"shape": "leaf"` で葉っぱ）。cta の `"image": "cover.jpg"`（script.json からの相対パス）で記事のサムネを添えられます。
 - BGM: `python3 video/bgm.py <秒数> <出力.wav> [--bpm 136] [--mood bright]` で合成BGMを作り、ffmpeg で mp4 に重ねます（`posts/projects-coordinator/` 参照）。

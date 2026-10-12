@@ -24,6 +24,8 @@
     const theme = window.Themes.pick(script);
     for (const [k, v] of Object.entries(theme.vars)) document.documentElement.style.setProperty('--' + k, v);
     document.body.classList.toggle('sparkle', script.mark === 'sparkle');
+    document.body.className = document.body.className.replace(/\bstyle-\S+/g, '').trim();
+    if (script.style) document.body.classList.add('style-' + script.style);
     document.getElementById('brand').textContent = script.brand ?? '';
     document.getElementById('footer').textContent = script.footer ?? '';
     const stage = document.getElementById('stage');
