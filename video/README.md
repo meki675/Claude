@@ -16,6 +16,10 @@ node video/render.mjs video/posts/<名前>/script.json --out video/posts/<名前
 - BGM: `python3 video/bgm.py <秒数> <出力.wav> [--bpm 136] [--mood bright]` で合成BGMを作り、ffmpeg で mp4 に重ねます（`posts/projects-coordinator/` 参照）。
 - 縦（`"width": 1080, "height": 1920`）にも書き出せますが、レイアウトは横向き用に調整しています。縦で使うときは静止画で確認してください。
 
+## X記事から作る
+- `python3 -I video/fetch_article.py <ポストURL> video/posts/<名前>/` で本文（article.md）・サムネ（cover.jpg）・表示回数を取り込みます。
+- 記事探しから下書き保存までの手順は `.claude/skills/x-quote-video/SKILL.md`（Claude in Chrome が必要）。作成済みは `posts/done.txt`。
+
 ## 構成
 - `lib/engine.html` / `lib/style.css` / `lib/scenes.js`: シーン部品と時間指定の描画
 - `render.mjs`: Playwright で1フレームずつ撮って ffmpeg で mp4 にする
