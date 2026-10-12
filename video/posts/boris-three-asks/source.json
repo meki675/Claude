@@ -1,0 +1,2094 @@
+{
+ "url": "https://x.com/29meat_ai/status/2109435747250167925",
+ "id": "2109435747250167925",
+ "text": "https://x.com/i/article/2109430419246714880",
+ "raw_text": {
+  "text": "https://t.co/4bQdM4tDKL",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/4bQdM4tDKL",
+    "replacement": "https://x.com/i/article/2109430419246714880",
+    "display": "x.com/i/article/2109…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "29meat_ai",
+  "url": "https://x.com/29meat_ai",
+  "id": "886110615873310720",
+  "followers": 6788,
+  "following": 1370,
+  "likes": 11210,
+  "media_count": 376,
+  "name": "にく",
+  "description": "製造業18年｜45日でX収益化達成｜Codex × Claude Codeで自動化｜非エンジニアがAIでX記事を仕組み化",
+  "raw_description": {
+   "text": "製造業18年｜45日でX収益化達成｜Codex × Claude Codeで自動化｜非エンジニアがAIでX記事を仕組み化",
+   "facets": []
+  },
+  "location": "",
+  "banner_url": "https://pbs.twimg.com/profile_banners/886110615873310720/1787328559",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2090833631308898304/VesWg21X_200x200.jpg",
+  "joined": "Sat Jul 15 06:30:08 +0000 2017",
+  "protected": false,
+  "website": {
+   "url": "https://x.gd/VtPmw",
+   "display_url": "x.gd/VtPmw"
+  },
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 0,
+ "retweets": 1,
+ "likes": 4,
+ "bookmarks": 3,
+ "quotes": 1,
+ "created_at": "Mon Oct 12 00:07:28 +0000 2026",
+ "created_timestamp": 1791763648,
+ "possibly_sensitive": false,
+ "views": 724,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-12T00:07:28.000Z",
+  "modified_at": "2026-10-12T00:07:28.000Z",
+  "id": "2109430419246714880",
+  "title": "ボリス・チェルニーに学ぶ新時代のClaude Code活用術",
+  "preview_text": "Claude Codeの開発責任者、ボリス・チェルニー（Boris Cherny）氏が、10月6日にXでこう書きました。Claudeには同僚に話すように話しかければいい、プロンプトに秘訣なんてない、と。",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAAFCgABHUY3oIXaEAAKAAIMTBjpCtTQAAAA",
+   "media_id": "2109434638049611776",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 73.61,
+       "rgb": {
+        "blue": 246,
+        "green": 250,
+        "red": 251
+       }
+      },
+      {
+       "percentage": 11.14,
+       "rgb": {
+        "blue": 38,
+        "green": 22,
+        "red": 17
+       }
+      },
+      {
+       "percentage": 6.69,
+       "rgb": {
+        "blue": 118,
+        "green": 148,
+        "red": 211
+       }
+      },
+      {
+       "percentage": 5.97,
+       "rgb": {
+        "blue": 66,
+        "green": 104,
+        "red": 223
+       }
+      },
+      {
+       "percentage": 1.32,
+       "rgb": {
+        "blue": 56,
+        "green": 76,
+        "red": 129
+       }
+      }
+     ]
+    },
+    "original_img_height": 793,
+    "original_img_url": "https://pbs.twimg.com/media/HUY3oIXaEAAit5D.jpg",
+    "original_img_width": 1983
+   },
+   "media_key": "3_2109434638049611776"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cfarq",
+     "text": "Claude Codeの開発責任者、ボリス・チェルニー（Boris Cherny）氏が、10月6日にXでこう書きました。Claudeには同僚に話すように話しかければいい、プロンプトに秘訣なんてない、と。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ce5th",
+     "text": "「プロンプトの書き方」に悩んできた人ほど、拍子抜けする話だと思います。役割を決めて、制約を並べて、お手本を貼って……と、私たちはずいぶん長い指示を書いてきました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a7jmi",
+     "text": "長い役割設定も、細かい手順書もいらない。伝えるのは「何をしてほしいか」「どれくらい力を入れるか」「どう確かめるか」の3つだけだそうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "beshk",
+     "text": "本人の投稿がこちらです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "9shuh",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ait5p",
+     "text": "投稿には、本人が実際に使ったプロンプトのスクショもついています。読んでみると、驚くほど普通の頼み方でした。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "tg3a",
+     "text": "この記事では、3つの指示をClaude Codeでどう使うかを、モデルとエフォートの選び方まで含めてまとめました。後半では、やめていい昔の書き方と、そのまま使える「確かめ方」の一言集も紹介します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cppav",
+     "text": "ボリス・チェルニーとは",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "go63",
+     "text": "ボリス・チェルニー氏は、AnthropicでClaude Codeを率いる人物です。Claude Codeの生みの親として知られ、Anthropicのイベントでも「Head of Claude Code」と紹介されています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bhap4",
+     "text": "日本語では「チャーニー」と書かれることもありますが、この記事ではWikipediaなどにならって「チェルニー」で統一します。Claude Codeの使い方を語る人として、これ以上の人はいません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "78m38",
+     "text": "実はこの人、新しいモデルが出るたびに、Claude Codeの中に組み込んだ指示（システムプロンプト）を大きく削ってきました。Y Combinatorのイベントでは、モデルごとに性格がまったく違うので、3か月前のモデル向けに作った指示が次のモデルでは通用しないこともある、と話しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2tb2l",
+     "text": "賢くなったモデルには、前のモデル向けの細かい指示がかえって足かせになる。作る側がずっとそう考えて、Claude Codeの中身を削り続けてきたわけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1n32l",
+     "text": "今回の「3つだけでいい」は、その考え方を私たちユーザー向けに言い直したものだと読めます。思いつきの一言ではなく、Claude Codeを作る側が実際にやってきたことなんです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d537l",
+     "text": "伝えるのは3つだけ",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dl25a",
+     "text": "本人の投稿によると、Sonnet 3.5の頃は、プロンプトの書き方そのものがとても重要でした。今はそれより、モデルに次の3つを伝えることのほうがずっと大事だそうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "32ceo",
+     "text": "何をしてほしいか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cqf9j",
+     "text": "どれだけの力をかけてほしいか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dj6tr",
+     "text": "正しくできたかを、どう確かめるか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c3j7d",
+     "text": "1つ目の「何をしてほしいか」は、作業の内容ではなく、できあがりの姿のことです。2つ目の「どれだけの力を」は、ざっと済ませるのか、時間をかけて作り込むのかという頑張り度合いです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cgiin",
+     "text": "3つ目の「どう確かめるか」は、終わったときに何を見れば正しいとわかるか、です。この3つがそろうと、Claudeは途中の判断を自分でできるようになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cpofg",
+     "text": "ほとんどの作業では、ガチガチに枠を組んだり、細かく指図したりする必要はない。目標を渡せば、あとはClaudeがやり方を考える、というのが本人の主張です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "felcv",
+     "text": "昔の頼み方と比べると、違いがよくわかります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "eeck4",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4cn41",
+     "text": "変わったのは、言葉の量ではなく「どこに力を入れるか」です。昔は言い回しや手順に力を使い、今は目標と確かめ方に力を使います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9jfu3",
+     "text": "ここで勘違いしやすいのが、「短く書けば何でもうまくいく」という読み方です。3つの中身は、むしろはっきり伝える必要があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eumni",
+     "text": "新しい同僚に仕事を頼む場面を想像すると、わかりやすいと思います。キーボードの打ち方までは教えませんが、何を作ってほしいか、いつまでにどのくらいの出来がほしいか、どこを確認してから出してほしいかは伝えますよね。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bd492",
+     "text": "Anthropic公式のヘルプページにも、Claudeには同僚や友人に話すように、自然に話しかけるのがいちばんだと書かれています。開発責任者の個人的な好みではなく、公式の方針とも一致しているわけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d1s7n",
+     "text": "本人はこう頼んでいる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "elcr0",
+     "text": "では、ボリス氏は実際にどんな頼み方をしているのか。3つの指示の投稿より少し前に、本人がこんな作品を公開していました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 2,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "7u9pa",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5l0u4",
+     "text": "人気ポッドキャスト「Acquired」のホームデポ回を題材に、Opus 5.5に「操作できるWebサイト」を作らせたものです。水彩画のイラストも全部Claudeが描いた、と本人は書いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "26jva",
+     "text": "この作品はClaude Codeではなく、Claudeアプリで作られています。それでも、Claude Codeを作った本人がふだんどう頼んでいるかを知る、いちばんの手がかりです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "442gq",
+     "text": "海外の解説記事によると、作品の中身はこうなっています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "71qot",
+     "text": "3時間35分の放送を17章にまとめた構成",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "deof",
+     "text": "再生位置をたどれる、巻き尺のようなタイムライン",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "10lps",
+     "text": "章ごとに入った水彩画のイラスト",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8v68d",
+     "text": "数字を動かせるグラフや計算機",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6rbko",
+     "text": "学びをまとめた一覧と、出典の一覧",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8cosc",
+     "text": "驚くのは、水彩画を画像生成AIではなく、OpenCVという画像処理の道具を使ったプログラムで描いている点です。絵の具のにじみや紙の質感まで、コードで再現しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bqn2u",
+     "text": "プロンプトの中身を日本語にして、3つの指示に当てはめてみました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 3,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2178g",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fnev6",
+     "text": "手順は一つも書いていません。章の分け方も、グラフの種類も、全部Claudeに任せています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8po66",
+     "text": "そのかわり、何を伝える作品なのか、どのくらいの水準を目指すのか、どこまで頑張ってほしいのかは、しっかり書いてあります。3つ目の「確かめ方」は、「納得できるまで改善して」という一言に込められていると私は読みました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7inhi",
+     "text": "スクショをよく見ると、プロンプトの下に「OpusはSonnetより使用量を速く消費します」という表示も出ています。解説記事によると、このときOpus 5.5はかなり高いエフォートで動いていたそうで、作品づくりには惜しまず力を使ったことがわかります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fnvd7",
+     "text": "さらに、Claudeは指示されていないのに、番組の書き起こしやほかの一次情報を自分で読みにいったそうです。目標がはっきりしていれば、やり方はClaudeが考えるという、まさに本人の言うとおりの実例です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8n34d",
+     "text": "「水彩画かも」論争",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "anae5",
+     "text": "このプロンプトには、Xで突っ込みが入りました。問題になったのは「水彩画を入れてもいいかも」という、あいまいな一文です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "81k1t",
+     "text": "あるユーザーは「欲しいなら欲しい、いらないならいらないと、はっきり書くべきだ」と指摘しました。AIへの指示ははっきり書くべき、という昔ながらの考え方です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "58vsv",
+     "text": "これに対するボリス氏の返事がこちらです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 4,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "d0gkt",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fpg1q",
+     "text": "「trust it to cook」は、「口を出さずに任せておく」という意味のネットスラングです。Opus 5.5は見た目のセンスがいいから、水彩画を入れるかどうかの判断もまるごと任せた、という返事です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ajjpc",
+     "text": "つまり、あいまいに書いたのはミスではなく、わざとでした。入れたほうが良くなるならClaudeが入れるし、合わないなら入れない。その判断をClaudeに預けたわけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ao1sl",
+     "text": "ただし、何でもあいまいにしていいわけではありません。任せていいのは、どちらに転んでも困らないことだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eofba",
+     "text": "はっきり書くこと：誰に向けたものか、絶対に入れたい情報、締め切り、使ってはいけない素材",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "24u60",
+     "text": "任せていいこと：色や飾り、章の分け方、グラフの種類、言い回し",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5s5lf",
+     "text": "「誰に向けたものか」があいまいだと、出てきたものを全部作り直すことになります。逆に、色や飾りまで細かく決めると、Claudeのセンスを活かせません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ae71h",
+     "text": "水彩画は、入っても入らなくても作品として成り立ちます。だからボリス氏は、あえて「かも」と書いて任せられたのです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "33l5m",
+     "text": "開発責任者のふだんの使い方",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1gji1",
+     "text": "3つの指示の話に入る前に、ボリス氏がふだんClaudeをどう使っているかも見ておきます。ここを知ると、3つの指示がなぜ効くのかが腑に落ちます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aje1d",
+     "text": "ギズモード・ジャパンの記事によると、本人はXで、自分のAIツールの設定は驚くほど普通だと語っていました。特別な裏技ではなく、使い方の考え方が違うわけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4p3rd",
+     "text": "まず、1つの画面でAIとじっくり話すことはしません。AIの画面を15個も同時に開き、別々の仕事を並行して投げて、自分は進み具合を見て回るスタイルです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ec1ka",
+     "text": "次に、モデルの賢さには妥協しません。速いモデルより、時間がかかっても深く正しく考えるOpusを選ぶそうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "da1mt",
+     "text": "理由はシンプルで、一発で正しい答えが出るほうが、何度も指示し直すより結局早いから。この考え方は、あとで出てくるモデル選びにもそのまま使えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "475r6",
+     "text": "さらにFortuneのイベントでは、ここ8か月、自分の手では1行もコードを書いていないと話しています。書く作業はほぼClaude Codeに任せ、人間の仕事は書くことから、確かめることに移ったそうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "687ug",
+     "text": "その確かめ方も独特です。Anthropicの中では、視点や性格の違う複数のClaudeにコードを見させていて、本人いわく、それでほとんどのバグを見つけられているそうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2dma2",
+     "text": "15個の画面を同時に回すなら、1つ1つに長い手順書を書いている暇はありません。だからこそ、「何を・どれくらい・どう確かめるか」だけを渡して、あとは任せるやり方になったのだと思います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2ofjr",
+     "text": "①「何をしてほしいか」は完成形で伝える",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1cr9e",
+     "text": "ここからは、3つの指示をClaude Codeでどう使うかを見ていきます。まずは1つ目の「何をしてほしいか」です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6dtpg",
+     "text": "コツは、手順ではなく「完成した姿」を書くことです。何ができあがったら終わりなのかが一文でわかると、Claudeは途中の道筋を自分で組み立てます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 5,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "425op",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "30rbj",
+     "text": "Afterには、ファイル名も作業の順番もありません。そのかわり、誰が見るのか、何ができれば完成なのかが入っています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9j5eb",
+     "text": "完成形をうまく書くコツは、次の3つを入れることです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f2c3t",
+     "text": "誰のためのものか（自分用、お客さん向け、初心者向けなど）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4nv47",
+     "text": "何ができたら完成か（押すと開く、1分で読める、など）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fm08",
+     "text": "何のために使うのか（説明に使う、毎日見る、など）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e9uqo",
+     "text": "迷ったら、「これができたら完成です」で終わる一文を足してみてください。それだけで、Claudeが向かう先がはっきりします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "56uln",
+     "text": "作るもの以外でも、考え方は同じです。たとえば調べ物を頼むときも、手順ではなく「何がわかれば終わりか」を書きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 6,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "6tnk8",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cf7op",
+     "text": "Beforeは作業の指示で、Afterは目的の指示です。Afterなら、何本読むか、どんな形でまとめるかは、Claudeが目的から逆算して決めてくれます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1qkq5",
+     "text": "もう一つ効くのが、「何のために作るのか」を添えることです。ボリス氏のプロンプトでいえば「ビジネスの知恵を伝える」がそれにあたり、このひと言があったから、どの章も最後に学びでまとめる形になりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e6mg2",
+     "text": "②「どれくらい」はモデルとエフォートで伝える",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "64o1",
+     "text": "2つ目の「どれくらい力を入れるか」は、言葉だけでなく、画面の設定でも伝えられます。使うのは「モデル」と「エフォート」の2つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9up9n",
+     "text": "どちらも、入力欄のモデル名を押すと出てくるメニューから選べます。下の画面のように、モデル名の下に「エフォート」の項目があり、「他のモデル」からモデルを切り替えられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 7,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "a05rj",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cv8tr",
+     "text": "まずはモデルです。いまのClaudeには、性格の違う3つの5.5世代モデルがそろっています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 8,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "al84k",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "84ep8",
+     "text": "Opus 5.5は、9月22日に登場したOpusの最新版です。Anthropicによると、ふだんの作業ならOpus 5より約4割安く使えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3tcdi",
+     "text": "Sonnet 5.5は、9月28日に登場しました。Sonnet 5より応答が30%以上速く、ふだんの作業ならコストも最大30%下がるとされています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f80ue",
+     "text": "Haiku 5.5は、10月上旬に登場したいちばん速いモデルです。要約や分類のような、軽くて量の多い作業に向いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c5gul",
+     "text": "Anthropicは、Sonnet 5.5をバグ修正や資料・スライド・表づくりのような、範囲がはっきりした作業向けと説明しています。Haiku 5.5については、Opus 5.5やSonnet 5.5と組み合わせて、軽い作業を担当する役として使えるとしています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3msui",
+     "text": "つまり、1つのモデルだけで全部をこなす必要はありません。たとえば、考える部分はOpus 5.5、毎日の手直しはSonnet 5.5、大量の要約はHaiku 5.5、という分け方ができます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8v2h8",
+     "text": "ボリス氏が賢いOpusを選ぶのは、何度も指示し直す手間を減らすためでした。迷ったら、やり直しが痛い作業ほど賢いモデルを、という基準で選ぶと失敗しにくいです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1d84r",
+     "text": "次にエフォートです。エフォートは「どれだけ考え込むか」の目盛りで、低・中・高・超高・最大の5段階があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c7714",
+     "text": "上の画面の②にあるとおり、エフォートを上げるほど回答は徹底的になりますが、時間がかかり、使用量の制限も速く減ります。最大には「5.5×以上の使用量」という注意まで表示されています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2ohal",
+     "text": "最初に選ばれているのは「中」で、おすすめの表示もここについています。迷ったら中のまま始めて、物足りなければ上げる、で十分です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1jb82",
+     "text": "私なりの目安を書いておくと、こんな感じです。あくまで目安なので、使いながら自分に合う段階を探してください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3ao21",
+     "text": "低：言い換え、短い要約、ちょっとした質問",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6jlck",
+     "text": "中：ふだんの作業のほとんど",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "al55h",
+     "text": "高：調べ物や、少し込み入った修正",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5hkoi",
+     "text": "超高：作り込みたい作品や、長く続く作業",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b99em",
+     "text": "最大：どうしても失敗できない大仕事だけ",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7aqss",
+     "text": "モデルとエフォートを組み合わせると、たとえばこう使い分けられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3id1m",
+     "text": "毎日のちょっとした修正：Sonnet 5.5＋中",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1b0kt",
+     "text": "資料の大量の要約：Haiku 5.5＋低〜中",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9reg8",
+     "text": "人に見せる作品づくり：Opus 5.5＋高〜超高",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "89fk5",
+     "text": "そのうえで、指示の中にも一言添えましょう。ボリス氏の「トークンをたくさん使って、納得できるまで改善して」は、まさにこの一言です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 9,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "6pr7s",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 10,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "14rh8",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3j29g",
+     "text": "モデルとエフォートで器を決めて、一言で気持ちを伝える。2つ目の指示は、この組み合わせで考えるとうまくいきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7vmh6",
+     "text": "③「どう確かめるか」がいちばん大事",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "67fgc",
+     "text": "3つの中で、私がいちばん大事だと思うのが3つ目です。ここを書くかどうかで、仕上がりの質が大きく変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "77car",
+     "text": "ボリス氏は7月の投稿でも、Claudeに自分の作業を最初から最後まで確かめる手段を渡すことが大切だと書いていました。自動のコードレビューやセキュリティチェックを、最初から入れておくべきだという話もしています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6uoo2",
+     "text": "この投稿のテーマは、AIの使い方が会社に広がっていく段階の話でした。1人だけ成果が10倍になっても、周りが追いついていない会社が多い、という問題意識です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "avsvu",
+     "text": "確かめる仕組みがあれば、人間がいちいち見張らなくても、安心して任せられます。だからこそ本人は、確かめる手段を渡すことを重視しているわけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2iscj",
+     "text": "ソフトづくりなら、テストを走らせるのが代表的な確かめ方です。でも非エンジニアでも、確かめ方の一言なら書けます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3fkco",
+     "text": "テストというと難しく聞こえますが、要は「ちゃんと動くかを試すこと」です。Claude Codeは、作ったものを自分で動かしたり、表示を確かめたりするところまで任せられるのが強みです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3ofv3",
+     "text": "だからこそ、「何を試せばOKなのか」を人間が一言で渡してあげると、Claude Codeは最後までやりきってくれます。逆にここが抜けると、作りっぱなしで「できました」と返ってきがちです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9eh3o",
+     "text": "用途別に、そのまま使える一言をまとめました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 11,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "dpdc9",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6fbo3",
+     "text": "最後の「確かめられなかったこと」を書かせるのが、地味に効きます。AIは、うまくいかなかった部分まで、うまくいったように書いてしまうことがあるからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1hr4k",
+     "text": "最後の「読者の立場でレビュー」は、ボリス氏のチームが視点の違うClaudeにコードを見させているのを、個人向けに小さくしたものです。作る役と見る役を分けるだけで、見落としはぐっと減ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d1m0u",
+     "text": "確かめ方を先に書いておくと、Claudeは作業の途中から「どう確かめられるか」を意識して動きます。人間の仕事でも、チェックリストを先にもらった人のほうが、仕上がりがきれいになるのと同じです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "10f9b",
+     "text": "この「確かめる仕組みを先に用意する」考え方は、過去記事「日本一やさしい Claude Code 変態ハーネス入門」でも詳しく書きました。3つ目の指示を仕組みにまで育てたい人は、あわせて読んでみてください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fdsvq",
+     "text": "やめていい昔の書き方5つ",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fr1a2",
+     "text": "3つの指示を意識すると、逆に「もう書かなくていいもの」も見えてきます。ボリス氏の言う「ガチガチに枠を組まなくていい」を、よくある書き方に当てはめてみました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "blhmh",
+     "text": "どれも禁止ではありません。ただ、書く手間に見合うほどの効果は、なくなりつつあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 12,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "f9kq6",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b0hti",
+     "text": "①の役割設定は、昔はよく効くと言われた書き方です。でも今のモデルなら、「誰に向けたものか」を書いたほうが、ずっと具体的に動いてくれます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ju4o",
+     "text": "②の制約条件の羅列は、項目が増えるほど、どれが本当に大事なのかがぼやけます。全部を同じ重さで並べるより、絶対に外せないものだけを書いたほうが、そこを確実に守ってくれます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a9ceq",
+     "text": "③の「絶対に間違えるな」は、気持ちはわかりますが、AIからすると何をすればいいかわかりません。間違いを減らしたいなら、どう確かめるかを書くほうが確実です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d2b15",
+     "text": "④の細かい手順の指定は、Claudeがもっといい進め方を思いついても、それを使えなくしてしまいます。ボリス氏のプロンプトに手順が一つもないのは、そのためです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5entv",
+     "text": "⑤のお手本の大量貼りは、AIがお手本に引っぱられて、似たものしか作らなくなることもあります。ボリス氏が「New York Timesのデータ可視化っぽく、でもそれ以上に」と一言で済ませたのは、いいお手本です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5ln16",
+     "text": "5つに共通するのは、「AIを縛る」から「AIに目的を渡す」への切り替えです。縛るための言葉を減らした分、目的と確かめ方に言葉を使いましょう。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cqqil",
+     "text": "ボリス流を自分の素材で試すなら",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3c0u",
+     "text": "ここまで読んで、ボリス氏のような作品を自分でも作ってみたくなった人もいると思います。その場合は、題材選びにだけ気をつけてください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8oeht",
+     "text": "ボリス氏が使ったのは、他人が作ったポッドキャストです。作品の中には、番組とは関係のない独立したまとめであることや、出典の一覧がきちんと入っています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fne06",
+     "text": "私たちが試すなら、自分で書いた記事やメモ、自分の会議の記録など、権利の心配がない素材から始めるのが安全です。他人の書き起こしや画像をそのまま流しこむと、思わぬトラブルになりかねません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "afiov",
+     "text": "3つの指示に沿って書くと、たとえばこうなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 13,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "68gt5",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2h503",
+     "text": "1段落目が「何を」、2段落目が「どれくらい」、3段落目が「どう確かめるか」です。手順は書かず、3つの中身だけをはっきり書いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7frqc",
+     "text": "ポイントは、確かめ方に「記事にない情報を足していないか」を入れたことです。きれいなページほど、AIがもっともらしい話を足していても気づきにくいからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ea1nv",
+     "text": "昔のプロンプトを、まるごと書き換えてみる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9ltqb",
+     "text": "最後に、よくある「作り込んだプロンプト」を1本まるごと、ボリス流に書き換えてみます。題材は、ブログ記事を書いてもらう依頼です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 14,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "96b5m",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4d6f5",
+     "text": "Beforeは、書き方のルールが細かく決まっているのに、「誰のための記事か」がどこにもありません。Afterは、読者と完成の条件がはっきりしていて、字数や見出しの数はClaudeに任せています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cmv4m",
+     "text": "「絶対に事実と違うことを書かない」も、Afterでは「出典を確認して、確認できなかったものは削る」という確かめ方に変わりました。念を押すかわりに、やることを渡したわけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ea9lq",
+     "text": "見た目の長さは、そこまで変わりません。変わったのは、言葉を使う場所です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "s4t1",
+     "text": "よくある疑問",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 24,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "eri0l",
+     "text": "Q. 短く書いて、思ったものが出てこなかったら？",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9v0gp",
+     "text": "まずは3つのどれが抜けていたかを見直してください。多くの場合、「何ができたら完成か」か「どう確かめるか」が抜けています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "20gbi",
+     "text": "それでも違うなら、出てきたものを見ながら「ここはこうしてほしい」と追加で伝えればOKです。同僚に頼んだ仕事でも、1回で完璧に伝わることは少ないですよね。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 26,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "fe45i",
+     "text": "Q. 今まで作ったプロンプトのテンプレは捨てるべき？",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1o82",
+     "text": "捨てなくて大丈夫です。ただ、役割設定や長い制約の部分は削って、そのかわりに完成形と確かめ方を足すと、今のモデルにはよく効きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 21,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "fuvjr",
+     "text": "Q. Claudeアプリで頼むときも同じ？",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e148j",
+     "text": "同じです。ボリス氏のホームデポの作品も、Claudeアプリで作られています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ht9c",
+     "text": "アプリでは、9月16日から資料をつくるClaude DocsやスライドをつくるClaude Slidesが、会話の中で使えるようになりました（有料プランのベータ機能）。「資料にしてほしい」「スライドにしてほしい」と完成形を伝えるだけで、形まで整えてくれます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 34,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "cah32",
+     "text": "Q. 結局、全部Opus 5.5のエフォート最大にすればいいのでは？",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9b941",
+     "text": "品質だけを見ればそうかもしれませんが、時間も使用量も大きく増えます。ボリス氏も、作業の重さに合わせて力の入れ具合を伝えることを、3つの指示の1つに数えています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bhi1f",
+     "text": "3つだけでは足りない場面",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "edbg2",
+     "text": "最後に、注意点も4つ書いておきます。3つの指示は便利ですが、万能ではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7o44v",
+     "text": "1つ目は、事実や数字の正しさです。海外の解説記事も、ボリス氏の作品に出てくる歴史や財務の数字までは検証していないと断っています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "79nqi",
+     "text": "見た目がきれいな作品ほど、間違いももっともらしく見えます。人に見せる数字は、自分でも裏を取りましょう。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ejcjg",
+     "text": "2つ目は、使用量です。ボリス氏のスクショには、「OpusはSonnetより使用量を速く消費する」という表示が写っていました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5sa7s",
+     "text": "そこにエフォート最大を重ねると、使用量はさらに増えます。画面にも「5.5×以上の使用量」と出ていたとおりです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8l5fr",
+     "text": "「とりあえず全部Opusの最大」は、いちばん高くつく選び方です。ふだんはSonnet 5.5やエフォート中で回して、ここぞという作業だけ上げるのがおすすめです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cqbae",
+     "text": "3つ目は、渡す情報の中身です。任せる範囲が広がるほど、Claudeが読むファイルや資料も増えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "chspt",
+     "text": "お客さんの個人情報や社外秘の資料が混ざっていないかは、頼む前に人間が確認しておきましょう。会社で使う場合は、社内のルールもあわせて確かめておくと安心です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1tcae",
+     "text": "4つ目は、任せきりにしないことです。ボリス氏も、試作の段階と、本番で使うものとでは、人間の確認の重さを分けて考えています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "vun2",
+     "text": "試作なら、動けばまずはOK。でも、お客さんに見せるものや毎日使う仕組みに入れるなら、最後は人間が目を通してから出しましょう。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "db1bu",
+     "text": "プロンプトの秘訣を探す時代は、終わりつつあります。これからは、何を任せて何を確かめるかを決める力が、そのまま使いこなす力になっていきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aoikp",
+     "text": "任せるところは大胆に任せて、確かめるところは人間が締める。新時代のClaude Code活用術は、この2つの組み合わせです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1cdin",
+     "text": "無料の8点セットを配布中",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7j0os",
+     "text": "Codex・Claude Code導入ガイド",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "90a8q",
+     "text": "初回に使えるコピペ指示文3本",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d33vu",
+     "text": "困ったときの早見表",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5f6t9",
+     "text": "作って遊べるミニアプリ50本",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8vg5p",
+     "text": "GPT Image 2.5向け画像プロンプト50本",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5f56b",
+     "text": "AI臭さを消す日本語スキル「yomiyasu」の入れ方",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8j2mc",
+     "text": "2〜3語で作れるタイトルジェネレーター",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6vl3b",
+     "text": "X収益化までの流れとリアルな金額",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 0,
+        "text": "https://x.gd/VtPmw",
+        "toIndex": 18
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 15,
+       "length": 18,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "aqret",
+     "text": "https://x.gd/VtPmw",
+     "type": "unstyled"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "12",
+     "value": {
+      "data": {
+       "markdown": "```\n① 「あなたはプロの〇〇です」から始める\n→ 誰に向けたものか、何のために作るかを書く\n\n② 「#制約条件」「#出力形式」をずらっと並べる\n→ 本当に守ってほしいことを1〜2個だけ書く\n\n③ 「絶対に間違えるな」「完璧にして」と念を押す\n→ どう確かめるかを書く\n\n④ 手順を1から10まで指定する\n→ 完成した姿を書いて、進め方は任せる\n\n⑤ お手本を大量に貼りつける\n→ 目指す水準を一言で伝える（例：新聞のグラフのように見やすく）\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "8",
+     "value": {
+      "data": {
+       "entityKey": "7950daa3-69b0-4cc9-81ad-bd9862940af4",
+       "mediaItems": [
+        {
+         "localMediaId": "7",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2109433692976525312"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "4",
+     "value": {
+      "data": {
+       "tweetId": "2107567244335308920"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "15",
+     "value": {
+      "data": {
+       "url": "https://x.gd/VtPmw"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "11",
+     "value": {
+      "data": {
+       "markdown": "```\n【調べ物】\n出典と日付を必ず確認して、確認できなかった情報は「未確認」と書いてください。\n\n【サイトやアプリ】\n完成したら実際に動かして、スマホの幅でも表示が崩れないか確かめてください。\n\n【資料・記事】\n数字はすべて元の資料と突き合わせて、合わないものがあれば教えてください。\n\n【修正】\n直したあとに、前から動いていた機能が壊れていないか確認してください。\n\n【長い作業】\n終わったら、やったこと・確かめたこと・確かめられなかったことを分けて報告してください。\n\n【大事な成果物】\n仕上げる前に、読者の立場で厳しめにレビューして、直すべき点を3つ挙げてから直してください。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "9",
+     "value": {
+      "data": {
+       "markdown": "```\n時間をかけていいので、納得できるまで見直してから見せてください。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "13",
+     "value": {
+      "data": {
+       "markdown": "```\n私が書いた次の記事を、初めて読む人向けの「操作できる解説ページ」にしてほしい。\n読み終えたら、記事の要点を3つ人に説明できる状態がゴールです。\n\n時間をかけていいので、見た目も中身も納得できるまで作り込んでください。\n新聞のデータ解説のように見やすくしてください。\n\n完成したら、記事にない情報を足していないか、元の記事と1文ずつ突き合わせて確認してください。\nスマホの幅でも崩れないかも確かめてください。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "5",
+     "value": {
+      "data": {
+       "markdown": "```\n【Before】\nあなたはプロのWebエンジニアです。\nまずindex.htmlを作り、次にstyle.cssを作ってください。\nヘッダーを入れて、その下に記事の一覧を並べて、フッターを入れてください。\n\n【After】\n自分のX記事の一覧を、スマホで見やすい1ページのサイトにしてほしい。\n記事のタイトルと日付が並んでいて、押すと記事が開く状態がゴールです。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "10",
+     "value": {
+      "data": {
+       "markdown": "```\nざっくりでいいので、すぐ終わる範囲でお願いします。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "6",
+     "value": {
+      "data": {
+       "markdown": "```\n【Before】\nClaude Codeについて検索して、記事を10本読んで、要点をまとめて、表にしてください。\n\n【After】\nClaude Codeを初めて使う会社員が、「何から始めればいいか」を判断できる材料がほしい。\n読み終えたら、最初の1週間でやることが決められる状態がゴールです。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "entityKey": "b5cece6b-1763-4946-aa35-335258485e08",
+       "mediaItems": [
+        {
+         "localMediaId": "1",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2109430829118337024"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "14",
+     "value": {
+      "data": {
+       "markdown": "```\n【Before】\nあなたはプロのWebライターです。\n#目的：ブログ記事を書く\n#テーマ：在宅ワークの集中力\n#制約条件：\n・3000字程度\n・見出しは5つ\n・専門用語は使わない\n・絶対に事実と違うことを書かない\n・です・ます調\n#出力形式：見出し→本文→まとめ\nでは、ステップバイステップで考えて書いてください。\n\n【After】\n在宅ワークで集中が続かない会社員が、明日から1つ試せることが見つかる記事を書いてほしい。\n読み終えた人が「これならやれそう」と思えたら完成です。\n\n時間をかけていいので、構成から納得できるまで練ってください。\n\n書き終えたら、研究やデータに触れた部分の出典を確認して、確認できなかったものは削ってください。\n最後に、専門用語が残っていないか読み直してください。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "tweetId": "2107565388250874193"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "tweetId": "2107516876876362200"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "7",
+     "value": {
+      "data": {
+       "entityKey": "42b38de0-1581-4810-affa-c60f3d59e280",
+       "mediaItems": [
+        {
+         "localMediaId": "5",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2109433561959075840"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "3",
+     "value": {
+      "data": {
+       "entityKey": "3d1558b7-0bcc-48fc-8c61-f260a4c51b76",
+       "mediaItems": [
+        {
+         "localMediaId": "3",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2109432118107676672"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    }
+   ]
+  },
+  "media_entities": [
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUY0Ka/bMAAKAAIMTBjpCtTQAAAA",
+    "media_id": "2109430829118337024",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 95.53,
+        "rgb": {
+         "blue": 42,
+         "green": 23,
+         "red": 15
+        }
+       },
+       {
+        "percentage": 2.1,
+        "rgb": {
+         "blue": 123,
+         "green": 108,
+         "red": 102
+        }
+       },
+       {
+        "percentage": 2.08,
+        "rgb": {
+         "blue": 248,
+         "green": 250,
+         "red": 249
+        }
+       },
+       {
+        "percentage": 0.41,
+        "rgb": {
+         "blue": 117,
+         "green": 109,
+         "red": 106
+        }
+       }
+      ]
+     },
+     "original_img_height": 899,
+     "original_img_url": "https://pbs.twimg.com/media/HUY0Ka_bMAAE3n9.jpg",
+     "original_img_width": 1044
+    },
+    "media_key": "3_2109430829118337024"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUY1Vc2boAAKAAIMTBjpCtTQAAAA",
+    "media_id": "2109432118107676672",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 95.37,
+        "rgb": {
+         "blue": 42,
+         "green": 23,
+         "red": 15
+        }
+       },
+       {
+        "percentage": 2.25,
+        "rgb": {
+         "blue": 129,
+         "green": 110,
+         "red": 103
+        }
+       },
+       {
+        "percentage": 1.97,
+        "rgb": {
+         "blue": 248,
+         "green": 250,
+         "red": 249
+        }
+       },
+       {
+        "percentage": 0.49,
+        "rgb": {
+         "blue": 120,
+         "green": 115,
+         "red": 111
+        }
+       }
+      ]
+     },
+     "original_img_height": 843,
+     "original_img_url": "https://pbs.twimg.com/media/HUY1Vc2boAAbRfU.jpg",
+     "original_img_width": 1044
+    },
+    "media_key": "3_2109432118107676672"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUY2pfnbkAAKAAIMTBjpCtTQAAAA",
+    "media_id": "2109433561959075840",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 93.58,
+        "rgb": {
+         "blue": 42,
+         "green": 23,
+         "red": 15
+        }
+       },
+       {
+        "percentage": 2.69,
+        "rgb": {
+         "blue": 119,
+         "green": 107,
+         "red": 101
+        }
+       },
+       {
+        "percentage": 2.03,
+        "rgb": {
+         "blue": 50,
+         "green": 55,
+         "red": 56
+        }
+       },
+       {
+        "percentage": 1.74,
+        "rgb": {
+         "blue": 248,
+         "green": 250,
+         "red": 249
+        }
+       }
+      ]
+     },
+     "original_img_height": 843,
+     "original_img_url": "https://pbs.twimg.com/media/HUY2pfnbkAAqZeM.jpg",
+     "original_img_width": 1044
+    },
+    "media_key": "3_2109433561959075840"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUY2xHsbMAAKAAIMTBjpCtTQAAAA",
+    "media_id": "2109433692976525312",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 95.83,
+        "rgb": {
+         "blue": 42,
+         "green": 23,
+         "red": 15
+        }
+       },
+       {
+        "percentage": 1.9,
+        "rgb": {
+         "blue": 248,
+         "green": 250,
+         "red": 249
+        }
+       },
+       {
+        "percentage": 1.77,
+        "rgb": {
+         "blue": 119,
+         "green": 107,
+         "red": 101
+        }
+       },
+       {
+        "percentage": 0.68,
+        "rgb": {
+         "blue": 118,
+         "green": 110,
+         "red": 102
+        }
+       }
+      ]
+     },
+     "original_img_height": 843,
+     "original_img_url": "https://pbs.twimg.com/media/HUY2xHsbMAAH7jH.jpg",
+     "original_img_width": 1044
+    },
+    "media_key": "3_2109433692976525312"
+   }
+  ]
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

@@ -1,0 +1,18 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "clay",
+  "mark": "sparkle",
+  "transition": "whip",
+  "brand": "CLAUDE CODE",
+  "footer": "出典：@29meat_ai のX記事",
+  "scenes": [
+    { "type": "burst", "dur": 2.8, "tag": "Claude Code開発責任者いわく", "ghost": "NO PROMPT TRICKS", "title": "プロンプトの\n秘訣は[[ない]]", "sub": "伝えるのは、3つだけ", "sparkles": [[14, 24, 1], [86, 22, 0.7], [82, 76, 1.2], [17, 78, 0.6]] },
+    { "type": "checklist", "dur": 3.0, "tag": "ボリス・チェルニー氏の3つ", "title": "Claudeに伝えるのはこれだけ", "items": ["何をしてほしいか（完成した姿）", "どれくらい力を入れるか", "正しくできたか、どう確かめるか"] },
+    { "type": "beforeAfter", "dur": 3.2, "tag": "やめていい書き方", "title": "縛るより、目的を渡す", "before": { "label": "Before", "lines": ["「あなたはプロの〇〇です」", "手順を1から10まで指定"] }, "after": { "label": "After", "lines": ["[[誰向けか・何ができたら完成か]]", "進め方はClaudeに任せる"] } },
+    { "type": "split", "dur": 3.2, "tag": "「どれくらい」は設定で伝える", "title": "モデル ×\nエフォート", "items": ["修正：{{Sonnet 5.5}}＋中", "要約：{{Haiku 5.5}}＋低〜中", "作品：[[Opus 5.5]]＋高〜超高"] },
+    { "type": "code", "dur": 3.4, "tag": "いちばん効く「確かめ方」の一言", "file": "長い作業を頼むとき", "lines": ["終わったら、", "やったこと・確かめたこと・", "[[確かめられなかったこと]]", "を分けて報告してください。"], "note": "うまくいかなかった部分の「できました」を防ぐ" },
+    { "type": "cta", "dur": 3.0, "tag": "詳しくは記事で", "title": "用途別の\n[[確かめ方6選]]", "go": "コピペで使える書き換え例つき", "name": "にく", "id": "@29meat_ai", "image": "cover.jpg" }
+  ]
+}

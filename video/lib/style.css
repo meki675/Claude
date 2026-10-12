@@ -180,7 +180,7 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .chat .me .em, .chat .me .em2 { color: #fff; text-decoration: underline 4px; text-underline-offset: 8px; }
 
 /* 11 code */
-.code .win2 { border-radius: 24px; overflow: hidden; border: 2px solid var(--stroke); background: #0a0c10; box-shadow: 0 40px 80px rgba(0,0,0,.5); }
+.code .win2 { color: #ece9e2; border-radius: 24px; overflow: hidden; border: 2px solid var(--stroke); background: #0a0c10; box-shadow: 0 40px 80px rgba(0,0,0,.5); }
 .code .bar2 { height: 64px; background: #161a22; display: flex; align-items: center; gap: 14px; padding: 0 28px; }
 .code .bar2 i { width: 20px; height: 20px; border-radius: 50%; background: #ff5f57; } .code .bar2 i:nth-child(2) { background: #febc2e; } .code .bar2 i:nth-child(3) { background: #28c840; }
 .code .bar2 span { margin-left: 18px; font-size: 26px; color: var(--muted); font-weight: 500; }
