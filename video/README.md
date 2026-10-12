@@ -10,9 +10,9 @@ node video/render.mjs video/posts/<名前>/script.json --out video/posts/<名前
 - 構図は20種類あります。一覧と使いどころは `video/patterns/catalog.html`、見本動画は `video/patterns/showcase.mp4`、全種類の書き方は `video/patterns/showcase.json` を見てください。
 - 文字の書式: `[[強調]]` はオレンジ、`{{強調}}` は青、`==マーカー==` は蛍光ペン、`\n` は改行です。
 - フォントは見出しが Dela Gothic One、本文と中見出しが Noto Sans JP（どちらも SIL OFL、`video/fonts/`）。`orchard` 配色だけ見出しが明朝（Shippori Mincho B1、SIL OFL）になります。
-- 冒頭用に `burst`（巨大文字が突っ込む＋閃光＋揺れ＋放射線）、`stomp`（1文字ずつ叩きつける）、`shutter`（左右の扉が開く）、`ripple`（波紋から弾ける）があります。`quiz`（問い→選択肢→正解が光る）もあります。
+- 冒頭用に `burst`（巨大文字が突っ込む＋閃光＋揺れ＋放射線）、`stomp`（1文字ずつ叩きつける）、`shutter`（左右の扉が開く）、`ripple`（波紋から弾ける）、`orbit`（単色の画面に輪で囲んだ巨大数字）があります。`quiz`（問い→選択肢→正解が光る）もあります。
 - 切り替えは `"transition"` に `whip / zoom / flash / slide / spin / fade` を1つ、または配列で場面ごとに書きます（シーンに `"tr"` を書くとそのシーンだけ変更）。
-- 構成を毎回変えるための参考リポジトリと構成の型は `references.md`。
+- 構成を毎回変えるための参考サイト・参考リポジトリ・構成の型は `references.md`。`node video/inspire.mjs <フォルダ>` で、8つの参考サイトから最近使っていないものを開いて画像に保存します。
 - 配色: `"theme"` に `ember / neon / forest / ocean / crimson / violet / navy / orchard / paper / pop / mint / sky` のどれかを書きます。省略すると台本の中身から自動で選ぶので、動画ごとに色が変わります（`"random"` は毎回ランダム、`"themeOverrides": {"accent": "#..."}` で個別に上書き）。`lib/themes.js` に追加できます。
 - `"mark": "sparkle"` でロゴ印とCTAのアイコンがキラッとした星になります。burst の `"sparkles": [[x%, y%, 大きさ], ...]` で冒頭に星を散らせます（`"shape": "leaf"` で葉っぱ）。cta の `"image": "cover.jpg"`（script.json からの相対パス）で記事のサムネを添えられます。
 - BGM: `python3 video/bgm.py <秒数> <出力.wav> [--bpm 136] [--mood bright]` で合成BGMを作り、ffmpeg で mp4 に重ねます（`posts/projects-coordinator/` 参照）。

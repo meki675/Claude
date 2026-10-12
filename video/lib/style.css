@@ -344,3 +344,20 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 /* CTA に記事のサムネ画像を添える（"image"） */
 .cta .cimg { position: absolute; right: 110px; top: 50%; width: 820px; margin-top: -170px; z-index: 1; }
 .cta .cimg img { width: 100%; display: block; border-radius: 24px; border: 2px solid var(--stroke); box-shadow: 0 30px 60px var(--shadow, rgba(0,0,0,.35)); transform: rotate(2deg); }
+
+/* 26 orbit（単色の背景に巨大数字＋描かれる輪） */
+.orbit { background: var(--accent); color: var(--on-accent); }
+.orbit .orow { display: flex; align-items: center; gap: 60px; }
+.orbit .onum { font-family: var(--head); font-size: 300px; line-height: 1; position: relative; top: -10px; }
+.orbit .oring { position: relative; width: 460px; height: 460px; display: grid; place-items: center; }
+.orbit svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.orbit circle { fill: none; stroke: var(--on-accent); }
+.orbit circle.draw { stroke-width: 22; stroke-linecap: round; stroke-dasharray: 100; transform: rotate(-90deg); transform-origin: center; }
+.draw { animation-name: draw; --len: .7s; } @keyframes draw { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+.orbit circle.dash { stroke-width: 1.5; stroke-dasharray: 3 5; opacity: .7; }
+.orbit .oin { font-family: var(--head); font-size: 150px; line-height: 1.15; text-align: left; }
+.orbit .dot { position: absolute; left: 50%; top: 50%; width: 16px; height: 16px; margin: -8px; border-radius: 50%; background: var(--on-accent); }
+.orbitspin { animation-name: orbitspin; --len: 3s; animation-timing-function: linear; }
+@keyframes orbitspin { from { opacity: 0; transform: rotate(var(--a0)) translateX(248px); } 10% { opacity: 1; } to { opacity: 1; transform: rotate(calc(var(--a0) + 160deg)) translateX(248px); } }
+.orbit .otag { font-size: 30px; letter-spacing: .5em; font-weight: 700; opacity: .8; }
+.orbit .sub { color: var(--on-accent); opacity: .85; }

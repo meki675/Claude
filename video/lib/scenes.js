@@ -217,6 +217,20 @@
       ${sub(s.note, reveal + 0.3)}`;
   };
 
+  // 26. 冒頭：単色の画面に巨大数字。輪が描かれ、その中に小さな言葉（参考: Motionographer 20 years）
+  S.orbit = (s) => `
+    <div class="orow">
+      <div class="oring">
+        <svg viewBox="0 0 200 200"><circle class="a draw" style="--d:.35s" cx="100" cy="100" r="88" pathLength="100"/>
+          <circle class="a fade dash" style="--d:.9s" cx="100" cy="100" r="98"/></svg>
+        ${A('onum boing', 0.1, fmt(s.num))}
+        ${[0, 1, 2].map((i) => `<i class="a dot orbitspin" style="--d:${0.9 + i * 0.1}s;--a0:${i * 120}deg"></i>`).join('')}
+      </div>
+      ${A('oin left', 0.75, fmt(s.inner))}
+    </div>
+    ${s.tagline ? A('otag fade', 1.0, fmt(s.tagline)) : ''}
+    ${sub(s.sub, 1.2)}`;
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -228,7 +242,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

@@ -1,0 +1,19 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "mono",
+  "structure": "数字で掴む",
+  "reference": "（初回のため参考なし。shutter・quiz・場面ごとの切り替えを新しく作成）",
+  "transition": ["zoom", "flash", "slide", "spin", "zoom", "flash"],
+  "brand": "CLAUDE CODE × COMPUTER USE",
+  "footer": "出典：@MakeAI_CEO のX記事",
+  "scenes": [
+    { "type": "shutter", "dur": 2.8, "left": "Claude Code", "right": "Computer Use", "tag": "APIがないアプリも", "title": "画面越しに\n[[CapCutが動く]]", "sub": "Claudeが画面を見て、押して、確かめる" },
+    { "type": "counter", "dur": 3.0, "tag": "44.4秒のリールを任せた結果", "title": "依頼は「次だけCapCut立ち上げてやってみて」", "nums": [ { "label": "字幕", "to": 26, "unit": "個" }, { "label": "差し込み画像", "to": 15, "unit": "枚", "color": "blue" } ], "note": "書き出しまでClaude Codeが進めた" },
+    { "type": "quiz", "dur": 3.6, "tag": "裏で動かすときのコツ", "q": "ボタンが効かないとき、通ったのは？", "options": ["同じ場所を連打する", "ダブルクリック・ツールバー・キーボード", "メニューから探し直す"], "answer": 1, "note": "「無効」のメニューも、ツールバーのボタンなら押せた" },
+    { "type": "timeline", "dur": 3.2, "tag": "頼む前に、道具の順番", "title": "Computer Use は最後の手段", "points": [ { "t": "1. MCP・コネクタ", "s": "Gmail・Slackは\nこちらで" }, { "t": "2. Bash・Chrome", "s": "Webの作業は\nClaude in Chrome" }, { "t": "3. Computer Use", "s": "連携がない\nアプリだけ" } ] },
+    { "type": "code", "dur": 4.0, "tag": "そのまま使える頼み方の型", "file": "依頼文の5項目", "lines": ["アプリ名　：CapCut で", "素材の場所：ムービーフォルダの下", "やること　：件数と対象を数字で", "[[しないこと：購入・投稿・送信]]", "見せるもの：書き出したファイル"] },
+    { "type": "cta", "dur": 3.0, "tag": "詳しくは記事で", "title": "Computer Use\n[[神活用術10選]]", "go": "実例10個と注意点まとめ", "name": "mana｜株式会社MakeAI CEO", "id": "@MakeAI_CEO", "image": "cover.jpg" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "clay",
+  "structure": "誤解→真実",
+  "inspiration": { "site": "motionographer", "work": "トップの「20 years」ロゴ", "idea": "単色の全面背景に巨大数字、0を輪で囲んで中に小さな言葉、点線の軌道と粒" },
+  "transition": ["zoom", "slide", "flash", "spin", "zoom"],
+  "brand": "CLAUDE CODE",
+  "footer": "出典：@29meat_ai のX記事",
+  "scenes": [
+    { "type": "orbit", "dur": 3.0, "num": "3", "inner": "つだけ", "tagline": "WHAT  ·  HOW HARD  ·  HOW TO CHECK", "sub": "Claude Code開発責任者いわく、伝えるのはこれだけ" },
+    { "type": "versus", "dur": 3.4, "tag": "プロンプトの常識、変わった", "title": "長く書くほど良い？", "a": { "label": "これまで", "value": "長い指示", "note": "役割・制約・手順・お手本" }, "b": { "label": "これから", "value": "3つだけ", "note": "完成形・力の入れ具合・確かめ方" }, "win": "b" },
+    { "type": "marker", "dur": 3.0, "tag": "変わったのは", "text": "言葉の量ではなく\n==どこに力を入れるか==", "sub": "手順より、目標と確かめ方に言葉を使う" },
+    { "type": "code", "dur": 3.6, "tag": "そのまま使える「確かめ方」", "file": "サイトやアプリを頼むとき", "lines": ["完成したら実際に動かして、", "[[スマホの幅でも表示が崩れないか]]", "確かめてください。"] },
+    { "type": "cta", "dur": 3.0, "tag": "詳しくは記事で", "title": "用途別の\n[[確かめ方6選]]", "go": "コピペで使える書き換え例つき", "name": "にく", "id": "@29meat_ai", "image": "cover.jpg" }
+  ]
+}
