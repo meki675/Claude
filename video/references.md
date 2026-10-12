@@ -26,6 +26,8 @@
 |---|---|
 | `orbit` | Motionographer トップ「20 years」：単色の全面背景・輪で囲む巨大数字・点線の軌道と粒・字間の広い英字 |
 | `shutter` | （サムネの2色ロゴから）左右の扉が開く |
+| `stickers` | TikTok Creative Center のトップ広告サムネ：白い箱のテロップを1枚ずつ貼る |
+| `pipeline` / `gate` | 記事サムネ（Claude→鍵→書類→リストの鎖）：ファイルがレールを進んで関門が光る／弾かれて別の道へ回る（図形を動かすモーショングラフィック） |
 | `scorecard` | Motion Design Awards「VIDEO OF THE DAY」：斜めストライプ・大きな総合点・点数タイルの横並び |
 | `poster` ＋ 切り替え `cine` | Vimeo Staff Picks「DEAR [NAME]」：上下の黒帯・ゆっくり寄るカメラ・角かっこの題名・丸バッジ・下のクレジット |
 

@@ -26,6 +26,8 @@
     mono:   { ...light, bg: '#ffffff', bg2: '#f5f2ef', text: '#181818', muted: '#6f6a66', accent: '#d4785a', 'accent-hi': '#eba387', accent2: '#a0604a', 'on-accent': '#fff',
               shadow: 'rgba(0,0,0,.10)', stroke: 'rgba(0,0,0,.12)', panel: 'rgba(0,0,0,.03)' },
     terra:  { ...dark, bg: '#1d1a19', bg2: '#2b2321', text: '#f6ece4', muted: '#b3a49a', accent: '#e2694c', 'accent-hi': '#f2a07f', accent2: '#f2c4a6', 'on-accent': '#fff' },
+    glass:  { ...light, bg: '#fbfaf9', bg2: '#efebe7', text: '#1b1b1b', muted: '#6c665f', accent: '#f2782b', 'accent-hi': '#ffb070', accent2: '#2fa865', 'on-accent': '#fff',
+              shadow: 'rgba(150,80,20,.16)', stroke: 'rgba(0,0,0,.10)', panel: 'rgba(255,255,255,.7)' },
   };
   const hash = (str) => { let h = 2166136261; for (const c of str) { h ^= c.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
   const pick = (script) => {

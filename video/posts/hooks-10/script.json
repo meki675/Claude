@@ -1,0 +1,19 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "glass",
+  "structure": "仕組み図解（モーショングラフィック）",
+  "inspiration": { "site": "tiktok-creative-center", "work": "トップ広告の一覧に見えた広告サムネの白い箱テロップ", "idea": "冒頭の悩みを、白い箱のテロップを1枚ずつ貼る形で見せる。本編は記事サムネの「Claude→鍵→書類チェック→リストチェック」の鎖を図として動かす" },
+  "transition": ["zoom", "slide", "whip", "flash", "slide", "zoom"],
+  "brand": "CLAUDE CODE HOOKS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "stickers", "dur": 3.0, "step": 0.5, "lines": ["「確認してから進めて」", "って頼んだのに…", "[[確認した形跡がない]]"] },
+    { "type": "pipeline", "dur": 5.2, "tag": "Hooksでできること", "title": "決めたタイミングに、検査をつなぐ", "travel": 3.8, "stations": [ { "icon": "lock", "label": "実行前に止める", "event": "PreToolUse" }, { "icon": "doc", "label": "編集後に照合", "event": "PostToolUse" }, { "icon": "list", "label": "終わる前に確認", "event": "Stop" } ] },
+    { "type": "gate", "dur": 4.0, "tag": "応用例01", "title": "原本は守り、修正は別ファイルへ", "blocked": "original/\n原本", "allowed": "output/\n修正版", "note": "原本への書き込みは、実行前（PreToolUse）で止める" },
+    { "type": "grid", "dur": 3.4, "tag": "同じ「終了コード2」でも", "title": "どこで失敗したかで、動きが変わる", "cols": 3, "tiles": [ { "t": "PreToolUse\nツールの呼び出しを\n止める" }, { "t": "PostToolUse\nすでに実行済み。\n取り消さない" }, { "t": "Stop\n終わらずに\n続きを求める" } ] },
+    { "type": "code", "dur": 3.6, "tag": "最初の一本は、この依頼から", "file": "コピーして使う", "lines": ["繰り返す確認を、Hooksに", "つなげられる形へ分けて。", "[[実行前・編集後・完了時を混ぜない]]"] },
+    { "type": "cta", "dur": 3.0, "tag": "詳しくは記事で", "title": "Hooks活用\n[[10の設計]]", "go": "原本保護から動画の検収まで", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari", "image": "cover.jpg" }
+  ]
+}

@@ -1,0 +1,1469 @@
+{
+ "url": "https://x.com/seiri_gakari/status/2109736559989895659",
+ "id": "2109736559989895659",
+ "text": "https://x.com/i/article/2109731110154641408",
+ "raw_text": {
+  "text": "https://t.co/iZqFqcr5DS",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/iZqFqcr5DS",
+    "replacement": "https://x.com/i/article/2109731110154641408",
+    "display": "x.com/i/article/2109…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "seiri_gakari",
+  "url": "https://x.com/seiri_gakari",
+  "id": "1521832985808748544",
+  "followers": 154,
+  "following": 19,
+  "likes": 1219,
+  "media_count": 66,
+  "name": "ナギ｜AIで残業消した人",
+  "description": "残業の手作業をAIで消した非エンジニア｜AIノウハウを副業に当てて90日で10万達成｜副業はClaude Codeで自動化構築│今すぐ使える残業を消す方法まとめました👇️",
+  "raw_description": {
+   "text": "残業の手作業をAIで消した非エンジニア｜AIノウハウを副業に当てて90日で10万達成｜副業はClaude Codeで自動化構築│今すぐ使える残業を消す方法まとめました👇️",
+   "facets": []
+  },
+  "location": "",
+  "banner_url": "https://pbs.twimg.com/profile_banners/1521832985808748544/1790389300",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2080811969708466176/rVr40lbP_200x200.jpg",
+  "joined": "Wed May 04 12:44:05 +0000 2022",
+  "protected": false,
+  "website": {
+   "url": "https://line.me/ti/g2/PNbqou1ljR04IzaJjW1ByRc6oHlMXyWkWSVsyg",
+   "display_url": "line.me/ti/g2/PNbqou1l…"
+  },
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 0,
+ "retweets": 0,
+ "likes": 0,
+ "bookmarks": 0,
+ "quotes": 0,
+ "created_at": "Mon Oct 12 20:02:47 +0000 2026",
+ "created_timestamp": 1791835367,
+ "possibly_sensitive": false,
+ "views": 2,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "1970-01-01T00:00:00.000Z",
+  "modified_at": "2026-10-12T20:02:47.000Z",
+  "id": "2109731110154641408",
+  "title": "Claude Codeのフルパワーを引き出すHooks活用10選",
+  "preview_text": "「確認してから進めて」と頼んだのに、完成報告を読むと確認した形跡がない。\nClaude",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAAFCgABHUdFY/MbcAAKAAIVHqMJnppAAAAA",
+   "media_id": "2109731246029107200",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 80.65,
+       "rgb": {
+        "blue": 253,
+        "green": 253,
+        "red": 254
+       }
+      },
+      {
+       "percentage": 8.7,
+       "rgb": {
+        "blue": 47,
+        "green": 123,
+        "red": 250
+       }
+      },
+      {
+       "percentage": 5.56,
+       "rgb": {
+        "blue": 143,
+        "green": 182,
+        "red": 248
+       }
+      },
+      {
+       "percentage": 1.78,
+       "rgb": {
+        "blue": 90,
+        "green": 167,
+        "red": 254
+       }
+      },
+      {
+       "percentage": 0.89,
+       "rgb": {
+        "blue": 21,
+        "green": 83,
+        "red": 227
+       }
+      }
+     ]
+    },
+    "original_img_height": 793,
+    "original_img_url": "https://pbs.twimg.com/media/HUdFY_MbcAA6EG9.jpg",
+    "original_img_width": 1983
+   },
+   "media_key": "3_2109731246029107200"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8ok0p",
+     "text": "「確認してから進めて」と頼んだのに、完成報告を読むと確認した形跡がない。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8gbhl",
+     "text": "Claude Codeの自動化を深く使うほど、この違いが気になります。書けることと、毎回決めた条件を守って作業することは、同じ能力ではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "91fo0",
+     "text": "ここで使えるのがHooksです。ファイルを書き換える前、編集した後、作業を終えるとき。決めたタイミングに検査をつなぎ、結果を次の判断へ返します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "67akm",
+     "text": "原本は変更前に守る。作ったファイルは条件と照合する。足りない検査があれば、完了の前に理由を返す。こうした工程を、毎回の長い注意書きから、動く仕組みへ移せます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6i78s",
+     "text": "これを知ると、Claude Codeへ任せる範囲を広げるときにも判断が変わります。「もっと賢いモデルなら大丈夫」と考える前に、何をプログラムで確かめ、何を人が読むかを分けられるからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bi0og",
+     "text": "記事、データ、画像、動画、アプリ。完成物が違っても、実行前に守る条件、編集後に確かめる条件、完成として渡す条件はあります。この記事では、その共通する能力から10の活用設計へ進みます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8fthn",
+     "text": "面白いのは、AIへ任せた後の不安を、確認できる項目へ変えられることです。「見ていないと落ち着かない」を、どこを見れば任せられるかという理解へ変える。Hooksは、そのための機能です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fcc1i",
+     "text": "Hooksで変わるのは、指示の長さより検査の置き場所",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7f48j",
+     "text": "Hooksは、Claude Codeの特定の出来事に合わせて、設定した処理を実行する仕組みです。基本になるcommand型なら、手元のスクリプトや既存の検査コマンドを呼び出します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2d742",
+     "text": "「毎回覚えていて」と文章で頼む場合、Claudeがその指示を読み、必要な場面で使う判断をします。Hooksでは、登録した出来事に合ったとき、用意した処理を呼び出します。判断の全部をモデルへ任せる必要がなくなるわけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2jbgs",
+     "text": "ただし、呼び出されることと、検査が正しいことは別です。画像の横幅だけを検査しても、文字の読みにくさは見つかりません。件数が合っているCSVでも、同じデータが二重に入っている場合があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "523q",
+     "text": "機能の役割は、検査を実行するタイミングを作ること。何を検査するか、その結果で何を許すかは、自分の制作に合わせて設計します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a6vpn",
+     "text": "文章で方針を伝えるCLAUDE.md、手順をまとめるSkills、決まった場面で処理を呼ぶHooks。どれも役割があります。Hooksだけで内容の良さまで判断できるという話ではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "evqka",
+     "text": "公式の使い方も、繰り返す処理やルールを、出来事へ結び付けるところから始まります。この記事の10例は、その仕様を使って組み立てた活用設計です。Claudeで実行した成功体験として紹介するものではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 14,
+        "text": "https://code.claude.com/docs/en/hooks-guide",
+        "toIndex": 57
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c0boo",
+     "text": "[Hooksの公式ガイド](https://code.claude.com/docs/en/hooks-guide)",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bk2ia",
+     "text": "1｜指示を思い出す前に、実行の入口へ条件を置く",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "emvh1",
+     "text": "取り返しがつかない操作を、実行した後に見つけても遅い。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "691ii",
+     "text": "最初の能力は、これから行う操作の対象を調べ、条件に合わなければ実行前に止めることです。PreToolUseは、ツールの呼び出し前に動くイベントです。ここへ条件の検査を置くと、対象のファイルや操作を確認する入口になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bru0",
+     "text": "記事であれば原文、画像であれば撮影時の原本、アプリであれば設定ファイル。この部分を守りたいという条件は、用途が違っても使えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4a70r",
+     "text": "別用途へ移すときは、守る対象、書き込みの経路、実行を止める条件を入れ替えます。ファイル名だけを差し替えるのではなく、その道具がどの方法で変更するかまで確認します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5a6fi",
+     "text": "応用例01｜原本を守り、修正は別ファイルへ出す",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bkil2",
+     "text": "入力は、変更してはいけない原本の場所と、編集してよい出力先です。完成物は、原本を残したまま作った修正版と、どの原本から作ったかを示す記録になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8m5ot",
+     "text": "たとえば原文をoriginal、修正版をoutputへ分ける。原本の編集が提案されたら、その操作を止め、修正版の場所を返す設計です。文章の推敲にも、データのクリーニングにも応用できます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4msts",
+     "text": "指示例：「原本は変更しない。編集前に対象の絶対パスを照合し、原本への書き込みなら止める。修正はoutput内の新しいファイルへ出す。許可する場所が曖昧なら、勝手に広げず理由を返して」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9ipg0",
+     "text": "危険なのは、EditとWriteだけを対象にして安心することです。シェルのコマンドや別の道具が、同じファイルを変更する可能性もあります。見張っていない経路まで守られるわけではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "38tsm",
+     "text": "精度を上げる条件は、パスを正規化してから照合し、許可する場所を狭く決めること。似た名前、相対パス、作業場所の違いも検査材料にします。実際の保護は、ファイルの権限や隔離した作業環境とも組み合わせます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "57dfg",
+     "text": "「守ると書いた」ではなく、「どの経路をどこまで見張るか」が答えになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "834or",
+     "text": "応用例02｜完成物の上書き前に、戻すための材料を残す",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eh5o1",
+     "text": "入力は、修正対象の完成ファイル、版の識別子、退避先。完成物は、新しい版と、変更前へ戻すための旧版です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b57id",
+     "text": "記事の一部を直したら、前の表現の方がよかった。図解の色を変えたら、別の文字が読みにくくなった。こうしたとき、何を戻すかが分かる材料を先に残す設計です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cud01",
+     "text": "変更前の処理で、対象のコピーと内容を識別する値を保存します。保存できないなら、その理由を返す。変更後には、どの旧版と新しい版が対応するかを記録します。Hooks自体が万能のバックアップになるのではなく、退避処理を呼ぶ使い方です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "58t9i",
+     "text": "指示例：「上書き前に、このファイルの旧版を専用の退避先へ保存して。対象ID、時刻、内容の識別値を記録する。退避の失敗を成功として扱わない。復元は自動実行せず、戻す候補を示す」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8g8a9",
+     "text": "危険なのは、退避先まで同じ処理で上書きすること。秘密を含むファイルを、共有フォルダーへ複製してしまうこともあります。原本より広い相手に見える保存先を選んではいけません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f0ol7",
+     "text": "精度を上げるには、退避先を編集対象から外し、保存した旧版が読めることまで確認します。大量の素材を全部複製するより、今回変えるものを特定する。版の番号だけでなく、実際の内容へ戻れるようにするのが肝です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6hk0o",
+     "text": "2｜書いた直後に、完成物を約束と照合する",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5m96u",
+     "text": "次の能力は、編集した結果を、その場で検査へ回すことです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "kb2t",
+     "text": "PostToolUseは、ツールが成功した後に動きます。文章やデータを書いた後、条件を調べて結果をClaudeへ戻す流れに使えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2ai05",
+     "text": "ここは実行後です。問題を見つけても、すでに行われた操作を取り消す機能ではありません。「禁止したい」と「結果を点検したい」を、同じ検査で済ませない方が設計しやすくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "egv2s",
+     "text": "別の完成物へ移すときは、形式、必須項目、照合する基準を交換します。文章を読んでほしい検査と、決まった数値を確認する検査も分けます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "efqhg",
+     "text": "応用例03｜記事の文字数だけでなく、主張と出典の抜けを見つける",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bikd8",
+     "text": "入力は、記事本文、主張ID、出典の対応表、文字数の条件。完成物は、どの主張に何の根拠が付いているかを追える原稿と、確認が足りない箇所の一覧です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b573v",
+     "text": "文字数が足りたことだけで完成にしない。「価格が変わった」という主張へ出典があるか。実際の測定と、活用の提案を混ぜていないか。原稿の検査を、こうした項目へ分けます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2uduo",
+     "text": "指示例：「記事を書いた後に、本文の文字数と主張IDの対応を検査する。出典が未登録の主張、確認済みと未確認が混ざる箇所を報告して。URLがあるだけで内容が正しいとは判定しない」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4kjff",
+     "text": "危険なのは、出典欄が埋まっていれば、その記事が主張を支えていると考えることです。ページに書いていない数字を添えても、リンクの存在検査は通ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4htrl",
+     "text": "精度を上げる条件は、形式の検査と内容の点検を別の工程にすること。プログラムでは、必要な項目やリンクの欠落を調べる。内容では、その出典がどこまで述べているかを読む。どちらも合格して、初めて「根拠が対応する」と判断します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ap160",
+     "text": "同じ仕組みを、比較記事、説明書、教材へ移す場合も、何の主張を点検するかを先に決めます。長さの検査だけでは、読む価値までは測れません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c99re",
+     "text": "応用例04｜CSVの見栄えより先に、0と欠測と重複を分ける",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4tcmc",
+     "text": "入力は、CSV、列の定義、データの識別子。完成物は、検査結果付きのデータと、修正する行を特定した報告です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2hgls",
+     "text": "グラフがきれいでも、元データが二重に入っていれば数字は変わります。空欄を0で埋めると、「分からない」と「実際にゼロ」が混ざります。Hooksを使った設計では、編集後にその区別を確かめます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cbseg",
+     "text": "指示例：「CSV更新後に、必須列、ID重複、数値の型、欠測を検査して。実測0は0、未取得は空欄として残す。欠測を平均やゼロで勝手に補完しない。問題は行IDと項目名で返す」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4ds4q",
+     "text": "危険なのは、全ての列へ同じ判定を使うことです。金額には負数があり得るのか。日時の空欄は未取得なのか、対象外なのか。列の意味を決めずに検査を強めると、正しいデータまで落とします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8ce",
+     "text": "精度を上げるには、列ごとに許す値と欠測の意味を定義します。見本には、普通の行だけでなく、0、空欄、重複ID、数字に見える文字を入れる。検査がどれを通し、どれを止めるかを確かめます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "352vu",
+     "text": "「データがある」から「比較してよいデータになった」へ、判断の基準を一つ上げられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7opua",
+     "text": "応用例05｜画像のサイズ変更で、透明背景や余白を失わない",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5huv8",
+     "text": "入力は、画像、必要な縦横比、透明背景の条件、余白の基準。完成物は、条件を満たした画像と、元画像からどこが変わったかの記録です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3svgv",
+     "text": "書き出しが終わっても、透明背景が白へ変わったり、端の文字が切れたりすることがあります。ファイル名だけでは、どちらも分かりません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b24un",
+     "text": "設計では、出力を読み直して幅・高さ・形式・透明度を検査する。見た目の確認が必要なら、元画像と完成画像を同じ大きさで並べる素材も出します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "53gqt",
+     "text": "指示例：「画像を書き出した後に、寸法、形式、透過の有無を読み直して確認する。指定が5対2なら比率を照合して。画像の中の文字やロゴが正しいかは、別の目視確認へ残す」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3i04f",
+     "text": "危険なのは、透明な画素が一つでもあれば、切り抜きが正しいとすることです。不要な縁が残っていても、その検査は通ります。逆に背景を残したい写真へ、透過を強制するのも誤りです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5cf9e",
+     "text": "精度を上げる条件は、素材ごとに必要な透過状態を指定すること。さらに、画像の四隅と文字の端を見られる確認用画像を作ります。機械で分かる条件と、画面で確かめる条件の両方を残します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1538b",
+     "text": "応用例06｜動画の完成を、MP4の存在だけで決めない",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "22gsa",
+     "text": "入力は、動画ファイル、長さ、解像度、フレームレート、音声の指定。完成物は、再生できる動画と、仕様の確認結果です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f43l8",
+     "text": "MP4という名前でも、中身の形式や長さは別に確認が必要です。音声が必要な映像なのに無音だった。最後の説明が途中で切れた。書き出しが終わったという返事だけでは見つかりません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c7of5",
+     "text": "指示例：「書き出し後に、動画の長さ、解像度、フレームレート、映像と音声の情報を読み直して。開始・中盤・終了の静止画を残す。音声なしの指定なら無音を合格にし、音声ありなら必要な音声トラックを確かめる」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bb876",
+     "text": "危険なのは、全フレームが同じ画像でも、形式の検査には通ることです。字幕が速すぎる、切り替えが読みにくい、音と映像がずれる問題も、仕様の一覧だけでは十分に判断できません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2k511",
+     "text": "精度を上げるには、仕様の検査、場面の画像確認、完成動画の再生を分けます。毎回全素材を検査し直すのでなく、今回の完成ファイルを対象にする。書き出し後の変更があれば、新しい完成ファイルで確認を更新します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ca4mf",
+     "text": "Hooksでつなぐのは、こうした検収を呼ぶ工程です。機械で合格した部分と、再生して確認した部分を同じ一言へ潰さないことが、次の修正にも効きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b1638",
+     "text": "3｜終わる前に、合格した結果が今の版かを確かめる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e0eps",
+     "text": "「テスト済み」と書いてあっても、テストの後でファイルを直していたら、その合格は今の版を証明しません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2uhla",
+     "text": "三つ目の能力は、作業終了時の条件を照合することです。Stopイベントは、Claudeが応答を終えようとする場面に使います。足りない条件がある場合、理由を返して続きを求める設計ができます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4g8i8",
+     "text": "ここでも、何を完成条件にするかは自分で決めます。全ての作業に重い検査を付けると、確認そのものが制作を止めてしまいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4vn9r",
+     "text": "別用途へ移すときは、今回変えた成果物のIDと、その版に対応する検査記録をそろえます。文章なら根拠の点検、アプリなら操作の確認、動画なら完成MP4の検収へ入れ替えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b12a0",
+     "text": "応用例07｜アプリの「できました」を、同じ操作の確認へ変える",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "djl2j",
+     "text": "入力は、修正したコード、再現する操作、期待した結果。完成物は、更新したアプリと、同じ操作を使った確認記録です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2na4m",
+     "text": "ボタンの見た目を変えただけなのに、入力した値が消える。検索結果は出たが、戻る操作が壊れた。アプリを育てるときは、今回直した場所と、関連する操作を確かめる必要があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ba03f",
+     "text": "指示例：「今回の変更があるファイルを特定し、関係する操作を確認して。検索語、表示結果、戻る操作を同じ条件で記録する。完了時には現在のコードに対する確認結果を照合し、古い成功記録を使い回さない」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dcg2r",
+     "text": "危険なのは、何も検査していないのに、終了コードが0だから全機能が正しいと考えることです。対象を絞った検査の合格は、他の機能の保証にはなりません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "emgv4",
+     "text": "精度を上げる条件は、確認した範囲、対象ファイルの版、検査の実行結果を一緒に残すこと。変更していない機能まで毎回広げず、影響がある部分へ絞ります。新たな失敗が見えたときに範囲を広げる方が、検査結果の意味も読みやすくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f1shp",
+     "text": "公式の実践ガイドも、Claudeが実行できる確認方法を渡すことを勧めています。Hooksは、その確認をどこで呼ぶかの設計へつながります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 27,
+        "text": "https://code.claude.com/docs/en/best-practices",
+        "toIndex": 73
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "242fr",
+     "text": "[Claude Codeの確認方法を渡す実践ガイド](https://code.claude.com/docs/en/best-practices)",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "v8t4",
+     "text": "応用例08｜公開用の完成物に、未確認のまま残る項目を見せる",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8090c",
+     "text": "入力は、公開用の原稿や画像、確認項目、採用済みの条件。完成物は、渡せる完成物と、まだ人が判断する項目を分けた報告です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bfnam",
+     "text": "リンクはあるが開けるか未確認。画像は入っているが、利用できる素材か未確認。本文の数字は、元資料の対象期間と違うかもしれない。こうした違いを、完成報告の中で隠さない設計です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "101i5",
+     "text": "指示例：「完了時に、形式の合格、内容の確認、人の判断が残る項目を分けて。公開は行わない。検査記録がない項目を、確認済みとして埋めない。今回の版で何を確かめたかを一覧にする」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3hiej",
+     "text": "危険なのは、Stopの検査を入れたから、公開まで必ず止められると思うことです。終了時点より前に外部送信していれば、その送信はすでに行われています。公開を制限したいなら、送信の入口と実際の権限で扱います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eqm6n",
+     "text": "精度を上げるには、「ファイルを作る」「下書きを保存する」「公開する」を別の工程にします。今回の許可がどこまでかも、確認項目に含める。未確認の項目が残る場合には、何が足りないかを具体的に示します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "59vjl",
+     "text": "完成の条件を明らかにすることは、何でも自動で完了にすることとは違います。判断が残る場所が見えるから、任せられる部分が分かるのです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "14rbb",
+     "text": "4｜次の作業へ残す情報を、会話の量から選び直す",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "24af3",
+     "text": "四つ目の能力は、継続する作業で必要な条件と記録を、扱いやすい形へ戻すことです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4kcip",
+     "text": "長い会話を全部読み直すより、採用した条件、今の完成物、未確認の項目がそろっている方が、次の作業へ移れます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6if6j",
+     "text": "会話が要約された後に必要な条件を渡す設計や、作業の記録を決まった形へ残す設計へ、Hooksを使えます。ここでも長い資料を無条件に流し込むのではなく、今回の作業で必要な内容を選びます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d9aon",
+     "text": "別用途へ移すときは、記録の列を変えます。原稿なら採用タイトルと根拠。アプリなら変更した機能と確認結果。連作の画像なら採用した色、素材ID、除外条件。残す形をそろえると、次回の確認もしやすくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ak68u",
+     "text": "応用例09｜会話の要約後に、決定だけを短く戻す",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9u408",
+     "text": "入力は、採用した設定、変更してよい範囲、未確認の課題。完成物は、次の作業で必要な短い決定メモです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "iv80",
+     "text": "同じ制作を続けていても、会話の要約で細部の扱いが変わる場合があります。そこで、SessionStartのcompactに合わせて、必要な決定を渡す設計を使います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cbkir",
+     "text": "指示例：「会話の要約後に、採用した色、対象ファイル、変更禁止の範囲、未確認の項目だけを読み込めるメモを作る。長い議事録を丸ごと戻さない。古い案と採用済みの案を分ける」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e193p",
+     "text": "危険なのは、以前のメモを最新の指示より強い規則として扱うことです。ユーザーが直した名前や設定を、要約後に旧版へ戻してしまうと、記録を残す意味が逆になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "g3hk",
+     "text": "精度を上げるには、決定の根拠となる最新ファイルを一つ決め、採用済みと提案中を分けること。長い履歴はそのまま保管し、読み込むメモは短くする。メモ自体を更新した場合には、古い内容が残っていないかも点検します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8d5i6",
+     "text": "記憶を増やすことより、次の作業で何を正本にするかを決める。これは記事でも、アプリでも、動画でも共通します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cdon7",
+     "text": "応用例10｜制作ログを、全部の会話から必要な結果へ絞る",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8ftka",
+     "text": "入力は、対象ID、実行した検査、合否、残る課題。完成物は、次回の制作で比較できる短いログです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "asiqd",
+     "text": "記録が多ければ安心というわけではありません。大きな会話ログの中へ、成功した検査と失敗した検査が混ざっていると、何を直すべきかを見失います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "darep",
+     "text": "指示例：「検査の結果は、対象ID、版、項目、合否、失敗の理由で記録する。ファイル本文や認証情報は入れない。同じ対象の再検査は区別し、前回の合格を消して最新の履歴を偽装しない」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bet49",
+     "text": "危険なのは、ツールの入力を全部そのまま保存することです。コマンドやファイルの中に、個人情報や接続に必要な秘密が含まれる場合があります。便利な記録が、不要な複製を増やす原因になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ce4pc",
+     "text": "精度を上げる条件は、記録する項目を先に固定すること。必要な識別子と結果だけを選び、内容の詳細は権限を持つ正本へ戻れるようにします。外部へ送る記録と、手元へ残す記録も同じ扱いにしません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9d43o",
+     "text": "同じ種類の検査で比べると、「条件が抜けていた」「版が古かった」「検査そのものが足りない」を分けられます。失敗した理由が具体的になるほど、次の依頼も短くできます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a7hdl",
+     "text": "強い自動化ほど、止める場所の違いを知っておく",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d2qo3",
+     "text": "ここまでの設計を組むとき、最初に確かめたいのがイベントごとの動きです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9skv",
+     "text": "実行前に止めたいならPreToolUse。書いた結果を点検するならPostToolUse。終わる前に条件を照合するならStop。同じ「検査が失敗した」でも、どの場面で失敗したかで結果が変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3ro96",
+     "text": "公式の仕様では、終了コード2を返した場合も、イベントによって動きが異なります。PreToolUseではツールの呼び出しを止めます。PostToolUseでは、すでにツールが動いているため、処理をさかのぼって取り消しません。Stopでは、終わらず続きを求める扱いになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1klhh",
+     "text": "これを知らずに、編集後の検査へ「秘密のファイルを送らない」を置くと、目的とタイミングが合いません。秘密を送る前の境界と、送信の権限を考える必要があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5c1fo",
+     "text": "もう一つ、Stopの条件を毎回満たせないものにすると、作業が終われなくなります。続きを求めた後に再びStopへ来たかを示すstop_hook_activeなどを使い、同じ要求を無限に繰り返さないように設計します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "83q1a",
+     "text": "「必ず最後まで直す」を強く言うほどよいのではありません。修正できる問題か。人の判断が必要か。検査プログラムが壊れていないか。この三つを区別し、解けない問題は理由を返せるようにします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 20,
+        "text": "https://code.claude.com/docs/en/hooks",
+        "toIndex": 57
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5bkde",
+     "text": "[イベントごとの制御と入力の公式仕様](https://code.claude.com/docs/en/hooks)",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fje7e",
+     "text": "トークンを減らしたいなら、検査へ戻す情報も短くする",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fupt0",
+     "text": "Hooksを増やすだけで、利用量が自動で減るわけではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ri2p",
+     "text": "文字数、寸法、ID重複、必須列の存在。決まった条件の検査は、通常のプログラムへ任せられます。その検査自体でモデルを呼ばない設計にしても、長い結果を会話へ返せば、後の文脈は増えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "davo7",
+     "text": "さらに、失敗のたびにClaudeが修正を続ければ、その作業にも利用量がかかります。単発のLLM判断や、道具を使う判断型のHooksを選ぶ場合も、command型と同じ負担にはなりません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "72fee",
+     "text": "まず、数字や形式で確かめられる項目を分ける。合格時は必要な短い結果だけを残す。失敗時は、対象IDと理由と直す場所を返す。全部のファイルを読み直させる前に、今回変えたものへ絞ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "90bcs",
+     "text": "検査結果の例なら、「不合格。CSVのID A-018が重複。行23と行41を確認」。このくらい具体的なら、次に見る場所が分かります。「品質に問題があります」だけでは、調査を最初からやり直すことになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f7a7i",
+     "text": "指示例：「形式の検査はモデルへ聞かず、固定条件で調べる。合格ログを長く返さない。失敗した項目と対象IDを返し、修正後は変更に関係する項目から再確認する。未確認の範囲を合格扱いにしない」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ffi7q",
+     "text": "削減した割合は、入力した量と修正の往復を測ってから判断します。検査を一つ置いたことだけで、全体の消費が減ったとは言えません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fncna",
+     "text": "公式の実践ガイドも、会話と読んだファイル、実行結果が文脈を使うことを説明しています。検査を増やすなら、戻す情報の量まで設計すると使いやすくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3qvk5",
+     "text": "つなぐ前に、検査だけを四つの入力で確かめる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6e4kd",
+     "text": "Hooksの設定を大量に追加する前に、検査の処理だけを確認します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fqlua",
+     "text": "普通の入力。止めたい入力。境界の入力。読めない入力。この四つを用意すると、合格してよいものと、止めるべきものの違いが見えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e8kbt",
+     "text": "原本の保護なら、許可した出力先、禁止した原本、名前だけが似た別の場所、壊れた入力。CSVなら、正常な行、重複ID、実測0、未取得の空欄。画像なら、指定どおりの寸法、違う比率、透過なし、読めないファイルです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "an7k6",
+     "text": "ここで、入力が壊れたときに勝手に合格へ進めると、検査を置いた意味が薄れます。一方、どんな異常でも作業を永久に続けさせると、使いづらい仕組みになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dq3qq",
+     "text": "処理が失敗した理由を返し、確認できていない状態を明示する。復旧方法が必要なら、人が判断する箇所を分ける。これも検査の出力です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bnsll",
+     "text": "その後、対象を一つに絞った試作へつなぎます。いきなり自分の全フォルダーや全操作へ広げず、作った見本を確かめる。どのツールで、どの条件を、どのタイミングで検査したかが説明できてから広げます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dn3fg",
+     "text": "動いているHooksの設定には、プログラムとしての実行権限があります。公開されている設定を、そのまま信頼して持ち込むことも避けたいところです。何を読むか、何を書き換えるか、外へ送るかを確認します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 22,
+        "text": "https://code.claude.com/docs/en/security",
+        "toIndex": 62
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8pgt1",
+     "text": "[Claude Codeの権限と安全境界](https://code.claude.com/docs/en/security)",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dvhfo",
+     "text": "最初の一本は、何度も言っている確認から選ぶ",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4vt0r",
+     "text": "最初に選ぶのは、日常の制作で何度も繰り返している、判定できる確認です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "as1mf",
+     "text": "原本は変えない。IDを重複させない。画像を指定の比率で出す。動画の長さと音声を確認する。完了前に、今の版を検査する。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "denns",
+     "text": "そのうち一つを選び、入力、合格の条件、不合格時の理由、確認するタイミングを書く。検査を作る依頼は、そこから始められます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "l46i",
+     "text": "▼ここからコピー",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dsr1b",
+     "text": "この制作で繰り返す確認を、Claude Code Hooksにつなげられる形へ分けて。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f5n50",
+     "text": "まず、対象、入力、合格条件、失敗時の理由を示して。実行前の制限、編集後の検査、完了時の照合を混ぜない。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e27s9",
+     "text": "検査だけで正常・不合格・境界・壊れた入力を確認する。最初は一つの見本だけを対象にする。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fq9nb",
+     "text": "既存の設定、認証、公開や予約の権限は変えない。設定の変更案と検査結果を、確認できるファイルで渡して。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3u88",
+     "text": "▲ここまで",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "adqmn",
+     "text": "使いこなすための分かれ目は、長い指示を持っていることだけではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6ej91",
+     "text": "何を言葉で伝え、何を決まった検査で確かめ、どこで人が決めるか。その違いを知ると、Claude Codeへ任せる範囲を、自分で選べるようになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d7j6b",
+     "text": "まず一つ、繰り返している確認を、実際に動く検査へ変える。その結果が読めるところまで作ると、次に自動化する場所も見えてきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "enm99",
+     "text": "【今すぐ使える無料特典】",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "44ppo",
+     "text": "ここまで読んでくださり、ありがとうございました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5udb8",
+     "text": "① 無料AIだけで使える仕事時短技10選",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "957h2",
+     "text": "② Claude Code・Codex 初期導入ガイド",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fik2m",
+     "text": "③ 残業になる手作業を見つけて消す7ステップ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9up1c",
+     "text": "④ この仕事AIに任せられる？60秒判定プロンプト",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f22bl",
+     "text": "⑤ Threads×アフィで副業10万 手順公開",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9429r",
+     "text": "⑥ 実際に使っているClaudeスキル2本（コピペで導入）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8597j",
+     "text": "⑦ 楽天・Amazonアフィリエイトの始め方",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 31,
+        "text": "https://line.me/ti/g2/PNbqou1ljR04IzaJjW1ByRc6oHlMXyWkWSVsyg",
+        "toIndex": 91
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 60,
+       "offset": 31
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "gbn2",
+     "text": "「残業を消す側」に回りたい方は、こちらからお受け取りください。https://line.me/ti/g2/PNbqou1ljR04IzaJjW1ByRc6oHlMXyWkWSVsyg",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 0,
+        "text": "https://line.me/ti/g2/PNbqou1ljR04IzaJjW1ByRc6oHlMXyWkWSVsyg",
+        "toIndex": 60
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 60,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "90alm",
+     "text": "https://line.me/ti/g2/PNbqou1ljR04IzaJjW1ByRc6oHlMXyWkWSVsyg",
+     "type": "unstyled"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "url": "https://line.me/ti/g2/PNbqou1ljR04IzaJjW1ByRc6oHlMXyWkWSVsyg"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "url": "https://line.me/ti/g2/PNbqou1ljR04IzaJjW1ByRc6oHlMXyWkWSVsyg"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    }
+   ]
+  },
+  "media_entities": []
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

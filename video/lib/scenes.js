@@ -252,6 +252,50 @@
         `<div class="v">${fmt(t.v)}</div><div class="l">${fmt(t.l)}</div>`)).join('')}</div>
     </div>`;
 
+  // 小さなアイコン（SVG）
+  const ICON = {
+    lock: '<svg viewBox="0 0 100 100"><path d="M32 46V34a18 18 0 0 1 36 0v12" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round"/><rect x="22" y="44" width="56" height="44" rx="9" fill="currentColor"/><circle cx="50" cy="63" r="6" fill="var(--bg)"/><rect x="47" y="64" width="6" height="12" rx="3" fill="var(--bg)"/></svg>',
+    doc: '<svg viewBox="0 0 100 100"><path d="M26 10h34l18 18v62H26z" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/><path d="M60 10v18h18" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/><path d="M37 58l10 10 18-22" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    list: '<svg viewBox="0 0 100 100"><circle cx="20" cy="26" r="7" fill="currentColor" opacity=".45"/><circle cx="20" cy="50" r="7" fill="currentColor" opacity=".45"/><circle cx="20" cy="74" r="7" fill="var(--accent2)"/><rect x="34" y="22" width="44" height="8" rx="4" fill="currentColor" opacity=".45"/><rect x="34" y="46" width="44" height="8" rx="4" fill="currentColor" opacity=".45"/><rect x="34" y="70" width="30" height="8" rx="4" fill="currentColor" opacity=".45"/><circle cx="78" cy="74" r="16" fill="var(--accent2)"/><path d="M70 74l6 6 10-12" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    spark: '<svg viewBox="0 0 100 100">' + [0, 45, 90, 135, 22, 67, 112, 157].map((a, i) => `<rect x="${i < 4 ? 45 : 46.5}" y="12" width="${i < 4 ? 10 : 7}" height="76" rx="5" fill="#fff" transform="rotate(${a} 50 50)"/>`).join('') + '</svg>',
+    file: '<svg viewBox="0 0 80 100"><path d="M6 4h46l22 22v70H6z" fill="var(--bg)" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/><path d="M52 4v22h22" fill="none" stroke="currentColor" stroke-width="6"/><rect x="18" y="44" width="40" height="6" rx="3" fill="currentColor" opacity=".5"/><rect x="18" y="58" width="44" height="6" rx="3" fill="currentColor" opacity=".5"/><rect x="18" y="72" width="30" height="6" rx="3" fill="currentColor" opacity=".5"/></svg>',
+  };
+
+  // 29. テロップの貼り付け（参考: TikTok Creative Center のトップ広告の白い箱テロップ）
+  S.stickers = (s) => `
+    ${tagLine(s.tag)}
+    <div class="stk">${s.lines.map((l, i) => A(`st${i % 2 ? ' tl' : ' tr'} slap`, 0.15 + i * (s.step ?? 0.55), fmt(l))).join('')}</div>
+    ${sub(s.sub, 0.4 + s.lines.length * (s.step ?? 0.55))}`;
+
+  // 30. 検査のレール：ファイルが3つの関門を通り、順に光る（記事サムネのタイルと鎖をそのまま動かす）
+  S.pipeline = (s) => {
+    const L = s.travel ?? 3.6, d0 = 0.6, hit = [0.18, 0.5, 0.82];
+    return `${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    <div class="pipe">
+      ${A('chain growx', 0.3, '')}
+      ${A('ctile pop', 0.1, ICON.spark)}
+      ${s.stations.map((st, i) => `
+        <div class="stn" style="left:${520 + i * 400}px">
+          ${A('tile pop', 0.2 + i * 0.12, ICON[st.icon])}
+          ${A('glow flashon', d0 + hit[i] * L, '')}
+          ${A('lbl up', d0 + hit[i] * L + 0.1, `<b>${fmt(st.label)}</b><span>${fmt(st.event)}</span>`)}
+        </div>`).join('')}
+      ${A('mover travel', d0, ICON.file, { style: `--len:${L}s` })}
+    </div>`;
+  };
+
+  // 31. 関門：原本への書き込みを止め、修正版の置き場へ回す
+  S.gate = (s) => `
+    ${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    <div class="gatebox">
+      ${A('lane l1 growx', 0.2, '')}${A('lane l2 growx', 1.6, '')}
+      ${A('dest d1 pop', 0.3, `<i>${ICON.lock}</i><span>${fmt(s.blocked)}</span>`)}
+      ${A('dest d2 pop', 1.7, `<i>${ICON.doc}</i><span>${fmt(s.allowed)}</span>`)}
+      ${A('gmark ng pop', 1.25, '✕')}${A('gmark ok pop', 2.75, '✓')}
+      ${A('mover reroute', 0.5, ICON.file, { style: '--len:2.4s' })}
+    </div>
+    ${sub(s.note, 2.9)}`;
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -263,7 +307,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

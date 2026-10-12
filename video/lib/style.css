@@ -394,3 +394,46 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .scorecard .sc-t { background: var(--bg); border: 4px solid var(--accent); border-radius: 18px; padding: 26px 30px; box-shadow: 10px 10px 0 var(--accent); }
 .scorecard .sc-t .v { font-family: var(--head); font-size: 84px; line-height: 1.05; }
 .scorecard .sc-t .l { font-size: 30px; color: var(--muted); margin-top: 8px; letter-spacing: .02em; }
+
+/* 29 stickers（白い箱のテロップ） */
+.stickers .stk { display: flex; flex-direction: column; align-items: center; gap: 22px; }
+.stickers .st { font-family: var(--head2); font-weight: 900; font-size: 84px; line-height: 1.2; background: #fff; color: #111; padding: 14px 40px; border-radius: 18px;
+  box-shadow: 0 8px 0 rgba(0,0,0,.18); border: 4px solid #111; }
+.stickers .st.tl { rotate: -2deg; } .stickers .st.tr { rotate: 1.5deg; }
+.stickers .st .em { color: var(--accent); }
+.slap { animation-name: slap; --len: .35s; animation-timing-function: cubic-bezier(.3,1.6,.5,1); } @keyframes slap { 0% { opacity: 0; transform: scale(1.6) translateY(-20px); } 100% { opacity: 1; transform: none; } }
+
+/* 30 pipeline（検査のレール） */
+.pipeline .pipe { position: relative; height: 470px; margin-top: 150px; }
+.pipeline .chain { position: absolute; left: 150px; width: 1460px; top: 148px; height: 10px; border-radius: 5px; background: repeating-linear-gradient(90deg, var(--accent) 0 26px, transparent 26px 40px); }
+.pipeline .ctile { position: absolute; left: 0; top: 0; width: 300px; height: 300px; border-radius: 60px; background: linear-gradient(145deg, var(--accent-hi), var(--accent)); display: grid; place-items: center; box-shadow: 0 30px 60px var(--shadow, rgba(0,0,0,.2)); }
+.pipeline .ctile svg { width: 62%; }
+.pipeline .stn { position: absolute; top: 43px; width: 220px; }
+.pipeline .tile { width: 220px; height: 220px; border-radius: 44px; background: rgba(255,255,255,.75); border: 3px solid var(--stroke); display: grid; place-items: center; color: var(--accent); position: relative; z-index: 1; box-shadow: 0 20px 40px var(--shadow, rgba(0,0,0,.12)); }
+.pipeline .tile svg { width: 56%; }
+.pipeline .glow { position: absolute; inset: -18px; border-radius: 60px; border: 8px solid var(--accent2); z-index: 2; opacity: 0; }
+.flashon { animation-name: flashon; --len: .5s; } @keyframes flashon { 0% { opacity: 0; transform: scale(1.25); } 100% { opacity: 1; transform: none; } }
+.pipeline .lbl { position: absolute; top: 250px; left: -60px; right: -60px; text-align: center; }
+.pipeline .lbl b { display: block; font-family: var(--head2); font-weight: 900; font-size: 44px; }
+.pipeline .lbl span { font-family: "DejaVu Sans Mono", monospace; font-size: 28px; color: var(--muted); }
+.pipeline .mover { position: absolute; left: 110px; top: 95px; width: 84px; color: var(--text); z-index: 3; filter: drop-shadow(0 8px 10px rgba(0,0,0,.2)); }
+.travel { animation-name: travel; animation-timing-function: cubic-bezier(.6,0,.3,1); }
+@keyframes travel { 0% { transform: translateX(0) scale(.6); opacity: 0; } 6% { opacity: 1; transform: translateX(0) scale(1); }
+  18%, 26% { transform: translateX(520px) translateY(-175px) scale(1.1); } 50%, 58% { transform: translateX(920px) translateY(-175px) scale(1.1); }
+  82%, 100% { transform: translateX(1320px) translateY(-175px) scale(1.1); } }
+
+/* 31 gate（関門） */
+.gatesc .gatebox { position: relative; height: 470px; }
+.gatesc .lane { position: absolute; left: 60px; height: 10px; border-radius: 5px; }
+.gatesc .lane.l1 { top: 110px; width: 1220px; background: repeating-linear-gradient(90deg, var(--bad) 0 26px, transparent 26px 40px); }
+.gatesc .lane.l2 { top: 350px; width: 1220px; background: repeating-linear-gradient(90deg, var(--accent2) 0 26px, transparent 26px 40px); }
+.gatesc .dest { position: absolute; left: 1290px; width: 390px; height: 190px; border-radius: 36px; background: rgba(255,255,255,.8); border: 3px solid var(--stroke); display: flex; align-items: center; gap: 22px; padding: 0 30px; font-size: 40px; font-weight: 900; box-shadow: 0 20px 40px var(--shadow, rgba(0,0,0,.12)); }
+.gatesc .dest i { width: 110px; flex: none; color: var(--accent); } .gatesc .dest.d1 i { color: var(--bad); } .gatesc .dest.d2 i { color: var(--accent2); }
+.gatesc .dest.d1 { top: 20px; } .gatesc .dest.d2 { top: 260px; }
+.gatesc .gmark { position: absolute; width: 120px; height: 120px; border-radius: 50%; display: grid; place-items: center; font-size: 80px; font-weight: 900; color: #fff; z-index: 4; }
+.gatesc .gmark.ng { left: 1130px; top: 55px; background: var(--bad); } .gatesc .gmark.ok { left: 1130px; top: 295px; background: var(--accent2); }
+.gatesc .mover { position: absolute; left: 40px; top: 50px; width: 96px; color: var(--text); z-index: 3; filter: drop-shadow(0 8px 10px rgba(0,0,0,.2)); }
+.reroute { animation-name: reroute; animation-timing-function: ease-in-out; }
+@keyframes reroute { 0% { transform: translateX(0); opacity: 0; } 5% { opacity: 1; } 30% { transform: translateX(980px); }
+  34% { transform: translateX(940px) rotate(-8deg); } 38% { transform: translateX(970px) rotate(6deg); } 44% { transform: translateX(900px) rotate(0); }
+  58% { transform: translateX(900px) translateY(240px); } 66% { transform: translateX(860px) translateY(240px); } 92%, 100% { transform: translateX(980px) translateY(240px); opacity: 1; } }
