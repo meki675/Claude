@@ -296,6 +296,45 @@
     </div>
     ${sub(s.note, 2.9)}`;
 
+  // 32. 冒頭：画面中の粒が中央に集まって輪になり、見出しが弾ける
+  S.particles = (s) => {
+    const n = s.count ?? 48;
+    const dots = Array.from({ length: n }, (_, i) => {
+      const r1 = Math.sin(i * 12.9898) * 43758.5453, r2 = Math.sin(i * 78.233) * 12543.123;
+      const x = ((r1 - Math.floor(r1)) - 0.5) * 2000, y = ((r2 - Math.floor(r2)) - 0.5) * 1200;
+      const a = (i / n) * Math.PI * 2, R = 380;
+      return `<i class="a pdot gather" style="--d:${(i % 8) * 0.03}s;--x0:${x.toFixed(0)}px;--y0:${y.toFixed(0)}px;--x1:${(Math.cos(a) * R).toFixed(0)}px;--y1:${(Math.sin(a) * R * 0.62).toFixed(0)}px"></i>`;
+    }).join('');
+    return `<div class="pfield">${dots}</div>
+      ${tagLine(s.tag, 1.1)}${A('h-xl boing', 1.0, fmt(s.title))}${sub(s.sub, 1.4)}`;
+  };
+
+  // 33. 積み上げ：ブロックが上から落ちて積み上がる（下から順に）
+  S.stack = (s) => `
+    ${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    <div class="stk2">${s.blocks.map((b, i) => A(`blk drop${b.hot ? ' hot' : ''}`, 0.3 + i * 0.45,
+      `<b>${fmt(b.name)}</b><span>${fmt(b.text)}</span>`)).join('')}</div>
+    ${sub(s.note, 0.6 + s.blocks.length * 0.45)}`;
+
+  // 34. ターミナル実行：行が順に出て、止められた行は赤、通った行は緑
+  S.term = (s) => `
+    ${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    ${A('tw up', 0.15, `<div class="tbar"><i></i><i></i><i></i><span>${esc(s.file ?? 'claude')}</span></div>
+      <div class="tbody">${s.lines.map((l, i) => A(`tl ${l.c ?? ''} type`, 0.5 + i * (s.step ?? 0.55), fmt(l.t), { style: '--len:.45s' })).join('')}
+      ${A('cur blink', 0.5 + s.lines.length * (s.step ?? 0.55), '')}</div>`)}
+    ${sub(s.note, 0.8 + s.lines.length * (s.step ?? 0.55))}`;
+
+  // 35. 仕分け：カードが流れてきて、それぞれの箱へ振り分けられる
+  S.sort = (s) => {
+    const nb = s.bins.length, w = 1680 / nb;
+    return `${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    <div class="sortbox">
+      ${s.bins.map((b, i) => A(`bin up ${b.c ?? ''}`, 0.2 + i * 0.08, `<b>${fmt(b.name)}</b><span>${fmt(b.hint ?? '')}</span>`, { style: `left:${i * w + 10}px;width:${w - 20}px` })).join('')}
+      ${s.cards.map((c, i) => A(`card2 fly ${s.bins[c.bin].c ?? ''}`, 0.6 + i * (s.step ?? 0.4), fmt(c.t),
+        { style: `--tx:${(c.bin * w + w / 2 - 840).toFixed(0)}px;--ty:${444 + (s.cards.slice(0, i).filter((x) => x.bin === c.bin).length) * -62}px;--len:.8s` })).join('')}
+    </div>`;
+  };
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -307,7 +346,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

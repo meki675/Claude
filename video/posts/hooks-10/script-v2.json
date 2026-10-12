@@ -1,0 +1,26 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "ember",
+  "themeOverrides": { "accent": "#f2782b", "accent-hi": "#ffb070", "accent2": "#ffd1a8" },
+  "structure": "モーショングラフィック（粒・積み上げ・ターミナル・仕分け）",
+  "inspiration": { "site": "tiktok-creative-center", "work": "（v1と同じ記事の別版）", "idea": "新しい動きの型を試す：粒が集まる冒頭、ブロックの積み上げ、ターミナル実行の再現、CSVの仕分け" },
+  "transition": ["cine", "whip", "zoom", "slide", "flash"],
+  "brand": "CLAUDE CODE HOOKS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "particles", "dur": 3.2, "tag": "Claude Code Hooks活用10選", "title": "任せた後の不安を\n[[確認できる項目]]へ" },
+    { "type": "stack", "dur": 3.6, "tag": "役割はそれぞれ違う", "title": "Hooksは「決まった場面で処理を呼ぶ」", "blocks": [ { "name": "CLAUDE.md", "text": "方針を文章で伝える" }, { "name": "Skills", "text": "手順をまとめる" }, { "name": "Hooks", "text": "決まった場面で検査を呼ぶ", "hot": true } ] },
+    { "type": "term", "dur": 4.4, "tag": "応用例01　原本を守る（動きのイメージ）", "file": "claude — my-article", "step": 0.6, "lines": [
+      { "t": "● Edit original/draft.md", "c": "cmd" },
+      { "t": "  ⎿ PreToolUse：原本への書き込みを止めました", "c": "bad" },
+      { "t": "● Write output/draft.md", "c": "cmd" },
+      { "t": "  ⎿ ✓ 修正版を書き出しました（原本はそのまま）", "c": "ok" }
+    ] },
+    { "type": "sort", "dur": 4.6, "tag": "応用例04　CSVを更新した後に", "title": "0と欠測と重複を、勝手に混ぜない", "step": 0.42, "bins": [ { "name": "合格", "c": "ok" }, { "name": "重複ID", "hint": "行IDで返す", "c": "bad" }, { "name": "欠測", "hint": "空欄のまま", "c": "warn" }, { "name": "実測0", "hint": "0のまま" } ], "cards": [
+      { "t": "A-016　1,240", "bin": 0 }, { "t": "A-018　980", "bin": 1 }, { "t": "A-019　（空欄）", "bin": 2 }, { "t": "A-020　0", "bin": 3 }, { "t": "A-021　1,105", "bin": 0 }, { "t": "A-018　980", "bin": 1 }
+    ] },
+    { "type": "cta", "dur": 3.2, "tag": "詳しくは記事で", "title": "Hooks活用\n[[10の設計]]", "go": "画像・動画・アプリの検収まで", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari", "image": "cover.jpg" }
+  ]
+}

@@ -28,6 +28,7 @@
 | `shutter` | （サムネの2色ロゴから）左右の扉が開く |
 | `stickers` | TikTok Creative Center のトップ広告サムネ：白い箱のテロップを1枚ずつ貼る |
 | `pipeline` / `gate` | 記事サムネ（Claude→鍵→書類→リストの鎖）：ファイルがレールを進んで関門が光る／弾かれて別の道へ回る（図形を動かすモーショングラフィック） |
+| `particles` / `stack` / `term` / `sort` | （Hooks記事の別版で試作）粒が集まる冒頭・ブロックの積み上げ・ターミナル実行の再現・カードの仕分け |
 | `scorecard` | Motion Design Awards「VIDEO OF THE DAY」：斜めストライプ・大きな総合点・点数タイルの横並び |
 | `poster` ＋ 切り替え `cine` | Vimeo Staff Picks「DEAR [NAME]」：上下の黒帯・ゆっくり寄るカメラ・角かっこの題名・丸バッジ・下のクレジット |
 
