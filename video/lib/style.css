@@ -531,3 +531,11 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .style-editorial .em { color: var(--accent); font-style: italic; }
 .style-brutal .blk.hot { background: var(--accent) !important; } .style-brutal .blk.hot b, .style-brutal .blk.hot span { color: #111 !important; }
 .style-brutal .bin.warn b, .style-brutal .card2.warn { color: #111; } .style-brutal .bin.warn b { background: var(--accent); padding: 0 10px; }
+.style-brutal .stickers .st .em { color: #111; background: var(--accent); padding: 0 .15em; }
+.style-brutal .pipeline .ctile { background: #111; border-radius: 0; box-shadow: 14px 14px 0 var(--accent); }
+.style-brutal .pipeline .ctile svg rect { fill: var(--accent); }
+.style-brutal .pipeline .tile { color: #111; }
+.style-brutal .pipeline .glow { border-radius: 0; border-color: var(--accent2); }
+.style-brutal .pipeline .chain { background: repeating-linear-gradient(90deg, #111 0 26px, transparent 26px 40px); }
+.style-brutal .cta .go .arr { color: #111; }
+.style-brutal .gatesc .dest i { color: #111; } .style-brutal .gatesc .dest.d1 i { color: var(--bad); } .style-brutal .gatesc .dest.d2 i { color: var(--accent2); }

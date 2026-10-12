@@ -1,0 +1,21 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "ember",
+  "style": "brutal",
+  "structure": "モーショングラフィック（テロップ→レール→関門→仕分け）",
+  "inspiration": { "site": "tiktok-creative-center", "work": "（同じ記事の様式違い）", "idea": "brutal様式：太い黒線・角なし・ずらした硬い影・黄×青" },
+  "transition": ["slide", "whip", "zoom", "spin", "slide"],
+  "brand": "CLAUDE CODE HOOKS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "stickers", "dur": 3.0, "step": 0.5, "lines": ["「確認してから進めて」", "って頼んだのに…", "[[確認した形跡がない]]"] },
+    { "type": "pipeline", "dur": 5.2, "tag": "Hooksでできること", "title": "決めたタイミングに、検査をつなぐ", "travel": 3.8, "stations": [ { "icon": "lock", "label": "実行前に止める", "event": "PreToolUse" }, { "icon": "doc", "label": "編集後に照合", "event": "PostToolUse" }, { "icon": "list", "label": "終わる前に確認", "event": "Stop" } ] },
+    { "type": "gate", "dur": 4.0, "tag": "応用例01", "title": "原本は守り、修正は別ファイルへ", "blocked": "original/\n原本", "allowed": "output/\n修正版", "note": "原本への書き込みは、実行前（PreToolUse）で止める" },
+    { "type": "sort", "dur": 4.6, "tag": "応用例04　CSVを更新した後に", "title": "0と欠測と重複を、勝手に混ぜない", "step": 0.42, "bins": [ { "name": "合格", "c": "ok" }, { "name": "重複ID", "hint": "行IDで返す", "c": "bad" }, { "name": "欠測", "hint": "空欄のまま", "c": "warn" }, { "name": "実測0", "hint": "0のまま" } ], "cards": [
+      { "t": "A-016　1,240", "bin": 0 }, { "t": "A-018　980", "bin": 1 }, { "t": "A-019　（空欄）", "bin": 2 }, { "t": "A-020　0", "bin": 3 }, { "t": "A-021　1,105", "bin": 0 }, { "t": "A-018　980", "bin": 1 }
+    ] },
+    { "type": "cta", "dur": 3.2, "tag": "詳しくは記事で", "title": "Hooks活用\n[[10の設計]]", "go": "原本保護から動画の検収まで", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari", "image": "cover.jpg" }
+  ]
+}
