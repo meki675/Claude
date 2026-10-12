@@ -2,6 +2,7 @@
   "width": 1920,
   "height": 1080,
   "fps": 30,
+  "theme": "ember",
   "brand": "CLAUDE DASHBOARDS",
   "footer": "出典：@seiri_gakari のX記事",
   "scenes": [

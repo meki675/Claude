@@ -9,6 +9,7 @@
 <div id="bg"></div>
 <div id="stage"></div>
 <div id="chrome"><div id="brand"></div><div id="footer"></div><div id="progress"></div></div>
+<script src="themes.js"></script>
 <script src="scenes.js"></script>
 <script>
   // window.build(script) でシーンを組み立て、window.seek(秒) でその時点の画面にする。
@@ -20,8 +21,10 @@
     const w = script.width ?? 1920, h = script.height ?? 1080;
     document.documentElement.style.setProperty('--w', w + 'px');
     document.documentElement.style.setProperty('--h', h + 'px');
-    for (const [k, v] of Object.entries(script.theme ?? {})) document.documentElement.style.setProperty('--' + k, v);
+    const theme = window.Themes.pick(script);
+    for (const [k, v] of Object.entries(theme.vars)) document.documentElement.style.setProperty('--' + k, v);
     document.body.classList.toggle('whip', script.transition === 'whip');
+    document.body.classList.toggle('sparkle', script.mark === 'sparkle');
     document.getElementById('brand').textContent = script.brand ?? '';
     document.getElementById('footer').textContent = script.footer ?? '';
     const stage = document.getElementById('stage');
@@ -37,7 +40,7 @@
     stage.innerHTML = scenes.map((s) => s.html).join('');
     scenes.forEach((s, i) => { s.el = stage.children[i]; });
     total = t;
-    return { total, width: w, height: h, fps: script.fps ?? 30, starts: scenes.map((s) => s.start) };
+    return { total, theme: theme.name, width: w, height: h, fps: script.fps ?? 30, starts: scenes.map((s) => s.start) };
   };
 
   window.seek = (t) => {

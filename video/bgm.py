@@ -1,5 +1,5 @@
 # 動画用のBGMを合成して WAV で書き出す（音源ファイル不要・著作権フリー）。
-# 使い方: python3 video/bgm.py <秒数> <出力.wav> [--bpm 128]
+# 使い方: python3 video/bgm.py <秒数> <出力.wav> [--bpm 128] [--mood dark|bright]
 import sys, wave
 import numpy as np
 
@@ -39,9 +39,13 @@ def saw(freq, length, decay):
 
 def note(m): return 440 * 2 ** ((m - 69) / 12)
 
-# 進行: Am - F - C - G（1小節ずつ）
-chords = [[57, 60, 64], [53, 57, 60], [48, 55, 60], [55, 59, 62]]
-roots = [33, 29, 36, 31]
+mood = sys.argv[sys.argv.index('--mood') + 1] if '--mood' in sys.argv else 'dark'
+if mood == 'bright':  # D - A - Bm - G（明るめ）
+    chords = [[62, 66, 69], [57, 61, 64], [59, 62, 66], [55, 59, 62]]
+    roots = [38, 33, 35, 31]
+else:  # Am - F - C - G
+    chords = [[57, 60, 64], [53, 57, 60], [48, 55, 60], [55, 59, 62]]
+    roots = [33, 29, 36, 31]
 bars = int(sec / (beat * 4)) + 1
 
 # 冒頭のヒット（巨大文字が突っ込むタイミングに合わせる）

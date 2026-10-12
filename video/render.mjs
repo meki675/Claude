@@ -34,7 +34,7 @@ page.on('pageerror', (e) => { console.error('page error:', e.message); process.e
 await page.goto(pathToFileURL(path.join(dir, 'lib', 'engine.html')).href);
 const info = await page.evaluate((s) => window.build(s), script);
 await page.evaluate(() => document.fonts.ready);
-console.log(`scenes: ${script.scenes.length}, total: ${info.total}s, ${width}x${height}@${info.fps}`);
+console.log(`scenes: ${script.scenes.length}, total: ${info.total}s, ${width}x${height}@${info.fps}, theme: ${info.theme}`);
 
 if (thumbs) {
   mkdirSync(thumbs, { recursive: true });

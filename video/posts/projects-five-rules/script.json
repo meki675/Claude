@@ -1,0 +1,23 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "sky",
+  "mark": "sparkle",
+  "transition": "whip",
+  "brand": "CLAUDE CODE PROJECTS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "burst", "dur": 2.8, "tag": "Claude Code Projects", "ghost": "5 RULES 5 RULES", "title": "長い説明より\n[[5つの指定]]", "sub": "自動制作を育てる、最初の一手", "sparkles": [[18, 26, 1], [84, 22, 0.6], [80, 74, 1.2], [14, 78, 0.5]] },
+    { "type": "kinetic", "dur": 2.4, "step": 0.22, "words": ["長文を", "担当ごとに", "送るほど", "内容は", "[[ズレる]]。"] },
+    { "type": "carousel", "dur": 4.6, "tag": "最初に置く5つ", "title": "短く、先に決める", "cards": [
+      { "t": "目的", "s": "何を完成させ、どう使うか" },
+      { "t": "正本", "s": "どれを修正の基準にするか" },
+      { "t": "変更の\n境界", "s": "元資料は変えない・公開しない" },
+      { "t": "完成の\n判定", "s": "何を確かめたら完成か" },
+      { "t": "残す\n記憶", "s": "次も使う決定と理由だけ" }
+    ] },
+    { "type": "quote", "dur": 2.6, "tag": "④ 完成の判定", "text": "「できました」は\n完成の証拠じゃない。", "by": "何を確かめたかを残してもらう" },
+    { "type": "cta", "dur": 2.8, "tag": "詳しくは記事で", "title": "担当が増えても\n[[ブレない頼み方]]", "go": "指示例つきの12の応用例", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari", "avatar": "N" }
+  ]
+}

@@ -172,6 +172,7 @@
       ${A('h-xl crash', 0.05, fmt(s.title))}
       ${sub(s.sub, 0.85)}
     </div>
+    ${(s.sparkles ?? []).map(([x, y, z], i) => A('spark twinkle', 0.4 + i * 0.12, '', { style: `left:${x}%;top:${y}%;--z:${z ?? 1}` })).join('')}
     <div class="a flash flashout" style="--d:0s"></div>`;
 
   // 20. CTA（締め）
