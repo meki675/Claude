@@ -1,0 +1,2811 @@
+{
+ "url": "https://x.com/MakeAI_CEO/status/2108739727344165186",
+ "id": "2108739727344165186",
+ "text": "https://x.com/i/article/2108717802114994176",
+ "raw_text": {
+  "text": "https://t.co/ozPqcQfJZs",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/ozPqcQfJZs",
+    "replacement": "https://x.com/i/article/2108717802114994176",
+    "display": "x.com/i/article/2108…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "MakeAI_CEO",
+  "url": "https://x.com/MakeAI_CEO",
+  "id": "1912080237028114432",
+  "followers": 33678,
+  "following": 197,
+  "likes": 7684,
+  "media_count": 602,
+  "name": "mana｜株式会社MakeAI CEO",
+  "description": "法人向けAI研修・業務自動化の設計〜実装まで一気通貫で支援｜導入企業で残業ゼロ・離職率低下の実績あり｜中小企業のAI活用を「分かる」から「回る」に変える｜研修/導入支援のご相談はDMまたは公式LINEから↓",
+  "raw_description": {
+   "text": "法人向けAI研修・業務自動化の設計〜実装まで一気通貫で支援｜導入企業で残業ゼロ・離職率低下の実績あり｜中小企業のAI活用を「分かる」から「回る」に変える｜研修/導入支援のご相談はDMまたは公式LINEから↓",
+   "facets": []
+  },
+  "location": "無料のAI相談はこちら→",
+  "banner_url": "https://pbs.twimg.com/profile_banners/1912080237028114432/1779532367",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2004460966822727680/x2wh_2kc_200x200.jpg",
+  "joined": "Tue Apr 15 09:47:16 +0000 2025",
+  "protected": false,
+  "website": {
+   "url": "https://line.me/R/ti/p/@382uqqlb?oat_content=url&ts=02281450",
+   "display_url": "line.me/R/ti/p/@382uqq…"
+  },
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 0,
+ "retweets": 8,
+ "likes": 116,
+ "bookmarks": 258,
+ "quotes": 13,
+ "created_at": "Sat Oct 10 02:01:44 +0000 2026",
+ "created_timestamp": 1791597704,
+ "possibly_sensitive": false,
+ "views": 52790,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-10T02:01:44.000Z",
+  "modified_at": "2026-10-10T02:01:44.000Z",
+  "id": "2108717802114994176",
+  "title": "Claude Code の Computer Use 神活用術10選",
+  "preview_text": "画面越しに CapCut を動かすまで\n44.4秒のリール1本に、字幕が26個、差し込みの画像が15枚。CapCut で手で並べると、同じクリックの繰り返しですよね。\n実は、Claude Code には2026年3月から、Computer Use",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAAFCgABHUO/h3WaoAAKAAIaiRLYThsAAAAA",
+   "media_id": "2108739639054082048",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 88.54,
+       "rgb": {
+        "blue": 255,
+        "green": 255,
+        "red": 255
+       }
+      },
+      {
+       "percentage": 5.82,
+       "rgb": {
+        "blue": 85,
+        "green": 118,
+        "red": 215
+       }
+      },
+      {
+       "percentage": 5.16,
+       "rgb": {
+        "blue": 24,
+        "green": 24,
+        "red": 24
+       }
+      }
+     ]
+    },
+    "original_img_height": 800,
+    "original_img_url": "https://pbs.twimg.com/media/HUO_h3WaoAA0QeX.jpg",
+    "original_img_width": 2000
+   },
+   "media_key": "3_2108739639054082048"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d2706",
+     "text": "画面越しに CapCut を動かすまで",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7jcou",
+     "text": "44.4秒のリール1本に、字幕が26個、差し込みの画像が15枚。CapCut で手で並べると、同じクリックの繰り返しですよね。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6vg6r",
+     "text": "実は、Claude Code には2026年3月から、Computer Use という機能が入っています。公式の日本語版では「コンピュータ使用」と呼ばれ、Claude が画面を見て、クリックして、文字を入力する仕組みなんです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "3k51u",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 59,
+       "offset": 69,
+       "style": "Bold"
+      }
+     ],
+     "key": "8p5ch",
+     "text": "今までは、ここが壁でした。API（アプリを外から動かす窓口）や公式の連携が無いアプリは、AI から動かせなかったんです。でも今は違います。Claude Code の Computer Use なら、CapCut や Keynote も画面越しに動かせます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bkgl",
+     "text": "動き方はシンプルです。Claude が画面の写真を撮り、ボタンの位置を見つけて押し、もう一度写真を撮って結果を確かめます。触るアプリごとに許可が要り、私が許可したアプリだけが動きます。2026年3月23日に研究プレビュー（試験公開）として始まり、9月2日からは裏で動く形にも対応しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "119rl",
+     "text": "実際に私は、このPCの Claude Code に「次だけCapCut立ち上げてやってみて」と頼みました。すると Claude Code が CapCut を開き、新しいプロジェクトを作ったんです。44.4秒のリールの書き出しまで、そのまま進めています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a1dd9",
+     "text": "画像と字幕の並びは、Claude Code が CapCut の保存ファイルに書き込み、画面で開いて確かめていました。字幕の書体も、一覧の検索欄に「丸」と打って「源泉丸ゴシック-Bd」を選んでいたんです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "doaug",
+     "text": "途中で1度だけ、Claude Code では押せない窓が出て、私が「キャンセル」を押しました。操作は裏で進むので、同じ Mac で私はほかのアプリを使えます。記事のための収録でも、私は途中から席に戻ってPCを使っていました。仕上がった5本のリールも、あとで約11分で続けて書き出しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3sist",
+     "text": "あなたが毎週、同じ手順で触っているアプリはいくつありますか。CapCut、Keynote、Numbers、音の編集ソフト、自分で作ったアプリ。連携が無いから手でやるしかないと思っていたアプリがあれば、それが最初の候補になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ek4ij",
+     "text": "記事では、このPCで Claude Code に任せた5つと、海外と X で見つけた5つを紹介します。何ができるか、どう始めるか、どう頼むか、どこでつまずくかを、第1章から第4章で順に書きました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "559nu",
+     "text": "第2章には、Grok Bot に X を調べさせた依頼文を載せました。第3章には、音楽プロデューサーが Logic Pro の書き出しを任せた例も入れています。第4章には、このPCで止まった場面もそのまま書きました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6gts3",
+     "text": "第1章 まずは3分で分かる Computer Use の基本",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4mtli",
+     "text": "3月23日の公開から、9月2日の「裏で動く」まで",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6j4nb",
+     "text": "第1章では、公開の流れと始め方を押さえます。実はこのPCでも、最初の起動は「別の Claude の会話がコンピューターを使っている」という表示で止まりました。同じ Mac の別の会話が、画面を使っていたんです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "du3p3",
+     "text": "公開の流れと、使える人は Pro・Max だけ",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "tmfb",
+     "text": "新しい機能は、いつから誰が使えるのかが一番分かりにくいですよね。記事ごとに書いてあることが違うと、自分の環境で動くのか迷います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4avn7",
+     "text": "私は、このPCの Claude Code のデスクトップアプリから使っています。許可を出すと、Claude Code はアプリの窓を前に出さずに裏で操作しました。9月2日に公開された「裏で動く」形です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d3b8g",
+     "text": "公開からの半年で、使える場所は4段階で広がりました。具体的にどう広がったかというと、こうです（日付は世界標準時。日本時間ではどれも翌日）。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dhd3",
+     "text": "2026年3月23日：Cowork と Claude Code のデスクトップアプリで公開。最初は macOS だけ",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aujjj",
+     "text": "2026年3月30日：ターミナルの Claude Code（CLI）でも使えるように",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2lppi",
+     "text": "2026年4月2日：デスクトップアプリが Windows に対応",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bksb2",
+     "text": "2026年8月20日：開発者向けの API でも一般提供に（Computer Use を組み込んだアプリを作る人向け）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3ub1v",
+     "text": "2026年9月2日：裏で動く形に対応。macOS 15以降で、人のマウスとキーボードを奪わない",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 40,
+       "offset": 135,
+       "style": "Bold"
+      }
+     ],
+     "key": "21p0",
+     "text": "使えるのは Pro と Max のプランで、Team と Enterprise では使えません。今も研究プレビューの扱いで、ターミナル版は macOS だけ、-p を付けた実行では動きません。実践のコツは、ターミナルなら /status でプランを先に確かめることです。要するに、Mac と Pro 以上のプランがあれば今日から試せるということです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3d96u",
+     "text": "始め方は /mcp か設定1つ。守られている3つの決まり",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ak0mn",
+     "text": "設定画面のどこを触ればいいか、探すだけで疲れますよね。記事のための収録では、Keynote や CapCut など7つのアプリを一度に申請し、7つとも「full」で許可されました。具体的にどう始めるかというと、こうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3da55",
+     "text": "ターミナル：/mcp を開き、computer-use を選んで Enable",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6oq9i",
+     "text": "デスクトップアプリ：設定の Computer use（日本語表示は「コンピューターの使用」）をオン。公式 X の案内は「設定 ＞ 一般」、公式ドキュメントは「Settings > This computer > System」で、資料によって表記が違います。アプリの版で表示が違うことがあります",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8homa",
+     "text": "Mac：初回に、アクセシビリティと画面収録の許可を求められる",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8c9vb",
+     "text": "許可はアプリごとに「Allow for this session」か「Deny」を選び、その会話の間だけ続きます。段階は、ブラウザが見るだけ、ターミナルや IDE（プログラムを書くアプリ）がクリックだけ、残りはすべてです。Esc を押せばすぐ止まり、画面を使えるのは同時に1つの会話だけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "3ji6q",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 52,
+       "offset": 96,
+       "style": "Bold"
+      }
+     ],
+     "key": "1jsk7",
+     "text": "ここがポイントなんです。道具の順番は、MCP（アプリと直接つなぐ部品）やコネクタが先です。次が Bash と Claude in Chrome で、Computer Use は最後になります。実践のコツは、Gmail や Slack のようにコネクタがあるアプリには、画面越しに頼まないことです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 2,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "3qbnk",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "auj62",
+     "text": "第1章のまとめ　Mac と Pro 以上なら、設定1つで始められる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9aata",
+     "text": "要するに、Pro か Max なら、/mcp か設定の1か所で始められるということです。許可はアプリごとに出し、止めたいときは Esc を押します。第2章では、Claude Code が CapCut や Keynote をどう動かしたかを5つ見ます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "47g54",
+     "text": "第2章 このPCで実際にやった神活用術5選（クリエイティブ編）",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dpiv6",
+     "text": "CapCut・Grok Bot・Keynote・Numbers で試した5つ",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c64f6",
+     "text": "第2章は、このPCで Claude Code に頼んだ実際の作業です。うまくいった手順と、つまずいた所の両方を書きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dvevl",
+     "text": "1. CapCut の編集を、44.4秒のリールの書き出しまで任せる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "83ogm",
+     "text": "字幕を1つずつ打ち、書体を1つずつ変える作業は重いですよね。本数が増えるほど、編集の時間も増えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "22vlq",
+     "text": "私が頼んだのは「次だけCapCut立ち上げてやってみて」の一言でした。Claude Code は CapCut を開き、アップデートと有料プランの案内の窓を閉じました。続けて、空のプロジェクトを作っています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9bptj",
+     "text": "実は、全部を画面で押したわけではないんです。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aah94",
+     "text": "並べる：差し込みの画像15枚と字幕26個は、プロジェクトを閉じた状態で CapCut の保存ファイルに書き込んだ",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "al3li",
+     "text": "付ける：書体「源泉丸ゴシック-Bd」と、冒頭の文字の「タイプライター」の動きを、画面で1つにだけ付けた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "l2de",
+     "text": "写す：CapCut が保存した設定を読み、残りの字幕と画像14枚に同じ設定を書き写した",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ful99",
+     "text": "直す：「ソフトズームイン」で影が黒く出たので「フェードイン」に替え、2回目を書き出した",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bik2l",
+     "text": "押さない：Pro の印が付いた素材は選ばず、更新・購入・シェアのボタンも押していない",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 3,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "4u4dq",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 36,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "3i1iu",
+     "text": "実践のコツは、素材をムービー（Movies）フォルダの下に置くことです。CapCut は決まった場所しか読めない設定で、ほかの場所の素材は「メディアをリンク」の窓になりました。「メディアをリンク」の窓は CapCut の許可では押せず、私が「キャンセル」を押しています。仕上がった5本は「どんどんやれ。」の一言で、同じ手順を繰り返して約11分で書き出しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fr1f0",
+     "text": "2. CapCut を操作する画面を、Claude Code が自分で録画して差し込む",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "agcr4",
+     "text": "AI で作った動画を出すなら、本物の操作画面を見せたいですよね。でも自分で画面録画を回すと、カーソルや通知まで写り込みます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "rap3",
+     "text": "私は「あなた自身で収録して」「動画の中に差し込んでください」と頼みました。Claude Code はまず、窓1つだけを録画する道具 winrec を Swift で書きました。Mac の ScreenCaptureKit という仕組みを使うので、カーソルとほかの窓は写りません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 42,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "mkda",
+     "text": "録画を回しながら CapCut を操作すれば、操作がそのまま動画の素材になるんです。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3cdbp",
+     "text": "録る：録画を裏で始め、置き場で画像を選ぶ、「フェードイン」を押す、「エクスポート」を押す、の場面を CapCut で操作した",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8br68",
+     "text": "切る：録った映像から使う場面を時刻で切り出し、差し込み用の6本にした",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b79m7",
+     "text": "足す：カーソルが写らないので、押した所に白い輪を描いた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7c6bo",
+     "text": "隠す：フォルダの場所（個人名を含む）が写る範囲をぼかした",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fjfio",
+     "text": "札：完成した47.0秒のリールでは、「実際の CapCut の画面」という札を6か所に出した",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ismk",
+     "text": "実践のコツは、裏で動く CapCut の弱点を知っておくことです。裏で動かすとプレビューの絵が1秒に1回ほどしか変わらず、再生の場面はコマ送りに見えました。置き場からタイムラインへドラッグすると、タイムラインが別の窓に分かれたこともあります。私の見立てでは、録る場面はボタンを押す瞬間に絞るのが向いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1h54p",
+     "text": "3. Grok Bot で X リサーチを実行して、CM の素材にする",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "19f5q",
+     "text": "X のリサーチは、検索して、読んで、表にまとめるまでが長いですよね。私は「このPCにGrok Botあるから」「あなたがやって収録して」と頼みました。1回目の許可は拒否になりましたが、Claude Code は勝手に続けず、進め方を3つの選択肢で聞いてきました。2回目で許可を出すと、Grok Bot の入力欄に依頼文を入れて送信し、回答が出るまでを窓ごと録画したんです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2q9i1",
+     "text": "正直言うと、回答の表がそろった理由は依頼文にあると私は見ています。具体的にどうやったかというと、依頼文に5つの決まりを書きました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9e5h3",
+     "text": "期間：「2026年10月6日〜10月9日（日本時間）」",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "39icq",
+     "text": "対象：OpenAI と Anthropic の公式アカウント4つの投稿だけ",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "13s5j",
+     "text": "出力の形：「日付｜アカウント｜発表の要点｜投稿URL」の表",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "99vlk",
+     "text": "分からないとき：該当がなければ「該当なし」、取れない項目は「確認できず」と書き、「推測で埋めないこと」",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7pbui",
+     "text": "しないこと：投稿や返信などの書き込み",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8asna",
+     "text": "回答は14件の表で、4つのうち1つのアカウントは「該当なし」でした。続けて送った2件目では、直近24時間の日本語の反応を、称賛・不満・要望・質問・比較に分けさせています。録画した窓は、60秒の CM の主役にしています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 4,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "4tbls",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 28,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "3d93m",
+     "text": "実践のコツは、回答を使う前に公式発表と照合することです。CM では、画面で囲んだ2行だけを公式発表と照らし合わせて使いました。もう1つ、裏からのスクロールはエラーになり、PageUp も効きませんでした。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9u3kp",
+     "text": "4. Keynote で、記事のメモからスライドを3枚作る",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8tvke",
+     "text": "スライドは、中身が決まっていても、枠に文字を入れていく作業が長いですよね。1枚ずつレイアウトを選び、タイトルと箇条書きを打つ手間は毎回同じです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "anas9",
+     "text": "記事の告知用に、Claude Code に Keynote でスライドを3枚作ってもらいました。1枚目のタイトルは「Claude Code × Computer Use」、2枚目は「このPCで実際にやった5つ」、3枚目は「Computer Use の決まり」です。1枚目の日付の欄には「2026年10月　X記事の告知用」と入れました。最初はテーマの絵を1回クリックしても選ばれず、既定の「ダイナミッククラウド（ライト）」のまま作りました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4g8m",
+     "text": "ここから、裏で効く押し方が見えてきたんです。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cieii",
+     "text": "文字の枠：1回のクリックでは選ばれず、ダブルクリックで入力に入れた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "58nt",
+     "text": "新しいスライド：メニュー「スライド ＞ 新規スライド」は裏からだと「無効」。ツールバーの「スライドを追加」なら押せて、「タイトル&箇条書き」を選べた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fra3d",
+     "text": "入力：枠をダブルクリックで決めたあとは、その場所にそのまま打ち込む形で文字が入った",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "k1ql",
+     "text": "箇条書き：行の区切りは Return キーで入った",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8qou9",
+     "text": "できなかったこと：背景を暗い色に変えるクリックは、裏からは効かなかった",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 5,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "aq2t9",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 34,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "de9a5",
+     "text": "実践のコツは、メニューで止まったらツールバーを試してもらうことです。依頼文に「メニューが無効なら、ツールバーの同じボタンを使って」と1行足しておく手があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eklbo",
+     "text": "5. Numbers で表を入れて、3D の縦棒グラフまで作る",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bt2be",
+     "text": "表とグラフは、数字を打ち込み、範囲を選び、グラフの種類を探して…と手数が多いですよね。セルが1つずれるだけで、グラフの形も変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "23e2s",
+     "text": "Numbers では、このPCで Computer Use を使った作業ごとに、操作の回数を表にしてもらいました。中身は、CapCut の編集186、収録111、続きの編集44、5本の書き出し61、Grok Bot 41 です。起動直後はファイルの一覧が出る「開く」の窓が出たので、そこは映さず、メニューの「ファイル ＞ 新規…」から作っています。テンプレートの「空白」は、1回のクリックでは開かず、ダブルクリックで開けました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e5li7",
+     "text": "入力は、マウスよりキーボードの方が確実でした。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "100cb",
+     "text": "入力：矢印キーで A1 のセルへ行き、文字を入れ、Tab で右のセル、Return で次の行へ。6行×2列を入れた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1a0k8",
+     "text": "選ぶ：Shift＋矢印で表の範囲を選んだ",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8o7g9",
+     "text": "グラフ：メニュー「挿入 ＞ グラフ」は「無効」だったので、ツールバーの「グラフ」→「3D」→ 1つ目の縦棒で入れた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b9on9",
+     "text": "色：右の「グラフスタイル」の絵はダブルクリックで効き、橙と黄色の系統に変わった",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c6c11",
+     "text": "題名：「タイトル」をオンにして、「Computer Use の操作回数（作業ごと）」と入れた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 6,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "a19bi",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 25,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "asrnl",
+     "text": "実践のコツは、表の入力をキーボードで頼むことです。依頼文に「セルの移動は Tab と Return で」と書いておくと、Claude Code はマウスで狙う必要がなくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cnctl",
+     "text": "第2章のまとめ　裏で効くのはダブルクリック・ツールバー・キーボード",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cqhmb",
+     "text": "要するに、裏で動く Computer Use には、効く押し方があるということです。一覧の絵や文字の枠はダブルクリック、「無効」のメニューはツールバーのボタンで通りました。第3章では、海外と X で見つけた5つに移ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e076o",
+     "text": "第3章 海外・X で見つけた神活用術5選（実用編）",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cbr6o",
+     "text": "ターミナル・デスクトップアプリ・Cowork で報告された5つ",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7iudo",
+     "text": "第3章は、海外の資料と X の投稿から集めた実例です。各節に、ターミナルの Claude Code、デスクトップアプリ、Cowork のどこで行った例かを書きました。Cowork でも同じ Computer Use が動きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6nn9n",
+     "text": "6. スクショ付きの操作マニュアルを作らせ、設定を一括で登録する",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9mm9p",
+     "text": "人に操作を教えるとき、画面を撮り、矢印を足し、手順を書く。マニュアルづくりは、思った以上に時間を取りますよね。ソフトの版が変わるたびに、撮り直しも出てきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fagqg",
+     "text": "2026年3月24日、国内の AI 発信者が X に投稿した例です。Cowork の Computer Use で、操作マニュアルを作らせています。反応は、いいねが1,149件、表示が約26.8万回です。同じ発信者は翌日、設定をまとめて登録させる使い方も試しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 55,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "db11m",
+     "text": "私の見立てでは、操作しながら写真を撮る Computer Use の動き方は、手順書づくりと相性がいいんです。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1ivpe",
+     "text": "マニュアル（Cowork）：デスクトップアプリを操作させながら1操作ごとにスクショを保存させ、画像付きの説明書にまとめさせた。補足では、OBS の FPS 設定を変える手順書も同じ方法で作った",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4rr7k",
+     "text": "一括登録（Cowork）：音声入力アプリ Super Whisper に、YouTube台本用・翻訳用・記事作成用・箇条書き用の4つのモードを、プロンプトからモデル選び・言語設定まで一度に登録させた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 7,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "bo1nu",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fqqcm",
+     "text": "実践のコツは、繰り返しの設定と手順書づくりに使うことです。同じ発信者はまとめの投稿で、向く場面を3つ挙げていました。放置できる定型作業、スクショ付きの資料づくり、何パターンもの繰り返し設定です。速度は遅いものの、Dispatch でスマホから頼めば寝ている間に終わる、という評価です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9hrms",
+     "text": "7. Final Cut Pro・Premiere Pro・CapCut の「下ごしらえ」を任せる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "793h6",
+     "text": "動画編集で手間がかかるのは、プロジェクトを作り、素材を読み込む準備だったりしますよね。海外の個人クリエイターの YouTube（2026年3月24日）の例です。Cowork で Final Cut Pro を開き、新しいプロジェクトを作って動画を読み込みました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 35,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "og2n",
+     "text": "私の見立てでは、動画編集ソフトはカットより準備の方が任せやすいんです。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4b51f",
+     "text": "Final Cut Pro（Cowork）：「7分16秒から最後まで、点滅する subscribe の文字」と頼むと、タイムコードで位置を合わせ、不透明度のキーフレームで点滅させた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4shda",
+     "text": "Premiere Pro（Cowork、AI 教育チャンネルの YouTube、2026年4月1日）：「Claude demo」という新規プロジェクトを作り、動画の読み込みとタイムラインへの配置まで成功",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cp27m",
+     "text": "Premiere Pro（デスクトップアプリの Claude Code、国内の X 投稿、2026年10月7日）：切り抜き動画の構成・カット・字幕まで作り、Premiere は Computer Use で操作したという報告",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e30bi",
+     "text": "CapCut（Mac、国内の X 投稿、2026年4月2日。どのアプリからかは書かれていない）：起動 → 取り込み → トリミング → テキスト → 書き出しまで",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 8,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "4618c",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "67qaf",
+     "text": "実践のコツは、限界も先に知っておくことです。4月の Premiere Pro の例では、初回は約10分かかり、基本のカット編集はできなかったと報告されています。10月の報告ではカットまで進んでおり、報告によって結果が分かれています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6o7ni",
+     "text": "8. iZotope と Logic Pro、API のない音のソフトを画面ごと動かす",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6obod",
+     "text": "音の編集は、開いてフィルターをかけて保存、を何本も繰り返しますよね。海外の開発者講座の YouTube（2026年3月30日）の例です。ターミナルの Claude Code で、iZotope に WAV を3本処理させました。発信者は、API も CLI もないアプリだという点を挙げています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aj2ei",
+     "text": "途中でつまずいても、画面を見て立て直すところが面白いんです。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "q82",
+     "text": "iZotope（ターミナルの Claude Code）：Movies フォルダの WAV を開き、フィルターのボタンをスクショで見つけて押し、Render。ダイアログを閉じるミスを2回したが、スクショで気づいて開き直した。最後に3本とも上書き保存",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ee3m2",
+     "text": "Logic Pro（Cowork、TV・映画向けの音楽プロデューサーの YouTube、2026年3月31日）：パート別の音源（ステム）を作る作業を、スキル「create stems」にまとめた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dhrj",
+     "text": "質問に答える：Claude が WAV か AIFF、44.1kHz か 48kHz、24bit か 16bit を聞いてくる。答えると、トラックをソロにしてステムごとに書き出し、デスクトップの stems フォルダに drums／orchestra／synth の WAV を保存した",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 9,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "5dht9",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 34,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "fbb15",
+     "text": "実践のコツは、毎回同じ質問をスキル（手順書）にまとめておくことです。Logic Pro の例では、ソロのボタンを押しすぎたため、スキルに指示を書き足していました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "caqdl",
+     "text": "9. Unreal Engine の書き出しなど、MCP に無い操作だけ画面で補う",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9kggb",
+     "text": "MCP で動かせるアプリでも、届かないボタンが残りますよね。国内の X 投稿（2026年8月23日）は、Unreal Engine で作った町を撮った例です。書き出し機能の MRQ が MCP に無く、computer-use で画面から操作して町の動画を書き出しています（投稿に付いた動画は10秒）。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "72e4a",
+     "text": "ここがポイントなんです。公式の道具の順番も、MCP やコネクタが先で画面は最後でした。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ci0mj",
+     "text": "Unreal Engine（Claude Code）：Movie Render Queue（MRQ）の書き出しだけを画面で操作",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cen1r",
+     "text": "After Effects（海外の X 投稿、2026年9月22日。どのアプリからかは書かれていない）：最初のプロンプトで「Computer Use」と指定し、色深度16bpc などの設定と4つのコンポ作成から、5本のプロンプトで8秒の動画を組んだ",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d4cre",
+     "text": "Blender（国内の X 投稿、2026年3月25日。どのアプリからかは書かれていない）：Mastercam の代わりに Blender でツールパス（削る道筋）を書かせ、G コード（工作機械への指示）まで出力",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 10,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "fcuje",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 28,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "5c9h7",
+     "text": "実践のコツは、頼む前に公式のコネクタを確かめることです。Anthropic は2026年4月28日に、Adobe や Blender のコネクタを発表しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7p96i",
+     "text": "X には Blender の注意もあります（2026年10月1日）。指示しないと、Python スクリプトでモデリングを始めるそうです。画面で操作してほしいときは、依頼文にそう書きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ui2u",
+     "text": "10. 自作アプリを、リリース前に約1時間、通しで触らせる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "evcus",
+     "text": "自分で作ったアプリの全部の画面を、リリース前に押して確かめるのは骨が折れますよね。GitHub に寄せられた個人開発者の報告（2026年8月14日）の例です。Claude Code で、自作の Electron アプリを約1時間かけて検証しています。環境は Windows とみられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "76fho",
+     "text": "検証は、画面の録画、書き出し、OS の保存ダイアログへの応答まで含みます。最初の許可のあとは、約40回の操作を確認なしで進めたそうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1e6uc",
+     "text": "報告者は、単体テストやブラウザのテストでは画面キャプチャやシステムトレイまで届かない、と書いています。具体的にどうやったかというと…",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a30ff",
+     "text": "公式の用途：Electron アプリの最初の案内画面を押し進め、段階ごとにスクショを撮る。公式は、テストのための設定や仕組みを用意しなくてよい、と書いている",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a32oh",
+     "text": "公式の例文：アプリをビルドして起動し、各タブを順に押して確かめる、という依頼",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a2a39",
+     "text": "iOS シミュレーター（海外の X 投稿、2026年7月23日、Claude Code）：タスク一覧の並べ替えのような、マルチタッチが要るテストを試した。内蔵のシミュレーターが安定するまでは、Computer Use も併用しているそうです",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 11,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "97oe2",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 54,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "60mj0",
+     "text": "実践のコツは、iOS アプリならデスクトップアプリの iOS Simulator ペインを先に使うことです。iOS Simulator ペインは Computer Use を使わずにシミュレーターを動かします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1k0rv",
+     "text": "第3章のまとめ　動画・音・3D・アプリ確認の「最後のひと押し」",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9enov",
+     "text": "要するに、海外と X の実例は、連携で届かない所を画面で補う使い方が中心だということです。Unreal Engine の書き出しが、その典型です。第4章では、遅い・止まる場面と頼み方の型をまとめます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "disku",
+     "text": "第4章 つまずかないための頼み方と注意点",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e1i48",
+     "text": "約3分の書き出しと、このPCで止まった場面から",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "554cd",
+     "text": "第4章は、遅い・重い・止まる場面と、そのまま使える頼み方の型です。数字は海外の報告と、このPCで起きたことから拾いました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aok8d",
+     "text": "遅い・重い・止まる場面と、このPCでできなかった例",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fv0o4",
+     "text": "任せたのに、手でやった方が早かった。正直言うと、そんな場面は今もありますよね。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bpo15",
+     "text": "Photoshop の画像を書き出して送るのに、約3分かかった例があります。LinkedIn 運用講座の YouTube（2026年4月13日）の報告です。使ったのはデスクトップアプリの Claude Code と Dispatch で、手でやれば約10秒だそうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bhian",
+     "text": "Premiere Pro の初回は約10分という報告もあります。使用量は公式の数字が無く、約30分の試用で Pro の5時間枠をほぼ使い切ったという記者の報告があるだけです。具体的に止まった場面はこうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "buokg",
+     "text": "ファイルを選ぶ窓：YouTube へ動画を上げる窓は、許可が出なかった。CapCut の「メディアをリンク」も私が押した",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "88p4a",
+     "text": "ドラッグ：Finder から Google ドライブへ動画16本を運ぶ許可は出ず、自分で運んだ",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6k0g9",
+     "text": "ChatGPT アプリ：画面を撮ろうとしたが、許可が出なかった",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ere5",
+     "text": "ブラウザ：Chrome は見るだけ。Web の作業は Claude in Chrome に回す",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b678l",
+     "text": "画面ロック：ロック中は、クリックもメニューも止まった",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "db3cq",
+     "text": "既定のブロック：投資・取引・暗号資産のアプリは最初からブロック。海外では Apple Music と Kindle も断られた",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 12,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "1cg7k",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 28,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "fee0q",
+     "text": "実践のコツは、Mac の確認の窓は自分で決めることです。GarageBand の起動時は、マイクの使用を求める macOS の確認が出ました。Claude は押さずに中止しています。私が文字を打っている間は、Claude Code のクリックも止まります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "26l9n",
+     "text": "そのまま使える頼み方の型（5項目）",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8vs53",
+     "text": "依頼文に何をどこまで書けばいいか、迷いますよね。私の CapCut の依頼は「次だけCapCut立ち上げてやってみて」の1行でした。一方で Grok Bot の依頼文には、5つの決まりを書いています。具体的にどう書くかというと、次の5項目を埋めます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bh23f",
+     "text": "アプリ名：「CapCut で」「Keynote で」と名指しする",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5f6fu",
+     "text": "素材の場所：ムービーフォルダの下など、アプリが読める場所を書く",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "alh91",
+     "text": "やること：件数と対象を数字で書く",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cg1rc",
+     "text": "しないこと：購入・投稿・送信などを書く",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "di8cs",
+     "text": "終わったら見せるもの：書き出したファイルや、画面の写真",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 13,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "fb66l",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ui6o",
+     "text": "X の投稿には、依頼の最後に「Computer Useでお願い」と付けるという助言がありました（2026年8月17日）。数分で340件を調べた報告には、件数や対象を具体的に書くとよい、という助言も付いていました（2026年8月19日）。写真を1枚ずつ見せる作業はトークン（使用量の単位）を多く使い、会員登録やカード決済は断られるそうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c4fi6",
+     "text": "正直に書くと、X では Computer Use は Codex の方が速くて正確だ、という比較が目立つんです。外出先からなら、Cowork の Dispatch でスマホから PC に作業を渡せます。ウォートン校の教授のニュースレター（2026年3月31日）には、PowerPoint のグラフ更新の例があります。ターミナルの Claude Code では、Dispatch は使えません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "23opj",
+     "text": "第4章のまとめ　依頼文は5項目、まずアプリ名から",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 35,
+       "offset": 51,
+       "style": "Bold"
+      }
+     ],
+     "key": "74b7q",
+     "text": "要するに、Computer Use は遅く、ファイルを選ぶ窓や画面ロックで止まる道具だということです。だからこそ依頼文には、アプリ名・素材の場所・しないことを先に書きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4aff3",
+     "text": "おわりに　今日、Keynote か Numbers に1本頼む",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "48mmr",
+     "text": "CapCut のリールも Grok Bot の14件の表も、Claude Code が画面を見て押した結果です。止まる場面はあっても、手で繰り返していた作業は1つずつ渡せます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5mg8m",
+     "text": "今日やることは1つです。ターミナルなら /mcp で computer-use を Enable、デスクトップアプリなら設定でオンにします。続けて Keynote か Numbers を名指しし、作ってほしいスライドか表を1本頼んでください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 90,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "5s7lq",
+     "text": "Claude Code の Computer Use なら、CapCut や Keynote も画面越しに動かせます。最初の1本は、アプリ名・やること・しないことの3行で書きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8q0ja",
+     "text": "参考にした公開情報",
+     "type": "header-one"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 23,
+        "text": "https://code.claude.com/docs/en/computer-use",
+        "toIndex": 67
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "88pko",
+     "text": "公式ドキュメント（Computer use）：https://code.claude.com/docs/en/computer-use",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 18,
+        "text": "https://code.claude.com/docs/en/desktop",
+        "toIndex": 57
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "baguu",
+     "text": "公式ドキュメント（Desktop）：https://code.claude.com/docs/en/desktop",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 29,
+        "text": "https://support.claude.com/en/articles/14128542",
+        "toIndex": 76
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "30ig6",
+     "text": "公式ヘルプ（Cowork の Computer use）：https://support.claude.com/en/articles/14128542",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 31,
+        "text": "https://claude.com/blog/dispatch-and-computer-use",
+        "toIndex": 80
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5ea8r",
+     "text": "公式ブログ（Dispatch と Computer use）：https://claude.com/blog/dispatch-and-computer-use",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 33,
+        "text": "https://x.com/claudeai/status/2038663014098899416",
+        "toIndex": 82
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "elq7i",
+     "text": "公式 X（Claude Code の Computer use）：https://x.com/claudeai/status/2038663014098899416",
+     "type": "unordered-list-item"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "12",
+     "value": {
+      "data": {
+       "entityKey": "335507f3-a71e-4e40-abc5-4eba342dc0d9",
+       "mediaItems": [
+        {
+         "localMediaId": "43",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108730493617549312"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "8",
+     "value": {
+      "data": {
+       "entityKey": "f834e070-4215-4187-acee-93f3d5bc9d73",
+       "mediaItems": [
+        {
+         "localMediaId": "27",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108730174808510464"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "4",
+     "value": {
+      "data": {
+       "entityKey": "1a9256d2-361d-4a39-8b88-0981d77deed8",
+       "mediaItems": [
+        {
+         "localMediaId": "11",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108729855823200256"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "11",
+     "value": {
+      "data": {
+       "entityKey": "98878cec-046c-4b6b-be0b-6612dbece64a",
+       "mediaItems": [
+        {
+         "localMediaId": "39",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108730414307438592"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "9",
+     "value": {
+      "data": {
+       "entityKey": "97201bc1-e7c3-429d-b206-3c2f8746d980",
+       "mediaItems": [
+        {
+         "localMediaId": "31",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108730254558949376"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "13",
+     "value": {
+      "data": {
+       "entityKey": "7d8f1b11-5903-4243-8926-5e10e39c83ad",
+       "mediaItems": [
+        {
+         "localMediaId": "45",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108730520440111104"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "5",
+     "value": {
+      "data": {
+       "entityKey": "2ca10df1-6bf0-431d-8788-400b75864f60",
+       "mediaItems": [
+        {
+         "localMediaId": "15",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108729935720484864"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "10",
+     "value": {
+      "data": {
+       "entityKey": "a0235657-0746-4918-bd46-c4fad59b50df",
+       "mediaItems": [
+        {
+         "localMediaId": "35",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108730334242283520"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "6",
+     "value": {
+      "data": {
+       "entityKey": "fd985717-2d3e-4cdb-a8bb-c74b1a2ccdf6",
+       "mediaItems": [
+        {
+         "localMediaId": "19",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108730011318706176"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "entityKey": "ddc3dfe3-792c-456b-b00c-d67256186b74",
+       "mediaItems": [
+        {
+         "localMediaId": "1",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108729205437661184"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "entityKey": "49682b76-37e0-4843-8a3d-faa50b7b3eb1",
+       "mediaItems": [
+        {
+         "localMediaId": "47",
+         "mediaCategory": "AmplifyVideo",
+         "mediaId": "2108731005947580418"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "entityKey": "00e9c6cc-7c19-4242-8b2b-d3ac400a512c",
+       "mediaItems": [
+        {
+         "localMediaId": "3",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108729504919416832"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "7",
+     "value": {
+      "data": {
+       "entityKey": "7ff1e85c-ae31-4845-b36b-7a34f98701ed",
+       "mediaItems": [
+        {
+         "localMediaId": "23",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108730095150194688"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "3",
+     "value": {
+      "data": {
+       "entityKey": "65b26872-d048-4111-81a4-f8e591c9e997",
+       "mediaItems": [
+        {
+         "localMediaId": "7",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108729663166337024"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    }
+   ]
+  },
+  "media_entities": [
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO2/nYa8AAKAAIaiRLYThsAAAAA",
+    "media_id": "2108730254558949376",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 55.54,
+        "rgb": {
+         "blue": 31,
+         "green": 21,
+         "red": 13
+        }
+       },
+       {
+        "percentage": 15.17,
+        "rgb": {
+         "blue": 25,
+         "green": 29,
+         "red": 55
+        }
+       },
+       {
+        "percentage": 5.01,
+        "rgb": {
+         "blue": 27,
+         "green": 92,
+         "red": 201
+        }
+       },
+       {
+        "percentage": 4.32,
+        "rgb": {
+         "blue": 24,
+         "green": 53,
+         "red": 120
+        }
+       },
+       {
+        "percentage": 3.73,
+        "rgb": {
+         "blue": 198,
+         "green": 188,
+         "red": 177
+        }
+       }
+      ]
+     },
+     "original_img_height": 1152,
+     "original_img_url": "https://pbs.twimg.com/media/HUO2_nYa8AASWHs.jpg",
+     "original_img_width": 2048
+    },
+    "media_key": "3_2108730254558949376"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO3EQOaIAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108730334242283520",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 51.9,
+        "rgb": {
+         "blue": 36,
+         "green": 28,
+         "red": 28
+        }
+       },
+       {
+        "percentage": 9.42,
+        "rgb": {
+         "blue": 25,
+         "green": 43,
+         "red": 89
+        }
+       },
+       {
+        "percentage": 7.71,
+        "rgb": {
+         "blue": 71,
+         "green": 49,
+         "red": 22
+        }
+       },
+       {
+        "percentage": 5.84,
+        "rgb": {
+         "blue": 199,
+         "green": 180,
+         "red": 176
+        }
+       },
+       {
+        "percentage": 3.68,
+        "rgb": {
+         "blue": 47,
+         "green": 119,
+         "red": 223
+        }
+       }
+      ]
+     },
+     "original_img_height": 1152,
+     "original_img_url": "https://pbs.twimg.com/media/HUO3EQOaIAA4yyA.jpg",
+     "original_img_width": 2048
+    },
+    "media_key": "3_2108730334242283520"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO26+Sb0AAKAAIaiRLYThsAAAAA",
+    "media_id": "2108730174808510464",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 58.55,
+        "rgb": {
+         "blue": 28,
+         "green": 23,
+         "red": 24
+        }
+       },
+       {
+        "percentage": 11.25,
+        "rgb": {
+         "blue": 22,
+         "green": 41,
+         "red": 82
+        }
+       },
+       {
+        "percentage": 9.46,
+        "rgb": {
+         "blue": 92,
+         "green": 67,
+         "red": 26
+        }
+       },
+       {
+        "percentage": 3.44,
+        "rgb": {
+         "blue": 180,
+         "green": 186,
+         "red": 199
+        }
+       },
+       {
+        "percentage": 2.96,
+        "rgb": {
+         "blue": 25,
+         "green": 77,
+         "red": 157
+        }
+       }
+      ]
+     },
+     "original_img_height": 1152,
+     "original_img_url": "https://pbs.twimg.com/media/HUO26-Sb0AAKP0z.jpg",
+     "original_img_width": 2048
+    },
+    "media_key": "3_2108730174808510464"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO22ViaYAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108730095150194688",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 39.61,
+        "rgb": {
+         "blue": 24,
+         "green": 23,
+         "red": 28
+        }
+       },
+       {
+        "percentage": 23.7,
+        "rgb": {
+         "blue": 219,
+         "green": 211,
+         "red": 218
+        }
+       },
+       {
+        "percentage": 11.13,
+        "rgb": {
+         "blue": 25,
+         "green": 41,
+         "red": 79
+        }
+       },
+       {
+        "percentage": 7.66,
+        "rgb": {
+         "blue": 94,
+         "green": 65,
+         "red": 32
+        }
+       },
+       {
+        "percentage": 5.81,
+        "rgb": {
+         "blue": 207,
+         "green": 161,
+         "red": 81
+        }
+       }
+      ]
+     },
+     "original_img_height": 1152,
+     "original_img_url": "https://pbs.twimg.com/media/HUO22ViaYAA7PvF.jpg",
+     "original_img_width": 2048
+    },
+    "media_key": "3_2108730095150194688"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO2xdPbYAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108730011318706176",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 68.25,
+        "rgb": {
+         "blue": 252,
+         "green": 252,
+         "red": 252
+        }
+       },
+       {
+        "percentage": 27.83,
+        "rgb": {
+         "blue": 50,
+         "green": 50,
+         "red": 44
+        }
+       },
+       {
+        "percentage": 2.27,
+        "rgb": {
+         "blue": 74,
+         "green": 207,
+         "red": 239
+        }
+       },
+       {
+        "percentage": 0.39,
+        "rgb": {
+         "blue": 139,
+         "green": 197,
+         "red": 214
+        }
+       },
+       {
+        "percentage": 0.17,
+        "rgb": {
+         "blue": 108,
+         "green": 166,
+         "red": 115
+        }
+       }
+      ]
+     },
+     "original_img_height": 1378,
+     "original_img_url": "https://pbs.twimg.com/media/HUO2xdPbYAAqKqz.jpg",
+     "original_img_width": 1600
+    },
+    "media_key": "3_2108730011318706176"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO2dMRb0AAKAAIaiRLYThsAAAAA",
+    "media_id": "2108729663166337024",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 95.9,
+        "rgb": {
+         "blue": 21,
+         "green": 22,
+         "red": 21
+        }
+       },
+       {
+        "percentage": 1.82,
+        "rgb": {
+         "blue": 193,
+         "green": 194,
+         "red": 186
+        }
+       },
+       {
+        "percentage": 0.95,
+        "rgb": {
+         "blue": 104,
+         "green": 120,
+         "red": 129
+        }
+       },
+       {
+        "percentage": 0.22,
+        "rgb": {
+         "blue": 34,
+         "green": 44,
+         "red": 28
+        }
+       },
+       {
+        "percentage": 0.11,
+        "rgb": {
+         "blue": 26,
+         "green": 48,
+         "red": 78
+        }
+       }
+      ]
+     },
+     "original_img_height": 1362,
+     "original_img_url": "https://pbs.twimg.com/media/HUO2dMRb0AAinGt.jpg",
+     "original_img_width": 1600
+    },
+    "media_key": "3_2108729663166337024"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO2oZ+aQAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108729855823200256",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 99.16,
+        "rgb": {
+         "blue": 12,
+         "green": 12,
+         "red": 12
+        }
+       },
+       {
+        "percentage": 0.21,
+        "rgb": {
+         "blue": 57,
+         "green": 22,
+         "red": 25
+        }
+       },
+       {
+        "percentage": 0.15,
+        "rgb": {
+         "blue": 35,
+         "green": 53,
+         "red": 77
+        }
+       },
+       {
+        "percentage": 0.13,
+        "rgb": {
+         "blue": 170,
+         "green": 32,
+         "red": 45
+        }
+       }
+      ]
+     },
+     "original_img_height": 1080,
+     "original_img_url": "https://pbs.twimg.com/media/HUO2oZ-aQAAH28f.jpg",
+     "original_img_width": 1920
+    },
+    "media_key": "3_2108729855823200256"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO3PF3bgAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108730520440111104",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 63.83,
+        "rgb": {
+         "blue": 31,
+         "green": 25,
+         "red": 25
+        }
+       },
+       {
+        "percentage": 10.49,
+        "rgb": {
+         "blue": 85,
+         "green": 57,
+         "red": 22
+        }
+       },
+       {
+        "percentage": 8.16,
+        "rgb": {
+         "blue": 23,
+         "green": 39,
+         "red": 79
+        }
+       },
+       {
+        "percentage": 4,
+        "rgb": {
+         "blue": 212,
+         "green": 206,
+         "red": 209
+        }
+       },
+       {
+        "percentage": 2.55,
+        "rgb": {
+         "blue": 32,
+         "green": 119,
+         "red": 223
+        }
+       }
+      ]
+     },
+     "original_img_height": 1152,
+     "original_img_url": "https://pbs.twimg.com/media/HUO3PF3bgAAQxnP.jpg",
+     "original_img_width": 2048
+    },
+    "media_key": "3_2108730520440111104"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO2CjGagAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108729205437661184",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 93.36,
+        "rgb": {
+         "blue": 26,
+         "green": 21,
+         "red": 20
+        }
+       },
+       {
+        "percentage": 5.13,
+        "rgb": {
+         "blue": 124,
+         "green": 121,
+         "red": 120
+        }
+       },
+       {
+        "percentage": 1.07,
+        "rgb": {
+         "blue": 43,
+         "green": 66,
+         "red": 113
+        }
+       },
+       {
+        "percentage": 0.22,
+        "rgb": {
+         "blue": 196,
+         "green": 195,
+         "red": 195
+        }
+       },
+       {
+        "percentage": 0.17,
+        "rgb": {
+         "blue": 80,
+         "green": 129,
+         "red": 192
+        }
+       }
+      ]
+     },
+     "original_img_height": 900,
+     "original_img_url": "https://pbs.twimg.com/media/HUO2CjGagAA8aR0.jpg",
+     "original_img_width": 1600
+    },
+    "media_key": "3_2108729205437661184"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO3Nh8bsAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108730493617549312",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 62.74,
+        "rgb": {
+         "blue": 23,
+         "green": 18,
+         "red": 18
+        }
+       },
+       {
+        "percentage": 8.3,
+        "rgb": {
+         "blue": 179,
+         "green": 173,
+         "red": 169
+        }
+       },
+       {
+        "percentage": 8.15,
+        "rgb": {
+         "blue": 19,
+         "green": 34,
+         "red": 72
+        }
+       },
+       {
+        "percentage": 4.73,
+        "rgb": {
+         "blue": 80,
+         "green": 55,
+         "red": 26
+        }
+       },
+       {
+        "percentage": 2.05,
+        "rgb": {
+         "blue": 29,
+         "green": 74,
+         "red": 167
+        }
+       }
+      ]
+     },
+     "original_img_height": 1152,
+     "original_img_url": "https://pbs.twimg.com/media/HUO3Nh8bsAAMHVO.jpg",
+     "original_img_width": 2048
+    },
+    "media_key": "3_2108730493617549312"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO2T+wbcAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108729504919416832",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 94.22,
+        "rgb": {
+         "blue": 26,
+         "green": 20,
+         "red": 20
+        }
+       },
+       {
+        "percentage": 4.22,
+        "rgb": {
+         "blue": 120,
+         "green": 116,
+         "red": 121
+        }
+       },
+       {
+        "percentage": 0.75,
+        "rgb": {
+         "blue": 65,
+         "green": 112,
+         "red": 206
+        }
+       },
+       {
+        "percentage": 0.43,
+        "rgb": {
+         "blue": 196,
+         "green": 195,
+         "red": 197
+        }
+       },
+       {
+        "percentage": 0.38,
+        "rgb": {
+         "blue": 40,
+         "green": 59,
+         "red": 99
+        }
+       }
+      ]
+     },
+     "original_img_height": 900,
+     "original_img_url": "https://pbs.twimg.com/media/HUO2T-wbcAAc9La.jpg",
+     "original_img_width": 1600
+    },
+    "media_key": "3_2108729504919416832"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAECgABHUO3rWhbkAIKAAIAAAAAAAAAAAAA",
+    "media_id": "2108731005947580418",
+    "media_info": {
+     "__typename": "ApiVideo",
+     "aspect_ratio": {
+      "denominator": 9,
+      "numerator": 16
+     },
+     "duration_millis": 30000,
+     "preview_image": {
+      "color_info": {
+       "palette": [
+        {
+         "percentage": 77.2,
+         "rgb": {
+          "blue": 37,
+          "green": 27,
+          "red": 28
+         }
+        },
+        {
+         "percentage": 16.15,
+         "rgb": {
+          "blue": 252,
+          "green": 227,
+          "red": 207
+         }
+        },
+        {
+         "percentage": 2.44,
+         "rgb": {
+          "blue": 107,
+          "green": 109,
+          "red": 115
+         }
+        },
+        {
+         "percentage": 1.95,
+         "rgb": {
+          "blue": 73,
+          "green": 132,
+          "red": 242
+         }
+        },
+        {
+         "percentage": 0.88,
+         "rgb": {
+          "blue": 47,
+          "green": 66,
+          "red": 111
+         }
+        }
+       ]
+      },
+      "original_img_height": 1080,
+      "original_img_url": "https://pbs.twimg.com/amplify_video_thumb/2108731005947580418/img/P6oHgfhPnp9W3ms3.jpg",
+      "original_img_width": 1920
+     },
+     "variants": [
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2108731005947580418/vid/avc1/640x360/DCtYQKQ-WE75fJEB.mp4?tag=29"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2108731005947580418/pl/kKjFrssuCevBaHah.m3u8?tag=29&v=cfc"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2108731005947580418/vid/avc1/1920x1080/dw0YCT_nHwfAtts4.mp4?tag=29"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2108731005947580418/vid/avc1/480x270/qAOjc6Otj27thHJo.mp4?tag=29"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2108731005947580418/vid/avc1/1280x720/a5OOrnFlCH-LmC9o.mp4?tag=29"
+      }
+     ]
+    },
+    "media_key": "13_2108731005947580418"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO2tDnaEAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108729935720484864",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 51.26,
+        "rgb": {
+         "blue": 253,
+         "green": 229,
+         "red": 207
+        }
+       },
+       {
+        "percentage": 45.44,
+        "rgb": {
+         "blue": 50,
+         "green": 50,
+         "red": 44
+        }
+       },
+       {
+        "percentage": 1.94,
+        "rgb": {
+         "blue": 141,
+         "green": 129,
+         "red": 117
+        }
+       },
+       {
+        "percentage": 0.18,
+        "rgb": {
+         "blue": 110,
+         "green": 47,
+         "red": 70
+        }
+       }
+      ]
+     },
+     "original_img_height": 1256,
+     "original_img_url": "https://pbs.twimg.com/media/HUO2tDnaEAAzveb.jpg",
+     "original_img_width": 2000
+    },
+    "media_key": "3_2108729935720484864"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUO3I6fbcAAKAAIaiRLYThsAAAAA",
+    "media_id": "2108730414307438592",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 56.52,
+        "rgb": {
+         "blue": 26,
+         "green": 18,
+         "red": 11
+        }
+       },
+       {
+        "percentage": 11.2,
+        "rgb": {
+         "blue": 219,
+         "green": 209,
+         "red": 211
+        }
+       },
+       {
+        "percentage": 8.79,
+        "rgb": {
+         "blue": 34,
+         "green": 50,
+         "red": 102
+        }
+       },
+       {
+        "percentage": 5.71,
+        "rgb": {
+         "blue": 50,
+         "green": 100,
+         "red": 196
+        }
+       },
+       {
+        "percentage": 5,
+        "rgb": {
+         "blue": 75,
+         "green": 51,
+         "red": 12
+        }
+       }
+      ]
+     },
+     "original_img_height": 1152,
+     "original_img_url": "https://pbs.twimg.com/media/HUO3I6fbcAA9vrX.jpg",
+     "original_img_width": 2048
+    },
+    "media_key": "3_2108730414307438592"
+   }
+  ]
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

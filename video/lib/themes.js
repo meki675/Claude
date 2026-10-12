@@ -23,6 +23,8 @@
               head: '"Shippori Mincho B1", "Noto Sans JP", serif', head2: '"Shippori Mincho B1", "Noto Sans JP", serif' },
     clay:   { ...light, bg: '#faf9f5', bg2: '#f0ebe1', text: '#1a1918', muted: '#6b6560', accent: '#d97757', 'accent-hi': '#f0a67e', accent2: '#2f6fb0', 'on-accent': '#fff',
               shadow: 'rgba(90,50,30,.14)', stroke: 'rgba(40,30,20,.13)', panel: 'rgba(255,255,255,.6)' },
+    mono:   { ...light, bg: '#ffffff', bg2: '#f5f2ef', text: '#181818', muted: '#6f6a66', accent: '#d4785a', 'accent-hi': '#eba387', accent2: '#a0604a', 'on-accent': '#fff',
+              shadow: 'rgba(0,0,0,.10)', stroke: 'rgba(0,0,0,.12)', panel: 'rgba(0,0,0,.03)' },
   };
   const hash = (str) => { let h = 2166136261; for (const c of str) { h ^= c.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
   const pick = (script) => {

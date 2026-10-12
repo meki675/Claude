@@ -23,17 +23,17 @@
     document.documentElement.style.setProperty('--h', h + 'px');
     const theme = window.Themes.pick(script);
     for (const [k, v] of Object.entries(theme.vars)) document.documentElement.style.setProperty('--' + k, v);
-    document.body.classList.toggle('whip', script.transition === 'whip');
     document.body.classList.toggle('sparkle', script.mark === 'sparkle');
     document.getElementById('brand').textContent = script.brand ?? '';
     document.getElementById('footer').textContent = script.footer ?? '';
     const stage = document.getElementById('stage');
     let t = 0, html = '';
-    scenes = script.scenes.map((s) => {
+    scenes = script.scenes.map((s, i) => {
       const fn = S[s.type];
       if (!fn) throw new Error('unknown scene type: ' + s.type);
       const dur = s.dur ?? 4;
-      const item = { start: t, dur, html: `<section class="scene ${ROOT[s.type]}" style="--t0:${t}s;--dur:${dur}s">${fn({ ...s, dur })}</section>` };
+      const tr = s.tr ?? (Array.isArray(script.transition) ? script.transition[i % script.transition.length] : script.transition) ?? 'fade';
+      const item = { start: t, dur, html: `<section class="scene ${ROOT[s.type]} tr-${tr}${i === 0 ? ' first' : ''}" style="--t0:${t}s;--dur:${dur}s">${fn({ ...s, dur })}</section>` };
       t += dur;
       return item;
     });

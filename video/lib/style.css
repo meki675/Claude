@@ -279,11 +279,55 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .burst .flash { position: absolute; inset: 0; background: #fff; z-index: 5; opacity: 0; }
 .flashout { animation-name: flashout; --len: .75s; } @keyframes flashout { 0%, 48% { opacity: 0; } 52% { opacity: .95; } 100% { opacity: 0; } }
 
-/* 画面切り替え: transition "whip"（横に振り抜く） */
-.whip .scene { animation-name: whipIn, whipOut; animation-duration: .32s, .28s; animation-delay: var(--t0), calc(var(--t0) + var(--dur) - .28s); }
-.whip .scene:first-child { animation-name: none, whipOut; }
+/* 画面切り替え: script の "transition"（1つ、または配列で順番に）か、シーンごとの "tr"
+   fade（既定）/ whip（横に振り抜く）/ zoom（奥へ抜ける）/ flash（白く光る）/ slide（下から押し上げ）/ spin（回転） */
+.tr-whip { animation-name: whipIn, whipOut; animation-duration: .32s, .28s; animation-delay: var(--t0), calc(var(--t0) + var(--dur) - .28s); }
 @keyframes whipIn { from { opacity: 0; transform: translateX(45%) skewX(-12deg); filter: blur(14px); } }
 @keyframes whipOut { to { opacity: 0; transform: translateX(-45%) skewX(12deg); filter: blur(14px); } }
+.tr-zoom { animation-name: zoomIn2, zoomOut2; animation-duration: .35s, .3s; animation-delay: var(--t0), calc(var(--t0) + var(--dur) - .3s); }
+@keyframes zoomIn2 { from { opacity: 0; transform: scale(.6); filter: blur(10px); } }
+@keyframes zoomOut2 { to { opacity: 0; transform: scale(1.8); filter: blur(12px); } }
+.tr-flash { animation-name: flashIn, flashOut; animation-duration: .4s, .25s; animation-delay: var(--t0), calc(var(--t0) + var(--dur) - .25s); }
+@keyframes flashIn { from { filter: brightness(4) saturate(0); transform: scale(1.05); } }
+@keyframes flashOut { to { filter: brightness(4) saturate(0); opacity: .2; } }
+.tr-slide { animation-name: slideIn2, slideOut2; animation-duration: .35s, .3s; animation-delay: var(--t0), calc(var(--t0) + var(--dur) - .3s); }
+@keyframes slideIn2 { from { transform: translateY(100%); } }
+@keyframes slideOut2 { to { transform: translateY(-30%); opacity: 0; } }
+.tr-spin { animation-name: spinIn2, spinOut2; animation-duration: .4s, .3s; animation-delay: var(--t0), calc(var(--t0) + var(--dur) - .3s); }
+@keyframes spinIn2 { from { opacity: 0; transform: rotate(-8deg) scale(.7); } }
+@keyframes spinOut2 { to { opacity: 0; transform: rotate(8deg) scale(.7); } }
+.scene.first { animation-name: none, var(--outname, sceneOut); }
+.first.tr-whip { --outname: whipOut; } .first.tr-zoom { --outname: zoomOut2; } .first.tr-flash { --outname: flashOut; } .first.tr-slide { --outname: slideOut2; } .first.tr-spin { --outname: spinOut2; }
+
+/* 22 stomp */
+.burst .ch { display: inline-block; }
+.stompin { animation-name: stompin; --len: .22s; animation-timing-function: cubic-bezier(.5,0,.3,1); }
+@keyframes stompin { 0% { opacity: 0; transform: translateY(-60px) scale(2.4); } 70% { opacity: 1; transform: translateY(6px) scale(.94); } 100% { transform: none; } }
+
+/* 23 shutter */
+.shutter { overflow: hidden; }
+.shutter .door { position: absolute; top: 0; bottom: 0; width: 50%; background: var(--accent); z-index: 5; display: flex; align-items: center; font-family: var(--head); font-size: 90px; color: var(--on-accent); }
+.shutter .door.l { left: 0; justify-content: flex-end; padding-right: 30px; } .shutter .door.r { right: 0; padding-left: 30px; background: var(--text); color: var(--bg); }
+.openl { animation-name: openl; --len: .55s; animation-timing-function: cubic-bezier(.7,0,.2,1); } @keyframes openl { 0%, 35% { transform: none; } 100% { transform: translateX(-101%); } }
+.openr { animation-name: openr; --len: .55s; animation-timing-function: cubic-bezier(.7,0,.2,1); } @keyframes openr { 0%, 35% { transform: none; } 100% { transform: translateX(101%); } }
+.shutter .h-xl { font-size: 170px; line-height: 1.15; }
+
+/* 24 ripple */
+.ripple { overflow: hidden; }
+.ripple .ring { position: absolute; left: 50%; top: 50%; width: 400px; height: 400px; margin: -200px 0 0 -200px; border-radius: 50%; border: 14px solid var(--accent); opacity: 0; }
+.ringout { animation-name: ringout; --len: 1.4s; animation-timing-function: cubic-bezier(.1,.6,.3,1); } @keyframes ringout { 0% { opacity: .9; transform: scale(.1); } 100% { opacity: 0; transform: scale(5); } }
+.ripple .h-xl { font-size: 170px; line-height: 1.15; position: relative; }
+.boing { animation-name: boing; --len: .7s; } @keyframes boing { 0% { opacity: 0; transform: scale(0) rotate(-6deg); } 50% { opacity: 1; transform: scale(1.18) rotate(2deg); } 70% { transform: scale(.94); } 85% { transform: scale(1.04); } 100% { transform: none; } }
+
+/* 25 quiz */
+.quiz .opts { display: flex; flex-direction: column; gap: 22px; }
+.quiz .opt { display: flex; align-items: center; gap: 32px; padding: 26px 40px; border-radius: 22px; background: var(--panel); border: 3px solid var(--stroke); font-size: 46px; }
+.quiz .opt b { font-family: var(--head); font-weight: 400; font-size: 52px; width: 76px; height: 76px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--text) 10%, transparent); flex: none; }
+.quiz .opt.ok { animation-name: up, okhit; animation-duration: .6s, .5s; animation-delay: calc(var(--t0) + var(--d)), calc(var(--t0) + var(--rv)); }
+@keyframes okhit { 0% { transform: scale(1); border-color: color-mix(in srgb, var(--accent) 0%, var(--stroke)); background: color-mix(in srgb, var(--accent) 0%, transparent); } 50% { transform: scale(1.05); } 100% { transform: scale(1.03); border-color: color-mix(in srgb, var(--accent) 100%, var(--stroke)); background: color-mix(in srgb, var(--accent) 16%, transparent); } }
+.quiz .opt.ok b { animation: okb .3s both paused; animation-delay: calc(var(--t0) + var(--rv)); } @keyframes okb { from { background: color-mix(in srgb, var(--text) 10%, transparent); } to { background: color-mix(in srgb, var(--accent) 100%, transparent); color: var(--on-accent); } }
+.quiz .opt.ng { animation-name: up, ngdim; animation-duration: .6s, .4s; animation-delay: calc(var(--t0) + var(--d)), calc(var(--t0) + var(--rv)); }
+@keyframes ngdim { to { opacity: .35; } }
 
 /* キラッとした4方向の星（burst の sparkles と、"mark": "sparkle" のロゴ印） */
 .burst .spark { position: absolute; width: calc(90px * var(--z)); height: calc(90px * var(--z)); translate: -50% -50%; z-index: 3; background: var(--accent);

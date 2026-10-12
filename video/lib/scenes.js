@@ -175,6 +175,48 @@
     ${(s.sparkles ?? []).map(([x, y, z], i) => A(`spark twinkle${s.shape === 'leaf' ? ' leaf' : ''}`, 0.4 + i * 0.12, '', { style: `left:${x}%;top:${y}%;--z:${z ?? 1};rotate:${(i * 67) % 360}deg` })).join('')}
     <div class="a flash flashout" style="--d:0s"></div>`;
 
+  // 文字を1字ずつの <span> に分ける（[[ ]] と {{ }} の色は保つ）
+  const chars = (str, d0, step) => {
+    let i = 0;
+    return String(str).split('\n').map((line) => line.split(/(\[\[.+?\]\]|\{\{.+?\}\})/).map((seg) => {
+      const m = seg.match(/^(\[\[|\{\{)(.+)(\]\]|\}\})$/);
+      const cls = m ? (m[1] === '[[' ? ' em' : ' em2') : '';
+      return [...(m ? m[2] : seg)].map((c) => A(`ch stompin${cls}`, d0 + (i++) * step, esc(c), { tag: 'span' })).join('');
+    }).join('')).join('<br>');
+  };
+
+  // 22. 冒頭：1文字ずつ叩きつける
+  S.stomp = (s) => `
+    ${tagLine(s.tag)}
+    <div class="a shk shake" style="--d:${0.1 + [...s.title.replace(/\[\[|\]\]|\{\{|\}\}|\n/g, '')].length * (s.step ?? 0.07)}s">
+      <div class="h-xl">${chars(s.title, 0.1, s.step ?? 0.07)}</div>
+    </div>
+    ${sub(s.sub, 0.4 + [...s.title].length * (s.step ?? 0.07))}`;
+
+  // 23. 冒頭：シャッターが左右に開いて見出しが出る
+  S.shutter = (s) => `
+    ${A('h-xl pop', 0.35, fmt(s.title), { style: '--len:.5s' })}
+    ${sub(s.sub, 0.8)}
+    ${tagLine(s.tag, 0.6)}
+    <div class="a door l openl" style="--d:.15s"><span>${fmt(s.left ?? '')}</span></div>
+    <div class="a door r openr" style="--d:.15s"><span>${fmt(s.right ?? '')}</span></div>`;
+
+  // 24. 冒頭：波紋が広がって中央から見出しが弾ける
+  S.ripple = (s) => `
+    ${[0, 1, 2].map((i) => A('ring ringout', 0.05 + i * 0.18, '')).join('')}
+    ${tagLine(s.tag, 0.5)}
+    ${A('h-xl boing', 0.1, fmt(s.title))}
+    ${sub(s.sub, 0.7)}`;
+
+  // 25. クイズ（問い → 選択肢 → 正解が光る）
+  S.quiz = (s) => {
+    const reveal = s.reveal ?? 0.5 + s.options.length * 0.3 + 0.8;
+    return `${tagLine(s.tag)}${A('h-md up', 0.05, fmt(s.q))}
+      <div class="opts">${s.options.map((o, i) => A(`opt up${i === s.answer ? ' ok' : ' ng'}`, 0.4 + i * 0.3,
+        `<b>${'ABCDE'[i]}</b><span>${fmt(o)}</span>`, { style: `--rv:${reveal}s` })).join('')}</div>
+      ${sub(s.note, reveal + 0.3)}`;
+  };
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -186,7 +228,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();
