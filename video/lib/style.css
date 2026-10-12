@@ -539,3 +539,21 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .style-brutal .pipeline .chain { background: repeating-linear-gradient(90deg, #111 0 26px, transparent 26px 40px); }
 .style-brutal .cta .go .arr { color: #111; }
 .style-brutal .gatesc .dest i { color: #111; } .style-brutal .gatesc .dest.d1 i { color: var(--bad); } .style-brutal .gatesc .dest.d2 i { color: var(--accent2); }
+
+/* 36 telop（コマ番号で決めたテロップ。キーフレームの%は 8コマ=100% / 7コマ=100% / 4コマ=100% で換算） */
+.telopsc .tpush { display: inline-block; transform-origin: 30% 50%; }
+.telopsc .tline { position: relative; display: inline-block; margin: 6px 0; padding: 4px 30px; }
+.telopsc .tband { position: absolute; inset: 8% 0; background: var(--band, #ffd83b); transform-origin: left center; z-index: 0; }
+.telopsc .ttext { position: relative; z-index: 1; font-family: var(--head); font-size: 150px; line-height: 1.2; color: var(--telop, #fff);
+  -webkit-text-stroke: 14px var(--telop-edge, #111); paint-order: stroke fill; }
+.telopsc .tch { display: inline-block; }
+.telopsc .tkick { font-family: var(--head2); font-weight: 900; font-size: 46px; margin-bottom: 14px; color: var(--muted); }
+.tpop { animation-name: tpop; animation-timing-function: linear; }
+/* 9コマで換算（開始の1コマ前=0%を見えない状態にする）：-1=0% / 0=11.1% / 1=22.2% / 2=33.3% / 3=44.4% / 6=77.8% / 8=100% */
+@keyframes tpop { 0% { opacity: 0; transform: translateY(54px) scale(.74) rotate(-6deg); } 11.1% { opacity: .5; transform: translateY(54px) scale(.74) rotate(-6deg); }
+  22.2% { opacity: 1; } 33.3% { transform: translateY(-10px) scale(1.24) rotate(-2deg); } 44.4% { transform: translateY(-30px) scale(1.24) rotate(0); }
+  77.8% { transform: translateY(-6px) scale(.94); } 100% { opacity: 1; transform: translateY(0) scale(1); } }
+.tgrow { animation-name: tgrow; animation-timing-function: linear; } /* 8コマで換算：-1=0%（見えない）/ 0=12.5%（58%）/ 3=50%（98%）/ 7=100% */
+@keyframes tgrow { 0% { transform: scaleX(0); opacity: 0; } 12.5% { transform: scaleX(.58); opacity: 1; } 50% { transform: scaleX(.98); } 100% { transform: scaleX(1); opacity: 1; } }
+.tzoom { animation-name: tzoom; animation-timing-function: linear; } @keyframes tzoom { 0% { transform: scale(1); } 25% { transform: scale(1.047); } 100% { transform: scale(1.081); } }
+.tleave { animation-name: tleave; animation-timing-function: linear; } @keyframes tleave { 0% { transform: none; opacity: 1; } 100% { transform: translateY(-120px); opacity: 0; } }

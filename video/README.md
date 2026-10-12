@@ -20,6 +20,13 @@ node video/render.mjs video/posts/<名前>/script.json --out video/posts/<名前
 - BGM: `python3 video/bgm.py <秒数> <出力.wav> [--bpm 136] [--mood bright]` で合成BGMを作り、ffmpeg で mp4 に重ねます（`posts/projects-coordinator/` 参照）。
 - 縦（`"width": 1080, "height": 1920`）にも書き出せますが、レイアウトは横向き用に調整しています。縦で使うときは静止画で確認してください。
 
+## 数字で決める・拍で切る・コマで確かめる
+- 一度に書き出す: `node video/make.mjs <script.json> [--out 出力.mp4]`（`"bpm"` と `"mood"` から BGM を作り、映像に重ねる）
+- 拍で切る: `"bpm": 120` を書き、場面の長さを `"beats": 6` のように拍で書くと、切り替えが BGM の拍に乗る。
+- 数字で決めたテロップ: `telop`（1文字2コマずらし・3〜4コマ目124%の行き過ぎ・9コマ目で停止・帯は左から伸びる・寄り104.7%→108.1%。`stagger` `pushAt` `outAt` はコマ番号）。
+- コマで確かめる: `node video/frames.mjs <script.json> --scene 1 --frames 0,1,3,4,7,9 --out sheet.png`（見本 `patterns/telop-frames.png`）
+- 参考動画を測る: `python3 -I video/analyze_ref.py <URL か ファイル> <出力フォルダ> [--to 秒] [--color R,G,B --tol 60] [--area 左,上,幅,高さ]`（1秒30コマに分け、一覧・コマごとの画素の測定・切り替わり・文字起こしを出す。URL は yt-dlp、文字起こしは whisper が要る）
+
 ## X記事から作る
 - `python3 -I video/fetch_article.py <ポストURL> video/posts/<名前>/` で本文（article.md）・サムネ（cover.jpg）・表示回数を取り込みます。
 - 記事探しから下書き保存までの手順は `.claude/skills/x-quote-video/SKILL.md`（Claude in Chrome が必要）。作成済みは `posts/done.txt`。

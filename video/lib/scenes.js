@@ -335,6 +335,26 @@
     </div>`;
   };
 
+  // 36. 数字で決めたテロップ（共有マニュアルの見本の値をそのまま使う。30fps のコマ番号で指定）
+  //   1文字ずつ stagger コマずらし。各文字：74% → 3〜4コマ目124%（行き過ぎ）→ 7コマ目94% → 9コマ目100%、
+  //   上下：54px下 → 4コマ目30px上 → 9コマ目で元の位置。帯：左から 58% → 4コマ目98% → 8コマ目100%。
+  //   全体：pushAt コマ目から寄り始め、+1コマで104.7%、+4コマで108.1%。outAt コマ目から上へ抜け、+3コマで消える。
+  S.telop = (s) => {
+    const F = (n) => (n / 30).toFixed(4), st = s.stagger ?? 2, f0 = s.firstFrame ?? 1;
+    let i = 0;
+    const starts = [];
+    const line = (str) => (starts.push(i), 0) ||  String(str).split(/(\[\[.+?\]\])/).map((seg) => {
+      const m = seg.match(/^\[\[(.+)\]\]$/);
+      return [...(m ? m[1] : seg)].map((c) => `<span class="a tch tpop${m ? ' em' : ''}" style="--d:${F(f0 - 1 + st * i++)}s;--len:${F(9)}s">${esc(c)}</span>`).join('');
+    }).join('');
+    const push = s.pushAt ?? 26, out = s.outAt ?? 79;
+    return `<div class="a tpush tzoom" style="--d:${F(push)}s;--len:${F(4)}s">
+      <div class="a tout tleave" style="--d:${F(out)}s;--len:${F(3)}s">
+        ${s.kicker ? `<div class="a tkick fade" style="--d:${F(0)}s;--len:${F(6)}s">${fmt(s.kicker)}</div>` : ''}
+        ${s.lines.map((l) => { const t = line(l); return `<div class="tline"><i class="a tband tgrow" style="--d:${F(f0 - 1 + st * starts[starts.length - 1])}s;--len:${F(8)}s"></i><span class="ttext">${t}</span></div>`; }).join('')}
+      </div></div>`;
+  };
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -346,7 +366,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

@@ -29,10 +29,14 @@ Chromeの操作に入る前に、Claude in Chrome のスキルを読み込むこ
   - `"transition"` は `["zoom", "flash", "slide", ...]` のように場面ごとに変える。`footer` は `出典：@<著者> のX記事` とする。
   - 最後は `cta` にして、`"image": "cover.jpg"` を付ける。
   - 中身は記事の**具体的に役立つ点・他より優れている点**（手順、数値、比較、そのまま使える指示文など）に絞る。記事にない事実や数字は足さない。
+- **動きは数字で決める**（共有マニュアルの考え方）：「少し大きく」「ふわっと」ではなく、コマ番号・％・px で書く。テロップは `telop` シーンを使う（1文字2コマずらし・3〜4コマ目に124%の行き過ぎ・9コマ目で停止・帯は左から 58%→98%→100%・寄り 104.7%→108.1%）。緩急を強くしすぎない。
+- **時刻は拍で決める**：`script.json` に `"bpm": 120` などを書き、場面の長さは `"beats"` で書く（120BPMなら1拍0.5秒）。切り替えがBGMの拍に乗る。
+- **参考動画があるとき**：`python3 -I video/analyze_ref.py <URL か ファイル> /tmp/ref` で1秒30コマに分け、一覧（sheet.png）・コマごとの測定（measure.csv）・切り替わり（cuts.txt）を作り、数字を台本に写す。借りるのは尺・拍・コマ数・動き方・切り替えの種類・レイアウトの型だけ。色・書体・文言・映像・音は使わない。
+- **コマで確かめる**：本番の前に `node video/frames.mjs <script.json> --scene <番号> --frames 0,1,3,4,7,9,27 --out /tmp/f.png` で決めたコマ番号を並べ、数字どおりか見る。ずれていたら「何コマ目の、どの文字が、どれだけ違うか」を書き出してから直す。
 - **確認**：まず静止画を書き出す。
   `node video/render.mjs video/posts/<名前>/script.json --only-thumbs --thumbs /tmp/<名前>`
   画像を見て、文字の切れ・はみ出し・改行の崩れを直す。
-- **書き出し**：BGMを作って、映像に重ねる。
+- **書き出し**：`node video/make.mjs video/posts/<名前>/script.json --out video/posts/<名前>/<名前>-16x9.mp4` で BGM づくり・書き出し・重ねまで一度に行う（`"bpm"` `"mood"` を script.json に書く）。個別に行う場合は次のとおり。
   ```
   python3 video/bgm.py <秒数> /tmp/<名前>.wav --bpm 120〜136 --mood bright|dark
   node video/render.mjs video/posts/<名前>/script.json --out /tmp/<名前>-silent.mp4

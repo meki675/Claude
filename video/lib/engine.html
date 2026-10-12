@@ -33,7 +33,8 @@
     scenes = script.scenes.map((s, i) => {
       const fn = S[s.type];
       if (!fn) throw new Error('unknown scene type: ' + s.type);
-      const dur = s.dur ?? 4;
+      // "beats" を書くと、script の "bpm" の拍で長さを決める（切り替えが拍に乗る）
+      const dur = s.beats && script.bpm ? s.beats * 60 / script.bpm : (s.dur ?? 4);
       const tr = s.tr ?? (Array.isArray(script.transition) ? script.transition[i % script.transition.length] : script.transition) ?? 'fade';
       const item = { start: t, dur, html: `<section class="scene ${ROOT[s.type]} tr-${tr}${i === 0 ? ' first' : ''}" style="--t0:${t}s;--dur:${dur}s">${fn({ ...s, dur })}</section>` };
       t += dur;

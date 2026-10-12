@@ -1,5 +1,6 @@
 # 動画用のBGMを合成して WAV で書き出す（音源ファイル不要・著作権フリー）。
-# 使い方: python3 video/bgm.py <秒数> <出力.wav> [--bpm 128] [--mood dark|bright]
+# 使い方: python3 video/bgm.py <秒数> <出力.wav> [--bpm 128] [--mood dark|bright] [--start 0.33]
+#   --start は最初の拍の位置（秒）。script.json に bpm を書いて拍で場面を切るときは 0 にする。
 import sys, wave
 import numpy as np
 
@@ -50,13 +51,14 @@ bars = int(sec / (beat * 4)) + 1
 
 # 冒頭のヒット（巨大文字が突っ込むタイミングに合わせる）
 e, t = env(1.6, 0.001, 0.5)
-put(np.sin(2 * np.pi * (40 * t + 160 * (1 - np.exp(-t * 20)) / 20)) * e, 0.33, gain=1.1)
-put(rng.standard_normal(len(e)) * e * 0.25, 0.33, gain=0.8)
-# 上昇ノイズ（冒頭0.33秒まで）
-L = int(0.33 * sr); r = np.linspace(0, 1, L) ** 2
+hit = float(sys.argv[sys.argv.index('--start') + 1]) if '--start' in sys.argv else 0.33
+put(np.sin(2 * np.pi * (40 * t + 160 * (1 - np.exp(-t * 20)) / 20)) * e, hit, gain=1.1)
+put(rng.standard_normal(len(e)) * e * 0.25, hit, gain=0.8)
+# 上昇ノイズ（冒頭の一撃まで）
+L = max(1, int(hit * sr)); r = np.linspace(0, 1, L) ** 2
 put(rng.standard_normal(L) * r * 0.3, 0.0)
 
-start = 0.33
+start = float(sys.argv[sys.argv.index('--start') + 1]) if '--start' in sys.argv else 0.33
 for b in range(bars):
     bt = start + b * beat * 4
     ch = chords[b % 4]

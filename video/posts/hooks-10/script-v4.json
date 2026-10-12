@@ -1,0 +1,23 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "ember",
+  "style": "swiss",
+  "bpm": 120,
+  "mood": "dark",
+  "structure": "数字で決めたテロップ＋レール＋関門＋仕分け（120BPMの拍で切り替え）",
+  "inspiration": { "site": "（共有マニュアル）", "work": "見本テロップ「これ、知らなかった」の測定値", "idea": "1文字2コマずらし・124%の行き過ぎ・9コマ目で停止・帯は左から伸びる・寄り104.7%→108.1%。文言と色は自分のものに変える" },
+  "transition": ["slide", "whip", "zoom", "slide", "whip"],
+  "brand": "CLAUDE CODE HOOKS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "telop", "beats": 6, "kicker": "Claude Codeに「確認してから進めて」", "lines": ["確認、ほんとに", "[[してくれた？]]"], "stagger": 2, "pushAt": 40, "outAt": 84 },
+    { "type": "pipeline", "beats": 10, "tag": "Hooksでできること", "title": "決めたタイミングに、検査をつなぐ", "travel": 3.6, "stations": [ { "icon": "lock", "label": "実行前に止める", "event": "PreToolUse" }, { "icon": "doc", "label": "編集後に照合", "event": "PostToolUse" }, { "icon": "list", "label": "終わる前に確認", "event": "Stop" } ] },
+    { "type": "gate", "beats": 8, "tag": "応用例01", "title": "原本は守り、修正は別ファイルへ", "blocked": "original/\n原本", "allowed": "output/\n修正版", "note": "原本への書き込みは、実行前（PreToolUse）で止める" },
+    { "type": "sort", "beats": 9, "tag": "応用例04　CSVを更新した後に", "title": "0と欠測と重複を、勝手に混ぜない", "step": 0.42, "bins": [ { "name": "合格", "c": "ok" }, { "name": "重複ID", "hint": "行IDで返す", "c": "bad" }, { "name": "欠測", "hint": "空欄のまま", "c": "warn" }, { "name": "実測0", "hint": "0のまま" } ], "cards": [
+      { "t": "A-016　1,240", "bin": 0 }, { "t": "A-018　980", "bin": 1 }, { "t": "A-019　（空欄）", "bin": 2 }, { "t": "A-020　0", "bin": 3 }, { "t": "A-021　1,105", "bin": 0 }, { "t": "A-018　980", "bin": 1 }
+    ] },
+    { "type": "cta", "beats": 6, "tag": "詳しくは記事で", "title": "Hooks活用\n[[10の設計]]", "go": "原本保護から動画の検収まで", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari", "image": "cover.jpg" }
+  ]
+}
