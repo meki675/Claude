@@ -242,6 +242,16 @@
     ${s.credits ? A('pcred fade', 1.3, fmt(s.credits)) : ''}
     <div class="a lbox top barin" style="--d:0s"></div><div class="a lbox bot barin" style="--d:0s"></div>`;
 
+  // 28. 採点表（参考: Motion Design Awards「VIDEO OF THE DAY」）
+  //   斜めストライプの帯・大きな総合の数字・小さな数字タイルが横に並ぶ
+  S.scorecard = (s) => `
+    <div class="a stripes slidex" style="--d:0s"></div>
+    <div class="sc-row">
+      <div class="sc-main">${tagLine(s.tag)}${A('sc-big boing', 0.15, fmt(s.big))}${A('sc-cap up', 0.45, fmt(s.caption))}</div>
+      <div class="sc-tiles">${s.tiles.map((t, i) => A('sc-t pop', 0.6 + i * 0.22,
+        `<div class="v">${fmt(t.v)}</div><div class="l">${fmt(t.l)}</div>`)).join('')}</div>
+    </div>`;
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -253,7 +263,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

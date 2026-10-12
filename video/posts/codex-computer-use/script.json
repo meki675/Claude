@@ -1,0 +1,23 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "mint",
+  "themeOverrides": { "accent": "#10a37f", "accent-hi": "#5fd3b0" },
+  "structure": "会話再現",
+  "inspiration": { "site": "motion-design-awards", "work": "トップの「VIDEO OF THE DAY」の採点表（ECOM Open Air）", "idea": "斜めストライプの帯・大きな総合点・小さな点数タイルの横並びで、記事の実績の数字を見せる" },
+  "transition": ["spin", "whip", "slide", "zoom", "spin"],
+  "brand": "CODEX × COMPUTER USE",
+  "footer": "出典：@ai_ai_ailover のX記事",
+  "scenes": [
+    { "type": "stomp", "dur": 3.0, "tag": "CodexのComputer Use", "title": "Codexが\n[[画面を操作する]]", "sub": "仕上げ待ちの作業を、そのまま任せる" },
+    { "type": "scorecard", "dur": 3.8, "tag": "記事の実例から", "big": "10", "caption": "広報・制作・資料・\n顧客対応の活用例", "tiles": [ { "v": "11件", "l": "LPの問題を発見（海外事例）" }, { "v": "366枚", "l": "Canva資料をそろえる" }, { "v": "16枚", "l": "詰まったページを直す" }, { "v": "21.6秒", "l": "リールを再編集" } ] },
+    { "type": "chat", "dur": 4.0, "step": 0.8, "tag": "そのまま使える依頼文（公開前のLP確認）", "msgs": [
+      { "who": "me", "name": "あなた", "text": "このLPを初めて見る利用者として、申込確認画面まで操作して" },
+      { "who": "me", "name": "あなた", "text": "PC幅とスマホ幅で、問題を「場所・再現手順・期待する動作・実際の動作・優先度」に分けて" },
+      { "who": "me", "name": "あなた", "text": "[[送信はせず、確認画面までで止めて]]" }
+    ] },
+    { "type": "checklist", "dur": 3.2, "tag": "最初は1つの画面・1つの完了条件から", "title": "今日試すならこの3つ", "items": ["記事へ写真を3か所入れる", "Canvaの5枚だけ余白を直す", "申込フォームを確認画面まで試す"] },
+    { "type": "cta", "dur": 3.0, "tag": "詳しくは記事で", "title": "Computer Use\n[[神活用術10選]]", "go": "10個すべてに依頼文つき", "name": "にも｜AIによって爆誕", "id": "@ai_ai_ailover", "image": "cover.jpg" }
+  ]
+}

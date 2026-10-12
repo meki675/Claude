@@ -381,3 +381,16 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 @keyframes cineIn { from { clip-path: inset(50% 0 50% 0); } to { clip-path: inset(0 0 0 0); } }
 @keyframes cineOut { from { clip-path: inset(0 0 0 0); } to { clip-path: inset(50% 0 50% 0); } }
 .first.tr-cine { --outname: cineOut; }
+
+/* 28 scorecard（採点表） */
+.scorecard { overflow: hidden; }
+.scorecard .stripes { position: absolute; inset: -20% -20%; z-index: 0; opacity: .16;
+  background: repeating-linear-gradient(-30deg, var(--accent) 0 140px, transparent 140px 300px, var(--accent2) 300px 380px, transparent 380px 560px); }
+.slidex { animation-name: slidex; --len: 4s; animation-timing-function: linear; } @keyframes slidex { from { transform: translateX(-6%); } to { transform: translateX(4%); } }
+.scorecard .sc-row { position: relative; z-index: 1; display: grid; grid-template-columns: 560px 1fr; gap: 60px; align-items: center; }
+.scorecard .sc-big { font-family: var(--head); font-size: 300px; line-height: 1; color: var(--accent); }
+.scorecard .sc-cap { font-family: var(--head2); font-weight: 900; font-size: 52px; line-height: 1.3; }
+.scorecard .sc-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.scorecard .sc-t { background: var(--bg); border: 4px solid var(--accent); border-radius: 18px; padding: 26px 30px; box-shadow: 10px 10px 0 var(--accent); }
+.scorecard .sc-t .v { font-family: var(--head); font-size: 84px; line-height: 1.05; }
+.scorecard .sc-t .l { font-size: 30px; color: var(--muted); margin-top: 8px; letter-spacing: .02em; }

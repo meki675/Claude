@@ -1,0 +1,2119 @@
+{
+ "url": "https://x.com/ai_ai_ailover/status/2108726191515681206",
+ "id": "2108726191515681206",
+ "text": "https://x.com/i/article/2108719293215252480",
+ "raw_text": {
+  "text": "https://t.co/XypXKuL5D1",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/XypXKuL5D1",
+    "replacement": "https://x.com/i/article/2108719293215252480",
+    "display": "x.com/i/article/2108…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "ai_ai_ailover",
+  "url": "https://x.com/ai_ai_ailover",
+  "id": "2074065079558082560",
+  "followers": 9576,
+  "following": 48,
+  "likes": 2942,
+  "media_count": 392,
+  "name": "にも｜AIによって爆誕",
+  "description": "1年以内にAIだけでFIRE目指す｜AI×クライアントワークで月50万達成｜0→1ノウハウを毎日発信",
+  "raw_description": {
+   "text": "1年以内にAIだけでFIRE目指す｜AI×クライアントワークで月50万達成｜0→1ノウハウを毎日発信",
+   "facets": []
+  },
+  "location": "ここからAI×クライアントワークのロードマップ受け取れます。",
+  "banner_url": "https://pbs.twimg.com/profile_banners/2074065079558082560/1783470706",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2074106479108648960/_o2S0_8S_200x200.jpg",
+  "joined": "Mon Jul 06 09:39:20 +0000 2026",
+  "protected": false,
+  "website": {
+   "url": "https://docs.google.com/document/d/1LRXiSARp2K9ffNoUlXIRSaKLyl3-GXB1muzz2G8-5e8/edit?usp=sharing",
+   "display_url": "docs.google.com/document/d/1LR…"
+  },
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 0,
+ "retweets": 9,
+ "likes": 36,
+ "bookmarks": 77,
+ "quotes": 8,
+ "created_at": "Sat Oct 10 01:07:56 +0000 2026",
+ "created_timestamp": 1791594476,
+ "possibly_sensitive": false,
+ "views": 19517,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-10T01:07:56.000Z",
+  "modified_at": "2026-10-10T01:07:56.000Z",
+  "id": "2108719293215252480",
+  "title": "CodexのComputer Useでできる神活用術10選",
+  "preview_text": "2026年10月10日時点の公式情報と、このCodexでの制作記録をもとにしています。",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAAFCgABHUOwFUbasAAKAAIcyI8zdBoQAAAA",
+   "media_id": "2108722655969062912",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 83.61,
+       "rgb": {
+        "blue": 254,
+        "green": 254,
+        "red": 254
+       }
+      },
+      {
+       "percentage": 10.08,
+       "rgb": {
+        "blue": 139,
+        "green": 168,
+        "red": 22
+       }
+      },
+      {
+       "percentage": 4.26,
+       "rgb": {
+        "blue": 20,
+        "green": 20,
+        "red": 20
+       }
+      },
+      {
+       "percentage": 1,
+       "rgb": {
+        "blue": 205,
+        "green": 218,
+        "red": 156
+       }
+      }
+     ]
+    },
+    "original_img_height": 743,
+    "original_img_url": "https://pbs.twimg.com/media/HUOwFUbasAAngSL.jpg",
+    "original_img_width": 1858
+   },
+   "media_key": "3_2108722655969062912"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "bvbvj",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "qcfr",
+     "text": "2026年10月10日時点の公式情報と、このCodexでの制作記録をもとにしています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "vfav",
+     "text": "AIに文章を書いてもらったあと、その文章を管理画面へ貼り、画像を選び、配置を直し、プレビューを確認する。便利になったはずなのに、仕上げのために何度もアプリを行き来している。そんな作業を、もう少し任せられたらどうでしょうか。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3tre0",
+     "text": "CodexのComputer Useが役立つのは、まさにその部分です。画面の内容を確認し、ボタンを押し、文字を入力し、操作後にどうなったかを見る。こちらが使っているアプリを通して、依頼した仕事を進めます。「次にどこを押すか」を毎回説明する時間や、別の画面へ情報を移す手間を減らせるのが大きな魅力です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7dp6",
+     "text": "たとえば、公開前の申込ページをお客さんの立場で試す。WordPressの記事に合う写真を選んで入れる。Canvaの長い資料から、文字が詰まったページを探して直す。どれも、文章を生成するだけでは終わらない仕事です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aaf0q",
+     "text": "今回は、海外の公開事例とXの発信から選んだ5つ、そしてこのCodexで実際に進めたクリエイティブ制作から選んだ5つを紹介します。アニメ制作は扱わず、広報、コンテンツ制作、資料作成、顧客対応で使いやすいものを集めました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "13ujc",
+     "text": "最初に機能の範囲だけ整理しておきます。デスクトップアプリを操作するComputer Use、サインイン済みのWebサービスを扱うブラウザ操作、Canvaなどの専用連携は、それぞれ得意なことが違います。ここでは、それらを組み合わせて仕事を完成へ近づける使い方を取り上げます。画像生成や動画編集まで、すべてComputer Useだけで行うという意味ではありません。公式も、ブラウザ、ファイル、資料、PCをまたぐ仕事として紹介しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3m2p4",
+     "text": "1. 公開前のLPを実際に操作し、申込を邪魔する不具合を見つける",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "62vke",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "52vvp",
+     "text": "LPを作ったとき、自分では上から下まで眺めて「よし、完成」と判断しがちです。しかし、お客さんが困るのは、見出しの言い回しだけではありません。スマホではボタンが押しにくい、入力ミスをしても理由が分からない、確認画面から戻ると内容が消える。こうした問題は、実際に操作しないと見つけにくいものです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 2,
+       "length": 14,
+       "offset": 204
+      },
+      {
+       "key": 3,
+       "length": 8,
+       "offset": 219
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "c9jte",
+     "text": "海外の実践者Claire Voは、自身の番組でCodexを使ったサービスの確認を紹介しています。番組の紹介文によると、オンボーディングの確認で11件の問題を見つけ、スクリーンショット付きのGoogle Sheetに整理したとのこと。これは本人が報告した一事例ですが、依頼する仕事の形が具体的です。OpenAIの公式ガイドでも、画面を操作し、再現手順や期待した動作とともに問題を記録する方法が紹介されています。Claire Voの番組紹介、公式のQA活用例",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9l8df",
+     "text": "自分の仕事へ取り入れるなら、セミナー申込や資料請求のページが試しやすいでしょう。「気になるところを教えて」ではなく、どこからどこまで操作してほしいかを指定します。PCとスマホ幅の両方を見る条件も加えると、見落としを減らせます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "55sl7",
+     "text": "このLPを初めて見る利用者として、ページ閲覧から申込確認画面まで操作してください。PC幅とスマホ幅で確認し、問題を「場所・再現手順・期待する動作・実際の動作・優先度」に分けてください。入力にはテスト用データを使い、送信はせず確認画面までで止めてください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7f4qe",
+     "text": "受け取った結果は、件数の多さより、修正できる具体性で判断します。「ボタンが分かりづらい」だけなら、どの画面で、何と間違えたのかまで出してもらう。「必須項目が空欄でも進める」なら、実際に再現できるか確かめる。問題を指摘するところから、直す順番を決めるところまで仕事が進みます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aqa8p",
+     "text": "最初は一つの申込経路だけで十分です。公開前の確認を毎回同じ条件で頼めるようにしておくと、ページを直した後にも同じ操作を試せます。人が最終確認する前に、目立つ不具合を拾う担当として使うと、取り入れやすいはずです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7oqko",
+     "text": "2. LinkedInの受信箱を整理し、返信が必要な相談を見つける",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 4,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "502m3",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "br5tm",
+     "text": "仕事のSNSには、案件相談、日程調整、営業案内、知人からの連絡が混ざります。全部が同じ受信箱へ届くので、本当に返すべき相談を探すだけでも時間がかかります。忙しい日に開いて、そのまま閉じてしまう人には、整理から任せる使い方が向いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 5,
+       "length": 7,
+       "offset": 133
+      },
+      {
+       "key": 6,
+       "length": 12,
+       "offset": 141
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "dhkos",
+     "text": "Claire Voの同じ番組には、ブラウザ操作を使ってLinkedInの受信箱を処理する例も登場します。配信ページには18分20秒からの章として掲載されています。また、公式のブラウザ拡張の説明では、サインイン済みのサービスを使って作業を進める方法が案内されています。本人の番組紹介、公式のブラウザ拡張ガイド",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3sp2a",
+     "text": "この使い方を問い合わせ対応へ応用するなら、最初から返信を送らせるより、判断しやすい一覧にするのがおすすめです。たとえば、案件相談、日程調整、営業案内、判断保留に分け、相手が何を求めているのか、いつまでに返す必要があるのかを並べます。これは本記事で提案する整理方法です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4k6v9",
+     "text": "LinkedInの未対応メッセージを確認し、案件相談、日程調整、営業案内、判断保留の候補に整理してください。返信が必要そうなものは、依頼内容と期日を抜き出し、短い返信案を作ってください。相手の本文にない条件や空き日程は補わず、送信や削除はしないでください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4j5qn",
+     "text": "大事なのは、分類の名前より、その根拠が分かることです。「優先度が高い」と書いてあるだけでは判断できません。「来週の撮影について、今日中に対応可否を知りたいと書かれている」まで分かれば、先に返す理由が見えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ccq0f",
+     "text": "返信案を確認するときも、受注できます、参加できます、といった約束が勝手に入っていないかを見ます。判断がまだできない相談には、足りない情報を尋ねる下書きがあれば十分です。制作の仕事なら、用途、納期、尺、予算など、先に確認したい項目も指定できます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4hbo7",
+     "text": "受信箱を空にすることを目標にすると、大切な相談まで流しかねません。目指すのは、返す順番と確認事項が分かる状態です。そこまで整理されていれば、自分は相手との関係や受けられる仕事量を考えながら、返信を仕上げられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6allu",
+     "text": "3. 複数アプリに散った依頼を集め、打ち合わせの準備を終わらせる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 7,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "31ft1",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dijk1",
+     "text": "",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7nr8k",
+     "text": "",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bessg",
+     "text": "制作の打ち合わせでよくあるのが、「納期はチャットにある」「参考デザインは別のメモ」「前回の修正はドライブ」という状態です。必要な情報は存在するのに、そろえるまでが長い。しかも急いで拾うと、古い条件と新しい条件を混ぜてしまいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 8,
+       "length": 11,
+       "offset": 166
+      },
+      {
+       "key": 9,
+       "length": 10,
+       "offset": 178
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2ti6n",
+     "text": "OpenAIの公式活用例には、MessagesとNotesなどを参照し、候補を比較して返信の下書きを準備する使い方があります。XでもBlum氏は、メール、ドライブ、カレンダー、複数のメッセージアプリを組み合わせた運用を紹介しています。ただし、これは複数ツールを組み合わせた構成であり、すべてを画面操作で行ったという話ではありません。公式の複数アプリ活用例、Blum氏の公開投稿",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8k3g",
+     "text": "クリエイティブの仕事では、この考え方を「制作前の確認」に使えます。必要なのは長い議事録の要約よりも、何が決まり、何がまだ決まっていないかが分かる一枚です。目的、掲載先、納品形式、公開日、修正範囲をそろえてもらえば、次の打ち合わせで聞くべきことが見えてきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "afls",
+     "text": "この案件の依頼メモ、進行表、参考ページを確認し、目的、掲載先、納品形式、納期、修正範囲を整理してください。決定事項と未確認事項を分け、情報が食い違う場合は両方の記載を残してください。未確認事項を相手に尋ねるメールの下書きも作り、送信はしないでください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fc4rb",
+     "text": "成果物を見るときは、きれいにまとまっているかだけでなく、元の記載へ戻れるかを確認します。「縦動画」とだけあっても、広告用なのか、通常投稿なのかで必要な作り方は変わります。「前回と同じ」という指示も、どの前回を指しているかまで分かる必要があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c2483",
+     "text": "同じ項目に二つの日付があるなら、勝手に新しい方へ統一しないように頼んでおくと安心です。更新日時が新しくても、過去の予定を引用しているだけかもしれないからです。人が決めるべきことが残っているなら、そのまま見える形にしてもらいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dgoq5",
+     "text": "この使い方は、確認不足による作り直しを避けたいときに役立ちます。探す作業と判断する作業を分けることで、打ち合わせの時間を「資料はどこでしたっけ」から、企画や表現を決める時間へ変えられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fedc3",
+     "text": "4. 海外ツールの公式ページを回り、条件をそろえた比較表を作る",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 10,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "f2vdm",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7bjin",
+     "text": "",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7lakr",
+     "text": "",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ag2ku",
+     "text": "動画制作ツールや配信サービスを選ぶとき、料金ページを何枚も開いた経験はないでしょうか。一つは月払い、別のものは年払いの月額換算。安く見えても書き出しに透かしが入る。英語を読めても、条件をそろえて比べるのには手間がかかります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 11,
+       "length": 10,
+       "offset": 100
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "aqkj7",
+     "text": "OpenAIの公式更新情報には、ブラウザの複数タブを使って調査、入力、確認を進める例が掲載されています。製品ページからプランの制限を集め、タブを出典として表にし、不一致を確認対象として示す使い方です。公式の複数タブ活用例",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5p08f",
+     "text": "これを実務で使うなら、最初に用途を渡すことが大切です。「おすすめの動画ツールを選んで」では、何を優先するかが決まりません。社内研修なのか、広告なのか、毎日出すSNS動画なのか。必要な解像度や利用人数まで渡しておくと、比較表が自分の判断に使える形になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d9hof",
+     "text": "この3つの公式サービスページを比較してください。用途は社内研修動画です。月払い価格、年払い条件、利用人数、書き出し解像度、透かし、商用利用に関する記載、解約条件を同じ列で整理してください。根拠URLと確認日を残し、見つからない項目は「確認できず」としてください。契約はしないでください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9kb05",
+     "text": "結果を見るときは、安い順に並んでいるかより、比較条件がそろっているかを確かめます。たとえば、料金は一人分なのかチーム全体なのか。書き出し本数は毎月回復するのか、追加費用がかかるのか。無料プランと有料プランの説明が混ざっていないかも重要です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6nqqq",
+     "text": "不明な欄が残ることは、失敗ではありません。公式ページに明確な記載がない項目が分かれば、契約前に問い合わせる内容が決まります。必要なら「この表で判断できない点だけ、サポートへ聞く質問にして」と続けられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b3p8u",
+     "text": "一度作った表は、次の比較でも使えます。比較軸を固定しておけば、新しいサービスを見つけたときに同じ列を追加するだけで済みます。海外ツールの情報収集を、読むだけで終わる作業から、選定に使える資料へ変える活用法です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a37g8",
+     "text": "5. いつもの資料アプリで、数字の表を説明しやすいグラフへ変える",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 12,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "98m1r",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cvep5",
+     "text": "数字が正しく入っていても、会議で一目見ただけでは意味がつかめない表があります。月ごとの増減を説明したいのに、細かな数字がびっしり並んでいる。結局、説明する人が毎回「ここを見てください」と補足している。そんな定例資料にも使い道があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 13,
+       "length": 19,
+       "offset": 161
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "8o6r1",
+     "text": "SlideMagicのJan Schultink氏は、自社ブログでCodexのComputer Useを使った資料編集を報告しています。損益表を入れ、年次データを追加し、最後の年の数字を横向きのウォーターフォール図へ変えたという内容です。普段使っている資料アプリを操作し、表から説明用の図へ進めた実践として参考になります。Jan Schultink氏の実践記事",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7om63",
+     "text": "自分の仕事では、毎月の問い合わせ件数、制作本数、売上構成などから始めると考えやすいでしょう。大事なのは、グラフの種類を増やすことではなく、その会議で何を伝えたいかを決めることです。「前月より増えた理由を説明したい」と伝えるだけでも、選ぶ図は絞れます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fgpk1",
+     "text": "この資料の表をもとに、前月との差が分かるグラフ案を一つ作ってください。数字、単位、対象期間は変えず、元の表も残してください。計算した値があれば式を併記し、文字と図形を編集できる状態で保存してください。最後に表示を確認し、ラベルの欠けと重なりを直してください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fgun9",
+     "text": "完成後は、元の数字と照合するところから確認します。割合の合計、単位、比較期間が合っているか。軸の取り方によって差が必要以上に大きく見えていないか。図になったことで、数字の意味が変わっていないかを見ます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2jhad",
+     "text": "さらに、読んだ人がどこを見るかも大事です。すべてを同じ強さで目立たせると、表と同じように説明が必要になります。伝えたい差にだけ色を付ける、タイトルに対象期間を入れるなど、読み手が迷わないように整えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fdgvs",
+     "text": "既存の資料を編集できる状態で残せば、来月も数字を差し替えて使えます。完成画像を貼って終えるより、その後の更新まで考えて依頼する。繰り返し使う業務ほど、この一手が効いてきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "35ddd",
+     "text": "6. WebサイトをFigmaへ取り込み、具体的な改修案を作る",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 14,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "87r12",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f2q36",
+     "text": "ここからは、このCodexで実際に進めた制作の記録です。画面操作に加え、必要な工程では専用連携や編集ツールも使っています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c9kmk",
+     "text": "サイトの改善を考えるとき、参考URLだけを並べても、「どこを、どう変えるか」は伝わりにくいものです。見出しを短くしたい、ボタンの位置を上げたい、写真の比率を変えたい。実際の配置に触れられると、提案が一気に具体的になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 23,
+        "text": "html.to.design",
+        "toIndex": 37
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "37nat",
+     "text": "このCodexでは、Chrome版Figmaでhtml.to.designを使い、3つの公開サイトを取り込みました。URLを入力して取り込みを進め、ボタンや説明文の文字を書き換える。画像レイヤーだけを選び、ロックを解除して動かす。最後に3サイトを横並びにして確認するところまで実演しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "biaje",
+     "text": "サイトをレイヤーへ変換したのはプラグインで、CodexはFigmaの操作などを担当しました。実務なら、自社サイトや扱う権限のあるページを取り込んで、改修前後を比較する場面に応用できます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "97k25",
+     "text": "自社サイトのこのページをFigmaへ取り込み、元の構成を残したコピーに改善案を作ってください。冒頭の見出し、申込ボタン、料金説明の3か所を編集します。変更前と変更後を並べ、どの要素を変更したか、どの文字が編集可能かも確認してください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dp057",
+     "text": "ここで見たいのは、見た目が似ているかだけではありません。文字が文字として触れるか、写真が独立した要素になっているか、修正した箇所が分かるかです。画像に焼き込まれた文字は、そのままでは編集できません。フォントが置き換わる場合もあるので、取り込んだ後の確認は必要です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aole",
+     "text": "この作業は、操作画面の収録まで行っています。最初は別のウィンドウが録画されてしまい、撮り直しました。最終的には実際のFigma操作を確認し、待ち時間を切って2.5倍速、約1分52秒の動画へ編集しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1gath",
+     "text": "つまり、改修案を作る工程が、そのまま説明動画の材料にもなります。提案書を送るだけでは伝わらない変更理由を、実際に動かして見せられる。デザインの相談と、その説明を行き来する仕事で使いやすい方法です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "48cge",
+     "text": "7. WordPressの記事に合う写真を選び、公開前の見た目まで整える",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 15,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "6olbi",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aaj91",
+     "text": "記事を書き終えても、公開までは意外に作業が残ります。写真を探す、見出しの下へ入れる、アイキャッチを設定する、表示を確認する。一本なら小さな作業でも、記事が増えると積み重なっていきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c3um4",
+     "text": "このCodexでは、WordPressの編集画面をChromeで操作し、既存のメディアから各見出しに合う画像を選びました。h2見出し直下の6か所へ画像を配置し、アイキャッチも設定。プレビューで画像の読み込みと表示崩れを確認し、下書きとして保存しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "19mbp",
+     "text": "このときは、合う写真がなければ画像を生成する選択肢もありました。しかし、既存の素材で対応できたため、新規生成はしていません。必要なものを毎回作り直すのではなく、手元の素材を見て選ぶところにも実用性があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5cv8g",
+     "text": "この記事を読んで、h2見出しごとに内容が伝わる画像をメディアライブラリから選んでください。本文と関係の薄い写真は入れず、既存の画像と重複しすぎないようにしてください。アイキャッチも設定し、プレビューで画像の大きさと余白を確認してから下書き保存してください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1mncl",
+     "text": "依頼するときは、見た目の好みを一つか二つ加えると進めやすくなります。「人物の顔が目立つ写真は避ける」「説明図を優先する」「すでに使っている写真の雰囲気に合わせる」など、読者と記事の目的に関係する条件が有効です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2fijc",
+     "text": "仕上がりは、管理画面で画像が入ったかではなく、読者が見るページで確認します。見出しと写真の関係が自然か。画像の直後に似た説明が重複していないか。スマホで写真が大きすぎて、本文までの距離が長くなっていないか。そこまで見ると、単なる挿入作業から編集作業になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "t5b9",
+     "text": "記事の内容や主張は自分が確認し、素材選びと配置を任せる。この分担なら、すでに運用しているブログにも取り入れやすいでしょう。最初の一本を見ながら好みを伝えれば、次の記事で使う指示も具体的になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bc2p6",
+     "text": "8. Canvaの大量のスライドを、文章を編集できるまま整える",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 16,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "coji7",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3qfmb",
+     "text": "資料制作で時間を取られるのは、ゼロから作る場面だけではありません。過去の資料を新しいデザインへそろえる、後半だけ古い書式が残っている、注意書きが増えて文字が詰まっている。こうした修正は地味ですが、放置すると読む人の負担になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cu6rb",
+     "text": "このCodexでは、366枚あるCanva資料のコピー側を修正しました。冒頭のデザインを後半へ反映し、文章、数値、ページ順を確認。横送りのスライド表示と、文字を編集できる状態を維持しています。さらに、文字が詰まっていた16枚は、文字サイズ、行間、枠や画像との余白を調整しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bv1pd",
+     "text": "実際の工程では、Canvaの専用連携とブラウザ操作を併用しています。大量の変更をまとめて反映する処理と、画面で見え方を確認する処理を組み合わせた事例です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fr6d4",
+     "text": "このCanva資料のコピーを作り、冒頭5枚のデザインに合わせて全体を整えてください。本文、数値、ページ順は保ち、文字は編集できる状態にします。文字のはみ出し、図との重なり、余白が詰まったページを探して修正し、変更したページを一覧にしてください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5h43i",
+     "text": "ここで先に決めたいのは、何を変え、何を保つかです。「読みやすくして」だけだと、文章まで短くされる可能性があります。内容はそのままで配置を変えたいのか、重複した注意書きは整理してよいのか。範囲を言葉にしておくと、修正の方向がそろいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cv76f",
+     "text": "確認するときは、修正されたページだけでなく、その前後も見ます。一枚だけ文字が大きい、急に余白が狭い、図の位置が左右に揺れていると、資料全体では違和感が出るからです。数字や注記が消えていないかも、見た目と同じくらい大切です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d7lme",
+     "text": "この事例でも、最初の変更後に詰まりが見つかり、追加の調整を行いました。大量のページを処理できたことと、全ページが読みやすいことは別の確認事項です。コピーを残し、変更箇所を把握し、画面で仕上がりを確かめる。長い資料ほど、この進め方が役立ちます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9p972",
+     "text": "9. Instagramの実例を見て、広告の冒頭とテロップを改善する",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 17,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "cvsgv",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ks8i",
+     "text": "動画に「もっとおしゃれに」「もっとインスタっぽく」と指示しても、直す場所が曖昧なままでは改善しにくいものです。必要なのは、どの瞬間に顔を見せるか、文字をどこへ置くか、何をきっかけにカットを変えるか、といった具体的な判断です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c6hvg",
+     "text": "このCodexでは、広告の編集を見直すため、公開リール7本の画面、字幕、表紙、投稿文をブラウザで比較しました。表情の寄り、手元の動き、短い文字の強弱を参考に、約31秒だった広告を24秒へ再編集。その後、冒頭の身振りや見せ方をさらに改修し、21.6秒の版へ仕上げています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9d7r3",
+     "text": "最後には、21個のテロップをHyperFramesの文字要素として作り直しました。文字が背景に埋もれない太さや色にし、切り替わりで前の文字が残らないように調整しています。Computer Useは参考動画を確認する部分で使い、映像の生成や編集は別の制作ツールが担当しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "71a2v",
+     "text": "この商品のリールを改善したいです。同じ読者層に向けた公開リールを5〜7本確認し、冒頭3秒の見せ方、文字の太さ、カットの切り替えを比較してください。構成上の工夫を整理し、手元の素材を使った20〜30秒の修正案にしてください。参考動画の人物、映像、音楽は流用しないでください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5gcfs",
+     "text": "参考を見るときは、人気がありそうという印象だけで選ばないことが大切です。説明が長い商品なら、短い時間で情報を整理している動画が参考になります。実演が中心の商品なら、手元と表情の切り替えを見た方が、自分の素材へ反映しやすいでしょう。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6uf2o",
+     "text": "修正版を確認するときは、最初の数秒を音なしでも見てみます。何の話か伝わるか、文字を読み終える前に消えていないか、顔や手元を文字が隠していないか。観察するポイントが決まっていると、「なんとなく違う」から一歩進んだ修正ができます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dm9ps",
+     "text": "この事例は制作工程の改善であり、売上や視聴維持率の向上を測定したものではありません。それでも、参考を探して終わらず、自分の動画の修正指示へつなげられることは、日々の制作で大きな助けになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cj8iq",
+     "text": "10. YouTubeの字幕を取り出し、出典をたどれる制作資料にする",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 18,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "69h59",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5k1ab",
+     "text": "記事や動画の企画でYouTubeを調べると、気になる発言を見つけても、あとでどこだったか分からなくなることがあります。何本も見直し、メモを探し、また文字起こしする。調査のたびに同じ工程を繰り返すのはもったいないところです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "erdsv",
+     "text": "このCodexでは、Chromeに入っていたYouTube SummaryというGlaspの拡張機能を操作し、候補を5本に絞って字幕全文を取得しました。日本語動画では日本語の自動生成字幕を選び、TXTで保存。元のURL、取得言語、取得日時などを記録し、管理サイトの元データへ保存して照合しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aa2l5",
+     "text": "字幕を取り出すところはブラウザ操作、管理サイトへの一括保存は別の処理を使いました。字幕が取得できたことと、発言の一字一句が原音に合っていることは別なので、保存時点では原音との照合前であることも残しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7uui0",
+     "text": "このテーマのYouTube動画から候補を5本に絞り、Chromeの字幕拡張で原語の字幕を取得してください。URL、言語、取得日時を残し、記事に使える論点を整理してください。引用したい箇所には時間位置を付け、原音で確認する候補として分けてください。取得できない動画は理由を記録してください。",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5ft3h",
+     "text": "ここで作りたいのは、読んで終わる要約より、制作中に戻ってこられる資料です。「この主張はどの動画の、どのあたりか」が分かれば、表現を確認し直したり、前後の文脈を調べたりできます。記事の見出し案や、切り抜き候補を考えるときにも使えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "30kut",
+     "text": "その後の確認では、固有名詞、数字、否定の言い方に注意します。自動生成字幕では、短い言葉の違いで意味が変わることがあります。記事に引用する部分や、動画で強調する発言は、元の音声を聞いて確かめる工程を残します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6l2bc",
+     "text": "このCodexには、別の制作で、実写のインタビューへ要点テロップを加えた約3分の動画を作った実績もあります。字幕を整理する習慣は、そうした編集へ進むときの土台になります。調べた情報を毎回使い捨てにせず、出典と一緒に手元へ残す活用法です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "994j",
+     "text": "使い始めるときは、一つの画面、一つの完了条件から",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "63avk",
+     "text": "10個を並べると、最初から複雑な仕事を丸ごと任せたくなるかもしれません。ただ、最初に試すなら、自分が仕上がりを判断できる小さな作業が向いています。たとえば「この記事の画像を3か所入れる」「Canvaの5枚だけ余白を直す」「申込フォームを確認画面まで試す」。成功した状態が分かる依頼なら、途中で方向がずれても修正しやすくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bks1u",
+     "text": "使い始める手順は、次のように考えると分かりやすいでしょう。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 16,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "9080p",
+     "text": "操作したいアプリやページを開く。 対象を名前やURLで示し、必要なら利用するブラウザも指定します。",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "cemll",
+     "text": "目的と成果物を伝える。 「調べる」だけでなく、比較表、修正済みの下書き、確認用の一覧など、何を残してほしいかを決めます。",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 15,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "1vns",
+     "text": "保つものと操作の範囲を伝える。 本文や数字を変えない、コピー側を編集する、送信前で止めるなど、仕事に必要な条件を入れます。",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 14,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "8558t",
+     "text": "結果を実際の画面で確認する。 保存できたか、読めるか、リンクが動くか。完了報告と成果物を見比べます。",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 19,
+       "length": 18,
+       "offset": 126
+      },
+      {
+       "key": 20,
+       "length": 9,
+       "offset": 145
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "m5vl",
+     "text": "利用できる機能は、OS、プラグインの有効化、アプリの許可、組織の設定によって変わります。Computer Useとブラウザ操作では設定も異なるため、まずは使う機能の公式手順を確認してください。ログインやOSの権限確認など、自分で対応する場面もあります。Computer Useの公式ガイド、ブラウザ操作の設定",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eeos0",
+     "text": "日々の仕事では、同じアプリを複数の作業で同時に操作させないことも大切です。片方が開いたページを、もう片方が切り替えてしまえば、進めていた仕事が分かりにくくなります。対象と終了地点を決めて、一つずつ完成を確認していきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bkobd",
+     "text": "慣れてきたら、うまくいった依頼文を保存しておきましょう。画像の選び方、文字の余白、比較表の列など、自分が毎回伝えている条件を残せば、次の仕事でも使えます。失敗したところも「録画対象のウィンドウを最初に確認する」のように、次回の一文へ変えられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dnop9",
+     "text": "今日試すなら、今まさに仕上げ待ちになっている成果物を一つ選んでみてください。そして、「何ができていて、何が残っているか」を伝え、最後の工程を一つ頼んでみる。記事へ写真を入れる。資料の詰まりを直す。申込まで操作する。その一手が、自分の仕事でどこまで任せられるかを知る、いちばん具体的な入口になります。",
+     "type": "unstyled"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "12",
+     "value": {
+      "data": {
+       "entityKey": "8e120873-ab89-446f-ace3-992582c045b8",
+       "mediaItems": [
+        {
+         "localMediaId": "11",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720452495622144"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "8",
+     "value": {
+      "data": {
+       "entityKey": "d2f397ea-a0a9-48f6-a2a5-05e62a8221a8",
+       "url": "https://learn.chatgpt.com/use-cases/use-your-computer-with-codex"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "19",
+     "value": {
+      "data": {
+       "entityKey": "569d77a9-d236-4ffb-b160-207c92bd824a",
+       "url": "https://learn.chatgpt.com/docs/computer-use"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "4",
+     "value": {
+      "data": {
+       "entityKey": "0d78a1df-3cbd-4753-877f-a805ae8a9d63",
+       "mediaItems": [
+        {
+         "localMediaId": "5",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720251492065280"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "15",
+     "value": {
+      "data": {
+       "entityKey": "c8ce938a-7c41-4455-b23e-6e89091ecdab",
+       "mediaItems": [
+        {
+         "localMediaId": "15",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720590769258496"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "11",
+     "value": {
+      "data": {
+       "entityKey": "24e9edd3-db21-4b2d-a86a-c7611b394c31",
+       "url": "https://learn.chatgpt.com/docs/whats-new#work-across-browser-tabs-with-the-chrome-extension"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "9",
+     "value": {
+      "data": {
+       "entityKey": "fb4d5f52-1c2d-4f23-8218-9f61510bd3df",
+       "url": "https://x.com/Blum_OG/status/2060771504288071776"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "13",
+     "value": {
+      "data": {
+       "entityKey": "9be8ff85-0167-4c52-a916-8e64ddd38898",
+       "url": "https://slidemagic.com/blog/2026/4/24/codex-computer-use-control-any-app-on-your-machine"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "16",
+     "value": {
+      "data": {
+       "entityKey": "6e78d374-c23b-4eff-9e1c-bdd2672057bc",
+       "mediaItems": [
+        {
+         "localMediaId": "17",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720640627036160"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "5",
+     "value": {
+      "data": {
+       "entityKey": "0be89406-1872-4fdf-8fc7-e723a35d9751",
+       "url": "https://podcasts.apple.com/us/podcast/computer-browser-use-in-codex-5-real-examples/id1809663079?i=1000777866899"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "10",
+     "value": {
+      "data": {
+       "entityKey": "a85ac72e-968f-4203-ac85-c373463f96e4",
+       "mediaItems": [
+        {
+         "localMediaId": "9",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720402503802880"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "6",
+     "value": {
+      "data": {
+       "entityKey": "70585c99-6e62-44f8-8b26-99fb24d7e197",
+       "url": "https://learn.chatgpt.com/docs/chrome-extension"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "entityKey": "2bb67bf7-3dd1-4adf-b6a2-21ceed1ba6c7",
+       "mediaItems": [
+        {
+         "localMediaId": "3",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720093261918208"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "17",
+     "value": {
+      "data": {
+       "entityKey": "ee981fbc-d971-49e7-9372-c9a7b1b1c556",
+       "mediaItems": [
+        {
+         "localMediaId": "19",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720718640988161"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "14",
+     "value": {
+      "data": {
+       "entityKey": "4481652a-0155-4207-b635-8d1c7b43a59d",
+       "mediaItems": [
+        {
+         "localMediaId": "13",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720528106348544"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "entityKey": "0679d411-fae3-48db-b312-60bc07b888a4",
+       "mediaItems": [
+        {
+         "localMediaId": "1",
+         "mediaCategory": "AmplifyVideo",
+         "mediaId": "2108719746762088448"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "20",
+     "value": {
+      "data": {
+       "entityKey": "7268f910-0e25-4553-a6b0-20c83a2c90bf",
+       "url": "https://learn.chatgpt.com/docs/chrome-extension"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "entityKey": "acade1ce-ba8a-4000-b7e2-5f7aae566386",
+       "url": "https://podcasts.apple.com/us/podcast/computer-browser-use-in-codex-5-real-examples/id1809663079?i=1000777866899"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "18",
+     "value": {
+      "data": {
+       "entityKey": "b69c9e87-de33-44d2-ab9e-a17014743686",
+       "mediaItems": [
+        {
+         "localMediaId": "21",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720766661566464"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "7",
+     "value": {
+      "data": {
+       "entityKey": "db414814-d301-4eaa-97c9-70a87009eb26",
+       "mediaItems": [
+        {
+         "localMediaId": "7",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108720321738182657"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "3",
+     "value": {
+      "data": {
+       "entityKey": "fd60e588-07b1-4754-9a3e-325ef9010051",
+       "url": "https://learn.chatgpt.com/use-cases/qa-your-app-with-computer-use"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    }
+   ]
+  },
+  "media_entities": [
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOuJdhaYAAKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720528106348544",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 66.76,
+        "rgb": {
+         "blue": 32,
+         "green": 38,
+         "red": 29
+        }
+       },
+       {
+        "percentage": 21.94,
+        "rgb": {
+         "blue": 174,
+         "green": 182,
+         "red": 192
+        }
+       },
+       {
+        "percentage": 6.86,
+        "rgb": {
+         "blue": 104,
+         "green": 111,
+         "red": 98
+        }
+       },
+       {
+        "percentage": 1.42,
+        "rgb": {
+         "blue": 54,
+         "green": 81,
+         "red": 105
+        }
+       },
+       {
+        "percentage": 0.54,
+        "rgb": {
+         "blue": 209,
+         "green": 193,
+         "red": 179
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOuJdhaYAAjhMu.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720528106348544"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOtwJma8AAKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720093261918208",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 59.92,
+        "rgb": {
+         "blue": 27,
+         "green": 34,
+         "red": 19
+        }
+       },
+       {
+        "percentage": 24.16,
+        "rgb": {
+         "blue": 207,
+         "green": 219,
+         "red": 227
+        }
+       },
+       {
+        "percentage": 9.3,
+        "rgb": {
+         "blue": 101,
+         "green": 115,
+         "red": 127
+        }
+       },
+       {
+        "percentage": 3.26,
+        "rgb": {
+         "blue": 30,
+         "green": 68,
+         "red": 69
+        }
+       },
+       {
+        "percentage": 0.69,
+        "rgb": {
+         "blue": 197,
+         "green": 216,
+         "red": 172
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOtwJma8AALbb_.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720093261918208"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOuUjUaQAEKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720718640988161",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 75.54,
+        "rgb": {
+         "blue": 35,
+         "green": 40,
+         "red": 34
+        }
+       },
+       {
+        "percentage": 8.81,
+        "rgb": {
+         "blue": 160,
+         "green": 176,
+         "red": 192
+        }
+       },
+       {
+        "percentage": 4.74,
+        "rgb": {
+         "blue": 102,
+         "green": 107,
+         "red": 97
+        }
+       },
+       {
+        "percentage": 2.47,
+        "rgb": {
+         "blue": 27,
+         "green": 62,
+         "red": 65
+        }
+       },
+       {
+        "percentage": 0.93,
+        "rgb": {
+         "blue": 143,
+         "green": 163,
+         "red": 93
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOuUjUaQAEg6o8.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720718640988161"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOuXWNaIAAKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720766661566464",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 64.56,
+        "rgb": {
+         "blue": 30,
+         "green": 39,
+         "red": 33
+        }
+       },
+       {
+        "percentage": 24.13,
+        "rgb": {
+         "blue": 184,
+         "green": 201,
+         "red": 217
+        }
+       },
+       {
+        "percentage": 4.46,
+        "rgb": {
+         "blue": 106,
+         "green": 113,
+         "red": 109
+        }
+       },
+       {
+        "percentage": 3.23,
+        "rgb": {
+         "blue": 50,
+         "green": 80,
+         "red": 99
+        }
+       },
+       {
+        "percentage": 0.34,
+        "rgb": {
+         "blue": 28,
+         "green": 60,
+         "red": 51
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOuXWNaIAAvfWa.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720766661566464"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAECgABHUOtb+ybIAAKAAIAAAAAAAAAAAAA",
+    "media_id": "2108719746762088448",
+    "media_info": {
+     "__typename": "ApiVideo",
+     "aspect_ratio": {
+      "denominator": 9,
+      "numerator": 16
+     },
+     "duration_millis": 30000,
+     "preview_image": {
+      "color_info": {
+       "palette": [
+        {
+         "percentage": 88.67,
+         "rgb": {
+          "blue": 19,
+          "green": 24,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 8.55,
+         "rgb": {
+          "blue": 130,
+          "green": 148,
+          "red": 121
+         }
+        },
+        {
+         "percentage": 1.91,
+         "rgb": {
+          "blue": 203,
+          "green": 224,
+          "red": 193
+         }
+        },
+        {
+         "percentage": 0.28,
+         "rgb": {
+          "blue": 162,
+          "green": 203,
+          "red": 142
+         }
+        },
+        {
+         "percentage": 0.21,
+         "rgb": {
+          "blue": 88,
+          "green": 108,
+          "red": 74
+         }
+        }
+       ]
+      },
+      "original_img_height": 1080,
+      "original_img_url": "https://pbs.twimg.com/amplify_video_thumb/2108719746762088448/img/67q9ml1tjHTFJf-0.jpg",
+      "original_img_width": 1920
+     },
+     "variants": [
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2108719746762088448/vid/avc1/640x360/hYzVRgRJSTA5LZ2X.mp4?tag=29"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2108719746762088448/pl/g4LO40wRy6UZJCp7.m3u8?tag=29"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2108719746762088448/vid/avc1/1920x1080/o2XPQvCbzbEvou_o.mp4?tag=29"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2108719746762088448/vid/avc1/1280x720/CSomDozftccQIC3_.mp4?tag=29"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2108719746762088448/vid/avc1/480x270/3k7qEzl4mi7lNiLr.mp4?tag=29"
+      }
+     ]
+    },
+    "media_key": "13_2108719746762088448"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOuNG9agAAKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720590769258496",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 54.8,
+        "rgb": {
+         "blue": 25,
+         "green": 32,
+         "red": 20
+        }
+       },
+       {
+        "percentage": 28.84,
+        "rgb": {
+         "blue": 183,
+         "green": 190,
+         "red": 196
+        }
+       },
+       {
+        "percentage": 8.8,
+        "rgb": {
+         "blue": 100,
+         "green": 108,
+         "red": 101
+        }
+       },
+       {
+        "percentage": 2.16,
+        "rgb": {
+         "blue": 33,
+         "green": 62,
+         "red": 80
+        }
+       },
+       {
+        "percentage": 0.31,
+        "rgb": {
+         "blue": 195,
+         "green": 234,
+         "red": 173
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOuNG9agAArPoH.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720590769258496"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOuQAsb0AAKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720640627036160",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 57.83,
+        "rgb": {
+         "blue": 30,
+         "green": 37,
+         "red": 25
+        }
+       },
+       {
+        "percentage": 31.5,
+        "rgb": {
+         "blue": 193,
+         "green": 201,
+         "red": 208
+        }
+       },
+       {
+        "percentage": 5.2,
+        "rgb": {
+         "blue": 99,
+         "green": 110,
+         "red": 100
+        }
+       },
+       {
+        "percentage": 0.94,
+        "rgb": {
+         "blue": 48,
+         "green": 76,
+         "red": 93
+        }
+       },
+       {
+        "percentage": 0.66,
+        "rgb": {
+         "blue": 112,
+         "green": 154,
+         "red": 178
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOuQAsb0AA3U7f.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720640627036160"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOuCJnboAAKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720402503802880",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 63.73,
+        "rgb": {
+         "blue": 44,
+         "green": 50,
+         "red": 41
+        }
+       },
+       {
+        "percentage": 19.27,
+        "rgb": {
+         "blue": 181,
+         "green": 188,
+         "red": 195
+        }
+       },
+       {
+        "percentage": 9.68,
+        "rgb": {
+         "blue": 108,
+         "green": 116,
+         "red": 105
+        }
+       },
+       {
+        "percentage": 1.53,
+        "rgb": {
+         "blue": 44,
+         "green": 84,
+         "red": 91
+        }
+       },
+       {
+        "percentage": 0.62,
+        "rgb": {
+         "blue": 114,
+         "green": 146,
+         "red": 173
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOuCJnboAAyXJj.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720402503802880"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOt9cvaEAEKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720321738182657",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 56.63,
+        "rgb": {
+         "blue": 30,
+         "green": 40,
+         "red": 29
+        }
+       },
+       {
+        "percentage": 29.28,
+        "rgb": {
+         "blue": 199,
+         "green": 209,
+         "red": 219
+        }
+       },
+       {
+        "percentage": 4.74,
+        "rgb": {
+         "blue": 99,
+         "green": 107,
+         "red": 105
+        }
+       },
+       {
+        "percentage": 2.07,
+        "rgb": {
+         "blue": 27,
+         "green": 61,
+         "red": 52
+        }
+       },
+       {
+        "percentage": 0.5,
+        "rgb": {
+         "blue": 45,
+         "green": 75,
+         "red": 99
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOt9cvaEAEl96c.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720321738182657"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOt5XDbYAAKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720251492065280",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 61.02,
+        "rgb": {
+         "blue": 23,
+         "green": 31,
+         "red": 29
+        }
+       },
+       {
+        "percentage": 25.97,
+        "rgb": {
+         "blue": 167,
+         "green": 176,
+         "red": 185
+        }
+       },
+       {
+        "percentage": 3.62,
+        "rgb": {
+         "blue": 48,
+         "green": 81,
+         "red": 99
+        }
+       },
+       {
+        "percentage": 0.81,
+        "rgb": {
+         "blue": 179,
+         "green": 207,
+         "red": 152
+        }
+       },
+       {
+        "percentage": 0.35,
+        "rgb": {
+         "blue": 100,
+         "green": 136,
+         "red": 165
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOt5XDbYAAiXje.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720251492065280"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUOuFD2aQAAKAAIcyI8zdBoQAAAA",
+    "media_id": "2108720452495622144",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 75.89,
+        "rgb": {
+         "blue": 32,
+         "green": 39,
+         "red": 32
+        }
+       },
+       {
+        "percentage": 12.9,
+        "rgb": {
+         "blue": 208,
+         "green": 211,
+         "red": 217
+        }
+       },
+       {
+        "percentage": 3.05,
+        "rgb": {
+         "blue": 47,
+         "green": 79,
+         "red": 100
+        }
+       },
+       {
+        "percentage": 1.14,
+        "rgb": {
+         "blue": 171,
+         "green": 194,
+         "red": 145
+        }
+       },
+       {
+        "percentage": 0.91,
+        "rgb": {
+         "blue": 92,
+         "green": 135,
+         "red": 173
+        }
+       }
+      ]
+     },
+     "original_img_height": 941,
+     "original_img_url": "https://pbs.twimg.com/media/HUOuFD2aQAAfKkD.jpg",
+     "original_img_width": 1672
+    },
+    "media_key": "3_2108720452495622144"
+   }
+  ]
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}
