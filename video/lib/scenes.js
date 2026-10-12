@@ -163,6 +163,17 @@
       ${sub(s.note, 1.0 + s.bars.length * 0.3)}`;
   };
 
+  // 21. 冒頭の爆発（巨大文字が画面に突っ込む + 閃光 + 揺れ + 放射線）
+  S.burst = (s) => `
+    <div class="a rays spin" style="--d:.2s"></div>
+    ${s.ghost ? A('ghost drift', 0, fmt(s.ghost)) : ''}
+    <div class="a shk shake" style="--d:.42s">
+      ${tagLine(s.tag, 0.6)}
+      ${A('h-xl crash', 0.05, fmt(s.title))}
+      ${sub(s.sub, 0.85)}
+    </div>
+    <div class="a flash flashout" style="--d:0s"></div>`;
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -173,7 +184,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

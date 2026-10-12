@@ -257,3 +257,27 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
   .gridsum .tiles { grid-template-columns: 1fr 1fr; }
   .counter .nums { flex-direction: column; }
 }
+
+/* 21 burst（冒頭の大きな動き） */
+.burst { overflow: hidden; }
+.burst .shk { display: flex; flex-direction: column; align-items: center; gap: 36px; position: relative; z-index: 2; }
+.burst .h-xl { font-size: 180px; line-height: 1.15; text-shadow: 0 10px 0 rgba(0,0,0,.35); }
+.burst .rays { position: absolute; left: 50%; top: 50%; width: 3200px; height: 3200px; margin: -1600px 0 0 -1600px; z-index: 0;
+  background: repeating-conic-gradient(rgba(255,107,44,.20) 0 6deg, transparent 6deg 18deg);
+  mask-image: radial-gradient(circle, #000 10%, transparent 55%); }
+.spin { animation-name: spin; --len: 6s; animation-timing-function: linear; } @keyframes spin { from { transform: scale(.2) rotate(0); opacity: 0; } 8% { opacity: 1; transform: scale(1) rotate(10deg); } to { transform: scale(1.1) rotate(70deg); } }
+.burst .ghost { position: absolute; top: 50%; left: 0; translate: 0 -50%; white-space: nowrap; font-family: var(--head); font-size: 520px; color: transparent;
+  -webkit-text-stroke: 3px rgba(255,255,255,.07); z-index: 1; }
+.drift { animation-name: drift; --len: 4s; animation-timing-function: linear; } @keyframes drift { from { transform: translateX(10%); } to { transform: translateX(-25%); } }
+.crash { animation-name: crash; --len: .45s; animation-timing-function: cubic-bezier(.6,0,.2,1); }
+@keyframes crash { 0% { opacity: 0; transform: scale(7) rotate(-8deg); filter: blur(24px); } 70% { opacity: 1; transform: scale(.92) rotate(1deg); filter: blur(0); } 100% { transform: scale(1) rotate(0); } }
+.shake { animation-name: shake; --len: .5s; animation-timing-function: linear; }
+@keyframes shake { 0%,100% { transform: none; } 10% { transform: translate(-28px, 14px) rotate(-1.2deg); } 25% { transform: translate(24px, -18px) rotate(1deg); } 40% { transform: translate(-18px, 10px); } 55% { transform: translate(14px, -8px); } 70% { transform: translate(-8px, 6px); } 85% { transform: translate(4px, -2px); } }
+.burst .flash { position: absolute; inset: 0; background: #fff; z-index: 5; opacity: 0; }
+.flashout { animation-name: flashout; --len: .75s; } @keyframes flashout { 0%, 48% { opacity: 0; } 52% { opacity: .95; } 100% { opacity: 0; } }
+
+/* 画面切り替え: transition "whip"（横に振り抜く） */
+.whip .scene { animation-name: whipIn, whipOut; animation-duration: .32s, .28s; animation-delay: var(--t0), calc(var(--t0) + var(--dur) - .28s); }
+.whip .scene:first-child { animation-name: none, whipOut; }
+@keyframes whipIn { from { opacity: 0; transform: translateX(45%) skewX(-12deg); filter: blur(14px); } }
+@keyframes whipOut { to { opacity: 0; transform: translateX(-45%) skewX(12deg); filter: blur(14px); } }

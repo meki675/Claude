@@ -1,0 +1,16 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "transition": "whip",
+  "brand": "CLAUDE CODE PROJECTS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "burst", "dur": 2.8, "tag": "Claude Code Projects", "ghost": "USAGE USAGE USAGE", "title": "その担当、\n[[枠を溶かしてない？]]", "sub": "司令塔の管理でムダ消費を減らす" },
+    { "type": "kinetic", "dur": 2.4, "step": 0.22, "words": ["担当を", "増やすほど", "[[司令塔]]も", "利用枠を", "使う。"] },
+    { "type": "checklist", "dur": 2.8, "tag": "ムダ消費の正体", "title": "この3つ、やってない？", "items": ["必要のない担当を増やす", "同じ情報を調べ直す", "修正のたびに全体を作り直す"] },
+    { "type": "split", "dur": 3.2, "tag": "まず見る場所", "title": "Project\nsettings", "items": ["{{Usage}}：スレッド別・モデル別の利用量", "{{General}}：担当と司令塔のモデル・effortは別設定", "不要な作業は[[Stop / Pause]]で止める"] },
+    { "type": "beforeAfter", "dur": 3.0, "tag": "頼み方を変える", "title": "やり直しを広げない", "before": { "label": "NG", "lines": ["修正のたびに全体を作り直す", "大きな過去スレッドに毎回追加"] }, "after": { "label": "OK", "lines": ["[[変更した部分だけ]]更新", "新しい作業は[[新しいスレッド]]へ"] } },
+    { "type": "cta", "dur": 2.8, "tag": "詳しくは記事で", "title": "司令塔管理で\n[[ムダ消費削減]]", "go": "5つの指定と12の応用例つき", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari" }
+  ]
+}

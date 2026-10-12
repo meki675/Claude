@@ -21,6 +21,7 @@
     document.documentElement.style.setProperty('--w', w + 'px');
     document.documentElement.style.setProperty('--h', h + 'px');
     for (const [k, v] of Object.entries(script.theme ?? {})) document.documentElement.style.setProperty('--' + k, v);
+    document.body.classList.toggle('whip', script.transition === 'whip');
     document.getElementById('brand').textContent = script.brand ?? '';
     document.getElementById('footer').textContent = script.footer ?? '';
     const stage = document.getElementById('stage');
