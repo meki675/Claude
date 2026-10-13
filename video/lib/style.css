@@ -663,3 +663,12 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .btnsc .gbnote { font-size: 34px; color: var(--muted); }
 .press2 { animation-name: rise, press3; animation-duration: .5s, .3s; animation-delay: calc(var(--t0) + var(--d)), calc(var(--t0) + var(--pd)); }
 @keyframes press3 { 50% { transform: translateY(5px); box-shadow: 0 1px 0 #116329; filter: brightness(.9); } }
+
+/* 43 slideshow（写真が溶けるように切り替わる） */
+.sssc { padding: 0; overflow: hidden; justify-content: flex-end; }
+.sssc .ssimg { position: absolute; inset: 0; background-repeat: no-repeat; }
+.ssfade { animation-name: ssfade; animation-timing-function: linear; }
+@keyframes ssfade { 0% { opacity: 0; transform: scale(var(--z0)); } 18% { opacity: 1; } 82% { opacity: 1; } 100% { opacity: 0; transform: scale(var(--z1)); } }
+.sssc .ssveil { position: absolute; inset: 0; background: linear-gradient(transparent 40%, rgba(30,15,10,.65)); }
+.sssc .sscap { position: absolute; left: 140px; bottom: 150px; color: #fff; font-family: var(--head); font-size: 110px; line-height: 1.25; text-shadow: 0 6px 30px rgba(0,0,0,.45); }
+.ssfade2 { animation-name: ssfade2; animation-timing-function: linear; } @keyframes ssfade2 { 0% { opacity: 0; transform: translateY(20px); } 15%, 85% { opacity: 1; transform: none; } 100% { opacity: 0; } }

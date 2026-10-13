@@ -1,0 +1,904 @@
+{
+ "url": "https://x.com/kokin661/status/2110109719809663214",
+ "id": "2110109719809663214",
+ "text": "https://x.com/i/article/2109616557009846272",
+ "raw_text": {
+  "text": "https://t.co/0tyUM2QRuy",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/0tyUM2QRuy",
+    "replacement": "https://x.com/i/article/2109616557009846272",
+    "display": "x.com/i/article/2109…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "kokin661",
+  "url": "https://x.com/kokin661",
+  "id": "2042022550440402945",
+  "followers": 219,
+  "following": 19,
+  "likes": 242,
+  "media_count": 10,
+  "name": "ゆみ｜忙しいママのゆる食習慣",
+  "description": "家族優先で自分のことは後回し。そんな忙しいママへ\n家族のごはんは変えずに、お腹まわりをゆるく整える食習慣を発信\n頑張れない日でもスリム腹に戻れるコツをまとめています",
+  "raw_description": {
+   "text": "家族優先で自分のことは後回し。そんな忙しいママへ\n家族のごはんは変えずに、お腹まわりをゆるく整える食習慣を発信\n頑張れない日でもスリム腹に戻れるコツをまとめています",
+   "facets": []
+  },
+  "location": "",
+  "banner_url": "https://pbs.twimg.com/profile_banners/2042022550440402945/1777947826",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2051487915235299328/pnIQz1r-_200x200.jpg",
+  "joined": "Wed Apr 08 23:31:43 +0000 2026",
+  "protected": false,
+  "website": {
+   "url": "https://lin.ee/ymQdDbz",
+   "display_url": "lin.ee/ymQdDbz"
+  },
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 0,
+ "retweets": 0,
+ "likes": 0,
+ "bookmarks": 0,
+ "quotes": 0,
+ "created_at": "Tue Oct 13 20:45:35 +0000 2026",
+ "created_timestamp": 1791924335,
+ "possibly_sensitive": false,
+ "views": 3,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-13T20:45:35.000Z",
+  "modified_at": "2026-10-13T20:48:09.000Z",
+  "id": "2109616557009846272",
+  "title": "食物繊維の化物ナツメを取り入れた食事法",
+  "preview_text": "「体によさそうなおやつ」を探しているのに、最後はまたクッキーをつまんでしまう。\n甘いものまで全部我慢するのは、正直しんどいですよね。\nそんな日に知っておきたいのが、ナツメです。",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAAFCgABHUbd5nVaAAAKAAIcVriwxlZgAQAA",
+   "media_id": "2109617457350705152",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 69.7,
+       "rgb": {
+        "blue": 217,
+        "green": 231,
+        "red": 245
+       }
+      },
+      {
+       "percentage": 16.71,
+       "rgb": {
+        "blue": 85,
+        "green": 111,
+        "red": 143
+       }
+      },
+      {
+       "percentage": 4.3,
+       "rgb": {
+        "blue": 31,
+        "green": 43,
+        "red": 123
+       }
+      },
+      {
+       "percentage": 3.31,
+       "rgb": {
+        "blue": 112,
+        "green": 163,
+        "red": 200
+       }
+      },
+      {
+       "percentage": 1.06,
+       "rgb": {
+        "blue": 248,
+        "green": 249,
+        "red": 250
+       }
+      }
+     ]
+    },
+    "original_img_height": 793,
+    "original_img_url": "https://pbs.twimg.com/media/HUbd5nVaAAAIhrQ.jpg",
+    "original_img_width": 1983
+   },
+   "media_key": "3_2109617457350705152"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "c47ac",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "120n5",
+     "text": "「体によさそうなおやつ」を探しているのに、最後はまたクッキーをつまんでしまう。\n甘いものまで全部我慢するのは、正直しんどいですよね。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ro9j",
+     "text": "そんな日に知っておきたいのが、ナツメです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7jfjn",
+     "text": "田中友也さんの投稿で気になったのは、伝統的な食材の紹介と一緒に、「少量をおやつやスープ、お粥に使う」という身近な入口が示されていたこと。\n特別な薬膳料理を一から作らなくても、いつもの食べ方へつなげられるんです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "s4n1",
+     "text": "ただ、ナツメを買ったら毎日3粒を食べなきゃ、と新しいノルマにする必要はありません。\n粒の大きさは商品によって違います。まず一つ手に取って、量と食べ方を決めるところから。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "258rp",
+     "text": "この記事では、ナツメとデーツの違い、丸ごととチップの選び方、おやつやスープでの使い方までまとめます。\n「1粒」は初めて味や食感を確かめるための入口。痩せるための量や、誰にでも合う一日の推奨量という意味ではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4q18k",
+     "text": "1. ナツメとデーツは、名前が似ていても別の果物\n2. 「3粒」より先に、一粒の大きさを見る\n3. おやつならチップ、料理なら丸ごとという選び方\n4. いつもの食卓に取り入れる、小さな手順\n5. 薬膳の言葉と、体への効果を分ける\n6. 今日の一手は、食べ方を一つ決めること",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "730n",
+     "text": "1. ナツメとデーツは、名前が似ていても別の果物",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4bsgq",
+     "text": "ドライフルーツの売り場で、「デーツなら見たことがある」と思う人は多いかもしれません。\nでも、田中さんが紹介しているナツメは、デーツの別名ではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 9,
+       "offset": 71
+      },
+      {
+       "key": 2,
+       "length": 8,
+       "offset": 81
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "a4m1h",
+     "text": "文部科学省の食品成分データベースでは、ナツメは「なつめ／乾」、デーツは「なつめやし／乾」と別の食品として掲載されています。学名も異なります。\nナツメの食品成分表\nデーツの食品情報",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "956gd",
+     "text": "ネットで探すときは、まず「なつめ」「棗」の表記を見る。\n「なつめやし」「デーツ」と書かれた商品なら、今回の記事で扱う果物とは違います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eqdtj",
+     "text": "どちらが上等、どちらが正解という話ではありません。\nナツメを試したい日に、似た名前だけで別の果物を買わないための確認です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "al8ad",
+     "text": "丸ごとの乾燥ナツメだけでなく、薄く切ったチップタイプもあります。\n「見かけないから買えない」と思っていたら、お茶やドライフルーツの売り場、専門店のチップも探してみてください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ep8k7",
+     "text": "2. 「3粒」より先に、一粒の大きさを見る",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4belh",
+     "text": "元の投稿には、ナツメにまつわる昔からの言い伝えと、少量から食卓へ取り入れる提案が並んでいます。\nここで拾いたいのは、粒数を達成することより、食材として使ってみることです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 3,
+       "length": 12,
+       "offset": 115
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "6c965",
+     "text": "そもそも、一粒の大きさはそろっていません。\nたとえば、なつめいろの「まるごとなつめ（大粒和田玉）100g」は、公式情報で一袋に約9〜10個入りと案内されています。小粒のナツメ3個と、大粒のナツメ3個を、同じ量としては扱えません。\n大粒商品の内容量・原材料",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8cca3",
+     "text": "栄養の数字も、「100g当たり」と「一回に食べる量」を分けて読みます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2gvbd",
+     "text": "文科省の成分表にある乾燥ナツメは、可食部100g当たり294kcal、食物繊維12.5g、鉄1.5mg。\nこの数値を可食部10gへ単純換算すると、約29kcal、食物繊維1.25g、鉄0.15mgです。一粒が必ず10gという意味ではなく、量を考えるための計算例です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c1quj",
+     "text": "種を含む重さと、食べる果肉の重さも違います。\n市販品は乾燥の仕方などで表示値が異なるので、手元の商品の栄養表示を優先してください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "60qri",
+     "text": "「鉄が入っている」「食物繊維がある」という紹介を見たら、その食品を実際にどれくらい食べるのかまで確認する。\n一粒ですべての栄養を補おうとしなくて大丈夫です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "36jf1",
+     "text": "3. おやつならチップ、料理なら丸ごとという選び方",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ai2sg",
+     "text": "買う前に決めたいのは、いちばん大きい袋を選ぶことより、どこで使うかです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d1t5u",
+     "text": "サクッとしたおやつとして試したい。\n温かいスープやお粥に入れてみたい。\nこの二つでは、手に取りやすい形が変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fl2sk",
+     "text": "チップは、薄く切った果肉をそのまま楽しみたいときの候補。\n丸ごとの乾燥ナツメは、果肉を確かめながら食べたり、料理に使ったりしたいときの候補です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c4hsj",
+     "text": "ここで見るのは四つ。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bcp7s",
+     "text": "・食品名が「なつめ／棗」か\n・原材料になつめ以外のものが入っているか\n・種の有無と、商品が案内する食べ方\n・一袋の量と、開封後の保存方法",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 4,
+       "length": 11,
+       "offset": 84
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "c96u9",
+     "text": "「チップ」という名前だけで、油で揚げたお菓子と決めつけないこと。\nなつめいろには、フリーズドライ製法のノンフライチップもあります。加工方法は商品ごとに確かめられます。\nなつめチップの公式説明",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7hqch",
+     "text": "反対に、砂糖を加えていない商品でも、果物そのものに炭水化物は含まれています。\n砂糖不使用を「いくら食べても量を気にしなくていい」という意味にしない。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d6h8f",
+     "text": "チョコで包んだものや、ほかの素材と混ぜたものを選ぶ日は、その商品の原材料と一回分を見る。\nナツメという名前が入っていても、全部同じおやつではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1csqp",
+     "text": "4. いつもの食卓に取り入れる、小さな手順",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "79oaj",
+     "text": "最初から、知らない食材を何種類もそろえる必要はありません。\nナツメを買ったら、まず次のどれか一つを選びます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1ijfb",
+     "text": "おやつとして試すなら、丸ごとタイプを一粒取り出し、種を確認して果肉を少量ずつ。\n大きい粒なら、全部を食べ切る前提にせず、分けてもかまいません。\nチップタイプなら、最初に食べる分だけ小皿へ出して袋を閉じる。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1sj",
+     "text": "いつものお菓子にさらにナツメを追加するより、おやつの一部を置き換えて味を比べる。\n好きな甘さや食感かどうかを確かめる時間にしましょう。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 5,
+       "length": 15,
+       "offset": 103
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "k0as",
+     "text": "手軽なチップの候補は、なつめいろの「なつめチップ24g×2袋」。\n公式表示の原材料は乾燥なつめで、韓国産、ノンフライのフリーズドライ製品です。まずチップの食感を試したい人には、使い方を想像しやすい形です。\nなつめいろ なつめチップ24g",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 6,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "4h3s1",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "emrkd",
+     "text": "温かい料理で試したいなら、丸ごとの乾燥ナツメを使う案があります。\nこれは家庭で試すための料理例です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dj2ss",
+     "text": "1. ナツメ一粒の種の有無を確認し、種があれば取り除く。\n2. 商品の洗浄・下ごしらえの案内に従う。\n3. 普段のスープやお粥を小鍋に取り分け、果肉を加える。\n4. 弱火で様子を見ながら煮て、果肉が食べやすい柔らかさになったら味を確かめる。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eplaf",
+     "text": "最初は一杯分を別に作ると、家族全員の鍋の味を変えずに試せます。\n煮る時間は粒の大きさや乾燥具合で変わるので、何分なら必ずよいと固定しません。商品の調理案内がある場合は、それを優先します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "73k32",
+     "text": "ヨーグルトにチップを少量のせる方法もあります。\nどの食べ方でも、砂糖やはちみつを先に足すより、まずナツメの甘みを確かめてから。\n新しい食材を足した分も含め、一回のおやつとして考えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "48ke5",
+     "text": "5. 薬膳の言葉と、体への効果を分ける",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5obbe",
+     "text": "ナツメの魅力の一つは、薬膳で長く使われてきた背景です。\n元投稿で出てくる「気」「血」「血虚」は、伝統的な薬膳・中医学で使う考え方です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "29cni",
+     "text": "その言葉だけで、自分が医学的な貧血かどうかを判断することはできません。\n疲れる、顔色が気になる、といった感覚から、ナツメで治療できると決めつけることもしません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 7,
+       "length": 16,
+       "offset": 112
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2u40o",
+     "text": "ナツメの果実を使った人の研究はあります。\nたとえば、脂質異常のある肥満の若者を対象にした試験では、果実の粉末を一か月摂り、脂質の指標などを調べています。試験を終えたのは70人で、BMIの変化には有意な差がありませんでした。\nナツメ果実の粉末を使った臨床試験",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5j51n",
+     "text": "これは、健康な大人が市販のナツメを一粒食べたら痩せる、という証明ではありません。\n昔からの言い伝えも、そのまま老化予防や不調改善の保証には使えません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "93cl",
+     "text": "薬膳の文化を知って、味や食べ方を楽しむ。\n栄養や健康の話は、対象と量を確かめて読む。\nこの両方で、無理なく食材として選べます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 8,
+       "length": 19,
+       "offset": 123
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "fgk0c",
+     "text": "丸ごとの実にこだわりたいなら、なつめいろの「まるごとなつめ（大粒和田玉）100g」も候補です。\n原材料は棗、原産国は中国。大粒を選び、国内で検品・充填していることが公式に案内されています。粒の存在感や料理への使い方を重視する人向けの選択肢です。\nなつめいろ 大粒まるごとなつめ500g",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 9,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2vluk",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1g36m",
+     "text": "産地や粒の大きさで、健康効果の順位を付けているわけではありません。\n先ほどのチップと形が違うので、自分の使う場面から選んでください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6n6g8",
+     "text": "丸ごとタイプは種を飲み込まないよう確認します。硬い果肉が食べにくい人は、無理にそのまま食べず、柔らかくする方法を商品の案内で確認してください。\nお腹の張りなどが気になったら量を増やさず、体に合うかを見る。食事量や栄養素の制限がある人は、食事全体の中で扱います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "10ocv",
+     "text": "6. 今日の一手は、食べ方を一つ決めること",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "etu4k",
+     "text": "ナツメを始める日に必要なのは、毎日3粒を続ける決意より、一回の食べ方です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "21e0t",
+     "text": "今日のおやつで味を確かめるのか。\nいつものスープ一杯に入れてみるのか。\nまずどちらか一つを選びましょう。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "842dr",
+     "text": "買う前なら、「なつめ」と「なつめやし」を区別する。\n手元にあるなら、一粒の大きさと種を確認する。\nチップなら、食べる分を小皿に出す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9nhat",
+     "text": "食べたら、好きな味だったか、扱いやすかったかを確かめる。\n合わないなら、続けるために無理をする必要はありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e7vi0",
+     "text": "ナツメを、痩せるための新しい宿題にしない。\n甘いものを楽しむ選択肢や、いつもの食卓で使う小さな食材として知っておく。\nそのくらいの入口から、薬膳の食べ物は暮らしへ近づきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4jrgj",
+     "text": "この記事で扱った「体によさそうな食品を足す前に、一回の食べ方を決める」と合わせて、普段の食習慣も見直したい方へ。\nLINEでは『お腹まわりが気になるママのための捨てる食習慣23選』を案内しています。全部を変えようとせず、今の生活で手放せそうな一つを探すときに使ってください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 10,
+       "length": 25,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "fbi4n",
+     "text": "お腹まわりが気になるママのための捨てる食習慣23選",
+     "type": "unstyled"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "8",
+     "value": {
+      "data": {
+       "url": "https://link.amazon/B04aO4JiC"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "4",
+     "value": {
+      "data": {
+       "entityKey": "f1aaa879-36b6-4e6a-8b80-2e58bf3b30e7",
+       "url": "https://shop.natsumeiro.jp/view/item/000000000221"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "9",
+     "value": {
+      "data": {
+       "entityKey": "7b4cadcf-1d48-4c47-bfa7-2c59d0acd3a5",
+       "mediaItems": [
+        {
+         "localMediaId": "4",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2109617976416886784"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "5",
+     "value": {
+      "data": {
+       "url": "https://link.amazon/B0etS91cz"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "10",
+     "value": {
+      "data": {
+       "entityKey": "6c9f09a2-9b15-4b26-8811-eaa8f4d909e6",
+       "url": "https://x.gd/JKwYi"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "6",
+     "value": {
+      "data": {
+       "entityKey": "c2d6ec47-2e15-41af-96e1-e1606a76d59c",
+       "mediaItems": [
+        {
+         "localMediaId": "2",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2109617631963852800"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "entityKey": "adaedc4d-59f8-4d32-aa26-354285a9e4c4",
+       "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=07_07095_6"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "entityKey": "a1c2ee65-6235-4bca-9a0f-2da3858e59ca",
+       "tweetId": "2106169401045348478"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "entityKey": "d65b097f-8825-4f8e-9b54-bb4467ee9428",
+       "url": "https://fooddb.mext.go.jp/details/foodInfo.pl?ITEM_NO=7_07096_7&VIEW_POPUP=1"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "7",
+     "value": {
+      "data": {
+       "entityKey": "8bc51487-3c28-4119-b922-ad29f1e8b6cc",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/23848030/"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "3",
+     "value": {
+      "data": {
+       "entityKey": "6f9c8809-63bb-4853-9d61-f5b357fb8be7",
+       "url": "https://shop.natsumeiro.jp/view/item/000000000273"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    }
+   ]
+  },
+  "media_entities": [
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUbeDx0bMAAKAAIcVriwxlZgAQAA",
+    "media_id": "2109617631963852800",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 79.55,
+        "rgb": {
+         "blue": 191,
+         "green": 207,
+         "red": 223
+        }
+       },
+       {
+        "percentage": 5.91,
+        "rgb": {
+         "blue": 222,
+         "green": 207,
+         "red": 204
+        }
+       },
+       {
+        "percentage": 3.36,
+        "rgb": {
+         "blue": 46,
+         "green": 153,
+         "red": 230
+        }
+       },
+       {
+        "percentage": 2.95,
+        "rgb": {
+         "blue": 65,
+         "green": 55,
+         "red": 202
+        }
+       },
+       {
+        "percentage": 2.32,
+        "rgb": {
+         "blue": 140,
+         "green": 191,
+         "red": 213
+        }
+       }
+      ]
+     },
+     "original_img_height": 1000,
+     "original_img_url": "https://pbs.twimg.com/media/HUbeDx0bMAAVM01.jpg",
+     "original_img_width": 1000
+    },
+    "media_key": "3_2109617631963852800"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUbeX1AbYAAKAAIcVriwxlZgAQAA",
+    "media_id": "2109617976416886784",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 85.96,
+        "rgb": {
+         "blue": 228,
+         "green": 240,
+         "red": 252
+        }
+       },
+       {
+        "percentage": 6.88,
+        "rgb": {
+         "blue": 59,
+         "green": 57,
+         "red": 116
+        }
+       },
+       {
+        "percentage": 1.85,
+        "rgb": {
+         "blue": 125,
+         "green": 122,
+         "red": 190
+        }
+       },
+       {
+        "percentage": 1.25,
+        "rgb": {
+         "blue": 61,
+         "green": 59,
+         "red": 75
+        }
+       },
+       {
+        "percentage": 0.95,
+        "rgb": {
+         "blue": 135,
+         "green": 166,
+         "red": 135
+        }
+       }
+      ]
+     },
+     "original_img_height": 640,
+     "original_img_url": "https://pbs.twimg.com/media/HUbeX1AbYAAJzbZ.jpg",
+     "original_img_width": 640
+    },
+    "media_key": "3_2109617976416886784"
+   }
+  ]
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

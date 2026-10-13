@@ -10,7 +10,7 @@ node video/render.mjs video/posts/<名前>/script.json --out video/posts/<名前
 - 構図は20種類あります。一覧と使いどころは `video/patterns/catalog.html`、見本動画は `video/patterns/showcase.mp4`、全種類の書き方は `video/patterns/showcase.json` を見てください。
 - 文字の書式: `[[強調]]` はオレンジ、`{{強調}}` は青、`==マーカー==` は蛍光ペン、`\n` は改行です。
 - フォントは見出しが Dela Gothic One、本文と中見出しが Noto Sans JP（どちらも SIL OFL、`video/fonts/`）。`orchard` 配色だけ見出しが明朝（Shippori Mincho B1、SIL OFL）になります。
-- 冒頭用に `burst`（巨大文字が突っ込む＋閃光＋揺れ＋放射線）、`stomp`（1文字ずつ叩きつける）、`shutter`（左右の扉が開く）、`ripple`（波紋から弾ける）、`orbit`（単色の画面に輪で囲んだ巨大数字）、`repeat`（同じ単語を何段も重ねて流す）、`tiles`（アプリのタイルが並ぶ）、`dialog`（設定画面に入力→スイッチ→カーソルで保存の操作再現）、`shock`（黄色地に赤い太文字の叩き込み）、`gitgraph`（Gitの線：本流→ブランチ→合流→打ち消し）、`buttons`（緑のボタンが順に押される）、`poster`（映画のキービジュアル風。`"bg": "cover.jpg"` で背景にサムネ）があります。`quiz`（問い→選択肢→正解が光る）、`scorecard`（大きな数字＋数字タイルの採点表）もあります。
+- 冒頭用に `burst`（巨大文字が突っ込む＋閃光＋揺れ＋放射線）、`stomp`（1文字ずつ叩きつける）、`shutter`（左右の扉が開く）、`ripple`（波紋から弾ける）、`orbit`（単色の画面に輪で囲んだ巨大数字）、`repeat`（同じ単語を何段も重ねて流す）、`tiles`（アプリのタイルが並ぶ）、`dialog`（設定画面に入力→スイッチ→カーソルで保存の操作再現）、`shock`（黄色地に赤い太文字の叩き込み）、`gitgraph`（Gitの線：本流→ブランチ→合流→打ち消し）、`buttons`（緑のボタンが順に押される）、`slideshow`（写真が寄りながら溶けるように切り替わる。`"frames": [{"pos", "zoom", "cap"}]`）、`poster`（映画のキービジュアル風。`"bg": "cover.jpg"` で背景にサムネ）があります。`quiz`（問い→選択肢→正解が光る）、`scorecard`（大きな数字＋数字タイルの採点表）もあります。
 - 図形を動かすモーショングラフィック用に、`stickers`（白い箱のテロップを貼る）、`pipeline`（ファイルが関門を順に通って光る）、`gate`（弾かれて別の道へ回る）、`particles`（粒が集まる冒頭）、`stack`（ブロックが落ちて積み上がる）、`term`（ターミナル実行の再現。行ごとに `cmd / ok / bad / dim`）、`sort`（カードが箱へ仕分けられる）があります。アイコン（鍵・書類・リスト・ファイル）は `lib/scenes.js` の `ICON`。
 - 切り替えは `"transition"` に `whip / zoom / flash / slide / spin / cine / fade` を1つ、または配列で場面ごとに書きます（シーンに `"tr"` を書くとそのシーンだけ変更）。
 - 構成を毎回変えるための参考サイト・参考リポジトリ・構成の型は `references.md`。`node video/inspire.mjs <フォルダ>` で、8つの参考サイトから最近使っていないものを開いて画像に保存します。

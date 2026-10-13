@@ -419,6 +419,15 @@
     <div class="gbtns">${s.items.map((b, i) => `<div class="gbrow">${A('gbn pop', 0.3 + i * 0.6, String(i + 1))}${A('gbtn rise press2', 0.35 + i * 0.6, fmt(b.label), { style: `--pd:${(0.75 + i * 0.6).toFixed(2)}s` })}${A('gbnote fade', 0.6 + i * 0.6, fmt(b.note ?? ''))}</div>`).join('')}</div>
     ${sub(s.note, 0.6 + s.items.length * 0.6)}`;
 
+  // 43. 写真のスライドショー（参考: Mixkit「Fade Slideshow」）。同じ写真でも切り取る場所と倍率を変えて、溶けるように切り替える
+  S.slideshow = (s) => {
+    const n = s.frames.length, per = s.dur / n;
+    return `${s.frames.map((f, i) => `
+      <div class="a ssimg ssfade" style="--d:${(i * per).toFixed(2)}s;--len:${(per + 0.5).toFixed(2)}s;background-image:url('${esc(s.bg)}');background-position:${f.pos ?? 'center'};background-size:auto ${((f.zoom ?? 1) * 100).toFixed(0)}%;--z0:1;--z1:1.07"></div>`).join('')}
+      <div class="ssveil"></div>
+      ${s.frames.map((f, i) => f.cap ? A('sscap ssfade2', i * per + 0.25, fmt(f.cap), { style: `--len:${(per - 0.1).toFixed(2)}s` }) : '').join('')}`;
+  };
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -430,7 +439,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc', shock: 'shocksc center', gitgraph: 'gitsc', buttons: 'btnsc' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc', shock: 'shocksc center', gitgraph: 'gitsc', buttons: 'btnsc', slideshow: 'sssc' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

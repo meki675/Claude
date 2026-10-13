@@ -1,0 +1,25 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "orchard",
+  "style": "editorial",
+  "bpm": 104,
+  "mood": "bright",
+  "structure": "写真で引き込む→名前の取り違え→数字→選び方→ノルマにしない",
+  "inspiration": { "site": "mixkit", "work": "After Effects テンプレート一覧の先頭「Fade Slideshow」", "idea": "写真がゆっくり寄りながら溶けるように切り替わり、白い大きな文字が出る。記事のサムネを切り取る場所と倍率を変えて3枚にする" },
+  "transition": ["slide", "zoom", "slide", "zoom", "slide", "zoom"],
+  "brand": "ナツメを暮らしに",
+  "footer": "出典：@kokin661 のX記事",
+  "scenes": [
+    { "type": "slideshow", "beats": 9, "bg": "cover.jpg", "frames": [
+      { "pos": "72% 78%", "zoom": 2.4, "cap": "甘いもの、\n全部我慢してない？" },
+      { "pos": "100% 35%", "zoom": 2.6, "cap": "スープやお粥に" },
+      { "pos": "96% 62%", "zoom": 1.9, "cap": "おやつに1粒" } ] },
+    { "type": "versus", "beats": 7, "tag": "買う前に、ここだけ確認", "title": "名前が似ていても、別の果物", "a": { "label": "ナツメ（棗）", "value": "なつめ", "note": "今回の果物" }, "b": { "label": "デーツ", "value": "なつめやし", "note": "成分表でも別の食品。学名も違う" } },
+    { "type": "scorecard", "beats": 8, "tag": "文科省の食品成分表より", "big": "294", "caption": "kcal／100g\n（乾燥・可食部）", "tiles": [ { "v": "12.5g", "l": "食物繊維／100g" }, { "v": "1.5mg", "l": "鉄／100g" }, { "v": "約29kcal", "l": "10gに換算すると" }, { "v": "約1.25g", "l": "10gの食物繊維" } ] },
+    { "type": "split", "beats": 7, "tag": "選び方は、使う場面から", "title": "おやつ？\n料理？", "items": ["おやつなら：チップ（食べる分だけ小皿へ）", "料理なら：丸ごと（種を確かめてスープやお粥に）", "砂糖不使用でも、一回分は見る"] },
+    { "type": "marker", "beats": 6, "tag": "「1日3粒」は、ノルマじゃない", "text": "まずは\n==食べ方を一つ決める==", "sub": "一粒の大きさは商品で違う（大粒は100gで約9〜10個）" },
+    { "type": "cta", "beats": 6, "tag": "詳しくは記事で", "title": "ナツメを\n[[暮らしに]]", "go": "選び方とおやつ・スープの使い方", "name": "ゆみ｜忙しいママのゆる食習慣", "id": "@kokin661", "image": "cover.jpg" }
+  ]
+}
