@@ -42,7 +42,8 @@ if (thumbs) {
   mkdirSync(thumbs, { recursive: true });
   for (let i = 0; i < script.scenes.length; i++) {
     const s = script.scenes[i];
-    await page.evaluate((t) => window.seek(t), info.starts[i] + (s.dur ?? 4) * (s.thumbAt ?? 0.8));
+    const dur = (info.starts[i + 1] ?? info.total) - info.starts[i];
+    await page.evaluate((t) => window.seek(t), info.starts[i] + dur * (s.thumbAt ?? 0.8));
     await page.screenshot({ path: path.join(thumbs, `${String(i + 1).padStart(2, '0')}-${s.type}.png`) });
   }
   console.log('thumbs ->', thumbs);

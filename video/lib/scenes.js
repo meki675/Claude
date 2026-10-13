@@ -355,6 +355,17 @@
       </div></div>`;
   };
 
+  // 37. 冒頭：同じ単語を画面いっぱいに何段も重ね、段ごとに左右へ流す。1段だけ色を変えて言いたいことを入れる
+  //   （参考: Pinterest「motion graphics typography」で見えた「MOTION」を積み重ねた作品）
+  S.repeat = (s) => {
+    const rows = s.rows ?? 7, hi = s.hi ?? Math.floor(rows / 2);
+    return `<div class="rp">${Array.from({ length: rows }, (_, r) => {
+      const txt = r === hi ? fmt(s.hiText ?? s.word) : esc(s.word);
+      return `<div class="a rrow ${r % 2 ? 'rl' : 'rr'}${r === hi ? ' hi' : ''}" style="--d:${(r * 0.06).toFixed(2)}s;--len:${s.dur}s">${Array(6).fill(`<span>${txt}</span>`).join('')}</div>`;
+    }).join('')}</div>
+    ${s.sub ? A('rsub pop', 0.9, fmt(s.sub)) : ''}`;
+  };
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -366,7 +377,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

@@ -557,3 +557,33 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 @keyframes tgrow { 0% { transform: scaleX(0); opacity: 0; } 12.5% { transform: scaleX(.58); opacity: 1; } 50% { transform: scaleX(.98); } 100% { transform: scaleX(1); opacity: 1; } }
 .tzoom { animation-name: tzoom; animation-timing-function: linear; } @keyframes tzoom { 0% { transform: scale(1); } 25% { transform: scale(1.047); } 100% { transform: scale(1.081); } }
 .tleave { animation-name: tleave; animation-timing-function: linear; } @keyframes tleave { 0% { transform: none; opacity: 1; } 100% { transform: translateY(-120px); opacity: 0; } }
+
+/* 37 repeat（同じ単語を何段も重ねて流す） */
+.repeatsc { padding: 0; overflow: hidden; justify-content: center; }
+.repeatsc .rp { display: flex; flex-direction: column; gap: 0; transform: rotate(-4deg) scale(1.08); }
+.repeatsc .rrow { white-space: nowrap; font-family: var(--head); font-size: 150px; line-height: 1.02; color: var(--text); }
+.repeatsc .rrow span { margin-right: 60px; }
+.repeatsc .rrow:nth-child(odd):not(.hi) { color: transparent; -webkit-text-stroke: 3px var(--text); }
+.repeatsc .rrow.hi { background: var(--accent); color: var(--on-accent); }
+.rr { animation-name: rr; animation-timing-function: linear; } @keyframes rr { from { transform: translateX(-30%); } to { transform: translateX(-10%); } }
+.rl { animation-name: rl; animation-timing-function: linear; } @keyframes rl { from { transform: translateX(-5%); } to { transform: translateX(-25%); } }
+.repeatsc .rsub { position: absolute; left: 50%; bottom: 140px; translate: -50% 0; background: var(--text); color: var(--bg); padding: 16px 40px; font-size: 48px; font-weight: 900; white-space: nowrap; }
+
+/* pixel：ドット絵のゲーム画面。空色・角ばった太線・段々の影・金色 */
+.style-pixel { --bg: #8fd3ff; --bg2: #d9f2ff; --text: #14213d; --muted: #3c4f7a; --accent: #ffc300; --accent-hi: #ffe27a; --accent2: #2f6bff; --on-accent: #14213d;
+  --stroke: #14213d; --panel: #ffffff; --good: #1f9d55; --bad: #e23d4f; }
+.style-pixel #bg { background: linear-gradient(#7ccbff, #d9f2ff 70%, #bfe7a0 70%, #9fd37c); }
+.style-pixel #bg::after { background-image: linear-gradient(rgba(20,33,61,.06) 2px, transparent 2px), linear-gradient(90deg, rgba(20,33,61,.06) 2px, transparent 2px); background-size: 40px 40px; mask-image: none; }
+.style-pixel .card, .style-pixel .side, .style-pixel .blk, .style-pixel .tile, .style-pixel .bin, .style-pixel .opt, .style-pixel .ri, .style-pixel .col, .style-pixel .sc-t, .style-pixel .dest, .style-pixel .cell, .style-pixel .win2, .style-pixel .tw, .style-pixel .ci .box
+  { border: 6px solid #14213d !important; border-radius: 0 !important; background: #fff !important; backdrop-filter: none !important;
+    box-shadow: 6px 6px 0 #14213d, 12px 12px 0 rgba(20,33,61,.25) !important; }
+.style-pixel .h-xl, .style-pixel .h-lg, .style-pixel .h-md, .style-pixel .title { text-shadow: 4px 4px 0 #fff, 8px 8px 0 rgba(20,33,61,.2); }
+.style-pixel .em { color: #14213d; background: var(--accent); padding: 0 .1em; box-shadow: 4px 4px 0 #14213d; }
+.style-pixel .tag { background: #14213d; color: #ffc300; padding: 6px 16px; } .style-pixel .tag::before { display: none; }
+.style-pixel .blk.hot { background: var(--accent) !important; } .style-pixel .blk.hot b { color: #14213d !important; }
+.style-pixel .versus .vs { border-radius: 0; background: #14213d; color: #ffc300; box-shadow: 0 0 0 10px #fff; }
+.style-pixel .win::before { border-radius: 0; background: var(--accent); color: #14213d; }
+.style-pixel .repeatsc .rrow.hi { color: #14213d; }
+.style-pixel .cta .av { border-radius: 0; }
+.style-pixel .code .win2 { color: #14213d; }
+.style-pixel .code .hl, .style-pixel .code .em { color: #14213d; background: var(--accent); box-shadow: none; }

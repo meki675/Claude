@@ -1,0 +1,1573 @@
+{
+ "url": "https://x.com/daifukujinji/status/2109751059652788576",
+ "id": "2109751059652788576",
+ "text": "https://x.com/i/article/2109751053738795008",
+ "raw_text": {
+  "text": "https://t.co/SzbwmPZQq8",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/SzbwmPZQq8",
+    "replacement": "https://x.com/i/article/2109751053738795008",
+    "display": "x.com/i/article/2109…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "daifukujinji",
+  "url": "https://x.com/daifukujinji",
+  "id": "860452523085185025",
+  "followers": 54263,
+  "following": 648,
+  "likes": 285090,
+  "media_count": 2297,
+  "name": "たか田",
+  "description": "削られる時間を取り戻すAI屋｜SNSも日々の仕事も「やらなくても進む」仕組みを発信｜「楽」にするエージェント活用｜生粋のGeminiスト｜TOPVIEW（@topviewjapan）CPP｜#今日から使えるAIを発信 X運用・AI研修の相談はDMへ",
+  "raw_description": {
+   "text": "削られる時間を取り戻すAI屋｜SNSも日々の仕事も「やらなくても進む」仕組みを発信｜「楽」にするエージェント活用｜生粋のGeminiスト｜TOPVIEW（@topviewjapan）CPP｜#今日から使えるAIを発信 X運用・AI研修の相談はDMへ",
+   "facets": []
+  },
+  "location": "skill配布や無料セミナーなら→",
+  "banner_url": "https://pbs.twimg.com/profile_banners/860452523085185025/1783440717",
+  "avatar_url": "https://pbs.twimg.com/profile_images/1925886647725375488/A2Y6510O_200x200.jpg",
+  "joined": "Fri May 05 11:14:02 +0000 2017",
+  "protected": false,
+  "website": {
+   "url": "https://lin.ee/PQE85En",
+   "display_url": "lin.ee/PQE85En"
+  },
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 6,
+ "retweets": 24,
+ "likes": 79,
+ "bookmarks": 88,
+ "quotes": 10,
+ "created_at": "Mon Oct 12 21:00:24 +0000 2026",
+ "created_timestamp": 1791838824,
+ "possibly_sensitive": false,
+ "views": 13073,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-12T21:00:24.000Z",
+  "modified_at": "2026-10-12T21:00:24.000Z",
+  "id": "2109751053738795008",
+  "title": "Gemini Sparkで作るAI社員、はじめの一歩",
+  "preview_text": "AI社員の1人目は、仕事1つから。\nGemini Sparkで「AI社員を作りたい」と思っても、最初に何を任せればいいか分からなくて止まる人が多いです。僕も7月に初めてGemini",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAABCgABHUdXZ0VaAAAKAAIAAAAAAAAAAAAA",
+   "media_id": "2109751051503140864",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 28.62,
+       "rgb": {
+        "blue": 237,
+        "green": 223,
+        "red": 203
+       }
+      },
+      {
+       "percentage": 18.43,
+       "rgb": {
+        "blue": 67,
+        "green": 55,
+        "red": 49
+       }
+      },
+      {
+       "percentage": 8.33,
+       "rgb": {
+        "blue": 253,
+        "green": 193,
+        "red": 105
+       }
+      },
+      {
+       "percentage": 7.63,
+       "rgb": {
+        "blue": 181,
+        "green": 203,
+        "red": 229
+       }
+      },
+      {
+       "percentage": 2.59,
+       "rgb": {
+        "blue": 33,
+        "green": 208,
+        "red": 241
+       }
+      }
+     ]
+    },
+    "original_img_height": 724,
+    "original_img_url": "https://pbs.twimg.com/media/HUdXZ0VaAAAt0ET.jpg",
+    "original_img_width": 1811
+   },
+   "media_key": "3_2109751051503140864"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ0",
+     "text": "AI社員の1人目は、仕事1つから。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ1",
+     "text": "Gemini Sparkで「AI社員を作りたい」と思っても、最初に何を任せればいいか分からなくて止まる人が多いです。僕も7月に初めてGemini Sparkを触ったときは、正直、斜に構えていました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ2",
+     "text": "この記事では、Gemini Sparkで1人目のAI社員を作る手順を、仕事1つに絞って紹介します。9月30日にGeminiの「スキル」が始まって、AIに仕事のやり方を渡せるようになりました。いまから始める人は、ここを使うかどうかで手間が大きく変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ3",
+     "text": "この記事で得られるもの",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ4",
+     "text": "Gemini SparkのAI社員を組み立てる3つの部品",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ5",
+     "text": "使える条件と、最初の開き方",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ6",
+     "text": "1人目に任せる仕事の選び方",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ7",
+     "text": "そのまま貼れるスキルの文と、毎日動かす頼み方",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ8",
+     "text": "止め方と、7日目の見直しのチェックリスト",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ9",
+     "text": "機能と使える条件は、2026年10月12日にGoogleの公式ヘルプで確認した内容です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ10",
+     "text": "第1章 Gemini SparkのAI社員は、3つの部品でできています",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ11",
+     "text": "最初に、Gemini Sparkが何をする道具なのかを整理します。ここがあいまいなまま始めると、「チャットと何が違うの？」で手が止まります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ12",
+     "text": "Gemini Sparkは、Geminiアプリの中で動くAIエージェントです。エージェントは、指示を受けて、自分で手順を考えながら作業を進めるAIのことです。公式のヘルプでは、個人向けのAIエージェントだと説明されています。複雑な作業の流れを自動にして、続けて行う作業の予定まで管理できる、という位置づけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ13",
+     "text": "ふつうのチャットとの違いは、作業がこちらの手を離れて進むことです。頼んだ仕事は、Googleの側で動きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ14",
+     "text": "Gemini SparkでAI社員を作るときは、次の3つの部品を組み合わせます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ15",
+     "text": "タスク：何をするか（1回分の仕事の依頼）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ16",
+     "text": "スケジュール：いつ動くか（毎日・毎週などの決まった時刻）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ17",
+     "text": "スキル：どうやるか（仕事のやり方を書いた説明書）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ18",
+     "text": "この3つがそろうと、「毎日夕方に、決まったやり方で、決まった仕事をする」状態になります。僕はこの状態をAI社員と呼んでいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ19",
+     "text": "9月30日より前は、3つ目のスキルがありませんでした。だから、毎回のタスクに長い指示を書くか、スケジュールの依頼文に全部を詰め込むしかありませんでした。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ20",
+     "text": "公式のヘルプでは、スキルは「繰り返し使用できる指示と追加コンテキストのセット」と説明されています。追加コンテキストは、AIに渡す前提情報や背景のことです。一度スキルを作っておけば、タスクからもスケジュールからも同じやり方を呼び出せます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ21",
+     "text": "ここで、保険営業時代の失敗を書かせてください。お客さんへの説明が足りず、保険金が支払われないかもしれない事態になったことがあります。最終的には支払われましたが、「伝えたつもり」が一番怖いと痛感しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ22",
+     "text": "AIへの指示も同じです。毎回その場で書く指示は、日によって言葉が変わって、伝わり方もぶれます。スキルにやり方を書いて残すのは、「伝えたつもり」をなくすための仕組みです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ23",
+     "text": "【Before】\n毎回のタスクに長い指示を書きます。書き忘れた日は、出てくる結果の形が変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ24",
+     "text": "【After】\nやり方はスキルに1回だけ書きます。タスクとスケジュールは、そのスキルを呼ぶだけになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ25",
+     "text": "つまずきやすい点は、3つの部品を最初から全部そろえようとすることです。この記事では、タスク→スキル→スケジュールの順に1つずつ足していきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ26",
+     "text": "第2章 使える条件と、最初の開き方",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ27",
+     "text": "次に、Gemini Sparkを使える条件を確認します。ここで引っかかると、画面のどこを探してもSparkが出てきません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ28",
+     "text": "2026年10月12日時点の公式ヘルプでは、条件は次の4つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ29",
+     "text": "18歳以上であること",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ30",
+     "text": "個人のGoogleアカウントであること",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ31",
+     "text": "Google AI ProかGoogle AI Ultraを契約していること",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ32",
+     "text": "Geminiアプリの「アクティビティの保存」がオンになっていること",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ33",
+     "text": "日本では、ProとUltraの契約者が日本語で使えます。使える場所は、Geminiのウェブ版、スマホのアプリ、Mac版のアプリです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ34",
+     "text": "注意したいのは、会社や学校のGoogleアカウントでは使えないことです。公式のヘルプには「現時点では」使えないと書かれています。会社のアカウントでGeminiを使っている人は、Sparkの入口自体が出てきません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ35",
+     "text": "開き方は、ウェブ版ならサイドバーの「Sparkに切り替える」から入ります。Mac版のアプリでは、サイドバーの「Spark」から「タスク」を開きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ36",
+     "text": "もうひとつ大事なのが、アプリとの連携です。Gmailやカレンダー、ドキュメントとの連携は、最初はすべてオフになっています。自分で1つずつオンにしていく形です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ37",
+     "text": "ここで、僕の苦い記憶をひとつ。AIを使い始めたころ、APIの料金の仕組みを知らないまま使って、10万円単位の請求が来たことがあります。APIは、ソフト同士をつなぐ窓口のことです。仕組みを知らずに全部オンにすると、あとで青ざめるのは自分でした。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ38",
+     "text": "Gemini Sparkの連携も同じで、全部つないでおけば便利そうに見えます。でも、1人目のAI社員に必要な連携は、せいぜい1つか2つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ39",
+     "text": "【Before】\n最初に全部の連携をオンにします。何に触れる権限を渡したのか、自分でも把握できなくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ40",
+     "text": "【After】\n1人目の仕事に必要な連携だけをオンにします。この記事の例なら、ドキュメントとドライブの2つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ41",
+     "text": "【実践用素材：始める前のチェックリスト】",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ42",
+     "text": "個人のGoogleアカウントでログインしているか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ43",
+     "text": "Google AI ProかUltraを契約しているか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ44",
+     "text": "「アクティビティの保存」がオンになっているか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ45",
+     "text": "1人目の仕事に必要な連携だけを決めたか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ46",
+     "text": "ProやUltraを契約していない人は、無理に契約しなくて大丈夫です。スキルそのものは、契約がなくても通常のチャットで使えます。毎日自動で動かすタスクとスケジュールを使いたくなったら、そこで初めて契約を考える順番で困りません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ47",
+     "text": "第3章 1人目に任せる仕事の選び方",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ48",
+     "text": "ここが、この記事で一番大事な章です。1人目に何を任せるかで、AI社員が続くかどうかが決まります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ49",
+     "text": "僕が1人目に勧めるのは、次の3つの条件を満たす仕事です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ50",
+     "text": "お金が動かない",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ51",
+     "text": "誰にも送らない",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ52",
+     "text": "失敗しても、やり直せる",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ53",
+     "text": "この3つを満たす仕事なら、AIが間違えても、自分が見直してから使えば被害は出ません。最初の1人目は、仕事の速さより、安心して任せられることのほうが大事です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ54",
+     "text": "条件に合う仕事の例を挙げます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ55",
+     "text": "会議メモから、やること・担当・期限の一覧を作る",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ56",
+     "text": "未返信のメールを洗い出す（返信はしない）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ57",
+     "text": "フォルダの資料の要点を、1枚のドキュメントにまとめる",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ58",
+     "text": "毎朝、届いたメールの要約を作る",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ59",
+     "text": "日程調整の返信の下書きを作る（送信はしない）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ60",
+     "text": "この記事では、1つ目の「会議メモからやること一覧」を1人目にします。理由は、僕自身が一番驚いた仕事だからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ61",
+     "text": "7月に、先行公開の環境でGemini Sparkを一晩中触りました。そのとき、会議メモからやることを抜き出して、シートに一覧を作ってもらいました。思わず声が出ました。会議のあとの後片付けが、確認込みで15分から3分になったからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ62",
+     "text": "1回12分の差は小さく見えます。でも、会議が週5回あれば週1時間、月4時間になります。月4時間あれば、映画2本はゆっくり観られます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ63",
+     "text": "一方で、同じ一晩でゾッとしたこともあります。Gemini Sparkは、お金の支払いやメールの送信まで任せられる設計になっていました。便利さと怖さが同じ場所にある道具だと、そのとき気づきました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ64",
+     "text": "だから1人目は、お金も送信も関わらない仕事から始めます。慣れる前に大きな仕事を渡すと、何かあったときに自分が対応しきれません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ65",
+     "text": "【Before】\n「AI社員を作る」と決めて、メールの返信や請求書づくりまで一気に任せようとします。どこで間違えたのか追えなくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ66",
+     "text": "【After】\n1人目は「会議メモからやること一覧」だけにします。結果を毎日見て、AIのくせをつかんでから2人目を考えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ67",
+     "text": "逆に、1人目に向かない仕事も挙げておきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ68",
+     "text": "お客さんへのメールの返信（人に届くため）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ69",
+     "text": "請求書の発行や支払い（お金が動くため）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ70",
+     "text": "共有フォルダの整理や削除（元に戻しにくいため）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ71",
+     "text": "判断の基準がまだ自分の中で決まっていない仕事（AIに渡すやり方が書けないため）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ72",
+     "text": "最後の1つは見落としがちです。自分でも毎回やり方が変わる仕事は、スキルに書けません。スキルに書けない仕事は、AI社員にも渡せません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ73",
+     "text": "つまずきやすい点は、「せっかくなら便利な仕事を」と欲張ることです。1人目は地味な仕事のほうが、長く続きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ74",
+     "text": "第4章 「面接」から始めて、最初のスキルを作る",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ75",
+     "text": "ここから実際に作っていきます。最初にやるのは、Gemini Sparkの初期設定です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ76",
+     "text": "Gemini Sparkのタスク欄に「面接」と打つと、最初のスキルとタスクの設定を、会話で手伝ってくれます。「セットアップ」や「開始」と打っても同じ流れに入れます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ77",
+     "text": "試しに「面接」と打ってみると、Gemini Sparkのほうから、僕の仕事やよくやる作業について質問が返ってきました。答えていくうちに、任せたい仕事がだんだん形になっていきます。自分が面接される側だったのは、ちょっと予想外でした...",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ78",
+     "text": "面接で答えるときのコツは、仕事を広く話しすぎないことです。僕が意識したのは次の3つでした。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ79",
+     "text": "任せたい仕事は1つだけ話す（「会議メモの整理」など）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ80",
+     "text": "その仕事の材料がどこにあるかを答える（「ドライブの会議メモのフォルダ」など）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ81",
+     "text": "やってほしくないことも先に伝える（「メールは送らない」など）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ82",
+     "text": "「いろいろ手伝ってほしい」と答えると、話が広がって、最初のスキルがぼやけます。面接の段階で仕事を1つに絞っておくと、このあとのスキル作りがぐっと楽になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ83",
+     "text": "面接で大まかな形ができたら、スキルを自分の言葉で整えます。スキルの作り方は3通りあります。Geminiに作らせる、自分で書く、ファイル（.mdか.zip）をアップロードする、の3つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ84",
+     "text": "僕のおすすめは、Geminiに下書きを作らせてから、自分で直す順番です。ゼロから書くと、何を書けばいいかで止まるからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ85",
+     "text": "スキルは、名前と説明とやり方の3つでできています。名前は英小文字とハイフンで書きます。説明は、どんなときにこのスキルを使うかを書く欄で、1,024字まで入ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ86",
+     "text": "ここで、人事の仕事をしていた頃の話を少しだけ。僕は採用の仕事で、1人あたりの採用単価を3.5万円まで下げたことがあります。そこで身についたのが、無駄を削って、仕組みにする考え方でした。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ87",
+     "text": "スキルを書くときも、この考え方がそのまま使えます。「何を読んで」「何を作って」「何をしないか」だけを書き、それ以外は書きません。説明を盛るほど、AIは迷います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ88",
+     "text": "【実践用素材：スキル「会議メモからやること一覧」】",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "typ89",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ90",
+     "text": "最後の「やらないこと」が一番大事です。ここを書いておくと、AIが気を利かせて余計な作業をするのを防げます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ91",
+     "text": "スキルができたら、まずは1回だけタスクで試します。タスク欄で「/」を打つと、作ったスキルを選べます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ92",
+     "text": "【実践用素材：最初の1回を頼むタスクの文】",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "typ93",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ94",
+     "text": "【Before】\nタスクのたびに、「会議メモを読んで、表にして、担当と期限も…」と毎回書きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ95",
+     "text": "【After】\nタスク欄で「/meeting-todo-list」を呼ぶだけで、同じ形の一覧が出てきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ96",
+     "text": "つまずきやすい点は、スキルの「自動使用」です。オンにしておくと、Geminiが内容に合わせてスキルを自動で選ぶことがあります。関係ない場面で呼ばれて困るときは、そのスキルの自動使用をオフにします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ97",
+     "text": "第5章 スケジュールで、毎日決まった時刻に動かす",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ98",
+     "text": "1回のタスクでうまく動いたら、次はスケジュールで毎日動かします。ここまで来ると、AI社員らしくなってきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ99",
+     "text": "Gemini Sparkのスケジュールには、3つの種類があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ100",
+     "text": "時間で動く：1回だけ・毎時・毎日・毎週・毎月・毎年",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ101",
+     "text": "Gmailを見張る：条件に合うメールが届いたら動く",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ102",
+     "text": "話題を見張る：ニュースや地域のイベントなどの話題で動く",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ103",
+     "text": "2つ目の「Gmailを見張る」は、条件をGmailの検索やフィルタと同じ書き方で指定します。「会議メモという件名のメールが届いたら」のように、件名や送り主で書ける条件にすると、狙いどおりに動きます。「大事そうなメールが来たら」のような、意味で決める条件は向いていません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ104",
+     "text": "1人目は、一番分かりやすい「毎日」で動かします。作り方は2通りあって、会話で「毎日18時にこれをやって」と頼むか、［スケジュール］から［手動で作成］を選びます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ105",
+     "text": "【実践用素材：毎日動かすスケジュールの頼み方】",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 2,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "typ106",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ107",
+     "text": "スケジュールで気をつけたい点が3つあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ108",
+     "text": "1つ目は、実行の時刻が「おおよそ」なことです。18時ちょうどに動くとは限りません。18時5分に結果を見に行って、まだ動いていなくても慌てなくて大丈夫です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ109",
+     "text": "2つ目は、上限です。有効にしておけるスケジュールは50個まで、同時に動けるタスクは15個までです。15個のタスクが動いていると、スケジュールは動きません。1人目のうちは関係ありませんが、AI社員を増やしたときに効いてきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ110",
+     "text": "3つ目は、使用量の上限です。スケジュールの時刻に、Geminiの使用量が上限に達していると、そのスケジュールは動きません。上限の具体的な数字は、公式には出ていません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ111",
+     "text": "結果は、タスクのスレッドに残ります。まだ読んでいないスレッドは太字で表示されるので、夕方にGeminiアプリを開いて、太字のスレッドだけ確認すれば足ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ112",
+     "text": "会議メモ以外の資料も読ませたいときは、ノートブックを添付できます。タスクを作るときに［アップロードとツール］から［ノートブックを追加］を選びます。ただし、ほかの人から共有されたノートブックは読めないので、自分のノートブックを使います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ113",
+     "text": "残業が毎日3〜4時間あった頃の僕は、会議の宿題を整理する時間を取るのも難しい毎日でした。あの頃にこの仕組みがあったら、と本気で思います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ114",
+     "text": "いまは、夕方に太字のスレッドを開けば、その日の宿題が表になって並んでいます。思い出す作業がなくなるだけで、夜の時間の重さがまるで違います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ115",
+     "text": "【Before】\n会議の宿題は、夜にメモを見返して自分で整理します。疲れている日ほど、書き漏らします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ116",
+     "text": "【After】\n毎日18時ごろに、やること一覧ができあがっています。僕は表を見て、担当と期限を確かめるだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ117",
+     "text": "つまずきやすい点は、タイムゾーンです。スケジュールのタイムゾーンは、作った場所で決まります。海外出張中にスケジュールを作ると、時刻がずれることがあるので、日本にいるときに作っておくと安心です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ118",
+     "text": "第6章 止め方と、渡さないもの",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ119",
+     "text": "AI社員を作ったら、同じ日に止め方も覚えておきます。止め方を知らない仕組みは、怖くて任せきれないからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ120",
+     "text": "Gemini Sparkの止め方は、場面ごとに違います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ121",
+     "text": "動いている最中のタスク：テキストボックスの［停止］を押す",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ122",
+     "text": "スケジュール：［スケジュール］のページで一時停止か削除をする",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ123",
+     "text": "勝手に呼ばれるスキル：そのスキルの自動使用をオフにする",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ124",
+     "text": "ひとつ、知っておかないと事故になる点があります。スレッドを削除すると、その中で作ったスケジュールも一緒に消えます。「結果を片付けよう」とスレッドを消すと、AI社員ごと消えてしまいます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ125",
+     "text": "もうひとつ、Gemini Sparkには、大事な操作の前に確認を求める仕組みがあります。メッセージの送信、データの変更、購入、ウェブのフォームの送信の前には、こちらの確認が入る設計です。共有されたファイルを直すときも、本人の承認が必要です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ126",
+     "text": "ただし、例外もあります。Googleの「ToDoリスト」の非公開のタスクは、確認なしでまとめて操作されることがあります。これは公式のヘルプに書かれています。ToDoリストとの連携をオンにするときは、この点だけ覚えておきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ127",
+     "text": "僕は以前、パソコンの初期化で、作り込んだAIの設定をまるごと失ったことがあります。シェルの復元スクリプト（環境を作り直す手順をまとめたファイル）を組んで、ゼロから組み直す羽目になりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ128",
+     "text": "あの失敗があるので、作ったスキルは手元にもファイルで残しておくのがおすすめです。第4章のスキルの文も、メモ帳に貼って保存しておけば、消してしまっても同じAI社員をすぐ作り直せます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ129",
+     "text": "【Before】\n止め方を知らないまま動かします。おかしな結果が出たときに、どこを押せば止まるか分かりません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ130",
+     "text": "【After】\n［停止］と［スケジュール］の場所を、作った日に確かめておきます。スキルの文は手元にも保存しておきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ131",
+     "text": "【実践用素材：1人目に渡さないもの】",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ132",
+     "text": "お金が動く操作（購入・支払い）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ133",
+     "text": "人に届く操作（メールやチャットの送信）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ134",
+     "text": "元に戻せない操作（ファイルの削除・上書き）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ135",
+     "text": "他人と共有しているファイルの書き換え",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ136",
+     "text": "この4つは、2人目以降で必要になってから、1つずつ渡します。一度渡した権限は、自分で見直すまでずっと生き続けるからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ137",
+     "text": "第7章 7日目に見直して、2人目に進むか決める",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ138",
+     "text": "最後は、7日目の見直しです。AI社員は、作った日より、使い続けた7日間で育ちます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ139",
+     "text": "7日間動かすと、AIのくせが見えてきます。担当の名前の書き方がばらつく、期限のない宿題を拾い漏らす、といったくせです。くせが見えたら、スキルの「書き方の決まり」に1行足します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ140",
+     "text": "X運用で、8,000フォロワーから1年半まったく伸びない時期がありました。原因は、自分が話したいことだけを話して、読む人の目線が抜けていたことでした。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ141",
+     "text": "AI社員の見直しも、同じ落とし穴があります。自分が「こう動いてほしい」と思うことばかり足して、実際に出てきた結果を見ないまま直してしまうことです。直すのは、7日分の結果を読んでからにします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ142",
+     "text": "【実践用素材：7日目の見直しチェックリスト】",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ143",
+     "text": "7日のうち、何日分の結果を実際に読んだか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ144",
+     "text": "やることの書き漏らしは、何件あったか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ145",
+     "text": "担当・期限の間違いは、何件あったか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ146",
+     "text": "「やらないこと」に書いたことを、AIがやっていなかったか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ147",
+     "text": "結果を見て直すのにかかった時間は、1回あたり何分か",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ148",
+     "text": "自分で整理していた頃より、楽になったか",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ149",
+     "text": "最後の質問に「はい」と答えられたら、2人目に進んで大丈夫です。2人目も、第3章の3つの条件で選びます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ150",
+     "text": "2人目の候補と、そのときに足す連携の例を挙げておきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ151",
+     "text": "未返信のメールの洗い出し：Gmailの連携を足す（返信はしない）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ152",
+     "text": "毎朝のメールの要約：Gmailの連携を足し、毎朝7時のスケジュールにする",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ153",
+     "text": "打ち合わせの準備メモ：カレンダーの連携を足し、翌日の予定から準備することを書き出す",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ154",
+     "text": "どれも、1人目と同じく「送らない・お金が動かない・やり直せる」の3つを満たしています。連携は、2人目の分だけ1つ足します。1人目のときに決めた「必要な分だけオンにする」の考え方は、何人目になっても変えません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ155",
+     "text": "逆に、結果を読む日が7日のうち3日もなかった人は、2人目を作るのはまだ早いです。結果を読まないAI社員は、毎日動いていても、誰の役にも立っていません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ156",
+     "text": "【Before】\n1人目が動いたら、すぐに2人目、3人目を作ります。誰が何をしているのか分からなくなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ157",
+     "text": "【After】\n7日分の結果を読み、スキルを1回直してから2人目に進みます。1人ずつ、確実に任せられる仕事が増えていきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ158",
+     "text": "AI社員を作れない人の9割は、最初に欲張っています",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ159",
+     "text": "衝撃的な話です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ160",
+     "text": "AI社員を作れない人は、作る力が足りないわけではありません。最初に欲張って、仕事を詰め込みすぎています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ161",
+     "text": "Gemini Sparkは、タスク・スケジュール・スキルの3つの部品で、毎日動くAI社員を作れる道具です。でも、最初の1人目に必要なのは、地味な仕事を1つだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ162",
+     "text": "AIが得意だったわけではない僕が、AIに仕事を任せられるようになったのも、できないなりに1つずつ試してきたからです。最初の1人目は小さく作って、7日間ちゃんと結果を読む。それだけで、次の一歩が見えてきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ163",
+     "text": "明日からやることを3つにまとめます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ164",
+     "text": "①Gemini Sparkのタスク欄に「面接」と打って、任せたい仕事を1つに決める\n②スキル「meeting-todo-list」を貼って、1回だけタスクで試す\n③毎日のスケジュールに入れて、7日目に結果を見直す",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ165",
+     "text": "1人目のAI社員は、明日の会議から働き始めます！",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ166",
+     "text": "あなたの毎日の業務を爆速化させ残業を０にするたか田式Workspaceを発売しました。記事から購入できます↓",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 0,
+        "text": "https://x.com/daifukujinji/status/2074678065037504894?s=20",
+        "toIndex": 58
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ167",
+     "text": "https://x.com/daifukujinji/status/2074678065037504894?s=20",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 64,
+        "text": "https://lin.ee/TX0hzos",
+        "toIndex": 86
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ168",
+     "text": "公式LINEではツールの事前予約や限定Gemをプレゼントしています。ぜひ登録していただいてお得にゲットしてください▼こちらから→https://lin.ee/TX0hzos",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 65,
+        "text": "https://line.me/ti/g2/3AGagLSdzGUqlx8DPRVW5X3fr0uxXNmOtETVHA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
+        "toIndex": 189
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "typ169",
+     "text": "オプチャでは最新機能の先行公開や機能追加の要望などを聞いています！ご要望あればドンドン欲しいのでぜひ参加してください▼こちらから→https://line.me/ti/g2/3AGagLSdzGUqlx8DPRVW5X3fr0uxXNmOtETVHA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
+     "type": "unstyled"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "markdown": "```\n---\nname: meeting-todo-list\ndescription: 会議メモ・議事録のドキュメントを読み、やること・担当・期限の一覧を作るときに使う。会議メモの整理、宿題の洗い出しを頼まれたときに使う。\n---\n\n# 会議メモからやること一覧を作る\n\n## 読むもの\n- ドライブの「会議メモ」フォルダにある、今日更新されたドキュメント\n- 今日の更新がなければ、何もせずに「今日の会議メモはありません」とだけ書く\n\n## 作るもの\n- ドキュメント「やること一覧」の一番上に、今日の日付の見出しを足し、次の表を書く\n- 表の列：やること／担当／期限／元の会議名／メモの該当箇所（一文の引用）\n\n## 書き方の決まり\n- やることは「動詞で終わる一文」にする（例：見積もりを送る）\n- 担当と期限は、メモに書いてあるときだけ書く。書いていなければ「未定」と書く\n- メモにないことを推測で足さない。推測が必要なときは、表の下に「確認したいこと」として分けて書く\n\n## やらないこと\n- メールやチャットを送らない\n- カレンダーに予定を入れない\n- 会議メモの元のドキュメントを書き換えない\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "markdown": "```\n/meeting-todo-list\n今日の会議メモから、やること一覧を作ってください。\n初回なので、表を作る前に、読んだドキュメントの名前を一覧で見せてください。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "markdown": "```\n平日の毎日18時に、/meeting-todo-list を使って、\nその日の会議メモからやること一覧を作ってください。\n会議メモがない日は、「今日の会議メモはありません」とだけ残してください。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    }
+   ]
+  },
+  "media_entities": []
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

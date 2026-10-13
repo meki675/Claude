@@ -26,6 +26,7 @@
 |---|---|
 | `orbit` | Motionographer トップ「20 years」：単色の全面背景・輪で囲む巨大数字・点線の軌道と粒・字間の広い英字 |
 | `shutter` | （サムネの2色ロゴから）左右の扉が開く |
+| `repeat` ＋ 様式 `pixel` | Pinterest「motion graphics typography」の「MOTION」を積み重ねた作品：同じ単語を何段も重ねて左右に流し、1段だけ色を変える／サムネのドット絵に合わせた段々の影 |
 | `stickers` | TikTok Creative Center のトップ広告サムネ：白い箱のテロップを1枚ずつ貼る |
 | `pipeline` / `gate` | 記事サムネ（Claude→鍵→書類→リストの鎖）：ファイルがレールを進んで関門が光る／弾かれて別の道へ回る（図形を動かすモーショングラフィック） |
 | `particles` / `stack` / `term` / `sort` | （Hooks記事の別版で試作）粒が集まる冒頭・ブロックの積み上げ・ターミナル実行の再現・カードの仕分け |

@@ -1,0 +1,22 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "ocean",
+  "style": "pixel",
+  "bpm": 124,
+  "mood": "bright",
+  "structure": "部品の積み上げ→時短の比較→条件→そのまま貼れるスキル",
+  "inspiration": { "site": "pinterest-motion", "work": "検索結果の左列にあった「MOTION」を積み重ねた作品", "idea": "同じ単語を画面いっぱいに何段も重ね、段ごとに左右へ流し、1段だけ色を変えて言いたいことを入れる" },
+  "transition": ["zoom", "slide", "whip", "slide", "zoom", "whip"],
+  "brand": "GEMINI SPARK × AI社員",
+  "footer": "出典：@daifukujinji のX記事",
+  "scenes": [
+    { "type": "repeat", "beats": 6, "word": "AI社員", "hiText": "1人目は、仕事1つから。", "rows": 7, "sub": "Gemini Sparkで作るAI社員" },
+    { "type": "stack", "beats": 8, "tag": "AI社員は3つの部品でできている", "title": "そろうと「毎日夕方に、決まったやり方で動く」", "blocks": [ { "name": "タスク", "text": "何をするか" }, { "name": "スケジュール", "text": "いつ動くか（毎日18時など）" }, { "name": "スキル", "text": "どうやるか（9/30から）", "hot": true } ] },
+    { "type": "versus", "beats": 7, "tag": "会議メモから「やること一覧」を作らせたら", "title": "会議のあとの片付け（確認込み）", "a": { "label": "自分で整理", "value": "15分", "note": "夜にメモを見返して書き漏らす" }, "b": { "label": "Gemini Spark", "value": "3分", "note": "週5回の会議なら月4時間の差" }, "win": "b" },
+    { "type": "checklist", "beats": 6, "tag": "1人目に任せる仕事の条件", "title": "この3つを満たす仕事から", "items": ["お金が動かない", "誰にも送らない", "失敗しても、やり直せる"] },
+    { "type": "code", "beats": 8, "tag": "そのまま貼れるスキルの、一番大事な欄", "file": "meeting-todo-list", "lines": ["## やらないこと", "- メールやチャットを送らない", "- カレンダーに予定を入れない", "[[- 会議メモの元のドキュメントを書き換えない]]"] },
+    { "type": "cta", "beats": 6, "tag": "詳しくは記事で", "title": "AI社員の\n[[はじめの一歩]]", "go": "スキルの文と7日目の見直し表つき", "name": "たか田", "id": "@daifukujinji", "image": "cover.jpg" }
+  ]
+}
