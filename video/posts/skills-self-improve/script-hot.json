@@ -1,0 +1,22 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "ember",
+  "style": "brutal",
+  "bpm": 140,
+  "mood": "bright",
+  "structure": "煽り：叩き込み→文字の壁→クイズ→仕分け→締め",
+  "inspiration": { "site": "（同じ記事の別テイスト）", "work": "CapCut「SHOCKING」と Pinterest の文字の壁", "idea": "熱い温度感。黄色の叩き込みと、同じ言葉で画面を埋める壁、クイズで刺す" },
+  "transition": ["whip", "zoom", "whip", "spin", "whip"],
+  "brand": "CLAUDE CODE SKILLS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "shock", "beats": 6, "top": "Claudeに同じ修正、何回頼んでる？", "title": "その手直し、\n毎回ムダです。", "sub": "次の手順に残してないなら" },
+    { "type": "repeat", "beats": 6, "word": "同じ修正", "hiText": "もう二度と頼まない。", "rows": 7 },
+    { "type": "quiz", "beats": 9, "tag": "これ、空回りする頼み方はどれ？", "q": "Skillを育てるとき、やってはいけないのは？", "options": ["手直しと理由を記録する", "「失敗しなくなるまで、ずっと改善して」", "候補版を同じ材料で比べる"], "answer": 1, "note": "止める条件がないと、同じ原因に言い回しを足し続ける" },
+    { "type": "sort", "beats": 9, "tag": "全部プロンプトのせいにするな", "title": "原因は5つ。直す場所が違う", "step": 0.36, "bins": [ { "name": "入力" }, { "name": "手順" }, { "name": "参照資料" }, { "name": "検査", "c": "ok" }, { "name": "環境", "c": "warn" } ], "cards": [
+      { "t": "素材が渡っていない", "bin": 0 }, { "t": "順番が悪い", "bin": 1 }, { "t": "古い見本を読んだ", "bin": 2 }, { "t": "計算ミスを見落とした", "bin": 3 }, { "t": "権限で止まった", "bin": 4 } ] },
+    { "type": "cta", "beats": 6, "tag": "今日から変えるなら", "title": "使うほど育つ\n[[Skill改造]]", "go": "そのまま貼れる改修依頼つき", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari" }
+  ]
+}

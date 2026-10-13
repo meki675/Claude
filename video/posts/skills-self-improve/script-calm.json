@@ -1,0 +1,21 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "paper",
+  "style": "swiss",
+  "bpm": 96,
+  "mood": "dark",
+  "structure": "静かな語りかけ：数字テロップ→比較→循環→一言",
+  "inspiration": { "site": "（同じ記事の別テイスト）", "work": "共有マニュアルの数字テロップ", "idea": "落ち着いた温度感。白・黒・赤1色、ゆっくりした拍、言葉を少なく" },
+  "transition": ["slide", "slide", "slide", "slide", "slide"],
+  "brand": "CLAUDE CODE SKILLS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "telop", "beats": 5, "kicker": "Claude Codeで、こんなことはありませんか", "lines": ["前にも、", "[[同じ修正を頼んだ。]]"], "stagger": 2, "pushAt": 40, "outAt": 86 },
+    { "type": "beforeAfter", "beats": 7, "tag": "違いは、直した後にある", "title": "その場で直すか、次へ残すか", "before": { "label": "いま", "lines": ["完成物だけ直す", "次の依頼で、また元に戻る"] }, "after": { "label": "これから", "lines": ["[[直した理由]]を記録する", "次の手順へ戻す"] } },
+    { "type": "cycle", "beats": 9, "tag": "1周させる流れ", "steps": ["実行", "記録", "原因の切り分け", "変更案", "比較", "採用か差し戻し"], "from": "Skill v1", "to": "v2", "lap": 3.4 },
+    { "type": "marker", "beats": 6, "tag": "大事なのは", "text": "よくならなかった案を\n==捨てられること==", "sub": "変更を毎回採用するのが、自己強化ではない" },
+    { "type": "cta", "beats": 5, "tag": "詳しくは記事で", "title": "使うほど育つ\n[[Skillの作り方]]", "go": "12の応用例と改修依頼の骨組み", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari" }
+  ]
+}
