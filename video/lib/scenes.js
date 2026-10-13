@@ -387,6 +387,38 @@
       ${s.done ? A('toast2 rise', tS + 1.0, `✓ ${fmt(s.done)}`) : ''}`)}`;
   };
 
+  // 40. 冒頭：黄色地に赤い太文字を叩き込む（参考: CapCut トレンドテンプレートの「SHOCKING」）
+  S.shock = (s) => `
+    ${s.top ? A('sk-top up', 0.05, fmt(s.top)) : ''}
+    <div class="a shk shake" style="--d:.55s">${A('sk-big slam', 0.15, fmt(s.title))}</div>
+    ${s.sub ? A('sk-sub pop', 0.9, fmt(s.sub)) : ''}`;
+
+  // 41. Gitの線：本流から作業ブランチが分かれ、提出→合流し、最後に打ち消しの記録が1つ増える
+  //   点と線は SVG。各段の時刻 t は秒。labels は各段の説明。
+  S.gitgraph = (s) => {
+    const T = s.t ?? [0.3, 0.9, 1.6, 2.3, 3.0, 3.7];
+    const L = s.labels ?? [];
+    const dot = (x, y, d, cls = '') => `<circle class="a gdot pop ${cls}" style="--d:${d}s" cx="${x}" cy="${y}" r="16"/>`;
+    const lab = (x, y, d, t, cls = '') => `<foreignObject x="${x - 180}" y="${y}" width="360" height="120"><div class="a glab up ${cls}" style="--d:${d}s">${fmt(t)}</div></foreignObject>`;
+    return `${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    <svg class="gg" viewBox="0 0 1680 520">
+      <path class="a gline draw2 main" style="--d:${T[0]}s;--len:2.6s" d="M40 300 H1640" pathLength="100"/>
+      <path class="a gline draw2 br" style="--d:${T[1]}s;--len:1.4s" d="M300 300 C 380 300, 380 140, 460 140 H 900 C 980 140, 980 300, 1060 300" pathLength="100"/>
+      ${dot(120, 300, T[0])}${dot(300, 300, T[0] + 0.3)}
+      ${dot(560, 140, T[1] + 0.4, 'ai')}${dot(760, 140, T[1] + 0.7, 'ai')}
+      ${dot(1060, 300, T[3], 'merge')}${dot(1490, 300, T[4], 'rev')}
+      <text class="a gtxt fade" style="--d:${T[0]}s" x="40" y="370">main（本流）</text>
+      <text class="a gtxt fade br" style="--d:${T[1]}s" x="470" y="100">作業ブランチ（AIが作業）</text>
+      ${lab(660, 170, T[2], L[0] ?? '', 'pr')}${lab(1060, 330, T[3] + 0.1, L[1] ?? '', 'mg')}${lab(1490, 330, T[4] + 0.1, L[2] ?? '', 'rv')}
+    </svg>`;
+  };
+
+  // 42. 緑のボタンが順に押される
+  S.buttons = (s) => `
+    ${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    <div class="gbtns">${s.items.map((b, i) => `<div class="gbrow">${A('gbn pop', 0.3 + i * 0.6, String(i + 1))}${A('gbtn rise press2', 0.35 + i * 0.6, fmt(b.label), { style: `--pd:${(0.75 + i * 0.6).toFixed(2)}s` })}${A('gbnote fade', 0.6 + i * 0.6, fmt(b.note ?? ''))}</div>`).join('')}</div>
+    ${sub(s.note, 0.6 + s.items.length * 0.6)}`;
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -398,7 +430,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc', shock: 'shocksc center', gitgraph: 'gitsc', buttons: 'btnsc' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

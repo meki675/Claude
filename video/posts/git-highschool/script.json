@@ -1,0 +1,27 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "ember",
+  "style": "crt",
+  "bpm": 128,
+  "mood": "dark",
+  "structure": "叩き込み→Gitの線（仕組み図解）→緑のボタン→見る場所→注意",
+  "inspiration": { "site": "capcut-templates", "work": "トレンドテンプレートの「SHOCKING」と「Don't reverse this…」", "idea": "黄色地に赤い太文字を叩き込む冒頭と、上に小さな一言を載せる見せ方。本編はGitの線を描くモーショングラフィック" },
+  "transition": ["zoom", "whip", "slide", "whip", "zoom", "slide"],
+  "brand": "GIT × GITHUB",
+  "footer": "出典：@dan_pro_man のX記事",
+  "scenes": [
+    { "type": "shock", "beats": 6, "top": "何も知らずにGitHubを使ってませんか", "title": "知らずに使うと、\n壊れます。", "sub": "押す前に見る場所は、1つだけ" },
+    { "type": "gitgraph", "beats": 11, "tag": "毎日の1周", "title": "AIが作業して、自分は見て押すだけ", "t": [0.3, 0.9, 1.7, 2.5, 3.4], "labels": ["提出（PR）\n→ 差分を見る", "合わせる\n（Merged）", "Revertで戻す\n記録が1つ増える"] },
+    { "type": "buttons", "beats": 8, "tag": "1周で押す緑のボタンは、3つだけ", "items": [ { "label": "Compare & pull request", "note": "黄色い帯が出たら" }, { "label": "Create pull request", "note": "提出する" }, { "label": "Merge pull request", "note": "差分を見てから" } ] },
+    { "type": "term", "beats": 8, "tag": "押す前に見るのは、ここだけ", "file": "Files changed", "step": 0.5, "lines": [
+      { "t": "Files changed を開く", "c": "dim" },
+      { "t": "+ 緑の行が、足された行", "c": "ok" },
+      { "t": "+ 頼んだ行だけが緑なら、合格", "c": "ok" },
+      { "t": "  衝突なら → どちらを残すかだけ自分で決める", "c": "cmd" }
+    ] },
+    { "type": "marker", "beats": 6, "tag": "画面に出ない注意を1つだけ", "text": "Revertで戻しても\n==一度上がった鍵は作り直し==", "sub": "上げる前に「.envを記録から外して」と1行送る" },
+    { "type": "cta", "beats": 6, "tag": "詳しくは記事で", "title": "高校生でもわかる\n[[Git]]", "go": "実際の画面10枚で1周を回す", "name": "だん｜AI×クラウドエンジニア", "id": "@dan_pro_man", "image": "cover.jpg" }
+  ]
+}

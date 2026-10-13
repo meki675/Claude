@@ -637,3 +637,29 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .style-fluent .em2 { background: linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .style-fluent .sortsc .card2 { background: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,.1); }
 .style-fluent .quiz .opt.ok b { border-radius: 8px; } .style-fluent .quiz .opt b { border-radius: 8px; }
+
+/* 40 shock（黄色地に赤い太文字） */
+.shocksc { background: #ffdd00 !important; color: #111; }
+.shocksc .sk-top { font-family: "Noto Sans JP", sans-serif; font-weight: 900; font-size: 46px; background: #fff; color: #111; padding: 10px 28px; border-radius: 12px; text-shadow: none; }
+.shocksc .sk-big { font-family: "Dela Gothic One", sans-serif; font-size: 170px; line-height: 1.15; color: #e8231f; -webkit-text-stroke: 14px #111; paint-order: stroke fill; text-shadow: 10px 10px 0 #111; letter-spacing: -.02em; }
+.shocksc .sk-sub { font-family: "Noto Sans JP", sans-serif; font-weight: 900; font-size: 44px; color: #111; text-shadow: none; }
+
+/* 41 gitgraph（Gitの線） */
+.gitsc .gg { width: 100%; height: 520px; overflow: visible; }
+.gitsc .gline { fill: none; stroke-width: 12; stroke-linecap: round; stroke-dasharray: 100; }
+.gitsc .gline.main { stroke: var(--text); } .gitsc .gline.br { stroke: var(--accent2); }
+.draw2 { animation-name: draw2; animation-timing-function: cubic-bezier(.6,0,.2,1); } @keyframes draw2 { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+.gitsc .gdot { fill: var(--bg); stroke: var(--text); stroke-width: 8; transform-box: fill-box; transform-origin: center; }
+.gitsc .gdot.ai { stroke: var(--accent2); } .gitsc .gdot.merge { fill: #8250df; stroke: #8250df; } .gitsc .gdot.rev { fill: var(--accent); stroke: var(--accent); }
+.gitsc .gtxt { fill: var(--muted); font-size: 30px; font-weight: 700; font-family: var(--body); } .gitsc .gtxt.br { fill: var(--accent2); }
+.gitsc .glab { text-align: center; font-size: 27px; font-weight: 900; line-height: 1.35; padding: 8px 12px; border-radius: 10px; background: var(--panel); border: 2px solid var(--stroke); color: var(--text); }
+.gitsc .glab.mg { border-color: #8250df; } .gitsc .glab.rv { border-color: var(--accent); }
+
+/* 42 buttons（緑のボタン） */
+.btnsc .gbtns { display: flex; flex-direction: column; gap: 26px; }
+.btnsc .gbrow { display: flex; align-items: center; gap: 30px; }
+.btnsc .gbn { width: 70px; height: 70px; border-radius: 50%; display: grid; place-items: center; font-size: 38px; font-weight: 900; background: var(--text); color: var(--bg); flex: none; }
+.btnsc .gbtn { background: #1f883d; color: #fff; font-family: "Noto Sans JP", sans-serif; font-weight: 700; font-size: 44px; padding: 16px 40px; border-radius: 12px; box-shadow: 0 6px 0 #116329; text-shadow: none; white-space: nowrap; }
+.btnsc .gbnote { font-size: 34px; color: var(--muted); }
+.press2 { animation-name: rise, press3; animation-duration: .5s, .3s; animation-delay: calc(var(--t0) + var(--d)), calc(var(--t0) + var(--pd)); }
+@keyframes press3 { 50% { transform: translateY(5px); box-shadow: 0 1px 0 #116329; filter: brightness(.9); } }

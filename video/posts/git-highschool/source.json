@@ -1,0 +1,2614 @@
+{
+ "url": "https://x.com/dan_pro_man/status/2108807261707735310",
+ "id": "2108807261707735310",
+ "text": "https://x.com/i/article/2108794433726738432",
+ "raw_text": {
+  "text": "https://t.co/G7wrWVTRnU",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/G7wrWVTRnU",
+    "replacement": "https://x.com/i/article/2108794433726738432",
+    "display": "x.com/i/article/2108…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "dan_pro_man",
+  "url": "https://x.com/dan_pro_man",
+  "id": "1207990485794426881",
+  "followers": 4286,
+  "following": 280,
+  "likes": 91980,
+  "media_count": 97,
+  "name": "だん｜AI×クラウドエンジニア",
+  "description": "AIに置き換えられない側に回る方法をX記事で解説｜エンジニア歴6年／AWSの現場でAI導入、作業を月100時間削減｜自社SaaSの現場から言語化 | AI強くなるのに、エンジニア脳も独立もいりません",
+  "raw_description": {
+   "text": "AIに置き換えられない側に回る方法をX記事で解説｜エンジニア歴6年／AWSの現場でAI導入、作業を月100時間削減｜自社SaaSの現場から言語化 | AI強くなるのに、エンジニア脳も独立もいりません",
+   "facets": []
+  },
+  "location": "",
+  "banner_url": "https://pbs.twimg.com/profile_banners/1207990485794426881/1781309172",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2092024756057026560/ND9O_NHO_200x200.jpg",
+  "joined": "Fri Dec 20 11:45:58 +0000 2019",
+  "protected": false,
+  "website": null,
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 1,
+ "retweets": 31,
+ "likes": 263,
+ "bookmarks": 802,
+ "quotes": 21,
+ "created_at": "Sat Oct 10 06:30:05 +0000 2026",
+ "created_timestamp": 1791613805,
+ "possibly_sensitive": false,
+ "views": 126085,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-10T06:30:05.000Z",
+  "modified_at": "2026-10-10T10:59:18.000Z",
+  "id": "2108794433726738432",
+  "title": "【図解あり】高校生でもわかるGit ",
+  "preview_text": "何も知らずにGitHubを使ってませんか。\n知らずに使うと、壊れます。\nGitHubの緑のボタンは、3つだけ。\n押す前に見る場所は、1つしかありません。",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAAFCgABHUP7zkwaAAAKAAIQw6TyVdQQAQAA",
+   "media_id": "2108805913998131200",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 78.65,
+       "rgb": {
+        "blue": 253,
+        "green": 243,
+        "red": 216
+       }
+      },
+      {
+       "percentage": 5.58,
+       "rgb": {
+        "blue": 120,
+        "green": 88,
+        "red": 73
+       }
+      },
+      {
+       "percentage": 4.24,
+       "rgb": {
+        "blue": 245,
+        "green": 224,
+        "red": 93
+       }
+      },
+      {
+       "percentage": 4.07,
+       "rgb": {
+        "blue": 30,
+        "green": 71,
+        "red": 253
+       }
+      },
+      {
+       "percentage": 1.12,
+       "rgb": {
+        "blue": 43,
+        "green": 57,
+        "red": 172
+       }
+      }
+     ]
+    },
+    "original_img_height": 793,
+    "original_img_url": "https://pbs.twimg.com/media/HUP7zkwaAAAuo0O.jpg",
+    "original_img_width": 1983
+   },
+   "media_key": "3_2108805913998131200"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "crifi",
+     "text": "何も知らずにGitHubを使ってませんか。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a4cn8",
+     "text": "知らずに使うと、壊れます。\nGitHubの緑のボタンは、3つだけ。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d3dnc",
+     "text": "押す前に見る場所は、1つしかありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "60nrr",
+     "text": "この記事では、GitHubの画面で見る場所と押す場所を、赤枠で全部示します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dnos8",
+     "text": "つないで、提出させて、差分を見て、合わせて、戻す。\nこの1周を、実際の画面10枚で回します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dfif1",
+     "text": "手を動かすのは、AIです。\n見るのと押すのは、自分です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ehe8i",
+     "text": "難しい言葉も、その都度わかりやすく説明してきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "evb8u",
+     "text": "※本記事のGitHubの画面と仕様は、2026年10月時点で確認した内容です。画面は変わることがあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "91sl5",
+     "text": "",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bc0sn",
+     "text": "第1章：GitHubにつなぐ｜リポジトリを作って、手元の記録を上げる",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4pq53",
+     "text": "GitHubの画面は、英語です。\nでも、押す場所は決まっています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "28meo",
+     "text": "画面の赤枠が、見る場所と押す場所です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9vl5s",
+     "text": "この章で押す緑のボタンは、1つだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b3g2h",
+     "text": "まず、リポジトリを1つ作ります。\nリポジトリは、Gitの記録をネットに預けるロッカーのことです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4mhb4",
+     "text": "ロッカーの中身と、4つの言葉は、前作で書きました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5fhud",
+     "text": "【図解あり】中学生でもわかるGit",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 0,
+        "text": "https://x.com/dan_pro_man/status/2107224533099069671?s=20",
+        "toIndex": 57
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "31a0f",
+     "text": "https://x.com/dan_pro_man/status/2107224533099069671?s=20",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8hnqu",
+     "text": "読んでいなくても、この記事だけで1周は回せます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 45,
+        "text": "https://github.com/new",
+        "toIndex": 67
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1cu91",
+     "text": "GitHubにログインして、右上の「+」から「New repository」を選びます。\nhttps://github.com/new を開いても、同じ画面です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "rija",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5rrk5",
+     "text": "入れるのは、名前だけです。\n「Repository name」に、英数字で名前を入れます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bdn4c",
+     "text": "「git-practice」で構いません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dlrmg",
+     "text": "「Choose visibility」で「Private」を選びます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2i7oh",
+     "text": "非公開、という意味です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "311ta",
+     "text": "「Add README」のスイッチは、今回はオフのままにします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fl82d",
+     "text": "手元にもう記録があるときは、空のまま作るほうがつなぐのが簡単だからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4lrdq",
+     "text": "いちばん下の緑の「Create repository」を押します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "br1r0",
+     "text": "押した直後の画面が、この章でいちばん大事です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "q0aq",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c1vnc",
+     "text": "下のほうに、「…or push an existing repository from the command line」という見出しがあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1cs18",
+     "text": "その下の3行が、今日使う命令です。\n上の7行は、手元にまだ記録がない人向けなので、飛ばして構いません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d1mil",
+     "text": "3行の意味は、こうです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9bvjo",
+     "text": "1行目：手元の記録に、このロッカーの住所を教える。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "13hu2",
+     "text": "2行目：本流の名前を「main」にそろえる。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2rjml",
+     "text": "3行目：本流をロッカーに預ける。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f1mfb",
+     "text": "この画面の住所（赤枠）をコピーして、AIに1行送ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 2,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2ldb",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cvi4c",
+     "text": "Claude Codeは、3行を自分で打ちます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "38bb9",
+     "text": "Claude Codeは、指示を受けてパソコンの中で作業してくれるAIです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8674j",
+     "text": "僕の指示書では、pushの前に確認を取る決まりにしています。\npushは、手元の記録をロッカーに預ける操作です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "31ojn",
+     "text": "だから、ここで一度止まります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6japh",
+     "text": "「はい」と答えたら、ブラウザの画面を更新してください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 3,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "1bscn",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1nvhi",
+     "text": "さっきまで3行の命令だった場所に、手元のファイルが並びます。横に、コミットの文が出ます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bcejg",
+     "text": "これが「つながった」の合図です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "258n4",
+     "text": "ここで1つ、見てほしい場所があります。\nファイルの一覧の上にある「main」という文字です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7pffv",
+     "text": "今、ロッカーの中で見ているのが、どのしおりかを示しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d4gs6",
+     "text": "しおりは、ブランチのことです。\nいま、どの列に記録を積んでいるかの目印です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "di4nr",
+     "text": "この「main」は、これから先、直接は触りません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "js9k",
+     "text": "僕も最初は、ここをよく見ていませんでした。\nmainの上で作業して、戻る場所を探すのに時間を使いました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a6h89",
+     "text": "つながらないときは、たいてい住所です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2q5ga",
+     "text": "末尾の「.git」が落ちている。\nアカウント名の綴りが違う。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "el7k6",
+     "text": "「not found」と出たら、画像②の住所をもう一度コピーしてください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c5l10",
+     "text": "ここまでで、手元の記録がGitHubにつながりました。次は、プルリクエストで合わせる、毎日の1周です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "673er",
+     "text": "",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a9vkq",
+     "text": "第2章：プルリクエストで合わせる｜AIの作業を提出させて、差分を見てから押す",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ft0h3",
+     "text": "ここからが、毎日の1周です。\nプルリクエストは、「合わせてください」と出す提出のことです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2dla9",
+     "text": "この章で押す緑のボタンは、3つです。\n手を動かすのは、AIです。\n自分がやるのは、見ることと、押すことだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 4,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "89b9q",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ctbpk",
+     "text": "まず、AIに1行送ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 5,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "6mov7",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e58on",
+     "text": "READMEは、リポジトリの説明を書く、最初のファイルです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ahr",
+     "text": "Claude Codeは、ブランチを作ります。\nファイルを書き換えて、コミットします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "78urm",
+     "text": "最後に、pushの手前で止まって聞いてきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "es1q2",
+     "text": "「はい」と答えたら、ブラウザでロッカーを開きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 6,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "b0288",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "20k49",
+     "text": "上に、黄色い帯が出ています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8lgg8",
+     "text": "「さっき、このブランチに預けたよ」という知らせです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "90tit",
+     "text": "右の緑のボタン「Compare & pull request」を押します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bgk06",
+     "text": "これが『提出』です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b4dt3",
+     "text": "下書きのノートを、先生の机に出す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "h27d",
+     "text": "出しただけでは、清書には1文字も写っていません。\n清書に写すのは、見たあとです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 7,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2hsb5",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3i4gq",
+     "text": "提出の画面で見る場所は、3つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d99ds",
+     "text": "1つ目は、いちばん上の矢印です。",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7k4hm",
+     "text": "「base: main」と「compare: 作業ブランチ」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "64a7v",
+     "text": "どこへ、どこから合わせるかです。\n左がmainになっているかだけ、確かめます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "13bdg",
+     "text": "2つ目は、「Add a title」の題名です。",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "54q67",
+     "text": "AIに作らせると、変更の要約が入ります。\n自分で出すと、最初からコミットの文が入っています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "88esk",
+     "text": "自分で出すなら、1行で「何をしたか」を書きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d2b84",
+     "text": "3つ目は、緑の「Create pull request」です。",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "46slo",
+     "text": "押すと、提出が受け付けられます。\n提出のあとに、人の出番があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1l1hq",
+     "text": "画面の上に、タブが4つ並びます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "58kuf",
+     "text": "見るのは、右端の「Files changed」だけです。\n変わったファイル、という意味です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 8,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "93b7s",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a84vj",
+     "text": "緑の行が、足された行です。\n赤の行が、消えた行です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "47s2q",
+     "text": "これが、差分です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3limd",
+     "text": "頼んだ3行が緑なら、合格です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "31k3v",
+     "text": "画面の例では、見出しと空行を足したぶんも緑なので、6行です。\n頼んでいない赤があったら、合わせません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8ps5f",
+     "text": "画面の例では、赤が1行あります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d9lij",
+     "text": "「置いてあるもの」から、メモの1行が消えています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dvnn6",
+     "text": "頼んだ覚えがなければ、ここで止めます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "89nb7",
+     "text": "AIに「この赤い行は、何で消したの」と聞きます。\nここが、AIに任せる作業で、いちばん大事な30秒です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1k50k",
+     "text": "レビューの通知を見るだけで胃が重くなっていた頃の僕は、ここを見ずに押していました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3ui6m",
+     "text": "今は、赤い行の数だけ、先に数えます。\n頼んだ覚えのない赤が1本でもあれば、止めます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a404r",
+     "text": "差分に問題がなければ、「Conversation」に戻ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dnp6",
+     "text": "下のほうに、緑の「Merge pull request」があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "asaj1",
+     "text": "その上に「No conflicts with base branch」と出ていれば、そのまま合わせられます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 9,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "a5l12",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f4upl",
+     "text": "押すと、「Confirm merge」に変わります。\nもう一度押します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "t619",
+     "text": "これで、作業ブランチの記録が、mainに合わさりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 10,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "6k353",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ffah",
+     "text": "色が紫に変わって、「Merged」と出ます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "740tr",
+     "text": "下に「Pull request successfully merged and closed」の箱が出ます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "erhjf",
+     "text": "その右に「Delete branch」があります。\n押して構いません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fijpj",
+     "text": "消えるのは、ロッカーの中の作業ブランチの「しおり」だけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9gl5i",
+     "text": "記録はもうmainに合わさっているので、何も失いません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b3q32",
+     "text": "最後に、手元を最新にします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2nenq",
+     "text": "AIに「mainに切り替えて、GitHubの最新を取り込んで」と送ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "akhg",
+     "text": "これで1周です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7bubm",
+     "text": "次の作業は、また新しいブランチから始めます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e03um",
+     "text": "mainの上では、作業しません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2br80",
+     "text": "ここまでで、提出して、差分を見て、合わせる1周が回りました。次は、合わせたあとで間違いに気づいたときに押す、Revertの話です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1t7vl",
+     "text": "",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "24reb",
+     "text": "第3章：Revertで戻す｜合わせたあとでも、ボタン1つで打ち消す",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dr02c",
+     "text": "合わせたあとで、間違いに気づくことがあります。\nGitでは、預けた記録を消さずに「打ち消し」ます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bvfp7",
+     "text": "GitHubの画面には、そのためのボタンがあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6dqs8",
+     "text": "それが「Revert」です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3tuk4",
+     "text": "さっき合わせたプルリクエストを、もう一度開きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "81kv3",
+     "text": "「merged commit … into main」と書かれた行があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "34j2j",
+     "text": "その右端に、「Revert」があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 11,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "ascad",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "68gqd",
+     "text": "押すと、何が起きるか。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6hi62",
+     "text": "記録は消えません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1pf3i",
+     "text": "反対の変更を入れた、新しいプルリクエストが作られます。\n公式の説明でも、合わさるのは、その新しいプルリクエストを合わせたときです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "279fq",
+     "text": "だから、戻すときも、第2章と同じ1周を回します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b202u",
+     "text": "差分を見て、緑のボタンを押す。\n消したのではなく、「戻した」という記録が1つ増えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f7ve0",
+     "text": "AIに頼むなら「さっき合わせたプルリクエストを打ち消して」です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b9v7t",
+     "text": "Claude Codeは、git revert で同じことをします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1tc4t",
+     "text": "もう1つだけ、出会う画面があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 12,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2063e",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fbh94",
+     "text": "「This branch has conflicts that must be resolved」。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "256ff",
+     "text": "衝突です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7kkd6",
+     "text": "mainと作業ブランチで、同じ行を別の形に直したときに出ます。\n緑のボタンは灰色になって、押せません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dcjdh",
+     "text": "ここは画面で直さず、AIに1行送ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 13,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "21u46",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7rr80",
+     "text": "どちらを残すかだけ、自分で決めます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6b34q",
+     "text": "AIが直してもう一度預けると、緑のボタンに戻ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "98kp2",
+     "text": "衝突は、失敗ではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ad1t8",
+     "text": "同じ行を2回直した、という事実が表に出ただけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4b6do",
+     "text": "最後に、画面に出ないものを1つだけ。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dlslp",
+     "text": "鍵です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "lase",
+     "text": "パスワードやAPIの鍵が入ったファイルは、GitHubに上げてはいけません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2l1ms",
+     "text": "Revertで戻しても、一度上がった鍵は見られたものとして、作り直しです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5cs3a",
+     "text": "上げる前に、AIに「.envを記録から外して」と1行送ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "akcnp",
+     "text": "僕の現場でも、AWSの設定を文字のファイルで書いて、同じ1周で回しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7d2pn",
+     "text": "差分を見ずに合わせた設定は、そのまま本番で動きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2n9da",
+     "text": "だから、押す前の30秒を、AIには渡していません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4jqng",
+     "text": "画面のボタンは、全部、人が押す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1j6sb",
+     "text": "AIに任せる範囲を広げても、ここだけは変えていません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7puf2",
+     "text": "ここまでで、つないで、提出して、合わせて、戻す1周がそろいました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fj5dc",
+     "text": "最後に、今日からそのまま使える形にしたものをお渡しします。",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fjn7v",
+     "text": "ここまで、GitHubの画面で1周を回す手順を書いてきました。\nこの記事の画面と依頼文を、そのまま使える形にしました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e6pqd",
+     "text": "GitHubの画面 対訳ポスター（9画面・69語）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1s8fn",
+     "text": "AIが壊したときの復旧地図（6つの場面）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "duqij",
+     "text": "1周ぶんの依頼文7本",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d4ijf",
+     "text": "合わせる前の点検シート（8項目）",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dbqb3",
+     "text": "PDF 15ページの冊子で、まとめて届きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ffe57",
+     "text": "これだけで、今日から1周回せます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eq84i",
+     "text": "受け取り方は、下のオープンチャットに参加するだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "72jg7",
+     "text": "参加後の案内に沿って「提出」と送ると、自動で届きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 0,
+        "text": "https://line.me/ti/g2/pEpZQdEyn1BM5Zi2wqLBT2rZYpC0ZaOncIWTag",
+        "toIndex": 60
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "31q41",
+     "text": "https://line.me/ti/g2/pEpZQdEyn1BM5Zi2wqLBT2rZYpC0ZaOncIWTag",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 14,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "4k4tr",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6pm21",
+     "text": "まとめ：今日、1周だけ回す",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "btfac",
+     "text": "AIの作業は、mainに直接入れません。\n作業ブランチで提出させて、差分を見て、緑のボタンを押す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dh6jo",
+     "text": "1周で押す緑のボタンは、3つでした。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1ptgv",
+     "text": "初めて自分でRevertを押した日に、記録が消えないと分かりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5ni38",
+     "text": "それから、触るのが怖くなくなりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b3eo7",
+     "text": "いきなり全部やる必要はありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8lmtr",
+     "text": "今日やることは、1つだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1dljg",
+     "text": "第1章で作ったリポジトリを開いて、AIに1行送ってください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fk9gj",
+     "text": "新しいブランチを作って、READMEに1行足して、GitHubに上げて",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3a4p9",
+     "text": "黄色い帯が出たら、緑のボタンを押して、「Files changed」を開いてください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a8idq",
+     "text": "緑の行が1本だけなら、合格です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c7bhq",
+     "text": "その1本を、自分の目で見てから合わせる。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5lr5b",
+     "text": "それが、AIに任せる範囲を広げるための、最初の1周です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9euk4",
+     "text": "30歳を超えたエンジニアが勝てる場所は、作業量ではなく設計の側にあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1q1ff",
+     "text": "道具が出るたびに覚え直すより、止める場所を決める側に回るほうが速いです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6jk16",
+     "text": "AWSもAIも、進化が本当に速いです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7jug4",
+     "text": "一人で追い続けるより、実務で試している人のログを見るほうが速いです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d7s29",
+     "text": "僕はAI × エンジニアの実務で、作った記録だけではなく、壊れた記録も外した記録も残しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "mentions": [
+       {
+        "fromIndex": 26,
+        "text": "dan_pro_man",
+        "toIndex": 38
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7t51i",
+     "text": "今後取り逃さないように、ぜひフォローをお願いします！@dan_pro_man",
+     "type": "unstyled"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "12",
+     "value": {
+      "data": {
+       "entityKey": "b4c9ba92-5d63-4c44-b533-3da5e6af1b80",
+       "mediaItems": [
+        {
+         "localMediaId": "23",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108801014598148096"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "8",
+     "value": {
+      "data": {
+       "entityKey": "9f539940-9601-4f5f-bd76-d2b2995ce428",
+       "mediaItems": [
+        {
+         "localMediaId": "15",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108798963868725248"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "4",
+     "value": {
+      "data": {
+       "entityKey": "d3db074a-e3b0-4d7c-8ddc-f836469583ac",
+       "mediaItems": [
+        {
+         "localMediaId": "9",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108797830857121792"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "11",
+     "value": {
+      "data": {
+       "entityKey": "fdc20dba-d595-406d-92e6-975ce6374a8d",
+       "mediaItems": [
+        {
+         "localMediaId": "21",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108799857498689536"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "9",
+     "value": {
+      "data": {
+       "entityKey": "2d5f22d5-d9f6-4b7a-a0b8-4699023bf268",
+       "mediaItems": [
+        {
+         "localMediaId": "17",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108799312771903488"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "13",
+     "value": {
+      "data": {
+       "entityKey": "31b52aed-ff94-4798-9201-c7e442e0d1b1",
+       "markdown": "```\nmainを取り込んで、衝突しているところを両方見せて\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "5",
+     "value": {
+      "data": {
+       "entityKey": "e33494fe-81e1-4aa3-97cc-0ddf452aec79",
+       "markdown": "```\n新しいブランチを作って、READMEに使い方を3行足して、コミットして、GitHubに上げて\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "10",
+     "value": {
+      "data": {
+       "entityKey": "b1cfc0fd-758c-4bd0-a126-6023bcc55465",
+       "mediaItems": [
+        {
+         "localMediaId": "19",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108799431659368448"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "6",
+     "value": {
+      "data": {
+       "entityKey": "1f67982c-eb53-4b16-930e-80ca83463818",
+       "mediaItems": [
+        {
+         "localMediaId": "11",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108798453606404096"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "entityKey": "aa573d4e-924c-4621-b532-916dd4c69c51",
+       "mediaItems": [
+        {
+         "localMediaId": "5",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108796734973554688"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "14",
+     "value": {
+      "data": {
+       "entityKey": "59f3ec40-a9d8-4896-8488-0c6b40dd364c",
+       "mediaItems": [
+        {
+         "localMediaId": "25",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108802885240885248"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "entityKey": "17235335-4ae1-4270-8265-b152581ef885",
+       "mediaItems": [
+        {
+         "localMediaId": "3",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108796512725848064"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "entityKey": "c129de9d-2c57-4af2-9ae9-4960ffe3e190",
+       "markdown": "```\nこのフォルダの記録を、https://github.com/アカウント名/git-practice に上げて\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "7",
+     "value": {
+      "data": {
+       "entityKey": "bb1b9de9-e0ef-43eb-9ee0-67bdf41d3a3c",
+       "mediaItems": [
+        {
+         "localMediaId": "13",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108798637702848513"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "3",
+     "value": {
+      "data": {
+       "entityKey": "14c19ecd-4811-456b-8634-37e9a9b02427",
+       "mediaItems": [
+        {
+         "localMediaId": "7",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2108797340777926656"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    }
+   ]
+  },
+  "media_entities": [
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP1MCcbIAEKAAIQw6TyVdQQAQAA",
+    "media_id": "2108798637702848513",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 97.1,
+        "rgb": {
+         "blue": 255,
+         "green": 255,
+         "red": 255
+        }
+       },
+       {
+        "percentage": 0.84,
+        "rgb": {
+         "blue": 85,
+         "green": 86,
+         "red": 224
+        }
+       },
+       {
+        "percentage": 0.52,
+        "rgb": {
+         "blue": 245,
+         "green": 222,
+         "red": 201
+        }
+       },
+       {
+        "percentage": 0.36,
+        "rgb": {
+         "blue": 75,
+         "green": 140,
+         "red": 56
+        }
+       },
+       {
+        "percentage": 0.27,
+        "rgb": {
+         "blue": 245,
+         "green": 214,
+         "red": 190
+        }
+       }
+      ]
+     },
+     "original_img_height": 883,
+     "original_img_url": "https://pbs.twimg.com/media/HUP1MCcbIAEDcxj.jpg",
+     "original_img_width": 1372
+    },
+    "media_key": "3_2108798637702848513"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP0AjBbUAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108797340777926656",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 90.01,
+        "rgb": {
+         "blue": 255,
+         "green": 254,
+         "red": 254
+        }
+       },
+       {
+        "percentage": 7.72,
+        "rgb": {
+         "blue": 0,
+         "green": 0,
+         "red": 0
+        }
+       },
+       {
+        "percentage": 1.21,
+        "rgb": {
+         "blue": 103,
+         "green": 104,
+         "red": 227
+        }
+       },
+       {
+        "percentage": 0.28,
+        "rgb": {
+         "blue": 95,
+         "green": 156,
+         "red": 71
+        }
+       },
+       {
+        "percentage": 0.24,
+        "rgb": {
+         "blue": 217,
+         "green": 210,
+         "red": 201
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUP0AjBbUAATs7X.jpg",
+     "original_img_width": 2560
+    },
+    "media_key": "3_2108797340777926656"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUPzQWSbUAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108796512725848064",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 96.65,
+        "rgb": {
+         "blue": 255,
+         "green": 255,
+         "red": 255
+        }
+       },
+       {
+        "percentage": 1.14,
+        "rgb": {
+         "blue": 105,
+         "green": 105,
+         "red": 227
+        }
+       },
+       {
+        "percentage": 0.74,
+        "rgb": {
+         "blue": 167,
+         "green": 168,
+         "red": 238
+        }
+       },
+       {
+        "percentage": 0.59,
+        "rgb": {
+         "blue": 214,
+         "green": 228,
+         "red": 208
+        }
+       },
+       {
+        "percentage": 0.27,
+        "rgb": {
+         "blue": 96,
+         "green": 157,
+         "red": 72
+        }
+       }
+      ]
+     },
+     "original_img_height": 840,
+     "original_img_url": "https://pbs.twimg.com/media/HUPzQWSbUAA7y-U.jpg",
+     "original_img_width": 1443
+    },
+    "media_key": "3_2108796512725848064"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP1zVRbcAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108799312771903488",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 96.61,
+        "rgb": {
+         "blue": 255,
+         "green": 255,
+         "red": 255
+        }
+       },
+       {
+        "percentage": 0.98,
+        "rgb": {
+         "blue": 187,
+         "green": 187,
+         "red": 243
+        }
+       },
+       {
+        "percentage": 0.87,
+        "rgb": {
+         "blue": 113,
+         "green": 168,
+         "red": 91
+        }
+       },
+       {
+        "percentage": 0.65,
+        "rgb": {
+         "blue": 162,
+         "green": 194,
+         "red": 149
+        }
+       },
+       {
+        "percentage": 0.44,
+        "rgb": {
+         "blue": 110,
+         "green": 111,
+         "red": 227
+        }
+       }
+      ]
+     },
+     "original_img_height": 883,
+     "original_img_url": "https://pbs.twimg.com/media/HUP1zVRbcAAiCw-.jpg",
+     "original_img_width": 1372
+    },
+    "media_key": "3_2108799312771903488"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP16QKaMAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108799431659368448",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 97.65,
+        "rgb": {
+         "blue": 255,
+         "green": 254,
+         "red": 254
+        }
+       },
+       {
+        "percentage": 0.82,
+        "rgb": {
+         "blue": 172,
+         "green": 171,
+         "red": 235
+        }
+       },
+       {
+        "percentage": 0.72,
+        "rgb": {
+         "blue": 117,
+         "green": 118,
+         "red": 229
+        }
+       },
+       {
+        "percentage": 0.37,
+        "rgb": {
+         "blue": 228,
+         "green": 114,
+         "red": 154
+        }
+       },
+       {
+        "percentage": 0.12,
+        "rgb": {
+         "blue": 247,
+         "green": 218,
+         "red": 184
+        }
+       }
+      ]
+     },
+     "original_img_height": 840,
+     "original_img_url": "https://pbs.twimg.com/media/HUP16QKaMAA6kfX.jpg",
+     "original_img_width": 1443
+    },
+    "media_key": "3_2108799431659368448"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP1fBgbcAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108798963868725248",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 80.16,
+        "rgb": {
+         "blue": 253,
+         "green": 253,
+         "red": 252
+        }
+       },
+       {
+        "percentage": 7.86,
+        "rgb": {
+         "blue": 193,
+         "green": 193,
+         "red": 244
+        }
+       },
+       {
+        "percentage": 7.72,
+        "rgb": {
+         "blue": 0,
+         "green": 0,
+         "red": 0
+        }
+       },
+       {
+        "percentage": 1.26,
+        "rgb": {
+         "blue": 85,
+         "green": 86,
+         "red": 224
+        }
+       },
+       {
+        "percentage": 0.89,
+        "rgb": {
+         "blue": 186,
+         "green": 236,
+         "red": 171
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUP1fBgbcAArNLe.jpg",
+     "original_img_width": 2560
+    },
+    "media_key": "3_2108798963868725248"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP1BUoaUAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108798453606404096",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 95.16,
+        "rgb": {
+         "blue": 254,
+         "green": 254,
+         "red": 254
+        }
+       },
+       {
+        "percentage": 1.94,
+        "rgb": {
+         "blue": 196,
+         "green": 248,
+         "red": 255
+        }
+       },
+       {
+        "percentage": 0.96,
+        "rgb": {
+         "blue": 126,
+         "green": 154,
+         "red": 232
+        }
+       },
+       {
+        "percentage": 0.65,
+        "rgb": {
+         "blue": 92,
+         "green": 156,
+         "red": 66
+        }
+       },
+       {
+        "percentage": 0.42,
+        "rgb": {
+         "blue": 247,
+         "green": 224,
+         "red": 206
+        }
+       }
+      ]
+     },
+     "original_img_height": 883,
+     "original_img_url": "https://pbs.twimg.com/media/HUP1BUoaUAAFO1h.jpg",
+     "original_img_width": 1372
+    },
+    "media_key": "3_2108798453606404096"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP2TCiakAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108799857498689536",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 96.94,
+        "rgb": {
+         "blue": 255,
+         "green": 255,
+         "red": 255
+        }
+       },
+       {
+        "percentage": 1.33,
+        "rgb": {
+         "blue": 161,
+         "green": 161,
+         "red": 236
+        }
+       },
+       {
+        "percentage": 0.62,
+        "rgb": {
+         "blue": 230,
+         "green": 118,
+         "red": 156
+        }
+       },
+       {
+        "percentage": 0.59,
+        "rgb": {
+         "blue": 91,
+         "green": 92,
+         "red": 225
+        }
+       },
+       {
+        "percentage": 0.2,
+        "rgb": {
+         "blue": 247,
+         "green": 220,
+         "red": 189
+        }
+       }
+      ]
+     },
+     "original_img_height": 275,
+     "original_img_url": "https://pbs.twimg.com/media/HUP2TCiakAAFU_o.jpg",
+     "original_img_width": 1443
+    },
+    "media_key": "3_2108799857498689536"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUPzdSOaMAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108796734973554688",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 93.55,
+        "rgb": {
+         "blue": 252,
+         "green": 250,
+         "red": 249
+        }
+       },
+       {
+        "percentage": 4.46,
+        "rgb": {
+         "blue": 184,
+         "green": 183,
+         "red": 236
+        }
+       },
+       {
+        "percentage": 1.28,
+        "rgb": {
+         "blue": 110,
+         "green": 108,
+         "red": 222
+        }
+       },
+       {
+        "percentage": 0.45,
+        "rgb": {
+         "blue": 245,
+         "green": 209,
+         "red": 170
+        }
+       },
+       {
+        "percentage": 0.14,
+        "rgb": {
+         "blue": 60,
+         "green": 62,
+         "red": 219
+        }
+       }
+      ]
+     },
+     "original_img_height": 840,
+     "original_img_url": "https://pbs.twimg.com/media/HUPzdSOaMAAcidS.jpg",
+     "original_img_width": 1443
+    },
+    "media_key": "3_2108796734973554688"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP3WZEbIAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108801014598148096",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 95.61,
+        "rgb": {
+         "blue": 255,
+         "green": 254,
+         "red": 254
+        }
+       },
+       {
+        "percentage": 2.04,
+        "rgb": {
+         "blue": 162,
+         "green": 162,
+         "red": 233
+        }
+       },
+       {
+        "percentage": 1.46,
+        "rgb": {
+         "blue": 108,
+         "green": 108,
+         "red": 227
+        }
+       },
+       {
+        "percentage": 0.22,
+        "rgb": {
+         "blue": 243,
+         "green": 214,
+         "red": 190
+        }
+       },
+       {
+        "percentage": 0.18,
+        "rgb": {
+         "blue": 52,
+         "green": 52,
+         "red": 217
+        }
+       }
+      ]
+     },
+     "original_img_height": 840,
+     "original_img_url": "https://pbs.twimg.com/media/HUP3WZEbIAA1srL.jpg",
+     "original_img_width": 1443
+    },
+    "media_key": "3_2108801014598148096"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP5DRwaEAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108802885240885248",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 84.29,
+        "rgb": {
+         "blue": 254,
+         "green": 252,
+         "red": 251
+        }
+       },
+       {
+        "percentage": 11.08,
+        "rgb": {
+         "blue": 110,
+         "green": 57,
+         "red": 33
+        }
+       },
+       {
+        "percentage": 2.24,
+        "rgb": {
+         "blue": 100,
+         "green": 104,
+         "red": 99
+        }
+       },
+       {
+        "percentage": 0.74,
+        "rgb": {
+         "blue": 98,
+         "green": 133,
+         "red": 138
+        }
+       },
+       {
+        "percentage": 0.42,
+        "rgb": {
+         "blue": 174,
+         "green": 101,
+         "red": 68
+        }
+       }
+      ]
+     },
+     "original_img_height": 3200,
+     "original_img_url": "https://pbs.twimg.com/media/HUP5DRwaEAAVzJ4.jpg",
+     "original_img_width": 2400
+    },
+    "media_key": "3_2108802885240885248"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUP0dEtaYAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2108797830857121792",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 75.16,
+        "rgb": {
+         "blue": 244,
+         "green": 241,
+         "red": 245
+        }
+       },
+       {
+        "percentage": 6.55,
+        "rgb": {
+         "blue": 198,
+         "green": 217,
+         "red": 241
+        }
+       },
+       {
+        "percentage": 6.11,
+        "rgb": {
+         "blue": 235,
+         "green": 181,
+         "red": 188
+        }
+       },
+       {
+        "percentage": 5.96,
+        "rgb": {
+         "blue": 209,
+         "green": 93,
+         "red": 126
+        }
+       },
+       {
+        "percentage": 1.63,
+        "rgb": {
+         "blue": 76,
+         "green": 108,
+         "red": 184
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUP0dEtaYAACcZk.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2108797830857121792"
+   }
+  ]
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

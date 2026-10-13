@@ -26,6 +26,7 @@
 |---|---|
 | `orbit` | Motionographer トップ「20 years」：単色の全面背景・輪で囲む巨大数字・点線の軌道と粒・字間の広い英字 |
 | `shutter` | （サムネの2色ロゴから）左右の扉が開く |
+| `shock` / `gitgraph` / `buttons` ＋ 様式 `crt` | CapCut トレンドテンプレート「SHOCKING」：黄色地に赤い太文字の叩き込み。本編はGitの線（本流→ブランチ→合流→Revert）を描くモーショングラフィック |
 | `tiles` / `dialog` ＋ 様式 `fluent` | （ユーザー指定の Microsoft 風）Fluent デザインの雰囲気：アプリのタイル、設定画面に入力→スイッチ→カーソルで保存の操作再現、淡い光とすりガラス。ロゴや商標は使わない |
 | `repeat` ＋ 様式 `pixel` | Pinterest「motion graphics typography」の「MOTION」を積み重ねた作品：同じ単語を何段も重ねて左右に流し、1段だけ色を変える／サムネのドット絵に合わせた段々の影 |
 | `stickers` | TikTok Creative Center のトップ広告サムネ：白い箱のテロップを1枚ずつ貼る |
