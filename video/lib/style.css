@@ -672,3 +672,33 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .sssc .ssveil { position: absolute; inset: 0; background: linear-gradient(transparent 40%, rgba(30,15,10,.65)); }
 .sssc .sscap { position: absolute; left: 140px; bottom: 150px; color: #fff; font-family: var(--head); font-size: 110px; line-height: 1.25; text-shadow: 0 6px 30px rgba(0,0,0,.45); }
 .ssfade2 { animation-name: ssfade2; animation-timing-function: linear; } @keyframes ssfade2 { 0% { opacity: 0; transform: translateY(20px); } 15%, 85% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+
+/* 44 tunnel（輪が迫るトンネルから飛び出す） */
+.tunsc { overflow: hidden; }
+.tunsc .tun { position: absolute; left: 50%; top: 50%; }
+.tunsc .tring { position: absolute; width: 300px; height: 300px; margin: -150px; border-radius: 50%; border: 18px solid var(--accent); opacity: 0; }
+.tunsc .tring:nth-child(2n) { border-color: var(--accent2); }
+.tzoomin { animation-name: tzoomin; animation-timing-function: cubic-bezier(.5,0,.9,.5); animation-iteration-count: 2; }
+@keyframes tzoomin { 0% { opacity: 0; transform: scale(.05) rotate(0); } 20% { opacity: .9; } 100% { opacity: 0; transform: scale(7) rotate(40deg); } }
+.tunsc .tlines { position: absolute; width: 2600px; height: 2600px; margin: -1300px; background: repeating-conic-gradient(from 0deg, rgba(255,255,255,.18) 0 1.5deg, transparent 1.5deg 9deg);
+  mask-image: radial-gradient(circle, transparent 12%, #000 40%); }
+.spin2 { animation-name: spin2; animation-timing-function: linear; } @keyframes spin2 { from { transform: rotate(0); opacity: 0; } 10% { opacity: 1; } to { transform: rotate(30deg); } }
+.tunsc .tn-top { position: relative; font-size: 44px; font-weight: 900; background: rgba(0,0,0,.35); padding: 10px 28px; border-radius: 999px; }
+.tunsc .tn-title { position: relative; font-size: 128px; }
+.popout { animation-name: popout; --len: .7s; animation-timing-function: cubic-bezier(.2,1.4,.4,1); } @keyframes popout { from { opacity: 0; transform: scale(.15) rotate(-8deg); filter: blur(12px); } }
+
+/* 45 cycle（循環） */
+.cycsc .cyc { position: relative; height: 780px; margin-top: -30px; }
+.cycsc .cyc svg { position: absolute; left: 50%; top: 50%; width: 840px; height: 840px; margin: -420px; overflow: visible; }
+.cycsc .cring { fill: none; stroke: var(--stroke); stroke-width: 10; stroke-dasharray: 100; transform: rotate(-90deg); }
+.cycsc .cst { position: absolute; width: 0; height: 0; }
+.cycsc .cnode { position: absolute; width: 88px; height: 88px; margin: -44px; border-radius: 50%; display: grid; place-items: center; font-size: 40px; font-weight: 900; background: var(--panel); border: 3px solid var(--stroke); color: var(--text); z-index: 2; backdrop-filter: blur(10px); }
+.cycsc .clit { position: absolute; width: 112px; height: 112px; margin: -56px; border-radius: 50%; border: 6px solid var(--accent); z-index: 3; opacity: 0; box-shadow: 0 0 30px var(--accent); }
+.cycsc .clab { position: absolute; top: -26px; white-space: nowrap; font-size: 38px; font-weight: 900; left: calc(var(--side) * 70px); transform: translateX(calc((var(--side) - 1) * 50%)); }
+.cycsc .crun { position: absolute; left: 50%; top: 50%; width: 30px; height: 30px; margin: -15px; border-radius: 50%; background: #fff; box-shadow: 0 0 24px var(--accent), 0 0 50px var(--accent2); z-index: 4; }
+.orbit2 { animation-name: orbit2; animation-timing-function: linear; } @keyframes orbit2 { from { transform: rotate(-90deg) translateX(var(--R)) rotate(90deg); } to { transform: rotate(270deg) translateX(var(--R)) rotate(-270deg); } }
+.cycsc .ccenter { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; }
+.cycsc .cv { font-size: 40px; color: var(--muted); font-family: "DejaVu Sans Mono", monospace; }
+.cycsc .cv2 { font-family: var(--head); font-size: 120px; line-height: 1.1; color: var(--accent); }
+.term .tl { white-space: pre; }
+.tunsc .tn-title { text-shadow: 0 6px 30px rgba(0,0,0,.6); }

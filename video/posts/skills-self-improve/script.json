@@ -1,0 +1,29 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "neon",
+  "style": "glass",
+  "bpm": 126,
+  "mood": "dark",
+  "structure": "トンネル→循環（6工程）→残す場所→原因の仕分け→採用の判断",
+  "inspiration": { "site": "motionographer", "work": "トップの記事「Dear Upstairs Neighbors」のキービジュアル", "idea": "渦巻く輪と集中線の中から飛び出す絵を、輪が奥から迫るトンネルと中心から飛び出す見出しにする" },
+  "transition": ["zoom", "slide", "whip", "slide", "zoom", "slide"],
+  "brand": "CLAUDE CODE SKILLS",
+  "footer": "出典：@seiri_gakari のX記事",
+  "scenes": [
+    { "type": "tunnel", "beats": 6, "top": "「前にも、その修正を頼んだのに。」", "title": "使うほど育つ\n[[Skill]]へ", "sub": "手直しを、次の手順へ戻す仕組み" },
+    { "type": "cycle", "beats": 10, "tag": "1周させる流れ", "steps": ["実行", "記録", "原因の切り分け", "変更案", "比較", "採用か差し戻し"], "from": "Skill v1", "to": "v2", "lap": 3.0 },
+    { "type": "term", "beats": 8, "tag": "残す場所は5つに分ける（設計例）", "file": "my-skill/", "step": 0.45, "lines": [
+      { "t": "SKILL.md     作業の順番と完成条件", "c": "cmd" },
+      { "t": "examples/    採用した見本", "c": "cmd" },
+      { "t": "checks/      計算やリンクの検査", "c": "ok" },
+      { "t": "runs/        今回の入力・出力・手直し", "c": "dim" },
+      { "t": "candidates/  まだ採用していない変更案", "c": "bad" }
+    ] },
+    { "type": "sort", "beats": 9, "tag": "失敗を、全部プロンプトのせいにしない", "title": "原因は5つに分けて、直す場所を変える", "step": 0.4, "bins": [ { "name": "入力" }, { "name": "手順" }, { "name": "参照資料" }, { "name": "検査", "c": "ok" }, { "name": "環境", "c": "warn" } ], "cards": [
+      { "t": "素材が渡っていない", "bin": 0 }, { "t": "順番が悪い", "bin": 1 }, { "t": "古い見本を読んだ", "bin": 2 }, { "t": "計算ミスを見落とした", "bin": 3 }, { "t": "権限で止まった", "bin": 4 } ] },
+    { "type": "grid", "beats": 7, "tag": "候補版を、同じ材料で比べてから", "title": "変更は毎回採用しない", "cols": 3, "tiles": [ { "t": "採用\n狙った条件が改善し\n守る条件も崩れない" }, { "t": "保留\n結果が揺れる\n材料が足りない" }, { "t": "差し戻し\n必須条件を破った\n問題が残った" } ] },
+    { "type": "cta", "beats": 6, "tag": "詳しくは記事で", "title": "Skillsの\n[[自己強化メソッド]]", "go": "12の応用例と、そのまま使える改修依頼", "name": "ナギ｜AIで残業消した人", "id": "@seiri_gakari" }
+  ]
+}

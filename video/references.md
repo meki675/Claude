@@ -26,6 +26,7 @@
 |---|---|
 | `orbit` | Motionographer トップ「20 years」：単色の全面背景・輪で囲む巨大数字・点線の軌道と粒・字間の広い英字 |
 | `shutter` | （サムネの2色ロゴから）左右の扉が開く |
+| `tunnel` / `cycle` ＋ 様式 `glass` | Motionographer「Dear Upstairs Neighbors」のキービジュアル：輪が奥から迫るトンネルと集中線から見出しが飛び出す。本編は工程の輪を点が回って順に光る循環 |
 | `slideshow` ＋ 様式 `editorial` | Mixkit「Fade Slideshow」：写真が寄りながら溶けるように切り替わり、白い大きな文字。サムネを切り取る場所と倍率を変えて3枚にする |
 | `shock` / `gitgraph` / `buttons` ＋ 様式 `crt` | CapCut トレンドテンプレート「SHOCKING」：黄色地に赤い太文字の叩き込み。本編はGitの線（本流→ブランチ→合流→Revert）を描くモーショングラフィック |
 | `tiles` / `dialog` ＋ 様式 `fluent` | （ユーザー指定の Microsoft 風）Fluent デザインの雰囲気：アプリのタイル、設定画面に入力→スイッチ→カーソルで保存の操作再現、淡い光とすりガラス。ロゴや商標は使わない |

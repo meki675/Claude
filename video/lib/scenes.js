@@ -332,7 +332,7 @@
     <div class="sortbox">
       ${s.bins.map((b, i) => A(`bin up ${b.c ?? ''}`, 0.2 + i * 0.08, `<b>${fmt(b.name)}</b><span>${fmt(b.hint ?? '')}</span>`, { style: `left:${i * w + 10}px;width:${w - 20}px;height:${bh}px` })).join('')}
       ${s.cards.map((c, i) => A(`card2 fly ${s.bins[c.bin].c ?? ''}`, 0.6 + i * (s.step ?? 0.4), fmt(c.t),
-        { style: `--tx:${(c.bin * w + w / 2 - 840).toFixed(0)}px;--ty:${444 + (s.cards.slice(0, i).filter((x) => x.bin === c.bin).length) * -62}px;--len:.8s` })).join('')}
+        { style: `width:${Math.min(330, w - 40).toFixed(0)}px;margin-left:-${(Math.min(330, w - 40) / 2).toFixed(0)}px;--tx:${(c.bin * w + w / 2 - 840).toFixed(0)}px;--ty:${444 + (s.cards.slice(0, i).filter((x) => x.bin === c.bin).length) * -62}px;--len:.8s` })).join('')}
     </div>`;
   };
 
@@ -428,6 +428,27 @@
       ${s.frames.map((f, i) => f.cap ? A('sscap ssfade2', i * per + 0.25, fmt(f.cap), { style: `--len:${(per - 0.1).toFixed(2)}s` }) : '').join('')}`;
   };
 
+  // 44. 冒頭：輪が奥から次々に迫るトンネルと集中線の中から、見出しが飛び出す（参考: Motionographer「Dear Upstairs Neighbors」のキービジュアル）
+  S.tunnel = (s) => `
+    <div class="tun">${Array.from({ length: 7 }, (_, i) => `<i class="a tring tzoomin" style="--d:${(i * 0.22).toFixed(2)}s;--len:1.6s"></i>`).join('')}
+      <i class="a tlines spin2" style="--d:0s;--len:${s.dur}s"></i></div>
+    ${s.top ? A('tn-top up', 0.3, fmt(s.top)) : ''}
+    ${A('h-xl tn-title popout', 0.6, fmt(s.title))}
+    ${sub(s.sub, 1.3)}`;
+
+  // 45. 循環：輪の上に工程を並べ、点が一周して各工程を順に光らせる。中心に版の変化
+  S.cycle = (s) => {
+    const n = s.steps.length, R = 330, L = s.lap ?? 3.6, d0 = 0.5;
+    return `${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    <div class="cyc">
+      <svg viewBox="-420 -420 840 840"><circle class="a cring draw" style="--d:.2s;--len:.9s" r="${R}" pathLength="100"/></svg>
+      ${s.steps.map((t, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n, x = Math.cos(a) * R, y = Math.sin(a) * R;
+        return `<div class="cst" style="left:calc(50% + ${x.toFixed(0)}px);top:calc(50% + ${y.toFixed(0)}px)">${A('cnode pop', 0.3 + i * 0.1, String(i + 1))}${A('clit flashon', d0 + (i / n) * L, '')}${A('clab fade', 0.4 + i * 0.1, fmt(t), { style: `--side:${x >= 0 ? 1 : -1}` })}</div>`; }).join('')}
+      <i class="a crun orbit2" style="--d:${d0}s;--len:${L}s;--R:${R}px"></i>
+      <div class="ccenter">${A('cv fade', 0.3, fmt(s.from ?? 'v1'))}${A('cv2 pop', d0 + L, fmt(s.to ?? 'v2'))}</div>
+    </div>`;
+  };
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -439,7 +460,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc', shock: 'shocksc center', gitgraph: 'gitsc', buttons: 'btnsc', slideshow: 'sssc' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc', shock: 'shocksc center', gitgraph: 'gitsc', buttons: 'btnsc', slideshow: 'sssc', tunnel: 'tunsc center', cycle: 'cycsc' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();
