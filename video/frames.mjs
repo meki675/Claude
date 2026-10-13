@@ -38,5 +38,6 @@ const layout = frames.map((_, i) => `${(i % cols) * 640}_${Math.floor(i / cols) 
 const pad = rows * cols - frames.length;
 const padIns = Array.from({ length: pad }, (_, k) => `[p${k}]`);
 const graph = `${label}${pad ? ';' + Array.from({ length: pad }, (_, k) => `color=black:s=640x360:d=1[p${k}]`).join(';') : ''};${frames.map((_, i) => `[v${i}]`).join('')}${padIns.join('')}xstack=inputs=${rows * cols}:layout=${layout}${pad ? '|' + padIns.map((_, k) => { const i = frames.length + k; return `${(i % cols) * 640}_${Math.floor(i / cols) * 360}`; }).join('|') : ''}`;
-execFileSync('ffmpeg', ['-loglevel', 'error', '-y', ...inputs, '-filter_complex', graph, '-frames:v', '1', out], { stdio: 'inherit' });
+const g = frames.length === 1 ? label.replace('[v0]', '') : graph;
+execFileSync('ffmpeg', ['-loglevel', 'error', '-y', ...inputs, '-filter_complex', g, '-frames:v', '1', out], { stdio: 'inherit' });
 console.log('wrote', out);

@@ -1,0 +1,2844 @@
+{
+ "url": "https://x.com/inodate1/status/2109508980137742557",
+ "id": "2109508980137742557",
+ "text": "https://x.com/i/article/2109503280330215424",
+ "raw_text": {
+  "text": "https://t.co/J6PTaNfQRU",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/J6PTaNfQRU",
+    "replacement": "https://x.com/i/article/2109503280330215424",
+    "display": "x.com/i/article/2109…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "inodate1",
+  "url": "https://x.com/inodate1",
+  "id": "1457342817291108353",
+  "followers": 1606,
+  "following": 300,
+  "likes": 1964,
+  "media_count": 27,
+  "name": "ダイス｜AIで仕事する人",
+  "description": "採用制作ディレクター13年・年間7000万円を受注｜副業はAIとタッグを組んで2週間で受託38万円｜企業の業務効率化、生産性アップを推進｜ISFP",
+  "raw_description": {
+   "text": "採用制作ディレクター13年・年間7000万円を受注｜副業はAIとタッグを組んで2週間で受託38万円｜企業の業務効率化、生産性アップを推進｜ISFP",
+   "facets": []
+  },
+  "location": "",
+  "banner_url": "https://pbs.twimg.com/profile_banners/1457342817291108353/1788624250",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2096267762352209920/W-fHVe03_200x200.jpg",
+  "joined": "Sun Nov 07 13:44:04 +0000 2021",
+  "protected": false,
+  "website": null,
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 0,
+ "retweets": 1,
+ "likes": 58,
+ "bookmarks": 124,
+ "quotes": 13,
+ "created_at": "Mon Oct 12 04:58:28 +0000 2026",
+ "created_timestamp": 1791781108,
+ "possibly_sensitive": false,
+ "views": 22045,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-12T04:58:28.000Z",
+  "modified_at": "2026-10-12T04:58:28.000Z",
+  "id": "2109503280330215424",
+  "title": "会社のCopilotを使い倒す裏技7選",
+  "preview_text": "会社のCopilotに質問して答えを読んだら閉じる。 その使い方で止まっていませんか。Microsoftは2026年7月の決算説明で、Copilotの有料契約が3,000万席を超えたと述べました。",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAAFCgABHUZ7AfJbwAAKAAIUOYWSLJqAAQAA",
+   "media_id": "2109508723760939008",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 90.98,
+       "rgb": {
+        "blue": 0,
+        "green": 0,
+        "red": 0
+       }
+      },
+      {
+       "percentage": 7.74,
+       "rgb": {
+        "blue": 244,
+        "green": 244,
+        "red": 244
+       }
+      }
+     ]
+    },
+    "original_img_height": 545,
+    "original_img_url": "https://pbs.twimg.com/media/HUZ7AfJbwAA5W_e.jpg",
+    "original_img_width": 1364
+   },
+   "media_key": "3_2109508723760939008"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7mknq",
+     "text": "会社のCopilotに質問して答えを読んだら閉じる。 その使い方で止まっていませんか。Microsoftは2026年7月の決算説明で、Copilotの有料契約が3,000万席を超えたと述べました。\n\n 一方で、この数か月に増えた「質問の先」の機能は、あまり知られていません。 毎朝の確認を予約する。自分のやり方を覚えさせる。画面を見せて相談する。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4ulu5",
+     "text": "この記事では、そうした任せ方を7つに絞りました。 各項目に、実際の画面を載せたXの投稿、やり方、使える条件を付けています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 21,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "4a0rp",
+     "text": "・1 毎朝の確認を、予約して自動で走らせる",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 27,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "cp29m",
+     "text": "・2 難しい相談は、Auto任せにせず考える深さを選ぶ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 29,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "55lc6",
+     "text": "・3 PowerPointの組み込みスキルを、＠で呼び出す",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 22,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "8peju",
+     "text": "・4 自分のやり方を、スキルとして覚えさせる",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 21,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "atbmu",
+     "text": "・5 作ったスキルに、古い資料を点検させる",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 18,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "bch9e",
+     "text": "・6 画面を見せながら、声で相談する",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 21,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "8ahb6",
+     "text": "・7 アプリをまたぐ仕事を、まとめて任せる",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 18,
+       "offset": 12,
+       "style": "Bold"
+      }
+     ],
+     "key": "6sf3b",
+     "text": "先に1つ断っておきます。 7つのほとんどは、有料のライセンスが付いている人向けです。 付いていない人が今日できることは、最後に3つまとめました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fq29r",
+     "text": "条件は10月12日時点のMicrosoft公式ページで確かめ、項目ごとに書いています。\n\n※サービス展開は順次されています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "buoup",
+     "text": "始める前に。自分のCopilotの種類を確かめる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ci3f3",
+     "text": "使える機能は、あなたのアカウントに付いているラベルで決まります。 確かめ方は3手順です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b9rj5",
+     "text": "Microsoft 365に、会社のアカウントでサインインする",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bqmcm",
+     "text": "ホームをいちばん下までスクロールする",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bngfe",
+     "text": "自分の名前の下に出ているラベルを見る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "19maj",
+     "text": "ラベルは3種類あります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 57,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "97e5i",
+     "text": "・M365 Copilot (Premium)：有料のライセンスあり。この記事の7つを試せるのは、この表示の人です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 69,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "5jp8p",
+     "text": "・M365 Copilot (Basic)：有料のライセンスなし。WordやPowerPointの中のCopilotは、標準の枠で使えます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 44,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "1t0p4",
+     "text": "・Copilot Chat (Basic)：有料のライセンスなし。使えるのはチャットです",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6sgd4",
+     "text": "日本語のページでは、Basicが「基本」と書かれています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 96,
+        "text": "copilot.cloud.microsoft",
+        "toIndex": 119
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 66,
+       "offset": 19,
+       "style": "Bold"
+      }
+     ],
+     "key": "4cu6s",
+     "text": "もう1つ、アプリの名前が変わりました。 Microsoft 365 Copilotは、8月中旬から順に「Microsoft Copilot」という名前に切り替わっています。 WebのURLも copilot.cloud.microsoft に変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "tgor",
+     "text": "個人向けのCopilotと同じ名前です。 会社のアカウントでサインインしているかを、先に見てください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 17,
+        "text": "https://support.microsoft.com/en-us/microsoft-365-copilot/what-copilot-license-do-i-have",
+        "toIndex": 105
+       },
+       {
+        "fromIndex": 145,
+        "text": "https://mc.merill.net/message/MC1454108",
+        "toIndex": 184
+       },
+       {
+        "fromIndex": 213,
+        "text": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+        "toIndex": 288
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 88,
+       "offset": 17
+      },
+      {
+       "key": 1,
+       "length": 39,
+       "offset": 145
+      },
+      {
+       "key": 2,
+       "length": 75,
+       "offset": 213
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "8bui5",
+     "text": "出典：Microsoftサポート https://support.microsoft.com/en-us/microsoft-365-copilot/what-copilot-license-do-i-have ／Microsoft 365 メッセージセンター MC1454108（写し） https://mc.merill.net/message/MC1454108 ／Microsoft 決算説明（2026年7月29日） https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7d0n2",
+     "text": "Copilotの任せ方7選",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "34bqu",
+     "text": "1 毎朝の確認を、予約して自動で走らせる（プロンプトのスケジュール）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "43tkm",
+     "text": "同じ質問を、毎朝打ち直す必要はありません。 Copilotのチャットには、プロンプト（指示文）を決まった時刻に自動で実行する機能があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 3,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "366mn",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4khqs",
+     "text": "誰が：T A I C H I さん（Microsoft MVP。※Microsoftが社外の専門家に贈る称号）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bgbpc",
+     "text": "何が映っているか：日本語の［スケジュール］の画面です。毎日8:00に、12月31日までくり返す設定になっています",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "338tk",
+     "text": "投稿では、毎日の設定でも3か月以上先まで予約できた、と報告しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 3,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "9g2q1",
+     "text": "やり方",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 31,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "83q5p",
+     "text": "Copilotのチャットで、予約したいプロンプトを一度実行する",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 38,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "26q4j",
+     "text": "そのプロンプトにマウスを乗せ、［このプロンプトをスケジュール設定する］を選ぶ",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 27,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "4evkd",
+     "text": "実行する時刻、くり返す回数、メールで知らせるかを決める",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7mc5h",
+     "text": "結果は、左側のチャットの一覧に太字で届きます。 予約の一覧は、右上の［…］から［スケジュールされたプロンプト］で開けます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 21,
+       "offset": 20,
+       "style": "Bold"
+      }
+     ],
+     "key": "95abf",
+     "text": "Microsoftが例に挙げているのは、朝8時に会議と議題とメモを要約させる使い方です。 1日の終わりに、出た会議の決定事項と宿題をまとめさせる例も載っています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "69oeq",
+     "text": "プロンプトの例",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 4,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "5fej5",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ctoc",
+     "text": "使う前に知っておくこと",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 14,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "emtc5",
+     "text": "・有料のライセンスが必要です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 15,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "ei32a",
+     "text": "・予約できるのは10個までです",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 58,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "ar6he",
+     "text": "・使える場所は、Copilotのチャット、TeamsのCopilot、Outlook（Web版とデスクトップ版）です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 38,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "duqjk",
+     "text": "・会社の設定で「オプションの接続エクスペリエンス」が切られていると使えません",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 33,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "750kn",
+     "text": "・1つの予約を何回まで実行できるかは、公式ページに数字がありません",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 17,
+        "text": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/schedule-your-most-used-copilot-prompts",
+        "toIndex": 114
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 5,
+       "length": 97,
+       "offset": 17
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "6tij5",
+     "text": "出典：Microsoftサポート https://support.microsoft.com/ja-jp/microsoft-365-copilot/schedule-your-most-used-copilot-prompts",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 36,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "ej1r2",
+     "text": "2 難しい相談は、Auto任せにせず考える深さを選ぶ（モデルの切り替え）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e39v5",
+     "text": "込み入った相談をするときは、送る前にモデルの選択を開きます。 初期設定のAutoは、質問に合わせてCopilotが自動で決める設定です。\n",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 6,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2k3dj",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e3oun",
+     "text": "誰が：Josh Cook さん（Microsoft MVP）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "djrft",
+     "text": "何が映っているか：モデルの選択を開いた画面です。Auto、Quick response、Think deeper の下に、GPTとClaudeが並んでいます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cn3hf",
+     "text": "投稿の主張は1つです。 普段の質問はAutoでいい。設計、原因の切り分け、深い分析、計画づくりのような重い仕事では、自分で選ぶ。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "brbnm",
+     "text": "選択肢の意味（公式の説明）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 28,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "egt4n",
+     "text": "・Auto（自動）：質問に合わせてCopilotが決める",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 40,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "bjpsp",
+     "text": "・Quick response（迅速な応答）：日常の質問に、速さを優先して答える",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 61,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "36va2",
+     "text": "・Think deeper（さらに深く考える）：時間をかけて計画を立て、関係する情報を集め、答える前に自分の作業を点検する",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 7,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "b9nq0",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9uls0",
+     "text": "彼の10月の投稿です。 ClaudeとGPTの下に、モデルの版まで表示されるようになったと報告しています。 並ぶモデルは会社ごとに違う、とも書いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "a1pbf",
+     "text": "使う前に知っておくこと",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3p6un",
+     "text": "・3つの選択肢は、Copilot Chatの公式の概要ページに説明があります。有料のライセンスが無い人は、混み合う時間帯に制限がかかることがあります",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "an3n7",
+     "text": "・Claude（Anthropic社のモデル）は、有料のライセンスがある人向けです。会社の管理者が、止めたり使う人を絞ったりできます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4mohi",
+     "text": "・モデルの顔ぶれは入れ替わります。名前を覚えるより、3つの選択肢の使い分けを覚えるほうが長持ちします",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cg9qd",
+     "text": "・日本語の画面では「オート」と表示されている例があります（次の3の投稿の画面）",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 19,
+        "text": "https://learn.microsoft.com/ja-jp/copilot/overview",
+        "toIndex": 69
+       },
+       {
+        "fromIndex": 72,
+        "text": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-subprocessor",
+        "toIndex": 154
+       },
+       {
+        "fromIndex": 170,
+        "text": "https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-with-and-without-a-microsoft-365-copilot-license",
+        "toIndex": 299
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 8,
+       "length": 50,
+       "offset": 19
+      },
+      {
+       "key": 9,
+       "length": 82,
+       "offset": 72
+      },
+      {
+       "key": 10,
+       "length": 129,
+       "offset": 170
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "2j8oq",
+     "text": "出典：Microsoft Learn https://learn.microsoft.com/ja-jp/copilot/overview ／ https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-subprocessor ／Microsoftサポート https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-with-and-without-a-microsoft-365-copilot-license",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 37,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "e70to",
+     "text": "3 PowerPointの組み込みスキルを、＠で呼び出す（対話型スライド）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3d1j1",
+     "text": "PowerPointのCopilotには、決まった作業の進め方をまとめた「スキル」が最初から入っています。 入力欄で＠を打つと一覧が出て、名前で呼び出せます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bc8of",
+     "text": "Xでは、半角の＠に続く英字がアカウント名として扱われます。 そのため、この記事では全角で書いています。実際に打つのは半角です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 11,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "98m34",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f57ke",
+     "text": "誰が：HIRANO Ai さん（Microsoft MVP Award を23年連続受賞。）",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "mentions": [
+       {
+        "fromIndex": 109,
+        "text": "create",
+        "toIndex": 116
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 26,
+       "offset": 109,
+       "style": "Bold"
+      }
+     ],
+     "key": "8vj3f",
+     "text": "何が映っているか：日本語版のPowerPointです。［ホーム］タブの［対話型スライド］を開くと、要約、ダッシュボード、タイムライン、比較、カスタムが並びます。2枚目は、どれかを選んだあとのCopilotの入力欄です。＠create-interactive-slide というスキルの名前と、タイムラインを足す頼みごとが入っています",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "49uv5",
+     "text": "対話型スライドは、見る人がクリックして動かせるスライドです。 Microsoftの告知は、複雑な概念の説明、タイムライン、選択肢の比較、仕組みの図解、データの見せ方を用途に挙げています。 Teamsの会議で共有すると、参加者がそれぞれ自分の手元で操作できます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 3,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "1o15n",
+     "text": "やり方",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 27,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "7303j",
+     "text": "PowerPointでCopilotのウィンドウを開く",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 35,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "b4v01",
+     "text": "入力欄の［＋］から［スキルの選択］を選ぶ。または＠を打って一覧から選ぶ",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 25,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "3vc2q",
+     "text": "スキルの名前のあとに、やってほしいことを書いて送る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "90hvu",
+     "text": "リボンから入るなら、［ホーム］か［挿入］タブの［対話型スライド］を押します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "t0rp",
+     "text": "Web版のPowerPointには、ほかにもボタンで呼べるスキルがあります。 ［校閲］タブの Review Presentation（資料の講評）と、［デザイン］タブの Visualize Slide（スライドの図解）です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2m504",
+     "text": "使う前に知っておくこと",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 19,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "1ddbg",
+     "text": "・Copilotのライセンスが必要です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 66,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "9coac",
+     "text": "・対話型スライドの全世界への展開は、10月中旬に始まり、10月末に終わる予定です。ボタンが無ければ、まだ届いていない可能性があります",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 47,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "52gnb",
+     "text": "・使わないスキルは、Copilotのウィンドウ右上の［…］から［スキルの管理］でオフにできます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 52,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "hokp",
+     "text": "・iPhoneとAndroidのPowerPointでは、対話型スライドは動かない画像として表示されます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 45,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "26rgu",
+     "text": "・Visualize Slide は、会社の管理者が画像生成を有効にしている必要があります",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 60,
+        "text": "https://mc.merill.net/message/MC1461152",
+        "toIndex": 99
+       },
+       {
+        "fromIndex": 100,
+        "text": "https://mc.merill.net/message/MC1419795",
+        "toIndex": 139
+       },
+       {
+        "fromIndex": 155,
+        "text": "https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills",
+        "toIndex": 238
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 12,
+       "length": 39,
+       "offset": 60
+      },
+      {
+       "key": 13,
+       "length": 39,
+       "offset": 100
+      },
+      {
+       "key": 14,
+       "length": 83,
+       "offset": 155
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "1grfs",
+     "text": "出典：Microsoft 365 メッセージセンター MC1461152（10月7日更新）・MC1419795（写し） https://mc.merill.net/message/MC1461152 https://mc.merill.net/message/MC1419795 ／Microsoftサポート https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 30,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "dsac9",
+     "text": "4 自分のやり方を、スキルとして覚えさせる（カスタムスキル）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2hkst",
+     "text": "毎回同じ言葉で頼んでいる作業は、スキルにして名前で呼べるようにできます。 Microsoftのヘルプも、同じことを何度も頼むならスキルに変えるよう勧めています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "mentions": [
+       {
+        "fromIndex": 6,
+        "text": "koruneko32767",
+        "toIndex": 20
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ctso",
+     "text": "[埋め込み：@koruneko32767 の投稿 2026-09-30] ",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 15,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "ec71t",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5rcmc",
+     "text": "誰が：コルネ さん（ Microsoft MVP for Business Applications ）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7c9u7",
+     "text": "何が映っているか：日本語の［スキルとプラグイン］の画面です。［スキルの追加］を開くと、［手動で作成］［アップロード］［スキルを記録する］の3つが出ています",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8b2u4",
+     "text": "作り方は3つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 52,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "5495d",
+     "text": "・スキルを記録する：PowerPointで実際に作業して見せると、Copilotが手順の下書きを書きます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 29,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "17ptm",
+     "text": "・手動で作成：フォームに、名前と説明と手順を書いて貼ります",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 29,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "amsnq",
+     "text": "・アップロード：作っておいたスキルのファイルを読み込みます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "38nv7",
+     "text": "文章を書かなくて済むのは、記録です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2ucst",
+     "text": "やり方（スキルを記録する）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 43,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "35dl7",
+     "text": "Copilotの入力欄の［＋］から［スキルの選択］を開き、一覧の下から管理の画面に入る",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 36,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "7k6gn",
+     "text": "［カスタム スキル］で［スキルの追加］を開き、［スキルを記録する］を選ぶ",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 24,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "a1ptm",
+     "text": "記録が始まるので、くり返したい作業を最後までやる",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 27,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "1aqok",
+     "text": "変更がスライドに反映されたのを見てから、［停止］を押す",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 37,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "u0d9",
+     "text": "Copilotが書いた名前、説明、手順を読んで直し、［アップロード］を押す",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "agg1a",
+     "text": "記録に向くのは、決まった書式への直し、表の整理、グラフの見た目の統一、ロゴの配置、定例資料の更新です。 公式ヘルプが挙げている例です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "1bgro",
+     "text": "使う前に知っておくこと",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3f90",
+     "text": "・PowerPointのCopilotのライセンスがある人が対象です。Web版への展開は、8月中旬に終わる予定と告知されました",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b24ja",
+     "text": "・作ったスキルは自分のOneDriveに保存されます。使えるのは自分だけです",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "30oce",
+     "text": "・記録は10分以内です。声は記録されません。別のアプリに切り替えたあとの操作も記録されません",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "72php",
+     "text": "・同じ仕組みはExcelにもあります。ただしExcelのスキルは、公式ヘルプに「英語でのみサポート」とあり、表示言語を英語にする必要があります",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "79vmc",
+     "text": "・メニューの名前は、公式ヘルプ（スキルの記録）と実際の画面（スキルを記録する）で少し違います",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 17,
+        "text": "https://support.microsoft.com/ja-jp/powerpoint/copilot/record-skill-copilot-powerpoint",
+        "toIndex": 103
+       },
+       {
+        "fromIndex": 106,
+        "text": "https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills",
+        "toIndex": 189
+       },
+       {
+        "fromIndex": 192,
+        "text": "https://support.microsoft.com/ja-jp/excel/copilot/copilot-in-excel-skills",
+        "toIndex": 265
+       },
+       {
+        "fromIndex": 305,
+        "text": "https://mc.merill.net/message/MC1441782",
+        "toIndex": 344
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 16,
+       "length": 86,
+       "offset": 17
+      },
+      {
+       "key": 17,
+       "length": 83,
+       "offset": 106
+      },
+      {
+       "key": 18,
+       "length": 73,
+       "offset": 192
+      },
+      {
+       "key": 19,
+       "length": 39,
+       "offset": 305
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "17ee4",
+     "text": "出典：Microsoftサポート https://support.microsoft.com/ja-jp/powerpoint/copilot/record-skill-copilot-powerpoint ／ https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills ／ https://support.microsoft.com/ja-jp/excel/copilot/copilot-in-excel-skills ／Microsoft 365 メッセージセンター MC1441782（写し） https://mc.merill.net/message/MC1441782",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 20,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "fbmig",
+     "text": "5 作ったスキルに、古い資料を点検させる",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ul3n",
+     "text": "スキルの使い道で分かりやすいのは、毎回同じ観点で見る点検です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 20,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "8uqbb",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9gfgn",
+     "text": "誰が：Josh Cook さん（2と同じ人）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "jcno",
+     "text": "何が映っているか：本人が作った説明の画像です。Copilotの入力欄で＠を打った一覧に、最初から入っているスキルと、自作の2つが並んでいます。右側は、スキルが見つけた指摘の抜粋です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c044",
+     "text": "投稿によると、資料のアイコンが今の公式のものかを確かめるスキルを自作し、古い資料にかけました。 見つかったのは、すでに名前が変わった製品の表記が3つ。 ほかに、種類の違うアイコンの混在、小さすぎて読めないアイコン、出どころに不安のある画像です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aee66",
+     "text": "人が1枚ずつ見ていた点検を、名前を1つ呼ぶだけで、毎回同じ基準でやらせる。 スキルにする価値はここにあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 21,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "neb8",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8baca",
+     "text": "誰が：Ota Hirofumi さん（Microsoft 365 について発信している人）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2nnl6",
+     "text": "何が映っているか：PowerPointのCopilotが、文字と背景の色の差（コントラスト比）をスライドごとに調べ、基準に届かない箇所を日本語で挙げています",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dvgef",
+     "text": "投稿は、こうした点検はスキルにしておくとよさそうだ、と書いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7oqls",
+     "text": "あなたの会社に置き換えると、点検の種はこうなります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 24,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "drpe3",
+     "text": "・変わる前の社名、部署名、製品名が残っていないか",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 19,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "avohp",
+     "text": "・年度や日付が古いままになっていないか",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 24,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "a1fjg",
+     "text": "・社内で使わないと決めた言い回しが入っていないか",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 24,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "8gtii",
+     "text": "・文字が小さすぎる、色が薄すぎるスライドがないか",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8bknu",
+     "text": "スキルの中身の例（僕が作った例です。〇〇を差し替えてください）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ful42",
+     "text": "4の［手動で作成］のフォームに貼るか、SKILL.md という名前のファイルにして使います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 22,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "emre3",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "45ouj",
+     "text": "",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "cqm1o",
+     "text": "使う前に知っておくこと",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bq2jl",
+     "text": "・ファイルで置くときは、スキルごとにフォルダーを1つ作り、その中に SKILL.md を入れます。フォルダーの名前は、name に書いた名前とそろえます。そろっていないと読み込まれません",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4ep5s",
+     "text": "・最初の「---」で挟んだ部分に、name（名前）と description（いつ使うかの説明）を書きます。ここは必須です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3m4c8",
+     "text": "・公式の例は英語で書かれています。日本語で書いたスキルが同じように働くかは、公式ページに記載がありません。上の例は、試してから使ってください",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "el47i",
+     "text": "・点検の結果は、最後に人が確かめます",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 17,
+        "text": "https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills",
+        "toIndex": 100
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 23,
+       "length": 83,
+       "offset": 17
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "5s48r",
+     "text": "出典：Microsoftサポート https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 25,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "35bfc",
+     "text": "6 画面を見せながら、声で相談する（Vision）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4gi3v",
+     "text": "スクリーンショットを貼らなくても、いま見ている画面をCopilotに見せて相談できます。 機能の名前はVision（ビジョン）です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 24,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "bt574",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bf1ok",
+     "text": "誰が：Josh Cook さん（2と同じ人）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "hgqq",
+     "text": "何が映っているか：左がCopilot、右が共有中のWebページです。画面が見えるかと聞かれたCopilotが、開いているページの内容を答えています",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dobnk",
+     "text": "投稿が挙げる使いどころは4つです。 ダッシュボードの説明。初めて触るアプリの案内。画面に出ている不具合の切り分け。メールやファイルや会議の内容との見比べ。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bk98u",
+     "text": "Copilotは、画面の内容と、あなたの仕事のデータの両方を使って声で答えます。 公式ヘルプの説明です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2vkum",
+     "text": "やり方（パソコン）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 24,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "2imqc",
+     "text": "会社のアカウントでCopilotのチャットを開く",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 49,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "deoj0",
+     "text": "入力欄から音声のチャットを始める（WindowsはCopilotキーか、Win＋Cでも始まります）",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 26,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "1h76l",
+     "text": "画面共有を始め、画面全体か、見せたいウィンドウを選ぶ",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 10,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "1agsa",
+     "text": "画面について声で聞く",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "3eu8t",
+     "text": "終わったら共有を止める",
+     "type": "ordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "csenl",
+     "text": "スマホでは、音声のチャット中にカメラのアイコンを押し、見せたいものに向けます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "46vh7",
+     "text": "使う前に知っておくこと",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "37gil",
+     "text": "・有料のライセンスが必要です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ciou9",
+     "text": "・音声の会話の中でしか使えません。マイクが要ります",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ekqsl",
+     "text": "・Copilotは見て答えるだけです。クリックや入力を代わりにすることはありません",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6mvcn",
+     "text": "・共有を止めても、音声のチャットは続きます。会話はその場かぎりで、あとから再開できません",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "21g4e",
+     "text": "・提供は順次で、地域や言語で差が出ることがあります。会社のアカウントで日本語の音声会話が使えるかは、公式ページで確かめられませんでした",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 17,
+        "text": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/use-vision-microsoft-365-copilot",
+        "toIndex": 107
+       },
+       {
+        "fromIndex": 110,
+        "text": "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-vision-microsoft-365-copilot",
+        "toIndex": 208
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 25,
+       "length": 90,
+       "offset": 17
+      },
+      {
+       "key": 26,
+       "length": 98,
+       "offset": 110
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "cgfok",
+     "text": "出典：Microsoftサポート https://support.microsoft.com/ja-jp/microsoft-365-copilot/use-vision-microsoft-365-copilot ／ https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-vision-microsoft-365-copilot",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 28,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "3jhog",
+     "text": "7 アプリをまたぐ仕事を、まとめて任せる（Cowork）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ent3n",
+     "text": "メールを送る。会議を入れる。資料を作る。 アプリをまたぐ作業をまとめて任せる機能が、Cowork（コワーク）です。 Copilotが頼まれた仕事を手順に分け、1つずつ実行します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 27,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "7am98",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "blcba",
+     "text": "誰が：Microsoft Copilotの公式アカウント",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dviqt",
+     "text": "何が映っているか：7秒の動画です。Coworkの入力欄に、Effort（力の入れ具合）を選ぶつまみが出ています。いちばん深いMaxには、消費が最も多く、答えが遅くなることがあると注記が付いています",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4tlv9",
+     "text": "仕事の重さに合わせて、速さと深さの釣り合いを自分で選べます。 公式ブログによると段階は5つで、標準はMediumです。 上げるほど時間がかかり、消費するクレジット（使った分の単位）も増えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 28,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "7qscd",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6856o",
+     "text": "誰が：百合宮桜（Miyu）さん（Power Platformでの業務改善を発信している人）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dud5c",
+     "text": "何が映っているか：Power Appsの編集画面です。「Copilot が作業しています」の表示が出て、「今日のやること」というアプリが組み上がっています",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e2bt5",
+     "text": "投稿では、言葉で頼むだけでアプリを作れたこと、途中で接続の承認が必要そうだったことを書いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "21mnp",
+     "text": "任せられることの例（公式の説明）",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 20,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "au1g9",
+     "text": "・Outlookでメールを下書きして送る",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 22,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "rcc4",
+     "text": "・予定表に会議を入れ、重なった予定を整理する",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 29,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "c2stb",
+     "text": "・Word、Excel、PowerPoint、PDFを作る",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 21,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "ba83n",
+     "text": "・Teamsのチャネルやチャットに投稿する",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 17,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "7kiv7",
+     "text": "・毎朝、その日の予定のまとめを作る",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "lptn",
+     "text": "メールの送信や会議の設定のような操作の前には、Coworkが止まって確認を求めます。 進めるかどうかは、あなたが決めます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 11,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "99uuf",
+     "text": "使う前に知っておくこと",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "curje",
+     "text": "・会社と学校のアカウント向けには、6月に一般提供が始まりました",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ddr1q",
+     "text": "・有料のライセンスに加えて、会社がCoworkを有効にし、使った分だけかかる課金を設定している必要があります。使えるかどうかは、情報システムの担当に聞くのが早いです",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f2shi",
+     "text": "・自分のやり方を覚えさせるカスタムスキルは、Coworkでは50個まで作れます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "29gdq",
+     "text": "・説明からアプリを作る「アプリ スキル」は、先行プログラム（Frontier）向けと公式ページにあります。上の投稿がどの機能を使ったものかは、投稿からは分かりません",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 19,
+        "text": "https://learn.microsoft.com/ja-jp/microsoft-365/copilot/cowork/",
+        "toIndex": 82
+       },
+       {
+        "fromIndex": 85,
+        "text": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new",
+        "toIndex": 157
+       },
+       {
+        "fromIndex": 173,
+        "text": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/get-started-with-cowork",
+        "toIndex": 254
+       },
+       {
+        "fromIndex": 271,
+        "text": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/cowork-in-progress/4511672",
+        "toIndex": 361
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 29,
+       "length": 63,
+       "offset": 19
+      },
+      {
+       "key": 30,
+       "length": 72,
+       "offset": 85
+      },
+      {
+       "key": 31,
+       "length": 81,
+       "offset": 173
+      },
+      {
+       "key": 32,
+       "length": 90,
+       "offset": 271
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "bbmvc",
+     "text": "出典：Microsoft Learn https://learn.microsoft.com/ja-jp/microsoft-365/copilot/cowork/ ／ https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new ／Microsoftサポート https://support.microsoft.com/ja-jp/microsoft-365-copilot/get-started-with-cowork ／Microsoft公式ブログ https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/cowork-in-progress/4511672",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6ps9i",
+     "text": "有料のライセンスが無い人が、今日できる3つ",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4ef0a",
+     "text": "ラベルがBasicの人も、質問の先へ進めます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 107,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "6nikg",
+     "text": "・カスタム指示：答え方の決まりを一度書いておく機能です。右上の［…］から、Chat設定、［個人用設定］、［カスタム指示］、［指示の編集］の順に開きます。公式の例は、会議の要約は段落ではなく箇条書きで、という指示です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 81,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "15b2l",
+     "text": "・メモリ：覚えておいてほしいことを、チャットで頼みます。保存されると、メモリを更新したという知らせが出ます。9月中旬から10月下旬にかけて、順に届く予定の機能です",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [
+      {
+       "length": 68,
+       "offset": 0,
+       "style": "Bold"
+      }
+     ],
+     "key": "6s9ci",
+     "text": "・プロンプトの保存：うまくいったプロンプトにマウスを乗せ、ブックマークのアイコンから保存します。予約はできなくても、打ち直しは無くせます",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1s06c",
+     "text": "カスタム指示とメモリは、会社の管理者が切っていると設定の画面で使えません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 17,
+        "text": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/customize-how-microsoft-365-copilot-responds-to-you",
+        "toIndex": 126
+       },
+       {
+        "fromIndex": 129,
+        "text": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/manage-copilot-memory-in-microsoft-365-copilot",
+        "toIndex": 233
+       },
+       {
+        "fromIndex": 236,
+        "text": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/save-your-favorite-prompts-to-use-again",
+        "toIndex": 333
+       },
+       {
+        "fromIndex": 351,
+        "text": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-personalization-memory",
+        "toIndex": 437
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 33,
+       "length": 109,
+       "offset": 17
+      },
+      {
+       "key": 34,
+       "length": 104,
+       "offset": 129
+      },
+      {
+       "key": 35,
+       "length": 97,
+       "offset": 236
+      },
+      {
+       "key": 36,
+       "length": 86,
+       "offset": 351
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "a08ju",
+     "text": "出典：Microsoftサポート https://support.microsoft.com/ja-jp/microsoft-365-copilot/customize-how-microsoft-365-copilot-responds-to-you ／ https://support.microsoft.com/ja-jp/microsoft-365-copilot/manage-copilot-memory-in-microsoft-365-copilot ／ https://support.microsoft.com/ja-jp/microsoft-365-copilot/save-your-favorite-prompts-to-use-again ／Microsoft Learn https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-personalization-memory",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ke5u",
+     "text": "まとめ。質問の次は、任せる",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f6keq",
+     "text": "7つを並べ直すと、任せているものは3種類です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bq1sm",
+     "text": "・時間を任せる：1 予約",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aus3a",
+     "text": "・やり方を任せる：3 組み込みスキル、4 カスタムスキル、5 点検",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1ct34",
+     "text": "・考える手前を任せる：2 考える深さ、6 画面を見せる、7 まとめて任せる",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aduuo",
+     "text": "最初の1つは、1の予約が始めやすいです。 今日うまくいったプロンプトを1つ、明日の朝8時に予約する。 Copilotが、聞きに行く相手から、先に動いている相手に変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d5pjm",
+     "text": "ライセンスが無い人は、カスタム指示に「答え方の決まり」を3行書くところからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "actgn",
+     "text": "あなたがCopilotに毎回同じ言葉で頼んでいる仕事は、何ですか。",
+     "type": "unstyled"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "34",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/manage-copilot-memory-in-microsoft-365-copilot"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "12",
+     "value": {
+      "data": {
+       "url": "https://mc.merill.net/message/MC1461152"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "8",
+     "value": {
+      "data": {
+       "url": "https://learn.microsoft.com/ja-jp/copilot/overview"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "19",
+     "value": {
+      "data": {
+       "url": "https://mc.merill.net/message/MC1441782"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "23",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "4",
+     "value": {
+      "data": {
+       "markdown": "```\n 今日の予定表にある会議を、時刻順に並べてください。 会議ごとに、関係する直近のメールとファイルを1行ずつ添えてください。 今日中に返信が必要そうなメールがあれば、最後に3件まで挙げてください。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "15",
+     "value": {
+      "data": {
+       "tweetId": "2105294309935534135"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "11",
+     "value": {
+      "data": {
+       "tweetId": "2105457001023345063"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "9",
+     "value": {
+      "data": {
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-subprocessor"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "33",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/customize-how-microsoft-365-copilot-responds-to-you"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "22",
+     "value": {
+      "data": {
+       "markdown": "```\nname: old-name-check description: 資料に古い社名、部署名、製品名、年度が残っていないかを点検してほしいと頼まれたときに使う。\n古い表記が残っていないかを点検する。\n\n手順\n1.すべてのスライドの文字を読む。\n2.次の表記を探す。〇〇（旧社名）、〇〇（旧部署名）、〇〇（旧製品名）、2025年度。\n3.見つけた箇所を、スライド番号、今の表記、直したあとの表記の順で一覧にする。\n4.スライドは書き換えない。一覧を見せて、直してよいかを聞く。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "26",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-vision-microsoft-365-copilot"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "13",
+     "value": {
+      "data": {
+       "url": "https://mc.merill.net/message/MC1419795"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "24",
+     "value": {
+      "data": {
+       "tweetId": "2085465782453141778"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "35",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/save-your-favorite-prompts-to-use-again"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "16",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/powerpoint/copilot/record-skill-copilot-powerpoint"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "5",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/schedule-your-most-used-copilot-prompts"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "10",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-with-and-without-a-microsoft-365-copilot-license"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "21",
+     "value": {
+      "data": {
+       "tweetId": "2106979856953286870"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "32",
+     "value": {
+      "data": {
+       "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/cowork-in-progress/4511672"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "6",
+     "value": {
+      "data": {
+       "tweetId": "2084420549128622565"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "36",
+     "value": {
+      "data": {
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-personalization-memory"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "url": "https://mc.merill.net/message/MC1454108"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "17",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "25",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/use-vision-microsoft-365-copilot"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "14",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/powerpoint/copilot/copilot-in-powerpoint-skills"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "31",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/microsoft-365-copilot/get-started-with-cowork"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/what-copilot-license-do-i-have"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "20",
+     "value": {
+      "data": {
+       "tweetId": "2085730933899227261"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "27",
+     "value": {
+      "data": {
+       "tweetId": "2091993982951706763"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "18",
+     "value": {
+      "data": {
+       "url": "https://support.microsoft.com/ja-jp/excel/copilot/copilot-in-excel-skills"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "30",
+     "value": {
+      "data": {
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "7",
+     "value": {
+      "data": {
+       "tweetId": "2107558113696252300"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "29",
+     "value": {
+      "data": {
+       "url": "https://learn.microsoft.com/ja-jp/microsoft-365/copilot/cowork/"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "3",
+     "value": {
+      "data": {
+       "tweetId": "2104839309933351346"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    },
+    {
+     "key": "28",
+     "value": {
+      "data": {
+       "tweetId": "2107710311432343595"
+      },
+      "mutability": "Immutable",
+      "type": "TWEET"
+     }
+    }
+   ]
+  },
+  "media_entities": []
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

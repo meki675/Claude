@@ -587,3 +587,53 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .style-pixel .cta .av { border-radius: 0; }
 .style-pixel .code .win2 { color: #14213d; }
 .style-pixel .code .hl, .style-pixel .code .em { color: #14213d; background: var(--accent); box-shadow: none; }
+
+/* 38 tiles */
+.tilesc { overflow: hidden; }
+.tilesc .tgrid { position: absolute; inset: 120px 80px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; opacity: .9; }
+.tilesc .tl2 { border-radius: 14px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; color: #fff; font-size: 30px; font-weight: 700; box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+.tilesc .tl2 b { font-size: 56px; font-weight: 800; line-height: 1; }
+.tilesc .c0 { background: var(--accent); } .tilesc .c1 { background: var(--accent2); } .tilesc .c2 { background: #00a4a6; }
+.tilesc .c3 { background: #5c2e91; } .tilesc .c4 { background: #c239b3; } .tilesc .c5 { background: #0b6a0b; }
+.tilesc .tcenter { position: relative; z-index: 2; align-self: center; text-align: center; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(20px);
+  padding: 50px 80px; border-radius: 24px; box-shadow: 0 30px 80px rgba(0,0,0,.18); }
+.rise { animation-name: rise; --len: .5s; } @keyframes rise { from { opacity: 0; transform: translateY(40px) scale(.96); } }
+
+/* 39 dialog（アプリ画面の操作再現） */
+.dialogsc .dlg { position: relative; width: 1100px; align-self: center; background: #fff; border-radius: 12px; box-shadow: 0 32px 64px rgba(0,0,0,.18), 0 0 0 1px rgba(0,0,0,.06); overflow: visible; color: #242424; }
+.dialogsc .dlg-h { display: flex; align-items: center; gap: 16px; padding: 22px 32px; border-bottom: 1px solid rgba(0,0,0,.08); font-size: 32px; font-weight: 700; }
+.dialogsc .dlg-h i { width: 34px; height: 34px; border-radius: 8px; background: linear-gradient(135deg, var(--accent), var(--accent2)); }
+.dialogsc .dlg-b { padding: 26px 32px; display: flex; flex-direction: column; gap: 18px; }
+.dialogsc .fld label { display: block; font-size: 24px; color: #616161; margin-bottom: 8px; }
+.dialogsc .inp { border: 1px solid #d1d1d1; border-bottom: 3px solid var(--accent); border-radius: 6px; padding: 12px 18px; font-size: 30px; min-height: 64px; }
+.dialogsc .inp .type { display: inline-block; white-space: nowrap; }
+.dialogsc .tgl { display: flex; justify-content: space-between; align-items: center; font-size: 30px; }
+.dialogsc .sw { position: relative; width: 84px; height: 44px; border-radius: 22px; background: #fff; border: 2px solid #616161; }
+.dialogsc .sw b { position: absolute; top: 7px; left: 8px; width: 26px; height: 26px; border-radius: 50%; background: #616161; }
+.swon { animation-name: swon; } @keyframes swon { to { background: var(--accent); border-color: var(--accent); } }
+.dialogsc .swon b { animation: knob .25s both paused; animation-delay: inherit; } @keyframes knob { to { transform: translateX(38px); background: #fff; } }
+.dialogsc .dlg-f { display: flex; justify-content: flex-end; gap: 16px; padding: 18px 32px 26px; }
+.dialogsc .btn2 { padding: 12px 34px; border-radius: 6px; border: 1px solid #d1d1d1; font-size: 28px; font-weight: 700; background: #fff; }
+.dialogsc .btn2.pri { background: var(--accent); color: #fff; border-color: var(--accent); }
+.press { animation-name: press; } @keyframes press { 50% { transform: scale(.92); filter: brightness(.85); } }
+.dialogsc .ptr { position: absolute; width: 0; height: 0; border-left: 22px solid transparent; border-right: 22px solid transparent; border-bottom: 44px solid #111; transform: rotate(-30deg); z-index: 5; filter: drop-shadow(0 2px 0 #fff) drop-shadow(0 -2px 0 #fff); left: 30%; top: 115%; }
+.pmove { animation-name: pmove; animation-timing-function: cubic-bezier(.1,.9,.2,1); } @keyframes pmove { from { left: 30%; top: 115%; opacity: 0; } 10% { opacity: 1; } to { left: 90%; top: 88%; opacity: 1; } }
+.dialogsc .toast2 { position: absolute; right: -40px; top: -40px; background: #0b6a0b; color: #fff; padding: 14px 26px; border-radius: 8px; font-size: 28px; font-weight: 700; box-shadow: 0 12px 30px rgba(0,0,0,.2); }
+
+/* fluent：Microsoft の Fluent デザイン風。明るい地・淡い光・すりガラス・小さめの角丸・やわらかい影・細身の書体・減速して止まる動き */
+.style-fluent { --bg: #f7f7f8; --bg2: #eef1f7; --text: #242424; --muted: #616161; --accent: #0f6cbd; --accent-hi: #62abf5; --accent2: #7a52d1; --on-accent: #fff;
+  --stroke: rgba(0,0,0,.08); --panel: rgba(255,255,255,.78); --good: #0b6a0b; --bad: #c50f1f;
+  --head: "Noto Sans JP", sans-serif; --head2: "Noto Sans JP", sans-serif; --ease: cubic-bezier(.1,.9,.2,1); }
+.style-fluent #bg { background:
+  radial-gradient(900px 600px at 10% 10%, rgba(98,171,245,.35), transparent 60%),
+  radial-gradient(800px 700px at 95% 20%, rgba(122,82,209,.25), transparent 60%),
+  radial-gradient(900px 600px at 70% 110%, rgba(0,183,195,.22), transparent 60%), #f7f7f8; }
+.style-fluent #bg::after { background-image: none; }
+.style-fluent .h-xl, .style-fluent .h-lg, .style-fluent .h-md, .style-fluent .title, .style-fluent .v, .style-fluent .big { font-weight: 700; letter-spacing: -.02em; }
+.style-fluent .card, .style-fluent .side, .style-fluent .blk, .style-fluent .bin, .style-fluent .opt, .style-fluent .ri, .style-fluent .col, .style-fluent .sc-t, .style-fluent .cell
+  { background: rgba(255,255,255,.8) !important; border: 1px solid rgba(0,0,0,.06) !important; border-radius: 12px !important; backdrop-filter: blur(24px) !important;
+    box-shadow: 0 8px 16px rgba(0,0,0,.08), 0 0 2px rgba(0,0,0,.12) !important; }
+.style-fluent .tag { color: var(--accent); letter-spacing: .08em; } .style-fluent .em { color: var(--accent); }
+.style-fluent .em2 { background: linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.style-fluent .sortsc .card2 { background: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,.1); }
+.style-fluent .quiz .opt.ok b { border-radius: 8px; } .style-fluent .quiz .opt b { border-radius: 8px; }

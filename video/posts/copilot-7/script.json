@@ -1,0 +1,25 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "theme": "paper",
+  "style": "fluent",
+  "bpm": 120,
+  "mood": "bright",
+  "structure": "タイル→数字→画面の操作再現→クイズ→7つを3種類に仕分け",
+  "inspiration": { "site": "（ユーザー指定）", "work": "Microsoft 風の見た目", "idea": "Fluent デザイン風：明るい地・淡い光・すりガラス・小さめの角丸・やわらかい影・細身の書体・減速して止まる動き（ロゴや商標は使わない）" },
+  "transition": ["zoom", "slide", "zoom", "slide", "zoom", "slide"],
+  "brand": "COPILOT × 仕事",
+  "footer": "出典：@inodate1 のX記事",
+  "scenes": [
+    { "type": "tiles", "beats": 6, "tag": "会社のCopilot", "title": "質問して閉じる、で\n止まっていませんか", "sub": "使い倒す裏技7選", "items": [
+      { "n": "1", "t": "毎朝の予約" }, { "n": "2", "t": "考える深さ" }, { "n": "3", "t": "＠でスキル" }, { "n": "4", "t": "やり方を記録" },
+      { "n": "5", "t": "資料の点検" }, { "n": "6", "t": "画面を見せる" }, { "n": "7", "t": "まとめて任せる" }, { "n": "＋", "t": "無料でも3つ" } ] },
+    { "type": "counter", "beats": 6, "tag": "2026年7月のMicrosoftの決算説明", "title": "Copilotの有料契約", "nums": [ { "label": "有料の席数", "to": 3000, "unit": "万席超" } ], "note": "でも「質問の先」の機能は、あまり知られていない" },
+    { "type": "dialog", "beats": 9, "tag": "裏技1　毎朝の確認を予約して自動で走らせる", "window": "このプロンプトをスケジュール設定する", "fields": [ { "label": "プロンプト", "value": "今日の会議を時刻順に。関係するメールとファイルも1行ずつ" }, { "label": "実行する時刻", "value": "毎日 8:00（12月31日まで）" } ], "toggles": ["メールで知らせる"], "button": "保存", "done": "予約しました（最大10個まで）" },
+    { "type": "quiz", "beats": 8, "tag": "裏技2　Auto任せにしない", "q": "設計や原因の切り分け。選ぶのは？", "options": ["Auto（自動）", "Quick response（速さ優先）", "Think deeper（さらに深く考える）"], "answer": 2, "note": "時間をかけて情報を集め、答える前に自分の作業を点検する" },
+    { "type": "sort", "beats": 9, "tag": "7つを並べ直すと", "title": "任せているものは3種類", "step": 0.36, "bins": [ { "name": "時間を任せる", "c": "ok" }, { "name": "やり方を任せる", "c": "warn" }, { "name": "考える手前を任せる" } ], "cards": [
+      { "t": "1 予約", "bin": 0 }, { "t": "3 組み込みスキル", "bin": 1 }, { "t": "2 考える深さ", "bin": 2 }, { "t": "4 カスタムスキル", "bin": 1 }, { "t": "6 画面を見せる", "bin": 2 }, { "t": "5 点検", "bin": 1 }, { "t": "7 まとめて任せる", "bin": 2 } ] },
+    { "type": "cta", "beats": 6, "tag": "詳しくは記事で", "title": "会社のCopilotを\n[[使い倒す7選]]", "go": "条件と公式の出典つき", "name": "ダイス｜AIで仕事する人", "id": "@inodate1", "image": "cover.jpg" }
+  ]
+}

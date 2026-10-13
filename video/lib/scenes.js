@@ -327,9 +327,10 @@
   // 35. 仕分け：カードが流れてきて、それぞれの箱へ振り分けられる
   S.sort = (s) => {
     const nb = s.bins.length, w = 1680 / nb;
+    const per = Math.max(...s.bins.map((_, b) => s.cards.filter((c) => c.bin === b).length)), bh = Math.max(250, 110 + per * 64);
     return `${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
     <div class="sortbox">
-      ${s.bins.map((b, i) => A(`bin up ${b.c ?? ''}`, 0.2 + i * 0.08, `<b>${fmt(b.name)}</b><span>${fmt(b.hint ?? '')}</span>`, { style: `left:${i * w + 10}px;width:${w - 20}px` })).join('')}
+      ${s.bins.map((b, i) => A(`bin up ${b.c ?? ''}`, 0.2 + i * 0.08, `<b>${fmt(b.name)}</b><span>${fmt(b.hint ?? '')}</span>`, { style: `left:${i * w + 10}px;width:${w - 20}px;height:${bh}px` })).join('')}
       ${s.cards.map((c, i) => A(`card2 fly ${s.bins[c.bin].c ?? ''}`, 0.6 + i * (s.step ?? 0.4), fmt(c.t),
         { style: `--tx:${(c.bin * w + w / 2 - 840).toFixed(0)}px;--ty:${444 + (s.cards.slice(0, i).filter((x) => x.bin === c.bin).length) * -62}px;--len:.8s` })).join('')}
     </div>`;
@@ -366,6 +367,26 @@
     ${s.sub ? A('rsub pop', 0.9, fmt(s.sub)) : ''}`;
   };
 
+  // 38. アプリのタイル：丸角のタイルが少しずつずれて現れ、中央に見出し
+  S.tiles = (s) => `
+    <div class="tgrid">${s.items.map((t, i) => A(`tl2 rise c${i % 6}`, 0.1 + i * 0.07, `<b>${fmt(t.n ?? i + 1)}</b><span>${fmt(t.t)}</span>`)).join('')}</div>
+    <div class="tcenter">${tagLine(s.tag, 0.5)}${A('h-xl rise', 0.7, fmt(s.title))}${sub(s.sub, 1.0)}</div>`;
+
+  // 39. アプリ画面の操作再現：入力欄に文字が入り、スイッチが入り、カーソルが保存ボタンを押す
+  S.dialog = (s) => {
+    const n = s.fields.length, tT = 0.5 + n * 0.45, tS = tT + (s.toggles ?? []).length * 0.35;
+    return `${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
+    ${A('dlg rise', 0.15, `
+      <div class="dlg-h"><i></i><span>${fmt(s.window)}</span></div>
+      <div class="dlg-b">
+        ${s.fields.map((f, i) => `<div class="fld"><label>${fmt(f.label)}</label><div class="inp">${A('type', 0.5 + i * 0.45, fmt(f.value), { tag: 'span', style: `--len:.4s;--steps:${[...f.value].length}` })}</div></div>`).join('')}
+        ${(s.toggles ?? []).map((t, i) => `<div class="tgl"><span>${fmt(t)}</span><i class="a sw swon" style="--d:${(tT + i * 0.35).toFixed(2)}s;--len:.25s"><b></b></i></div>`).join('')}
+      </div>
+      <div class="dlg-f"><span class="btn2">キャンセル</span><span class="a btn2 pri press" style="--d:${(tS + 0.7).toFixed(2)}s;--len:.3s">${fmt(s.button ?? '保存')}</span></div>
+      <i class="a ptr pmove" style="--d:${(tS).toFixed(2)}s;--len:.7s"></i>
+      ${s.done ? A('toast2 rise', tS + 1.0, `✓ ${fmt(s.done)}`) : ''}`)}`;
+  };
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -377,7 +398,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();
