@@ -702,3 +702,30 @@ body { font-synthesis: none; font-family: var(--body); font-weight: 700; color: 
 .cycsc .cv2 { font-family: var(--head); font-size: 120px; line-height: 1.1; color: var(--accent); }
 .term .tl { white-space: pre; }
 .tunsc .tn-title { text-shadow: 0 6px 30px rgba(0,0,0,.6); }
+
+/* 46 assemble（組み上がる輪） */
+.asmsc .asm { position: relative; width: 100%; height: 640px; }
+.asmsc .halo { position: absolute; left: 50%; top: 50%; width: 1260px; height: 540px; margin: -270px -630px; border-radius: 50%; border: 10px solid var(--accent2); box-shadow: 0 0 40px color-mix(in srgb, var(--accent2) 60%, transparent), inset 0 0 40px color-mix(in srgb, var(--accent2) 40%, transparent); }
+.asmsc .halo.h2 { width: 1060px; height: 440px; margin: -220px -530px; border-color: var(--accent); border-width: 6px; box-shadow: 0 0 30px color-mix(in srgb, var(--accent) 60%, transparent); }
+.haloin { animation-name: haloin; } @keyframes haloin { from { opacity: 0; transform: scale(.2) rotate(-25deg); } }
+.asmsc .core { position: absolute; left: 50%; top: 50%; width: 260px; height: 260px; margin: -130px; border-radius: 50%; display: grid; place-items: center; text-align: center;
+  background: var(--text); color: var(--bg); font-family: var(--head); font-size: 50px; line-height: 1.2; box-shadow: 0 20px 60px rgba(0,0,0,.25); z-index: 2; }
+.asmsc .part { position: absolute; left: 50%; top: 50%; white-space: nowrap; font-size: 34px; font-weight: 900; padding: 12px 24px; border-radius: 999px; background: var(--panel); border: 3px solid var(--stroke); z-index: 3; translate: -50% -50%; box-shadow: 0 8px 20px rgba(0,0,0,.12); }
+.flyin { animation-name: flyin; animation-timing-function: cubic-bezier(.2,.9,.3,1.15); } @keyframes flyin { from { opacity: 0; transform: translate(var(--x0), var(--y0)) scale(.6) rotate(-20deg); } to { opacity: 1; transform: translate(var(--x1), var(--y1)); } }
+.asmsc .part { transform: translate(var(--x1), var(--y1)); }
+.asmsc .ringlab { position: absolute; left: 50%; top: calc(50% + 128px); translate: -50% 0; font-family: var(--head); font-size: 44px; color: var(--accent2); z-index: 2; }
+.asmsc .eq { font-family: var(--head); font-size: 64px; margin-top: -20px; }
+
+/* storybook：絵本・ノート風。羊皮紙の黄色地・白い縁取りの太文字・はっきりした3色・キラキラ */
+.style-storybook { --bg: #fbefc8; --bg2: #f3dc9e; --text: #1b1b1b; --muted: #6b5a3a; --accent: #d9481c; --accent-hi: #f08a3c; --accent2: #1f7ae0; --on-accent: #fff;
+  --stroke: #1b1b1b; --panel: #fffaf0; --good: #1f9d55; --bad: #d9481c; }
+.style-storybook #bg { background: radial-gradient(ellipse at 50% 40%, #fff6dc 0%, #f6e3ad 55%, #e9c77e 100%); }
+.style-storybook #bg::after { background-image: radial-gradient(rgba(150,100,30,.12) 1px, transparent 1.5px); background-size: 7px 7px; mask-image: none; }
+.style-storybook .h-xl, .style-storybook .h-lg, .style-storybook .h-md, .style-storybook .title, .style-storybook .eq, .style-storybook .v, .style-storybook .big
+  { -webkit-text-stroke: 10px #fff; paint-order: stroke fill; text-shadow: 0 6px 0 rgba(120,80,20,.25); }
+.style-storybook .h-md { -webkit-text-stroke: 7px #fff; }
+.style-storybook .card, .style-storybook .side, .style-storybook .blk, .style-storybook .bin, .style-storybook .opt, .style-storybook .col, .style-storybook .sc-t, .style-storybook .cell, .style-storybook .part
+  { background: #fffaf0 !important; border: 4px solid #1b1b1b !important; border-radius: 20px !important; box-shadow: 6px 6px 0 rgba(27,27,27,.85) !important; backdrop-filter: none !important; }
+.style-storybook .tag { color: var(--accent); } .style-storybook .em { color: var(--accent); } .style-storybook .em2 { color: var(--accent2); }
+
+.style-storybook .sortsc .card2 { font-family: var(--body, "Noto Sans JP"), sans-serif; font-weight: 800; font-size: 32px; height: 60px; border: 3px solid #1b1b1b; background: #fff; box-shadow: 4px 4px 0 rgba(27,27,27,.8); }

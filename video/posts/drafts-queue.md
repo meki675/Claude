@@ -18,3 +18,4 @@
 |---|---|---|---|---|
 | 1 | （空）探し方：@seiri_gakari の記事「Claude Code Skills 使うほど進化し続ける自己強化メソッド改造」（2026年10月14日 6:20） | skills-self-improve/skills-self-improve-calm-16x9.mp4 | skills-self-improve/quote-post.md の「コメントA」 | 未保存 |
 | 2 | （1と同じ投稿） | skills-self-improve/skills-self-improve-hot-16x9.mp4 | skills-self-improve/quote-post.md の「コメントB」 | 未保存 |
+| 3 | https://x.com/dan_pro_man/status/2110323092082077711 | harness-guide/harness-guide-16x9.mp4 | harness-guide/quote-post.md の「コメントA」 | 未保存 |

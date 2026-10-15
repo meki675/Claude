@@ -1,0 +1,2169 @@
+{
+ "url": "https://x.com/dan_pro_man/status/2110323092082077711",
+ "id": "2110323092082077711",
+ "text": "https://x.com/i/article/2110123390849978368",
+ "raw_text": {
+  "text": "https://t.co/5EyqX8bp3q",
+  "display_text_range": [
+   0,
+   23
+  ],
+  "facets": [
+   {
+    "type": "url",
+    "indices": [
+     0,
+     23
+    ],
+    "original": "https://t.co/5EyqX8bp3q",
+    "replacement": "https://x.com/i/article/2110123390849978368",
+    "display": "x.com/i/article/2110…"
+   }
+  ]
+ },
+ "author": {
+  "screen_name": "dan_pro_man",
+  "url": "https://x.com/dan_pro_man",
+  "id": "1207990485794426881",
+  "followers": 4302,
+  "following": 281,
+  "likes": 92004,
+  "media_count": 99,
+  "name": "だん｜AI×クラウドエンジニア",
+  "description": "AIに置き換えられない側に回る方法をX記事で解説｜エンジニア歴6年／AWSの現場でAI導入、作業を月100時間削減｜自社SaaSの現場から言語化 | AI強くなるのに、エンジニア脳も独立もいりません",
+  "raw_description": {
+   "text": "AIに置き換えられない側に回る方法をX記事で解説｜エンジニア歴6年／AWSの現場でAI導入、作業を月100時間削減｜自社SaaSの現場から言語化 | AI強くなるのに、エンジニア脳も独立もいりません",
+   "facets": []
+  },
+  "location": "",
+  "banner_url": "https://pbs.twimg.com/profile_banners/1207990485794426881/1781309172",
+  "avatar_url": "https://pbs.twimg.com/profile_images/2092024756057026560/ND9O_NHO_200x200.jpg",
+  "joined": "Fri Dec 20 11:45:58 +0000 2019",
+  "protected": false,
+  "website": null,
+  "verification": {
+   "verified": true,
+   "verified_at": null,
+   "type": "individual"
+  },
+  "avatar_color": null
+ },
+ "replies": 0,
+ "retweets": 7,
+ "likes": 71,
+ "bookmarks": 108,
+ "quotes": 14,
+ "created_at": "Wed Oct 14 10:53:27 +0000 2026",
+ "created_timestamp": 1791975207,
+ "possibly_sensitive": false,
+ "views": 13843,
+ "is_note_tweet": false,
+ "community_note": null,
+ "lang": null,
+ "replying_to": null,
+ "replying_to_status": null,
+ "article": {
+  "created_at": "2026-10-14T10:53:27.000Z",
+  "modified_at": "2026-10-15T04:21:51.000Z",
+  "id": "2110123390849978368",
+  "title": "【図解あり】小学生でもわかる『ハーネス』 完全ガイド",
+  "preview_text": "ハーネスって、よく耳にするけど、よく分かっていない。\nそんな人、多くないですか。\n僕も最初は、「指示書のことでしょ」と思っていました。\nでも、違いました。",
+  "cover_media": {
+   "id": "QXBpTWVkaWE6DAAFCgABHUluh0tasAEKAAIQw6TyVdQQAQAA",
+   "media_id": "2110339427763662849",
+   "media_info": {
+    "__typename": "ApiImage",
+    "color_info": {
+     "palette": [
+      {
+       "percentage": 66.02,
+       "rgb": {
+        "blue": 177,
+        "green": 229,
+        "red": 251
+       }
+      },
+      {
+       "percentage": 10.26,
+       "rgb": {
+        "blue": 201,
+        "green": 230,
+        "red": 245
+       }
+      },
+      {
+       "percentage": 7.03,
+       "rgb": {
+        "blue": 19,
+        "green": 19,
+        "red": 19
+       }
+      },
+      {
+       "percentage": 4.24,
+       "rgb": {
+        "blue": 128,
+        "green": 216,
+        "red": 253
+       }
+      },
+      {
+       "percentage": 3.86,
+       "rgb": {
+        "blue": 11,
+        "green": 64,
+        "red": 209
+       }
+      }
+     ]
+    },
+    "original_img_height": 793,
+    "original_img_url": "https://pbs.twimg.com/media/HUluh0tasAEGtks.jpg",
+    "original_img_width": 1983
+   },
+   "media_key": "3_2110339427763662849"
+  },
+  "content": {
+   "blocks": [
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8od49",
+     "text": "ハーネスって、よく耳にするけど、よく分かっていない。\nそんな人、多くないですか。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "md3r",
+     "text": "僕も最初は、「指示書のことでしょ」と思っていました。\nでも、違いました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "473go",
+     "text": "ハーネスを分かりやすく言うと、AIに頼む前に先に渡しておくもの一式です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9307p",
+     "text": "守るルール",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "etoaj",
+     "text": "読ませる資料",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "597hh",
+     "text": "仕事の手順",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8ugui",
+     "text": "できたかを確かめる方法",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "55osv",
+     "text": "全部まとめて、ハーネスと呼びます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bfaf8",
+     "text": "同じAIなのに、最後まで任せられる人と、毎回止まる人がいます。\nその分かれ目は、「先に渡しておくもの一式」を渡しているかどうかです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "96sp3",
+     "text": "僕は3か月かけて、AIのために作った「人の確認」を外しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "946lc",
+     "text": "足すのは、簡単です。\n難しいのは、何を外していいかです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8r7o1",
+     "text": "この記事では、ハーネスとは何か、スキルやナレッジと何が違うのか、どう育てるのかを3つの章で書きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "94elr",
+     "text": "難しい言葉も、その都度わかりやすく説明してきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a9g9m",
+     "text": "※本記事の内容は、2026年10月時点で確認した公開情報と、僕の実務を前提にしています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ffhar",
+     "text": "",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "mqdd",
+     "text": "第1章：ハーネスとは何か｜AIに頼む前に、先に渡しておくもの一式",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dk9na",
+     "text": "AIに仕事を頼むとき、指示文だけ投げていませんか。\nそれだと、AIは知っている範囲でしか動けません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3d0lj",
+     "text": "だから、頼む前に、いろいろ渡しておきます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bd206",
+     "text": "AIから見える情報 ",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "233u7",
+     "text": "守ってほしいルール",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "pjg3",
+     "text": "使っていい道具",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3k5sk",
+     "text": "作業の手順",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "egdcb",
+     "text": "できたかを確かめる仕組み",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f40uu",
+     "text": "おかしいときに知らせる通知",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "31odf",
+     "text": "何をしたかの記録",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eck0r",
+     "text": "おかしいときに止める装置",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "89r2h",
+     "text": "失敗したときに戻す方法",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eccm1",
+     "text": "この9つを全部まとめて、ハーネスと呼びます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "deehp",
+     "text": "AIエージェントという言葉も、ここでひとことで言い表しますね。\n人が横にいなくても、道具を使って自分で進めるAIです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "18f1d",
+     "text": "AIエージェント＝AI本体＋ハーネス",
+     "type": "blockquote"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fs9dl",
+     "text": "この分け方が、いちばん分かりやすいと考えています。\nAI本体の中身は、僕たちには触れません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3eent",
+     "text": "触れるのは、外側だけです。\nだからこそ、ハーネスを作る側に回ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 0,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "7ec65",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6gdod",
+     "text": "新しく入った人に、仕様書も、判断の基準も、権限も渡さなかったら...\nどんなに優秀でも、力を出せませんよね。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "al0t8",
+     "text": "AIも同じです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4n10k",
+     "text": "しかも人と違って、隣の席に聞けません。\n過去の会議も覚えていません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eu2eo",
+     "text": "渡していない情報は、無いのと同じです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2p06k",
+     "text": "僕も実務でやってみて、初めて気づいたことがあります。\n脆弱性の調査をAIに任せようとしたときです。\n脆弱性とは、プログラムの弱点のことです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3i7s3",
+     "text": "それまでは、担当者が経験で見極めていました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f0eb6",
+     "text": "「最初にここを見る」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "p07r",
+     "text": "「この条件なら、次はここ」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fviv2",
+     "text": "全部、人の頭の中にありました。\nでも、それだとAIは動いてくれません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "1it1s",
+     "text": "仕方なく、文章にしました。\nすると、今まで見えなかった仕事の流れが見えてきたんです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "60t88",
+     "text": "ハーネスを作る作業は、AIのためだけではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "v6a2",
+     "text": "自分の仕事を、言葉にする作業でもあります。\nここまでで、ハーネスが「先に渡しておくもの一式」だと分かりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a2b0k",
+     "text": "次は、よく混ざる言葉との違いです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "du8ld",
+     "text": "",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "avnhl",
+     "text": "第2章：スキルやナレッジと何が違うのか｜部品の名前と、全部の名前",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7bkfj",
+     "text": "少し知っている人ほど、ここで止まります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5v637",
+     "text": "「スキルと何が違うの」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6oipg",
+     "text": "「ナレッジじゃないの」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9gev1",
+     "text": "「指示書と同じでしょ」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4obpj",
+     "text": "真実は、いつも1つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 1,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "787lm",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8f3pl",
+     "text": "スキルもナレッジも指示書も、ハーネスの部品です。\nハーネスは、部品を全部まとめた呼び名です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3p78p",
+     "text": "1つずつ分かりやすく説明します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fo9hi",
+     "text": "指示書は、AIが毎回読むルールのファイルです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dpo2g",
+     "text": "Claude Codeなら、CLAUDE.mdという名前です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dfomv",
+     "text": "スキルは、手順書です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2stum",
+     "text": "「この仕事は、この順番でやる」を1つのファイルにしたものです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e5m96",
+     "text": "毎回は読みません。\nその仕事を頼まれたときだけ、開いて読みます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9vvtr",
+     "text": "ナレッジは、AIに読ませる知識や資料です。\n会社の用語、過去の決めごと、お客さんの条件。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5j2r7",
+     "text": "MCPは、外の道具をAIにつなぐ仕組みです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fppb5",
+     "text": "カレンダーやチャットを、AIが直接さわれるようにします。\nどれも、AIの外側に置くものです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "33vi5",
+     "text": "だから、全部ハーネスの中に入ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 2,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "ajp17",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "chi29",
+     "text": "見分け方は、1つです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e2j84",
+     "text": "「それは、AIの中にあるか、外にあるか」",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4i771",
+     "text": "外にあるものは、全部ハーネスです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "37gi",
+     "text": "ここで、もう1つ大事なことがあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d7556",
+     "text": "部品の名前は、全部「足すもの」です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4gap8",
+     "text": "ルールを足す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5flt8",
+     "text": "手順書を足す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "29sjp",
+     "text": "資料を足す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "514j3",
+     "text": "でも、ハーネスという言葉には、「確かめる」と「戻せる」も入っています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ekn08",
+     "text": "テストで確かめる。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "70lll",
+     "text": "記録を残す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eshrp",
+     "text": "失敗したら戻す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "54on4",
+     "text": "スキルやナレッジだけを集めても、ここが抜けます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "12bgq",
+     "text": "だから、部品の名前ではなく、全部の名前で考えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9qaje",
+     "text": "何が足りないか。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "480id",
+     "text": "何が、もう要らないか。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "eujrh",
+     "text": "ここまでで、ハーネスと部品の関係が分かりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a5083",
+     "text": "次は、その「要らないもの」の見つけ方です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8vn2h",
+     "text": "",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cjrno",
+     "text": "第3章：作って終わりではない｜あとで外す「足場」と、ずっと残す「骨格」",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "dk8iu",
+     "text": "ハーネスは、作れば作るほど良いわけではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5n423",
+     "text": "僕は、ハーネスの中身を2つに分けて見ています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8dvtl",
+     "text": "「足場」と「骨格」です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "88ktd",
+     "text": "足場は、今のAIの弱さを補うために足したものです。",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3qhdt",
+     "text": "AIがよく間違えるから、人がもう一度確かめる。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8vbcg",
+     "text": "AIが段取りを忘れるから、同じ説明を毎回渡す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "21cd7",
+     "text": "AIが情報を取りに行けないから、先に全部読ませる。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8p2o8",
+     "text": "どれも、「今のAIには、これができない」という前提で足しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a6usb",
+     "text": "AIは、変わります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2ia9r",
+     "text": "昨日できなかったことが、次の更新で普通にできるようになります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5o2l1",
+     "text": "そのとき、足場は役目を終えます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5fb2v",
+     "text": "骨格は、違います。",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ectn8",
+     "text": "何を正常とするかの基準。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8ntkg",
+     "text": "どこまで操作していいかの権限。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "434et",
+     "text": "何が起きたかを見られる記録。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a4kij",
+     "text": "失敗したときに止める装置。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3ubgb",
+     "text": "元に戻す方法。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f6hcn",
+     "text": "これらは、AIが賢くなるほど大事になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "47tmr",
+     "text": "AIが自分で進むほど、人は途中を見なくなるからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 3,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "7cnvk",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f4dj7",
+     "text": "ここで、困ったことが1つあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7bli",
+     "text": "足場は、放っておくと増え続けます。\nAIが間違えるたびに、確認を1つ足す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "evg7h",
+     "text": "半年後、AIが賢くなって、その確認が要らなくなっても、誰も外しません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "auppe",
+     "text": "ハーネスには、足す力しか働かないからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3qgmt",
+     "text": "僕も、これで失敗しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "crk23",
+     "text": "守ってほしいルールを、片っ端から指示書に積みました。\nルール同士がぶつかって、かえって直す時間が増えました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2eh9l",
+     "text": "ルールは、増やすほど強くなるわけではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2b0no",
+     "text": "絞るほど効きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b1hmo",
+     "text": "Anthropicも、同じ問題を公開しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "cimaf",
+     "text": "補助なしなら、20分・9ドルで済んだ生成。\n補助を重ねたら、6時間・200ドルになりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ftqbk",
+     "text": "補助する仕組みに、無料のものは1つもありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8le64",
+     "text": "足場か、骨格か。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ftoup",
+     "text": "見分ける基準は、1つだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3dek2",
+     "text": "「それを外して間違いが起きたとき、こちらで気づけるか」",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "er8vc",
+     "text": "気づけるなら、足場です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b1e2c",
+     "text": "外す候補になります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fu5ub",
+     "text": "気づけないなら、まだ外しません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fi5rj",
+     "text": "では、どうやって外すか。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "p72n",
+     "text": "冒頭で触れた、人の確認を外した話をします。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f37po",
+     "text": "対象は、監視の通知です。\nシステムに異常が出たときに届く、知らせのことです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4f75i",
+     "text": "AIが、その通知を「対応が要る、要らない」に仕分けます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "6t36s",
+     "text": "その仕分けを、僕が毎朝、全件確かめていました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8qrvs",
+     "text": "AIは働いています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d3ljc",
+     "text": "でも、人がずっと横についている状態です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "90qo4",
+     "text": "そこで、いきなり外すのをやめました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aedh4",
+     "text": "3か月間、AIの判定と人の判定を、並べて動かしました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3nqts",
+     "text": "種類ごとに、結果を突き合わせます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ruu4",
+     "text": "一致率が95%を超えた種類から、人の全件確認を外しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ck08t",
+     "text": "今は、異常のときだけ通知が届きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "devur",
+     "text": "同じAIです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "erelj",
+     "text": "変えたのは、「どこまで人が確認するか」だけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ejumt",
+     "text": "「AIを信じられるようになったから外した」のではありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f8j9r",
+     "text": "「外していい状態になったことを、測ってから外した」。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7dod8",
+     "text": "この違いは、かなり大きいです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 4,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "ckmhr",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7ec5h",
+     "text": "外していいか迷ったら、質問は3つだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 5,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "bdjuq",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2edfl",
+     "text": "1問目に答えられない仕組みは、まず疑います。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a85jt",
+     "text": "2問目は、記憶で決めません。\n今のAIで、もう一度試します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7laqv",
+     "text": "3問目で「気づけない」なら、先に気づける仕組みを作ります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aoehs",
+     "text": "逆に、外してはいけないものもあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "bber5",
+     "text": "僕は、記録の取り方で3回作り直しました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "83bge",
+     "text": "あとから別の道具で記録を集める形は、何度も壊れました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2ekob",
+     "text": "深夜に一人で直していたこともあります……。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "97lta",
+     "text": "今は、処理そのものが、その場で記録を書き出します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "18kuq",
+     "text": "本体が動けば、記録も出る。\n記録は、骨格です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "c094n",
+     "text": "AIに任せる範囲を広げるほど、残します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "d085o",
+     "text": "足す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "amtj3",
+     "text": "測る。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e99mo",
+     "text": "外す。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2kth5",
+     "text": "また測る。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7d7sk",
+     "text": "AIが変わるたびに、この輪を回します。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ctsaq",
+     "text": "ここまでで、ハーネスの育て方が分かりました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "7fr4i",
+     "text": "最後に、今日からそのまま使える形にしたものをお渡しします。",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9kl22",
+     "text": "ここまで、ハーネスの全体像を、3つの章で書いてきました。\nこの記事で使った「足場と骨格」の見分け方を、そのまま使える形にしました。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3tjue",
+     "text": "ハーネスの部品チェック表12",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fg98p",
+     "text": "足場か骨格かの仕分け表20",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5nruc",
+     "text": "指示書に貼る決まり10行と依頼文10本",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "5q6gu",
+     "text": "外していいかを決める3つの質問シート",
+     "type": "unordered-list-item"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b4b8q",
+     "text": "全部まとめて、A4横12ページの冊子（PDF）にしてあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8jpd4",
+     "text": "これだけで、今日から試せます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "becm4",
+     "text": "受け取り方は、下のオープンチャットに参加するだけです。\n参加後の案内に沿って「馬具」と送ると、自動で届きます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "urls": [
+       {
+        "fromIndex": 0,
+        "text": "https://line.me/ti/g2/pEpZQdEyn1BM5Zi2wqLBT2rZYpC0ZaOncIWTag",
+        "toIndex": 60
+       }
+      ]
+     },
+     "entityRanges": [
+      {
+       "key": 6,
+       "length": 60,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "92au5",
+     "text": "https://line.me/ti/g2/pEpZQdEyn1BM5Zi2wqLBT2rZYpC0ZaOncIWTag\n",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [
+      {
+       "key": 7,
+       "length": 1,
+       "offset": 0
+      }
+     ],
+     "inlineStyleRanges": [],
+     "key": "7ndbq",
+     "text": " ",
+     "type": "atomic"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "ehje4",
+     "text": "",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "fv3j3",
+     "text": "まとめ：今日、指示書の1行に「足場」か「骨格」と書く",
+     "type": "header-one"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "anns7",
+     "text": "ハーネスは、AIに頼む前に、先に渡しておくもの一式です。\nスキルもナレッジも指示書も、その部品です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "4ffjc",
+     "text": "中身は、あとで外す足場と、ずっと残す骨格に分かれます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "drodq",
+     "text": "外すときは、測ってからです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2qgil",
+     "text": "初めて通知が1件も鳴らない朝を迎えたとき、素直に気持ちよかったのを覚えています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "aq35t",
+     "text": "ただ、僕のハーネスも完成していません。\nまだ人の確認を外せていない種類があります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "e744j",
+     "text": "いきなり全部やる必要はありません。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "di62g",
+     "text": "今日やることは、1つだけです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "8ejc7",
+     "text": "手元にあるAI向けの指示書を開いて、1行だけ選んでください。",
+     "type": "header-two"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "3ukd5",
+     "text": "その横に、「足場」か「骨格」と書いてください。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "2scoi",
+     "text": "迷ったら、「外して間違えたとき、気づけるか」で決めます。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "b8r8p",
+     "text": "足場と書いた行が、最初に見直す候補です。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "79o2t",
+     "text": "30歳を超えたエンジニアが勝てる場所は、作業量ではなく設計の側にあります。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "f4pfj",
+     "text": "道具が出るたびに覚え直すより、止める場所を決める側に回るほうが速いです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "erimp",
+     "text": "AWSもAIも、進化が本当に速いです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "doe0h",
+     "text": "一人で追い続けるより、実務で試している人のログを見るほうが速いです。",
+     "type": "unstyled"
+    },
+    {
+     "data": {},
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "9uv5",
+     "text": "僕はAI × エンジニアの実務で、作った記録だけではなく、壊れた記録も外した記録も残しています。",
+     "type": "unstyled"
+    },
+    {
+     "data": {
+      "mentions": [
+       {
+        "fromIndex": 26,
+        "text": "dan_pro_man",
+        "toIndex": 38
+       }
+      ]
+     },
+     "entityRanges": [],
+     "inlineStyleRanges": [],
+     "key": "a0jq6",
+     "text": "今後取り逃さないように、ぜひフォローをお願いします！@dan_pro_man",
+     "type": "unstyled"
+    }
+   ],
+   "entityMap": [
+    {
+     "key": "4",
+     "value": {
+      "data": {
+       "entityKey": "e5408142-c7f1-473f-bdaa-44fd82f21506",
+       "mediaItems": [
+        {
+         "localMediaId": "13",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2110320329025572864"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "5",
+     "value": {
+      "data": {
+       "entityKey": "2a870f0d-81ff-4e8e-892a-9c2449ec9634",
+       "markdown": "```\n1.この仕組みは、AIの「何ができない」という前提で足しましたか。\n\n2.その「できない」は、今のAIでも本当に同じですか。\n\n3.外して間違いが起きたとき、何日以内に気づけますか。\n```"
+      },
+      "mutability": "Mutable",
+      "type": "MARKDOWN"
+     }
+    },
+    {
+     "key": "6",
+     "value": {
+      "data": {
+       "entityKey": "45e25d7d-29c6-48dc-a3e2-22381d15c8a5",
+       "url": "https://line.me/ti/g2/pEpZQdEyn1BM5Zi2wqLBT2rZYpC0ZaOncIWTag"
+      },
+      "mutability": "Mutable",
+      "type": "LINK"
+     }
+    },
+    {
+     "key": "1",
+     "value": {
+      "data": {
+       "entityKey": "2bd60e7a-b235-4fc5-b200-0157604d3683",
+       "mediaItems": [
+        {
+         "localMediaId": "7",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2110318711102226433"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "0",
+     "value": {
+      "data": {
+       "entityKey": "e1e428b1-d647-4430-8e3f-7278e7c90b58",
+       "mediaItems": [
+        {
+         "localMediaId": "5",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2110317968584536064"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "2",
+     "value": {
+      "data": {
+       "entityKey": "d2b9bf86-f235-4710-9a42-49fed066644e",
+       "mediaItems": [
+        {
+         "localMediaId": "9",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2110319130725543936"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "7",
+     "value": {
+      "data": {
+       "entityKey": "971c61ca-e66f-4fff-93f9-3c344f6c5633",
+       "mediaItems": [
+        {
+         "localMediaId": "17",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2110320999900278785"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    },
+    {
+     "key": "3",
+     "value": {
+      "data": {
+       "entityKey": "993a828d-6ec7-45d8-99ea-1479242e7726",
+       "mediaItems": [
+        {
+         "localMediaId": "15",
+         "mediaCategory": "DraftTweetImage",
+         "mediaId": "2110320404565032960"
+        }
+       ]
+      },
+      "mutability": "Immutable",
+      "type": "MEDIA"
+     }
+    }
+   ]
+  },
+  "media_entities": [
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUlbr9IbwAEKAAIQw6TyVdQQAQAA",
+    "media_id": "2110318711102226433",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 24.15,
+        "rgb": {
+         "blue": 247,
+         "green": 230,
+         "red": 201
+        }
+       },
+       {
+        "percentage": 21.6,
+        "rgb": {
+         "blue": 46,
+         "green": 46,
+         "red": 55
+        }
+       },
+       {
+        "percentage": 20.75,
+        "rgb": {
+         "blue": 156,
+         "green": 192,
+         "red": 216
+        }
+       },
+       {
+        "percentage": 16.43,
+        "rgb": {
+         "blue": 233,
+         "green": 175,
+         "red": 125
+        }
+       },
+       {
+        "percentage": 10.6,
+        "rgb": {
+         "blue": 96,
+         "green": 60,
+         "red": 52
+        }
+       }
+      ]
+     },
+     "original_img_height": 1016,
+     "original_img_url": "https://pbs.twimg.com/media/HUlbr9IbwAEQ34r.jpg",
+     "original_img_width": 962
+    },
+    "media_key": "3_2110318711102226433"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUlbAvCa8AAKAAIQw6TyVdQQAQAA",
+    "media_id": "2110317968584536064",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 92.12,
+        "rgb": {
+         "blue": 248,
+         "green": 252,
+         "red": 253
+        }
+       },
+       {
+        "percentage": 3.3,
+        "rgb": {
+         "blue": 232,
+         "green": 175,
+         "red": 180
+        }
+       },
+       {
+        "percentage": 1.86,
+        "rgb": {
+         "blue": 217,
+         "green": 116,
+         "red": 126
+        }
+       },
+       {
+        "percentage": 1.07,
+        "rgb": {
+         "blue": 143,
+         "green": 133,
+         "red": 132
+        }
+       },
+       {
+        "percentage": 1,
+        "rgb": {
+         "blue": 90,
+         "green": 76,
+         "red": 75
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUlbAvCa8AA6FGj.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2110317968584536064"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUldOhxbgAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2110320404565032960",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 77.73,
+        "rgb": {
+         "blue": 250,
+         "green": 249,
+         "red": 250
+        }
+       },
+       {
+        "percentage": 5.5,
+        "rgb": {
+         "blue": 209,
+         "green": 90,
+         "red": 125
+        }
+       },
+       {
+        "percentage": 4.71,
+        "rgb": {
+         "blue": 236,
+         "green": 185,
+         "red": 192
+        }
+       },
+       {
+        "percentage": 4.03,
+        "rgb": {
+         "blue": 198,
+         "green": 217,
+         "red": 241
+        }
+       },
+       {
+        "percentage": 1.65,
+        "rgb": {
+         "blue": 76,
+         "green": 108,
+         "red": 184
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUldOhxbgAAmruM.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2110320404565032960"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUlcEYWbcAAKAAIQw6TyVdQQAQAA",
+    "media_id": "2110319130725543936",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 75.68,
+        "rgb": {
+         "blue": 250,
+         "green": 250,
+         "red": 250
+        }
+       },
+       {
+        "percentage": 9.05,
+        "rgb": {
+         "blue": 209,
+         "green": 88,
+         "red": 122
+        }
+       },
+       {
+        "percentage": 3.73,
+        "rgb": {
+         "blue": 219,
+         "green": 137,
+         "red": 163
+        }
+       },
+       {
+        "percentage": 3.4,
+        "rgb": {
+         "blue": 195,
+         "green": 211,
+         "red": 235
+        }
+       },
+       {
+        "percentage": 3.19,
+        "rgb": {
+         "blue": 76,
+         "green": 109,
+         "red": 185
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUlcEYWbcAA3j8Q.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2110319130725543936"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUldxLkacAEKAAIQw6TyVdQQAQAA",
+    "media_id": "2110320999900278785",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 84.71,
+        "rgb": {
+         "blue": 254,
+         "green": 252,
+         "red": 251
+        }
+       },
+       {
+        "percentage": 11.65,
+        "rgb": {
+         "blue": 109,
+         "green": 57,
+         "red": 33
+        }
+       },
+       {
+        "percentage": 1.81,
+        "rgb": {
+         "blue": 100,
+         "green": 103,
+         "red": 97
+        }
+       },
+       {
+        "percentage": 0.37,
+        "rgb": {
+         "blue": 95,
+         "green": 163,
+         "red": 180
+        }
+       },
+       {
+        "percentage": 0.35,
+        "rgb": {
+         "blue": 202,
+         "green": 154,
+         "red": 132
+        }
+       }
+      ]
+     },
+     "original_img_height": 3200,
+     "original_img_url": "https://pbs.twimg.com/media/HUldxLkacAEg5V_.jpg",
+     "original_img_width": 2400
+    },
+    "media_key": "3_2110320999900278785"
+   },
+   {
+    "id": "QXBpTWVkaWE6DAAFCgABHUldKIXa0AAKAAIQw6TyVdQQAQAA",
+    "media_id": "2110320329025572864",
+    "media_info": {
+     "__typename": "ApiImage",
+     "color_info": {
+      "palette": [
+       {
+        "percentage": 79.87,
+        "rgb": {
+         "blue": 246,
+         "green": 242,
+         "red": 241
+        }
+       },
+       {
+        "percentage": 6.55,
+        "rgb": {
+         "blue": 209,
+         "green": 91,
+         "red": 125
+        }
+       },
+       {
+        "percentage": 3.93,
+        "rgb": {
+         "blue": 232,
+         "green": 176,
+         "red": 182
+        }
+       },
+       {
+        "percentage": 1.62,
+        "rgb": {
+         "blue": 76,
+         "green": 108,
+         "red": 184
+        }
+       },
+       {
+        "percentage": 1.6,
+        "rgb": {
+         "blue": 189,
+         "green": 211,
+         "red": 238
+        }
+       }
+      ]
+     },
+     "original_img_height": 1800,
+     "original_img_url": "https://pbs.twimg.com/media/HUldKIXa0AAcplj.jpg",
+     "original_img_width": 3200
+    },
+    "media_key": "3_2110320329025572864"
+   }
+  ]
+ },
+ "twitter_card": "tweet",
+ "color": null,
+ "provider": "twitter",
+ "reposted_by": null
+}

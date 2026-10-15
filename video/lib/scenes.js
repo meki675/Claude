@@ -327,12 +327,12 @@
   // 35. 仕分け：カードが流れてきて、それぞれの箱へ振り分けられる
   S.sort = (s) => {
     const nb = s.bins.length, w = 1680 / nb;
-    const per = Math.max(...s.bins.map((_, b) => s.cards.filter((c) => c.bin === b).length)), bh = Math.max(250, 110 + per * 64);
+    const per = Math.max(...s.bins.map((_, b) => s.cards.filter((c) => c.bin === b).length)), bh = Math.max(250, 150 + per * 72);
     return `${tagLine(s.tag)}${s.title ? A('h-md up', 0.05, fmt(s.title)) : ''}
     <div class="sortbox">
       ${s.bins.map((b, i) => A(`bin up ${b.c ?? ''}`, 0.2 + i * 0.08, `<b>${fmt(b.name)}</b><span>${fmt(b.hint ?? '')}</span>`, { style: `left:${i * w + 10}px;width:${w - 20}px;height:${bh}px` })).join('')}
       ${s.cards.map((c, i) => A(`card2 fly ${s.bins[c.bin].c ?? ''}`, 0.6 + i * (s.step ?? 0.4), fmt(c.t),
-        { style: `width:${Math.min(330, w - 40).toFixed(0)}px;margin-left:-${(Math.min(330, w - 40) / 2).toFixed(0)}px;--tx:${(c.bin * w + w / 2 - 840).toFixed(0)}px;--ty:${444 + (s.cards.slice(0, i).filter((x) => x.bin === c.bin).length) * -62}px;--len:.8s` })).join('')}
+        { style: `width:${Math.min(s.cardW ?? 330, w - 40).toFixed(0)}px;margin-left:-${(Math.min(s.cardW ?? 330, w - 40) / 2).toFixed(0)}px;--tx:${(c.bin * w + w / 2 - 840).toFixed(0)}px;--ty:${444 + (s.cards.slice(0, i).filter((x) => x.bin === c.bin).length) * -(s.cardGap ?? 62)}px;--len:.8s` })).join('')}
     </div>`;
   };
 
@@ -449,6 +449,21 @@
     </div>`;
   };
 
+  // 46. 組み上がる輪：中心の核のまわりを光る輪が回り、部品が外から飛んできて輪の上に並ぶ（参考: Vimeo Staff Picks「Nubivore - DEEP GEO」の光る輪）
+  S.assemble = (s) => {
+    const n = s.parts.length, RX = 600, RY = 250, d0 = 0.9, st = s.step ?? 0.18;
+    return `${tagLine(s.tag)}
+    <div class="asm">
+      <i class="a halo h1 haloin" style="--d:.1s;--len:.8s"></i><i class="a halo h2 haloin" style="--d:.3s;--len:.8s"></i>
+      ${A('core pop', 0.3, fmt(s.core))}
+      ${s.parts.map((p, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n, x1 = Math.cos(a) * RX, y1 = Math.sin(a) * RY;
+        const x0 = Math.cos(a) * 1500, y0 = Math.sin(a) * 900;
+        return A('part flyin', d0 + i * st, fmt(p), { style: `--x0:${x0.toFixed(0)}px;--y0:${y0.toFixed(0)}px;--x1:${x1.toFixed(0)}px;--y1:${y1.toFixed(0)}px;--len:.7s` }); }).join('')}
+      ${s.ring ? A('ringlab pop', d0 + n * st + 0.2, fmt(s.ring)) : ''}
+    </div>
+    ${s.eq ? A('eq rise', d0 + n * st + 0.5, fmt(s.eq)) : ''}`;
+  };
+
   // 20. CTA（締め）
   S.cta = (s) => `
     ${tagLine(s.tag)}
@@ -460,7 +475,7 @@
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc', shock: 'shocksc center', gitgraph: 'gitsc', buttons: 'btnsc', slideshow: 'sssc', tunnel: 'tunsc center', cycle: 'cycsc' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta', burst: 'burst center', stomp: 'burst center', shutter: 'shutter center', ripple: 'ripple center', quiz: 'quiz', orbit: 'orbit center', poster: 'poster center', scorecard: 'scorecard', stickers: 'stickers center', pipeline: 'pipeline', gate: 'gatesc', particles: 'particles center', stack: 'stacksc', term: 'term', sort: 'sortsc', telop: 'telopsc center', repeat: 'repeatsc', tiles: 'tilesc', dialog: 'dialogsc', shock: 'shocksc center', gitgraph: 'gitsc', buttons: 'btnsc', slideshow: 'sssc', tunnel: 'tunsc center', cycle: 'cycsc', assemble: 'asmsc center' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();

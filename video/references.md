@@ -30,6 +30,7 @@
 | `slideshow` ＋ 様式 `editorial` | Mixkit「Fade Slideshow」：写真が寄りながら溶けるように切り替わり、白い大きな文字。サムネを切り取る場所と倍率を変えて3枚にする |
 | `shock` / `gitgraph` / `buttons` ＋ 様式 `crt` | CapCut トレンドテンプレート「SHOCKING」：黄色地に赤い太文字の叩き込み。本編はGitの線（本流→ブランチ→合流→Revert）を描くモーショングラフィック |
 | `tiles` / `dialog` ＋ 様式 `fluent` | （ユーザー指定の Microsoft 風）Fluent デザインの雰囲気：アプリのタイル、設定画面に入力→スイッチ→カーソルで保存の操作再現、淡い光とすりガラス。ロゴや商標は使わない |
+| `assemble` ＋ 様式 `storybook` | Vimeo Staff Picks「Nubivore - DEEP GEO」のサムネ（山の上に浮かぶ光る輪）：中心の核を光る輪が囲み、部品が外から飛んできて輪に並ぶ。式「AIエージェント＝AI本体＋ハーネス」で締める |
 | `repeat` ＋ 様式 `pixel` | Pinterest「motion graphics typography」の「MOTION」を積み重ねた作品：同じ単語を何段も重ねて左右に流し、1段だけ色を変える／サムネのドット絵に合わせた段々の影 |
 | `stickers` | TikTok Creative Center のトップ広告サムネ：白い箱のテロップを1枚ずつ貼る |
 | `pipeline` / `gate` | 記事サムネ（Claude→鍵→書類→リストの鎖）：ファイルがレールを進んで関門が光る／弾かれて別の道へ回る（図形を動かすモーショングラフィック） |
