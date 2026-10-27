@@ -1,0 +1,34 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "brand": "AI社員オフィス",
+  "footer": "出典：@Akki_AI7 のX記事",
+  "scenes": [
+    { "type": "burst", "dur": 3.8, "tag": "やってみた", "title": "AI社員オフィス、\n[[簡単にできてしまった]]！！", "sub": "記事のプロンプトを、Claude Codeに貼っただけ" },
+    { "type": "code", "dur": 4.6, "tag": "貼った瞬間に読み取り開始", "file": "Claude Code", "lines": ["> 記事のプロンプトを貼り付け", "# ~/.claude/skills を読み取り中…", "SKILL.md       [[28件]] 見つかりました", "サブエージェント  0件", "→ オフィスの見取り図を作成 ✓"] },
+    { "type": "office", "dur": 9, "tag": "完成した見取り図", "title": "スキル[[28冊]]が、本棚にズラッ", "libLabel": "書庫（スキル）", "workLabel": "執務室（サブエージェント）",
+      "shelves": [ { "label": "自分で入れたスキル", "count": 15 }, { "label": "公式スキル", "count": 13 } ],
+      "desks": ["空席", "空席", "空席"], "sign": "NEXT：サブエージェント", "zoomAt": 6.2, "ox": "28%", "oy": "70%" },
+    { "type": "carousel", "dur": 7, "tag": "本棚の中身（自分で入れた15冊）", "cards": [
+      { "t": "X記事を\n5ステップで", "s": "x-article-writer" },
+      { "t": "最新ネタで\nバズ投稿", "s": "akuma-skill" },
+      { "t": "冒頭フックを\n量産", "s": "hook-generator" },
+      { "t": "3枚ツリー\n投稿", "s": "3-slide-tree-post" },
+      { "t": "1投稿完結の\n短文", "s": "threads-short-post" },
+      { "t": "依頼を\n振り分け", "s": "threads-note-router" },
+      { "t": "バズ投稿を\nリサーチ", "s": "threads-topic-research" },
+      { "t": "セールス\nレター", "s": "mana-sales-letter" },
+      { "t": "有料記事の\n本文", "s": "paid-note-creator" },
+      { "t": "公式LINE\nステップ配信", "s": "line-official-sequence" },
+      { "t": "オプチャ\n配信", "s": "openchat-promo-sequence" },
+      { "t": "Threads\n運用相談", "s": "threads-monetize-advisor" },
+      { "t": "シミ・美白\n投稿", "s": "shimi-3slide-post" },
+      { "t": "腸活\n投稿", "s": "chounaikankyou-3slide" },
+      { "t": "子育て\n投稿", "s": "parenting-dev-support-post" }
+    ] },
+    { "type": "counter", "dur": 4.6, "tag": "数えてみると", "nums": [ { "label": "スキル（本棚）", "to": 28, "unit": "冊" }, { "label": "サブエージェント（机）", "to": 0, "from": 9, "unit": "人", "color": "blue" } ], "note": "机は空席でOK。記事の結論も「[[まずスキル1枚から]]」" },
+    { "type": "kinetic", "dur": 4, "words": ["中身が先、", "見た目は後。", "でも並ぶと", "[[続けたくなる]]。"] },
+    { "type": "cta", "dur": 4.5, "tag": "作り方はここ", "title": "仕組みもプロンプトも\n[[元の記事]]に全部ある", "go": "引用元をタップ", "name": "あっきー｜AIを現場に落とす人", "id": "@Akki_AI7" }
+  ]
+}

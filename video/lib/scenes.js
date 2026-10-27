@@ -170,10 +170,56 @@
     ${s.go ? A('go up', 0.6, `<span class="a arr pulse" style="--d:1s">→</span><span>${fmt(s.go)}</span>`) : ''}
     ${s.name ? A('who up', 0.9, `<div class="av">${esc(s.avatar ?? s.name[0])}</div><div><div class="nm">${fmt(s.name)}</div><div class="id">${esc(s.id ?? '')}</div></div>`) : ''}`;
 
+  // 21. 決めゼリフ＋画面揺れ＋紙吹雪
+  S.burst = (s) => {
+    const colors = ['var(--accent)', 'var(--accent2)', 'var(--good)', '#ffd23f', '#ff4d9a'];
+    const n = s.pieces ?? 46;
+    const conf = Array.from({ length: n }, (_, i) => {
+      const ang = (i / n) * Math.PI * 2 + (i % 3) * 0.3, r = 520 + ((i * 97) % 380);
+      return A('conf', 0.3 + (i % 5) * 0.03, '', { tag: 'i', style:
+        `--dx:${Math.round(Math.cos(ang) * r * 1.5)}px;--dy:${Math.round(Math.sin(ang) * r)}px;--rot:${(i * 137) % 720}deg;background:${colors[i % colors.length]};--len:1.6s` });
+    }).join('');
+    return `${tagLine(s.tag)}<div class="confs">${conf}</div>
+      ${A('shake', 0.3, A('h-xl slam', 0.1, fmt(s.title)), { style: '--len:.5s' })}
+      ${A('bar growx', 0.55, '')}
+      ${sub(s.sub, 0.9)}`;
+  };
+
+  // 22. ドット絵オフィス（スキル＝本棚の背表紙、サブエージェント＝机）
+  S.office = (s) => {
+    const pal = ['#ff6b2c', '#4cc9ff', '#3ddc84', '#ffd23f', '#ff4d9a', '#b18cff', '#f5f3ee'];
+    let bi = 0;
+    const shelf = (sh, si) => `<div class="shelf">
+      ${A('slab pop', 0.6 + si * 0.15, `${esc(sh.label)} <b>${sh.count}</b>`)}
+      <div class="books">${Array.from({ length: sh.count }, (_, i) => {
+        const k = bi++;
+        return A('book drop', 1.1 + k * (s.bookStep ?? 0.09), '', { tag: 'i', style:
+          `height:${96 + ((k * 37) % 44)}px;background:${pal[k % pal.length]};--len:.45s` });
+      }).join('')}</div>${A('board growx', 0.5 + si * 0.15, '')}</div>`;
+    const desk = (d, i) => `<div class="desk">
+      ${A('dk drop', 1.4 + i * 0.25, `<div class="mon">${A('scr loop', 0, '', { style: `--len:${1.1 + i * 0.3}s` })}</div><div class="tbl2"></div><div class="chair"></div>`)}
+      ${A('seat pop', 4.2 + i * 0.2, esc(d))}</div>`;
+    const sparks = (s.sparks ?? [[18, 22], [44, 70], [72, 18], [88, 64], [30, 84], [60, 40]]).map(([x, y], i) =>
+      A('spark', 3.6 + i * 0.35, '✦', { tag: 'i', style: `left:${x}%;top:${y}%;--len:.9s` })).join('');
+    return `${tagLine(s.tag)}${A('h-md up', 0.05, fmt(s.title))}
+      <div class="vp">${A('cam', s.zoomAt ?? 6.4, `<div class="room">
+        ${A('floor fade', 0.2, '')}
+        ${A('wall growx', 0.25, '')}
+        <div class="rm lib">${A('rlab left', 0.4, fmt(s.libLabel))}${s.shelves.map(shelf).join('')}</div>
+        <div class="rm work">${A('rlab right', 0.4, fmt(s.workLabel))}<div class="desks">${s.desks.map(desk).join('')}</div>
+          ${A('plant loop sway', 0, '<i></i><i></i><i></i><b></b>', { style: '--len:2.4s' })}
+          ${s.sign ? A('sign pop', 5, fmt(s.sign)) : ''}</div>
+        ${A('scan', 0.3, '<span>読み取り中…</span>', { style: '--len:1.6s' })}
+        ${sparks}
+      </div>`, { style: `--len:1.4s;--ox:${s.ox ?? '30%'};--oy:${s.oy ?? '60%'}` })}</div>
+      ${sub(s.note, s.noteAt ?? 5)}`;
+  };
+
   // シーン種類 → ルート要素に付けるクラス
   const ROOT = { impact: 'impact', kinetic: 'kinetic', split: 'split', versus: 'versus', counter: 'counter', table: 'tablesc', ranking: 'ranking',
     beforeAfter: 'ba', checklist: 'check', chat: 'chat', code: 'code', quote: 'quote', timeline: 'timeline', marker: 'marker center',
-    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta' };
+    zoom: 'zoom', carousel: 'carousel', lowerThird: 'lt', grid: 'gridsum', bars: 'bars', cta: 'cta',
+    burst: 'impact burst center', office: 'office' };
 
   window.Scenes = { S, ROOT, fmt, esc };
 })();
